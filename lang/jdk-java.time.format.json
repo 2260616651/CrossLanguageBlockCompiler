@@ -1,0 +1,2861 @@
+{
+  "_comment": "CLBC 自动生成的 JDK 库语言文件。一个库一个文件；java1~java27 共 27 个版本共用本文件，不按版本拆分。since=起始版本，until=移除版本(27 表示仍可用)。方法改名时旧名与新名各写一条，chinese 相同。",
+  "library": "java.time.format",
+  "libraryChinese": "时间格式",
+  "minVersion": 1,
+  "maxVersion": 27,
+  "versionRange": "java1~java27",
+  "javaVersions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "classes": [
+    {
+      "fqn": "java.time.format.DateTimeFormatter",
+      "chinese": "日期格式",
+      "displayName": "DateTimeFormatter",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "toString",
+          "chinese": "日期格式 ▸ 转为文本",
+          "blockText": "日期格式 ▸ 转为文本",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "format",
+          "chinese": "日期格式 ▸ 格式化",
+          "blockText": "日期格式 ▸ 格式化",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalAccessor"
+          ]
+        },
+        {
+          "name": "parse",
+          "chinese": "日期格式 ▸ 解析",
+          "blockText": "日期格式 ▸ 解析",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "CharSequence",
+            "TemporalQuery"
+          ]
+        },
+        {
+          "name": "getLocale",
+          "chinese": "日期格式 ▸ getLocale",
+          "blockText": "日期格式 ▸ getLocale",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Locale",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getZone",
+          "chinese": "日期格式 ▸ getZone",
+          "blockText": "日期格式 ▸ getZone",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZoneId",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "withZone",
+          "chinese": "日期格式 ▸ withZone",
+          "blockText": "日期格式 ▸ withZone",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ZoneId"
+          ]
+        },
+        {
+          "name": "formatTo",
+          "chinese": "日期格式 ▸ formatTo",
+          "blockText": "日期格式 ▸ formatTo",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalAccessor",
+            "Appendable"
+          ]
+        },
+        {
+          "name": "getChronology",
+          "chinese": "日期格式 ▸ getChronology",
+          "blockText": "日期格式 ▸ getChronology",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Chronology",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "ofPattern",
+          "chinese": "日期格式 ▸ ofPattern",
+          "blockText": "日期格式 ▸ ofPattern",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "ofLocalizedDate",
+          "chinese": "日期格式 ▸ ofLocalizedDate",
+          "blockText": "日期格式 ▸ ofLocalizedDate",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "FormatStyle"
+          ]
+        },
+        {
+          "name": "ofLocalizedTime",
+          "chinese": "日期格式 ▸ ofLocalizedTime",
+          "blockText": "日期格式 ▸ ofLocalizedTime",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "FormatStyle"
+          ]
+        },
+        {
+          "name": "ofLocalizedDateTime",
+          "chinese": "日期格式 ▸ ofLocalizedDateTime",
+          "blockText": "日期格式 ▸ ofLocalizedDateTime",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "FormatStyle"
+          ]
+        },
+        {
+          "name": "ofLocalizedPattern",
+          "chinese": "日期格式 ▸ ofLocalizedPattern",
+          "blockText": "日期格式 ▸ ofLocalizedPattern",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "parsedExcessDays",
+          "chinese": "日期格式 ▸ parsedExcessDays",
+          "blockText": "日期格式 ▸ parsedExcessDays",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalQuery",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "parsedLeapSecond",
+          "chinese": "日期格式 ▸ parsedLeapSecond",
+          "blockText": "日期格式 ▸ parsedLeapSecond",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalQuery",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "withLocale",
+          "chinese": "日期格式 ▸ withLocale",
+          "blockText": "日期格式 ▸ withLocale",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Locale"
+          ]
+        },
+        {
+          "name": "localizedBy",
+          "chinese": "日期格式 ▸ localizedBy",
+          "blockText": "日期格式 ▸ localizedBy",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Locale"
+          ]
+        },
+        {
+          "name": "getDecimalStyle",
+          "chinese": "日期格式 ▸ getDecimalStyle",
+          "blockText": "日期格式 ▸ getDecimalStyle",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DecimalStyle",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "withDecimalStyle",
+          "chinese": "日期格式 ▸ withDecimalStyle",
+          "blockText": "日期格式 ▸ withDecimalStyle",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DecimalStyle"
+          ]
+        },
+        {
+          "name": "withChronology",
+          "chinese": "日期格式 ▸ withChronology",
+          "blockText": "日期格式 ▸ withChronology",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Chronology"
+          ]
+        },
+        {
+          "name": "getResolverStyle",
+          "chinese": "日期格式 ▸ getResolverStyle",
+          "blockText": "日期格式 ▸ getResolverStyle",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ResolverStyle",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "withResolverStyle",
+          "chinese": "日期格式 ▸ withResolverStyle",
+          "blockText": "日期格式 ▸ withResolverStyle",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ResolverStyle"
+          ]
+        },
+        {
+          "name": "getResolverFields",
+          "chinese": "日期格式 ▸ getResolverFields",
+          "blockText": "日期格式 ▸ getResolverFields",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Set",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "withResolverFields",
+          "chinese": "日期格式 ▸ withResolverFields",
+          "blockText": "日期格式 ▸ withResolverFields",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalField[]"
+          ]
+        },
+        {
+          "name": "parseBest",
+          "chinese": "日期格式 ▸ parseBest",
+          "blockText": "日期格式 ▸ parseBest",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalAccessor",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "CharSequence",
+            "TemporalQuery[]"
+          ]
+        },
+        {
+          "name": "parseUnresolved",
+          "chinese": "日期格式 ▸ parseUnresolved",
+          "blockText": "日期格式 ▸ parseUnresolved",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalAccessor",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "CharSequence",
+            "ParsePosition"
+          ]
+        },
+        {
+          "name": "toFormat",
+          "chinese": "日期格式 ▸ toFormat",
+          "blockText": "日期格式 ▸ toFormat",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Format",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "日期格式 ▸ 相等",
+          "blockText": "日期格式 ▸ 相等",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "日期格式 ▸ 哈希值",
+          "blockText": "日期格式 ▸ 哈希值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "日期格式 ▸ 取类型",
+          "blockText": "日期格式 ▸ 取类型",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "日期格式 ▸ 通知",
+          "blockText": "日期格式 ▸ 通知",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "日期格式 ▸ 通知全部",
+          "blockText": "日期格式 ▸ 通知全部",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "日期格式 ▸ 等待",
+          "blockText": "日期格式 ▸ 等待",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "ISO_LOCAL_DATE",
+          "chinese": "日期格式 ▸ ISO_LOCAL_DATE",
+          "blockText": "日期格式 ▸ ISO_LOCAL_DATE",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ISO_OFFSET_DATE",
+          "chinese": "日期格式 ▸ ISO_OFFSET_DATE",
+          "blockText": "日期格式 ▸ ISO_OFFSET_DATE",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ISO_DATE",
+          "chinese": "日期格式 ▸ ISO_DATE",
+          "blockText": "日期格式 ▸ ISO_DATE",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ISO_LOCAL_TIME",
+          "chinese": "日期格式 ▸ ISO_LOCAL_TIME",
+          "blockText": "日期格式 ▸ ISO_LOCAL_TIME",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ISO_OFFSET_TIME",
+          "chinese": "日期格式 ▸ ISO_OFFSET_TIME",
+          "blockText": "日期格式 ▸ ISO_OFFSET_TIME",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ISO_TIME",
+          "chinese": "日期格式 ▸ ISO_TIME",
+          "blockText": "日期格式 ▸ ISO_TIME",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ISO_LOCAL_DATE_TIME",
+          "chinese": "日期格式 ▸ ISO_LOCAL_DATE_TIME",
+          "blockText": "日期格式 ▸ ISO_LOCAL_DATE_TIME",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ISO_OFFSET_DATE_TIME",
+          "chinese": "日期格式 ▸ ISO_OFFSET_DATE_TIME",
+          "blockText": "日期格式 ▸ ISO_OFFSET_DATE_TIME",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ISO_ZONED_DATE_TIME",
+          "chinese": "日期格式 ▸ ISO_ZONED_DATE_TIME",
+          "blockText": "日期格式 ▸ ISO_ZONED_DATE_TIME",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ISO_DATE_TIME",
+          "chinese": "日期格式 ▸ ISO_DATE_TIME",
+          "blockText": "日期格式 ▸ ISO_DATE_TIME",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ISO_ORDINAL_DATE",
+          "chinese": "日期格式 ▸ ISO_ORDINAL_DATE",
+          "blockText": "日期格式 ▸ ISO_ORDINAL_DATE",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ISO_WEEK_DATE",
+          "chinese": "日期格式 ▸ ISO_WEEK_DATE",
+          "blockText": "日期格式 ▸ ISO_WEEK_DATE",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ISO_INSTANT",
+          "chinese": "日期格式 ▸ ISO_INSTANT",
+          "blockText": "日期格式 ▸ ISO_INSTANT",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "BASIC_ISO_DATE",
+          "chinese": "日期格式 ▸ BASIC_ISO_DATE",
+          "blockText": "日期格式 ▸ BASIC_ISO_DATE",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "RFC_1123_DATE_TIME",
+          "chinese": "日期格式 ▸ RFC_1123_DATE_TIME",
+          "blockText": "日期格式 ▸ RFC_1123_DATE_TIME",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.format.DateTimeFormatterBuilder",
+      "chinese": "DateTimeFormatterBuilder",
+      "displayName": "DateTimeFormatterBuilder",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "DateTimeFormatterBuilder",
+          "chinese": "DateTimeFormatterBuilder ▸ 新建",
+          "blockText": "DateTimeFormatterBuilder ▸ 新建",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "append",
+          "chinese": "DateTimeFormatterBuilder ▸ 追加",
+          "blockText": "DateTimeFormatterBuilder ▸ 追加",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DateTimeFormatter"
+          ]
+        },
+        {
+          "name": "parseStrict",
+          "chinese": "DateTimeFormatterBuilder ▸ parseStrict",
+          "blockText": "DateTimeFormatterBuilder ▸ parseStrict",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "appendZoneText",
+          "chinese": "DateTimeFormatterBuilder ▸ appendZoneText",
+          "blockText": "DateTimeFormatterBuilder ▸ appendZoneText",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TextStyle",
+            "Set"
+          ]
+        },
+        {
+          "name": "toFormatter",
+          "chinese": "DateTimeFormatterBuilder ▸ toFormatter",
+          "blockText": "DateTimeFormatterBuilder ▸ toFormatter",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatter",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Locale"
+          ]
+        },
+        {
+          "name": "appendChronologyText",
+          "chinese": "DateTimeFormatterBuilder ▸ appendChronologyText",
+          "blockText": "DateTimeFormatterBuilder ▸ appendChronologyText",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TextStyle"
+          ]
+        },
+        {
+          "name": "appendPattern",
+          "chinese": "DateTimeFormatterBuilder ▸ appendPattern",
+          "blockText": "DateTimeFormatterBuilder ▸ appendPattern",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "appendLocalized",
+          "chinese": "DateTimeFormatterBuilder ▸ appendLocalized",
+          "blockText": "DateTimeFormatterBuilder ▸ appendLocalized",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "appendValue",
+          "chinese": "DateTimeFormatterBuilder ▸ appendValue",
+          "blockText": "DateTimeFormatterBuilder ▸ appendValue",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalField"
+          ]
+        },
+        {
+          "name": "appendLiteral",
+          "chinese": "DateTimeFormatterBuilder ▸ appendLiteral",
+          "blockText": "DateTimeFormatterBuilder ▸ appendLiteral",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "parseCaseInsensitive",
+          "chinese": "DateTimeFormatterBuilder ▸ parseCaseInsensitive",
+          "blockText": "DateTimeFormatterBuilder ▸ parseCaseInsensitive",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "appendOffsetId",
+          "chinese": "DateTimeFormatterBuilder ▸ appendOffsetId",
+          "blockText": "DateTimeFormatterBuilder ▸ appendOffsetId",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "optionalStart",
+          "chinese": "DateTimeFormatterBuilder ▸ optionalStart",
+          "blockText": "DateTimeFormatterBuilder ▸ optionalStart",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "appendFraction",
+          "chinese": "DateTimeFormatterBuilder ▸ appendFraction",
+          "blockText": "DateTimeFormatterBuilder ▸ appendFraction",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalField",
+            "int",
+            "int",
+            "boolean"
+          ]
+        },
+        {
+          "name": "parseLenient",
+          "chinese": "DateTimeFormatterBuilder ▸ parseLenient",
+          "blockText": "DateTimeFormatterBuilder ▸ parseLenient",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "parseCaseSensitive",
+          "chinese": "DateTimeFormatterBuilder ▸ parseCaseSensitive",
+          "blockText": "DateTimeFormatterBuilder ▸ parseCaseSensitive",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "appendZoneRegionId",
+          "chinese": "DateTimeFormatterBuilder ▸ appendZoneRegionId",
+          "blockText": "DateTimeFormatterBuilder ▸ appendZoneRegionId",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "appendInstant",
+          "chinese": "DateTimeFormatterBuilder ▸ appendInstant",
+          "blockText": "DateTimeFormatterBuilder ▸ appendInstant",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "appendOffset",
+          "chinese": "DateTimeFormatterBuilder ▸ appendOffset",
+          "blockText": "DateTimeFormatterBuilder ▸ appendOffset",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "String"
+          ]
+        },
+        {
+          "name": "appendText",
+          "chinese": "DateTimeFormatterBuilder ▸ appendText",
+          "blockText": "DateTimeFormatterBuilder ▸ appendText",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalField",
+            "TextStyle"
+          ]
+        },
+        {
+          "name": "optionalEnd",
+          "chinese": "DateTimeFormatterBuilder ▸ optionalEnd",
+          "blockText": "DateTimeFormatterBuilder ▸ optionalEnd",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "padNext",
+          "chinese": "DateTimeFormatterBuilder ▸ padNext",
+          "blockText": "DateTimeFormatterBuilder ▸ padNext",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "appendZoneId",
+          "chinese": "DateTimeFormatterBuilder ▸ appendZoneId",
+          "blockText": "DateTimeFormatterBuilder ▸ appendZoneId",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "appendGenericZoneText",
+          "chinese": "DateTimeFormatterBuilder ▸ appendGenericZoneText",
+          "blockText": "DateTimeFormatterBuilder ▸ appendGenericZoneText",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TextStyle",
+            "Set"
+          ]
+        },
+        {
+          "name": "appendLocalizedOffset",
+          "chinese": "DateTimeFormatterBuilder ▸ appendLocalizedOffset",
+          "blockText": "DateTimeFormatterBuilder ▸ appendLocalizedOffset",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TextStyle"
+          ]
+        },
+        {
+          "name": "appendDayPeriodText",
+          "chinese": "DateTimeFormatterBuilder ▸ appendDayPeriodText",
+          "blockText": "DateTimeFormatterBuilder ▸ appendDayPeriodText",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TextStyle"
+          ]
+        },
+        {
+          "name": "appendValueReduced",
+          "chinese": "DateTimeFormatterBuilder ▸ appendValueReduced",
+          "blockText": "DateTimeFormatterBuilder ▸ appendValueReduced",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalField",
+            "int",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "getLocalizedDateTimePattern",
+          "chinese": "DateTimeFormatterBuilder ▸ getLocalizedDateTimePattern",
+          "blockText": "DateTimeFormatterBuilder ▸ getLocalizedDateTimePattern",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "FormatStyle",
+            "FormatStyle",
+            "Chronology",
+            "Locale"
+          ]
+        },
+        {
+          "name": "parseDefaulting",
+          "chinese": "DateTimeFormatterBuilder ▸ parseDefaulting",
+          "blockText": "DateTimeFormatterBuilder ▸ parseDefaulting",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalField",
+            "long"
+          ]
+        },
+        {
+          "name": "appendZoneOrOffsetId",
+          "chinese": "DateTimeFormatterBuilder ▸ appendZoneOrOffsetId",
+          "blockText": "DateTimeFormatterBuilder ▸ appendZoneOrOffsetId",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "appendChronologyId",
+          "chinese": "DateTimeFormatterBuilder ▸ appendChronologyId",
+          "blockText": "DateTimeFormatterBuilder ▸ appendChronologyId",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "appendOptional",
+          "chinese": "DateTimeFormatterBuilder ▸ appendOptional",
+          "blockText": "DateTimeFormatterBuilder ▸ appendOptional",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DateTimeFormatterBuilder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DateTimeFormatter"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "DateTimeFormatterBuilder ▸ 相等",
+          "blockText": "DateTimeFormatterBuilder ▸ 相等",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "DateTimeFormatterBuilder ▸ 转为文本",
+          "blockText": "DateTimeFormatterBuilder ▸ 转为文本",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "DateTimeFormatterBuilder ▸ 哈希值",
+          "blockText": "DateTimeFormatterBuilder ▸ 哈希值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "DateTimeFormatterBuilder ▸ 取类型",
+          "blockText": "DateTimeFormatterBuilder ▸ 取类型",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "DateTimeFormatterBuilder ▸ 通知",
+          "blockText": "DateTimeFormatterBuilder ▸ 通知",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "DateTimeFormatterBuilder ▸ 通知全部",
+          "blockText": "DateTimeFormatterBuilder ▸ 通知全部",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "DateTimeFormatterBuilder ▸ 等待",
+          "blockText": "DateTimeFormatterBuilder ▸ 等待",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.format.DecimalStyle",
+      "chinese": "DecimalStyle",
+      "displayName": "DecimalStyle",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "equals",
+          "chinese": "DecimalStyle ▸ 相等",
+          "blockText": "DecimalStyle ▸ 相等",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "DecimalStyle ▸ 转为文本",
+          "blockText": "DecimalStyle ▸ 转为文本",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "DecimalStyle ▸ 哈希值",
+          "blockText": "DecimalStyle ▸ 哈希值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "of",
+          "chinese": "DecimalStyle ▸ 创建",
+          "blockText": "DecimalStyle ▸ 创建",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DecimalStyle",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Locale"
+          ]
+        },
+        {
+          "name": "getAvailableLocales",
+          "chinese": "DecimalStyle ▸ getAvailableLocales",
+          "blockText": "DecimalStyle ▸ getAvailableLocales",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Set",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getZeroDigit",
+          "chinese": "DecimalStyle ▸ getZeroDigit",
+          "blockText": "DecimalStyle ▸ getZeroDigit",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "char",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getDecimalSeparator",
+          "chinese": "DecimalStyle ▸ getDecimalSeparator",
+          "blockText": "DecimalStyle ▸ getDecimalSeparator",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "char",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getPositiveSign",
+          "chinese": "DecimalStyle ▸ getPositiveSign",
+          "blockText": "DecimalStyle ▸ getPositiveSign",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "char",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getNegativeSign",
+          "chinese": "DecimalStyle ▸ getNegativeSign",
+          "blockText": "DecimalStyle ▸ getNegativeSign",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "char",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "ofDefaultLocale",
+          "chinese": "DecimalStyle ▸ ofDefaultLocale",
+          "blockText": "DecimalStyle ▸ ofDefaultLocale",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DecimalStyle",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "withZeroDigit",
+          "chinese": "DecimalStyle ▸ withZeroDigit",
+          "blockText": "DecimalStyle ▸ withZeroDigit",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DecimalStyle",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "char"
+          ]
+        },
+        {
+          "name": "withPositiveSign",
+          "chinese": "DecimalStyle ▸ withPositiveSign",
+          "blockText": "DecimalStyle ▸ withPositiveSign",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DecimalStyle",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "char"
+          ]
+        },
+        {
+          "name": "withNegativeSign",
+          "chinese": "DecimalStyle ▸ withNegativeSign",
+          "blockText": "DecimalStyle ▸ withNegativeSign",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DecimalStyle",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "char"
+          ]
+        },
+        {
+          "name": "withDecimalSeparator",
+          "chinese": "DecimalStyle ▸ withDecimalSeparator",
+          "blockText": "DecimalStyle ▸ withDecimalSeparator",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DecimalStyle",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "char"
+          ]
+        },
+        {
+          "name": "getClass",
+          "chinese": "DecimalStyle ▸ 取类型",
+          "blockText": "DecimalStyle ▸ 取类型",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "DecimalStyle ▸ 通知",
+          "blockText": "DecimalStyle ▸ 通知",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "DecimalStyle ▸ 通知全部",
+          "blockText": "DecimalStyle ▸ 通知全部",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "DecimalStyle ▸ 等待",
+          "blockText": "DecimalStyle ▸ 等待",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "STANDARD",
+          "chinese": "DecimalStyle ▸ STANDARD",
+          "blockText": "DecimalStyle ▸ STANDARD",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DecimalStyle",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.format.ResolverStyle",
+      "chinese": "ResolverStyle",
+      "displayName": "ResolverStyle",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "values",
+          "chinese": "ResolverStyle ▸ 取所有值",
+          "blockText": "ResolverStyle ▸ 取所有值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ResolverStyle[]",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "valueOf",
+          "chinese": "ResolverStyle ▸ 转为",
+          "blockText": "ResolverStyle ▸ 转为",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ResolverStyle",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "name",
+          "chinese": "ResolverStyle ▸ name",
+          "blockText": "ResolverStyle ▸ name",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "ResolverStyle ▸ 相等",
+          "blockText": "ResolverStyle ▸ 相等",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "ResolverStyle ▸ 转为文本",
+          "blockText": "ResolverStyle ▸ 转为文本",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "ResolverStyle ▸ 哈希值",
+          "blockText": "ResolverStyle ▸ 哈希值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "chinese": "ResolverStyle ▸ 比较",
+          "blockText": "ResolverStyle ▸ 比较",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Enum"
+          ]
+        },
+        {
+          "name": "describeConstable",
+          "chinese": "ResolverStyle ▸ 描述常量",
+          "blockText": "ResolverStyle ▸ 描述常量",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getDeclaringClass",
+          "chinese": "ResolverStyle ▸ getDeclaringClass",
+          "blockText": "ResolverStyle ▸ getDeclaringClass",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "ordinal",
+          "chinese": "ResolverStyle ▸ ordinal",
+          "blockText": "ResolverStyle ▸ ordinal",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "ResolverStyle ▸ 取类型",
+          "blockText": "ResolverStyle ▸ 取类型",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "ResolverStyle ▸ 通知",
+          "blockText": "ResolverStyle ▸ 通知",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "ResolverStyle ▸ 通知全部",
+          "blockText": "ResolverStyle ▸ 通知全部",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "ResolverStyle ▸ 等待",
+          "blockText": "ResolverStyle ▸ 等待",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "STRICT",
+          "chinese": "ResolverStyle ▸ STRICT",
+          "blockText": "ResolverStyle ▸ STRICT",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ResolverStyle",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "SMART",
+          "chinese": "ResolverStyle ▸ SMART",
+          "blockText": "ResolverStyle ▸ SMART",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ResolverStyle",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LENIENT",
+          "chinese": "ResolverStyle ▸ LENIENT",
+          "blockText": "ResolverStyle ▸ LENIENT",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ResolverStyle",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.format.SignStyle",
+      "chinese": "SignStyle",
+      "displayName": "SignStyle",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "values",
+          "chinese": "SignStyle ▸ 取所有值",
+          "blockText": "SignStyle ▸ 取所有值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "SignStyle[]",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "valueOf",
+          "chinese": "SignStyle ▸ 转为",
+          "blockText": "SignStyle ▸ 转为",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "SignStyle",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "name",
+          "chinese": "SignStyle ▸ name",
+          "blockText": "SignStyle ▸ name",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "SignStyle ▸ 相等",
+          "blockText": "SignStyle ▸ 相等",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "SignStyle ▸ 转为文本",
+          "blockText": "SignStyle ▸ 转为文本",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "SignStyle ▸ 哈希值",
+          "blockText": "SignStyle ▸ 哈希值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "chinese": "SignStyle ▸ 比较",
+          "blockText": "SignStyle ▸ 比较",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Enum"
+          ]
+        },
+        {
+          "name": "describeConstable",
+          "chinese": "SignStyle ▸ 描述常量",
+          "blockText": "SignStyle ▸ 描述常量",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getDeclaringClass",
+          "chinese": "SignStyle ▸ getDeclaringClass",
+          "blockText": "SignStyle ▸ getDeclaringClass",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "ordinal",
+          "chinese": "SignStyle ▸ ordinal",
+          "blockText": "SignStyle ▸ ordinal",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "SignStyle ▸ 取类型",
+          "blockText": "SignStyle ▸ 取类型",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "SignStyle ▸ 通知",
+          "blockText": "SignStyle ▸ 通知",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "SignStyle ▸ 通知全部",
+          "blockText": "SignStyle ▸ 通知全部",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "SignStyle ▸ 等待",
+          "blockText": "SignStyle ▸ 等待",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "NORMAL",
+          "chinese": "SignStyle ▸ NORMAL",
+          "blockText": "SignStyle ▸ NORMAL",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "SignStyle",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ALWAYS",
+          "chinese": "SignStyle ▸ ALWAYS",
+          "blockText": "SignStyle ▸ ALWAYS",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "SignStyle",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "NEVER",
+          "chinese": "SignStyle ▸ NEVER",
+          "blockText": "SignStyle ▸ NEVER",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "SignStyle",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "NOT_NEGATIVE",
+          "chinese": "SignStyle ▸ NOT_NEGATIVE",
+          "blockText": "SignStyle ▸ NOT_NEGATIVE",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "SignStyle",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXCEEDS_PAD",
+          "chinese": "SignStyle ▸ EXCEEDS_PAD",
+          "blockText": "SignStyle ▸ EXCEEDS_PAD",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "SignStyle",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.format.DateTimeParseException",
+      "chinese": "DateTimeParseException",
+      "displayName": "DateTimeParseException",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "DateTimeParseException ▸ <init>",
+          "blockText": "DateTimeParseException ▸ <init>",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "CharSequence",
+            "int"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "DateTimeParseException ▸ <init>",
+          "blockText": "DateTimeParseException ▸ <init>",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "CharSequence",
+            "int",
+            "Throwable"
+          ]
+        },
+        {
+          "name": "getErrorIndex",
+          "chinese": "DateTimeParseException ▸ getErrorIndex",
+          "blockText": "DateTimeParseException ▸ getErrorIndex",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getParsedString",
+          "chinese": "DateTimeParseException ▸ getParsedString",
+          "blockText": "DateTimeParseException ▸ getParsedString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "DateTimeParseException ▸ printStackTrace",
+          "blockText": "DateTimeParseException ▸ printStackTrace",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "DateTimeParseException ▸ printStackTrace",
+          "blockText": "DateTimeParseException ▸ printStackTrace",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "DateTimeParseException ▸ printStackTrace",
+          "blockText": "DateTimeParseException ▸ printStackTrace",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "DateTimeParseException ▸ getStackTrace",
+          "blockText": "DateTimeParseException ▸ getStackTrace",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "DateTimeParseException ▸ fillInStackTrace",
+          "blockText": "DateTimeParseException ▸ fillInStackTrace",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "DateTimeParseException ▸ getCause",
+          "blockText": "DateTimeParseException ▸ getCause",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initCause",
+          "chinese": "DateTimeParseException ▸ initCause",
+          "blockText": "DateTimeParseException ▸ initCause",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "DateTimeParseException ▸ toString",
+          "blockText": "DateTimeParseException ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getMessage",
+          "chinese": "DateTimeParseException ▸ getMessage",
+          "blockText": "DateTimeParseException ▸ getMessage",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "DateTimeParseException ▸ getSuppressed",
+          "blockText": "DateTimeParseException ▸ getSuppressed",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "DateTimeParseException ▸ getLocalizedMessage",
+          "blockText": "DateTimeParseException ▸ getLocalizedMessage",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "DateTimeParseException ▸ setStackTrace",
+          "blockText": "DateTimeParseException ▸ setStackTrace",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "DateTimeParseException ▸ addSuppressed",
+          "blockText": "DateTimeParseException ▸ addSuppressed",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "DateTimeParseException ▸ equals",
+          "blockText": "DateTimeParseException ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "DateTimeParseException ▸ hashCode",
+          "blockText": "DateTimeParseException ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "DateTimeParseException ▸ getClass",
+          "blockText": "DateTimeParseException ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "DateTimeParseException ▸ notify",
+          "blockText": "DateTimeParseException ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "DateTimeParseException ▸ notifyAll",
+          "blockText": "DateTimeParseException ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "DateTimeParseException ▸ wait",
+          "blockText": "DateTimeParseException ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "DateTimeParseException ▸ wait",
+          "blockText": "DateTimeParseException ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "DateTimeParseException ▸ wait",
+          "blockText": "DateTimeParseException ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.format.FormatStyle",
+      "chinese": "FormatStyle",
+      "displayName": "FormatStyle",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "values",
+          "chinese": "FormatStyle ▸ values",
+          "blockText": "FormatStyle ▸ values",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FormatStyle[]",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "valueOf",
+          "chinese": "FormatStyle ▸ valueOf",
+          "blockText": "FormatStyle ▸ valueOf",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FormatStyle",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "name",
+          "chinese": "FormatStyle ▸ name",
+          "blockText": "FormatStyle ▸ name",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "FormatStyle ▸ equals",
+          "blockText": "FormatStyle ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "FormatStyle ▸ toString",
+          "blockText": "FormatStyle ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "FormatStyle ▸ hashCode",
+          "blockText": "FormatStyle ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "chinese": "FormatStyle ▸ compareTo",
+          "blockText": "FormatStyle ▸ compareTo",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Enum"
+          ]
+        },
+        {
+          "name": "valueOf",
+          "chinese": "FormatStyle ▸ valueOf",
+          "blockText": "FormatStyle ▸ valueOf",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Enum",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Class",
+            "String"
+          ]
+        },
+        {
+          "name": "describeConstable",
+          "chinese": "FormatStyle ▸ describeConstable",
+          "blockText": "FormatStyle ▸ describeConstable",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getDeclaringClass",
+          "chinese": "FormatStyle ▸ getDeclaringClass",
+          "blockText": "FormatStyle ▸ getDeclaringClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "ordinal",
+          "chinese": "FormatStyle ▸ ordinal",
+          "blockText": "FormatStyle ▸ ordinal",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "FormatStyle ▸ getClass",
+          "blockText": "FormatStyle ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "FormatStyle ▸ notify",
+          "blockText": "FormatStyle ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "FormatStyle ▸ notifyAll",
+          "blockText": "FormatStyle ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "FormatStyle ▸ wait",
+          "blockText": "FormatStyle ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "FormatStyle ▸ wait",
+          "blockText": "FormatStyle ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "FormatStyle ▸ wait",
+          "blockText": "FormatStyle ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "FULL",
+          "chinese": "FormatStyle ▸ FULL",
+          "blockText": "FormatStyle ▸ FULL",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FormatStyle",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LONG",
+          "chinese": "FormatStyle ▸ LONG",
+          "blockText": "FormatStyle ▸ LONG",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FormatStyle",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "MEDIUM",
+          "chinese": "FormatStyle ▸ MEDIUM",
+          "blockText": "FormatStyle ▸ MEDIUM",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FormatStyle",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "SHORT",
+          "chinese": "FormatStyle ▸ SHORT",
+          "blockText": "FormatStyle ▸ SHORT",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FormatStyle",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.format.TextStyle",
+      "chinese": "TextStyle",
+      "displayName": "TextStyle",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "values",
+          "chinese": "TextStyle ▸ values",
+          "blockText": "TextStyle ▸ values",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TextStyle[]",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "valueOf",
+          "chinese": "TextStyle ▸ valueOf",
+          "blockText": "TextStyle ▸ valueOf",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TextStyle",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "isStandalone",
+          "chinese": "TextStyle ▸ isStandalone",
+          "blockText": "TextStyle ▸ isStandalone",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "asStandalone",
+          "chinese": "TextStyle ▸ asStandalone",
+          "blockText": "TextStyle ▸ asStandalone",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TextStyle",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "asNormal",
+          "chinese": "TextStyle ▸ asNormal",
+          "blockText": "TextStyle ▸ asNormal",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TextStyle",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "name",
+          "chinese": "TextStyle ▸ name",
+          "blockText": "TextStyle ▸ name",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "TextStyle ▸ equals",
+          "blockText": "TextStyle ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "TextStyle ▸ toString",
+          "blockText": "TextStyle ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "TextStyle ▸ hashCode",
+          "blockText": "TextStyle ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "chinese": "TextStyle ▸ compareTo",
+          "blockText": "TextStyle ▸ compareTo",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Enum"
+          ]
+        },
+        {
+          "name": "valueOf",
+          "chinese": "TextStyle ▸ valueOf",
+          "blockText": "TextStyle ▸ valueOf",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Enum",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Class",
+            "String"
+          ]
+        },
+        {
+          "name": "describeConstable",
+          "chinese": "TextStyle ▸ describeConstable",
+          "blockText": "TextStyle ▸ describeConstable",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getDeclaringClass",
+          "chinese": "TextStyle ▸ getDeclaringClass",
+          "blockText": "TextStyle ▸ getDeclaringClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "ordinal",
+          "chinese": "TextStyle ▸ ordinal",
+          "blockText": "TextStyle ▸ ordinal",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "TextStyle ▸ getClass",
+          "blockText": "TextStyle ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "TextStyle ▸ notify",
+          "blockText": "TextStyle ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "TextStyle ▸ notifyAll",
+          "blockText": "TextStyle ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "TextStyle ▸ wait",
+          "blockText": "TextStyle ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "TextStyle ▸ wait",
+          "blockText": "TextStyle ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "TextStyle ▸ wait",
+          "blockText": "TextStyle ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "FULL",
+          "chinese": "TextStyle ▸ FULL",
+          "blockText": "TextStyle ▸ FULL",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TextStyle",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "FULL_STANDALONE",
+          "chinese": "TextStyle ▸ FULL_STANDALONE",
+          "blockText": "TextStyle ▸ FULL_STANDALONE",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TextStyle",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "SHORT",
+          "chinese": "TextStyle ▸ SHORT",
+          "blockText": "TextStyle ▸ SHORT",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TextStyle",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "SHORT_STANDALONE",
+          "chinese": "TextStyle ▸ SHORT_STANDALONE",
+          "blockText": "TextStyle ▸ SHORT_STANDALONE",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TextStyle",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "NARROW",
+          "chinese": "TextStyle ▸ NARROW",
+          "blockText": "TextStyle ▸ NARROW",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TextStyle",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "NARROW_STANDALONE",
+          "chinese": "TextStyle ▸ NARROW_STANDALONE",
+          "blockText": "TextStyle ▸ NARROW_STANDALONE",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TextStyle",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    }
+  ]
+}

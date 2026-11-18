@@ -1,0 +1,2536 @@
+{
+  "_comment": "CLBC 自动生成的 JDK 库语言文件。一个库一个文件；java1~java27 共 27 个版本共用本文件，不按版本拆分。since=起始版本，until=移除版本(27 表示仍可用)。方法改名时旧名与新名各写一条，chinese 相同。",
+  "library": "java.util.concurrent.locks",
+  "libraryChinese": "锁",
+  "minVersion": 1,
+  "maxVersion": 27,
+  "versionRange": "java1~java27",
+  "javaVersions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "classes": [
+    {
+      "fqn": "java.util.concurrent.locks.ReentrantLock",
+      "chinese": "可重入锁",
+      "displayName": "ReentrantLock",
+      "since": 6,
+      "until": 27,
+      "methods": [
+        {
+          "name": "ReentrantLock",
+          "chinese": "可重入锁 ▸ 新建",
+          "blockText": "可重入锁 ▸ 新建",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ReentrantLock",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "可重入锁 ▸ 转为文本",
+          "blockText": "可重入锁 ▸ 转为文本",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "lock",
+          "chinese": "可重入锁 ▸ lock",
+          "blockText": "可重入锁 ▸ lock",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "lockInterruptibly",
+          "chinese": "可重入锁 ▸ lockInterruptibly",
+          "blockText": "可重入锁 ▸ lockInterruptibly",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "tryLock",
+          "chinese": "可重入锁 ▸ tryLock",
+          "blockText": "可重入锁 ▸ tryLock",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "TimeUnit"
+          ]
+        },
+        {
+          "name": "newCondition",
+          "chinese": "可重入锁 ▸ newCondition",
+          "blockText": "可重入锁 ▸ newCondition",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Condition",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getHoldCount",
+          "chinese": "可重入锁 ▸ getHoldCount",
+          "blockText": "可重入锁 ▸ getHoldCount",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isLocked",
+          "chinese": "可重入锁 ▸ isLocked",
+          "blockText": "可重入锁 ▸ isLocked",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasQueuedThreads",
+          "chinese": "可重入锁 ▸ hasQueuedThreads",
+          "blockText": "可重入锁 ▸ hasQueuedThreads",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getQueueLength",
+          "chinese": "可重入锁 ▸ getQueueLength",
+          "blockText": "可重入锁 ▸ getQueueLength",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasWaiters",
+          "chinese": "可重入锁 ▸ hasWaiters",
+          "blockText": "可重入锁 ▸ hasWaiters",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Condition"
+          ]
+        },
+        {
+          "name": "getWaitQueueLength",
+          "chinese": "可重入锁 ▸ getWaitQueueLength",
+          "blockText": "可重入锁 ▸ getWaitQueueLength",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Condition"
+          ]
+        },
+        {
+          "name": "unlock",
+          "chinese": "可重入锁 ▸ unlock",
+          "blockText": "可重入锁 ▸ unlock",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isHeldByCurrentThread",
+          "chinese": "可重入锁 ▸ isHeldByCurrentThread",
+          "blockText": "可重入锁 ▸ isHeldByCurrentThread",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isFair",
+          "chinese": "可重入锁 ▸ isFair",
+          "blockText": "可重入锁 ▸ isFair",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasQueuedThread",
+          "chinese": "可重入锁 ▸ hasQueuedThread",
+          "blockText": "可重入锁 ▸ hasQueuedThread",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Thread"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "可重入锁 ▸ 相等",
+          "blockText": "可重入锁 ▸ 相等",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "可重入锁 ▸ 哈希值",
+          "blockText": "可重入锁 ▸ 哈希值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "可重入锁 ▸ 取类型",
+          "blockText": "可重入锁 ▸ 取类型",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "可重入锁 ▸ 通知",
+          "blockText": "可重入锁 ▸ 通知",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "可重入锁 ▸ 通知全部",
+          "blockText": "可重入锁 ▸ 通知全部",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "可重入锁 ▸ 等待",
+          "blockText": "可重入锁 ▸ 等待",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.locks.Lock",
+      "chinese": "Lock",
+      "displayName": "Lock",
+      "since": 6,
+      "until": 27,
+      "methods": [
+        {
+          "name": "lock",
+          "chinese": "Lock ▸ lock",
+          "blockText": "Lock ▸ lock",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "lockInterruptibly",
+          "chinese": "Lock ▸ lockInterruptibly",
+          "blockText": "Lock ▸ lockInterruptibly",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "tryLock",
+          "chinese": "Lock ▸ tryLock",
+          "blockText": "Lock ▸ tryLock",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "TimeUnit"
+          ]
+        },
+        {
+          "name": "newCondition",
+          "chinese": "Lock ▸ newCondition",
+          "blockText": "Lock ▸ newCondition",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Condition",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "unlock",
+          "chinese": "Lock ▸ unlock",
+          "blockText": "Lock ▸ unlock",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.locks.ReadWriteLock",
+      "chinese": "ReadWriteLock",
+      "displayName": "ReadWriteLock",
+      "since": 6,
+      "until": 27,
+      "methods": [
+        {
+          "name": "readLock",
+          "chinese": "ReadWriteLock ▸ readLock",
+          "blockText": "ReadWriteLock ▸ readLock",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Lock",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "writeLock",
+          "chinese": "ReadWriteLock ▸ writeLock",
+          "blockText": "ReadWriteLock ▸ writeLock",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Lock",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.locks.AbstractOwnableSynchronizer",
+      "chinese": "AbstractOwnableSynchronizer",
+      "displayName": "AbstractOwnableSynchronizer",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "equals",
+          "chinese": "AbstractOwnableSynchronizer ▸ equals",
+          "blockText": "AbstractOwnableSynchronizer ▸ equals",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "AbstractOwnableSynchronizer ▸ toString",
+          "blockText": "AbstractOwnableSynchronizer ▸ toString",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "AbstractOwnableSynchronizer ▸ hashCode",
+          "blockText": "AbstractOwnableSynchronizer ▸ hashCode",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "AbstractOwnableSynchronizer ▸ getClass",
+          "blockText": "AbstractOwnableSynchronizer ▸ getClass",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "AbstractOwnableSynchronizer ▸ notify",
+          "blockText": "AbstractOwnableSynchronizer ▸ notify",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "AbstractOwnableSynchronizer ▸ notifyAll",
+          "blockText": "AbstractOwnableSynchronizer ▸ notifyAll",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "AbstractOwnableSynchronizer ▸ wait",
+          "blockText": "AbstractOwnableSynchronizer ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AbstractOwnableSynchronizer ▸ wait",
+          "blockText": "AbstractOwnableSynchronizer ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AbstractOwnableSynchronizer ▸ wait",
+          "blockText": "AbstractOwnableSynchronizer ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.locks.AbstractQueuedLongSynchronizer",
+      "chinese": "AbstractQueuedLongSynchronizer",
+      "displayName": "AbstractQueuedLongSynchronizer",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ <init>",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ <init>",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ toString",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ toString",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "release",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ release",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ release",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "hasQueuedThreads",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ hasQueuedThreads",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ hasQueuedThreads",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isQueued",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ isQueued",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ isQueued",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Thread"
+          ]
+        },
+        {
+          "name": "getQueueLength",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ getQueueLength",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ getQueueLength",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getQueuedThreads",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ getQueuedThreads",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ getQueuedThreads",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collection",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasWaiters",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ hasWaiters",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ hasWaiters",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ConditionObject"
+          ]
+        },
+        {
+          "name": "getWaitQueueLength",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ getWaitQueueLength",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ getWaitQueueLength",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ConditionObject"
+          ]
+        },
+        {
+          "name": "getWaitingThreads",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ getWaitingThreads",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ getWaitingThreads",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collection",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ConditionObject"
+          ]
+        },
+        {
+          "name": "acquireSharedInterruptibly",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ acquireSharedInterruptibly",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ acquireSharedInterruptibly",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "tryAcquireSharedNanos",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ tryAcquireSharedNanos",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ tryAcquireSharedNanos",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "releaseShared",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ releaseShared",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ releaseShared",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "acquire",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ acquire",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ acquire",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "getFirstQueuedThread",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ getFirstQueuedThread",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ getFirstQueuedThread",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Thread",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "owns",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ owns",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ owns",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ConditionObject"
+          ]
+        },
+        {
+          "name": "acquireInterruptibly",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ acquireInterruptibly",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ acquireInterruptibly",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "tryAcquireNanos",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ tryAcquireNanos",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ tryAcquireNanos",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "acquireShared",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ acquireShared",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ acquireShared",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "hasContended",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ hasContended",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ hasContended",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasQueuedPredecessors",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ hasQueuedPredecessors",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ hasQueuedPredecessors",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getExclusiveQueuedThreads",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ getExclusiveQueuedThreads",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ getExclusiveQueuedThreads",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collection",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSharedQueuedThreads",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ getSharedQueuedThreads",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ getSharedQueuedThreads",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collection",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ equals",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ equals",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ hashCode",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ hashCode",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ getClass",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ getClass",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ notify",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ notify",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ notifyAll",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ notifyAll",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ wait",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ wait",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AbstractQueuedLongSynchronizer ▸ wait",
+          "blockText": "AbstractQueuedLongSynchronizer ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.locks.AbstractQueuedSynchronizer",
+      "chinese": "AbstractQueuedSynchronizer",
+      "displayName": "AbstractQueuedSynchronizer",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "toString",
+          "chinese": "AbstractQueuedSynchronizer ▸ toString",
+          "blockText": "AbstractQueuedSynchronizer ▸ toString",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "release",
+          "chinese": "AbstractQueuedSynchronizer ▸ release",
+          "blockText": "AbstractQueuedSynchronizer ▸ release",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "hasQueuedThreads",
+          "chinese": "AbstractQueuedSynchronizer ▸ hasQueuedThreads",
+          "blockText": "AbstractQueuedSynchronizer ▸ hasQueuedThreads",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isQueued",
+          "chinese": "AbstractQueuedSynchronizer ▸ isQueued",
+          "blockText": "AbstractQueuedSynchronizer ▸ isQueued",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Thread"
+          ]
+        },
+        {
+          "name": "getQueueLength",
+          "chinese": "AbstractQueuedSynchronizer ▸ getQueueLength",
+          "blockText": "AbstractQueuedSynchronizer ▸ getQueueLength",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getQueuedThreads",
+          "chinese": "AbstractQueuedSynchronizer ▸ getQueuedThreads",
+          "blockText": "AbstractQueuedSynchronizer ▸ getQueuedThreads",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collection",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasWaiters",
+          "chinese": "AbstractQueuedSynchronizer ▸ hasWaiters",
+          "blockText": "AbstractQueuedSynchronizer ▸ hasWaiters",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ConditionObject"
+          ]
+        },
+        {
+          "name": "getWaitQueueLength",
+          "chinese": "AbstractQueuedSynchronizer ▸ getWaitQueueLength",
+          "blockText": "AbstractQueuedSynchronizer ▸ getWaitQueueLength",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ConditionObject"
+          ]
+        },
+        {
+          "name": "getWaitingThreads",
+          "chinese": "AbstractQueuedSynchronizer ▸ getWaitingThreads",
+          "blockText": "AbstractQueuedSynchronizer ▸ getWaitingThreads",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collection",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ConditionObject"
+          ]
+        },
+        {
+          "name": "acquireSharedInterruptibly",
+          "chinese": "AbstractQueuedSynchronizer ▸ acquireSharedInterruptibly",
+          "blockText": "AbstractQueuedSynchronizer ▸ acquireSharedInterruptibly",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "tryAcquireSharedNanos",
+          "chinese": "AbstractQueuedSynchronizer ▸ tryAcquireSharedNanos",
+          "blockText": "AbstractQueuedSynchronizer ▸ tryAcquireSharedNanos",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long"
+          ]
+        },
+        {
+          "name": "releaseShared",
+          "chinese": "AbstractQueuedSynchronizer ▸ releaseShared",
+          "blockText": "AbstractQueuedSynchronizer ▸ releaseShared",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "acquire",
+          "chinese": "AbstractQueuedSynchronizer ▸ acquire",
+          "blockText": "AbstractQueuedSynchronizer ▸ acquire",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "getFirstQueuedThread",
+          "chinese": "AbstractQueuedSynchronizer ▸ getFirstQueuedThread",
+          "blockText": "AbstractQueuedSynchronizer ▸ getFirstQueuedThread",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Thread",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "owns",
+          "chinese": "AbstractQueuedSynchronizer ▸ owns",
+          "blockText": "AbstractQueuedSynchronizer ▸ owns",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ConditionObject"
+          ]
+        },
+        {
+          "name": "acquireInterruptibly",
+          "chinese": "AbstractQueuedSynchronizer ▸ acquireInterruptibly",
+          "blockText": "AbstractQueuedSynchronizer ▸ acquireInterruptibly",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "tryAcquireNanos",
+          "chinese": "AbstractQueuedSynchronizer ▸ tryAcquireNanos",
+          "blockText": "AbstractQueuedSynchronizer ▸ tryAcquireNanos",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long"
+          ]
+        },
+        {
+          "name": "acquireShared",
+          "chinese": "AbstractQueuedSynchronizer ▸ acquireShared",
+          "blockText": "AbstractQueuedSynchronizer ▸ acquireShared",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "hasContended",
+          "chinese": "AbstractQueuedSynchronizer ▸ hasContended",
+          "blockText": "AbstractQueuedSynchronizer ▸ hasContended",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasQueuedPredecessors",
+          "chinese": "AbstractQueuedSynchronizer ▸ hasQueuedPredecessors",
+          "blockText": "AbstractQueuedSynchronizer ▸ hasQueuedPredecessors",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getExclusiveQueuedThreads",
+          "chinese": "AbstractQueuedSynchronizer ▸ getExclusiveQueuedThreads",
+          "blockText": "AbstractQueuedSynchronizer ▸ getExclusiveQueuedThreads",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collection",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSharedQueuedThreads",
+          "chinese": "AbstractQueuedSynchronizer ▸ getSharedQueuedThreads",
+          "blockText": "AbstractQueuedSynchronizer ▸ getSharedQueuedThreads",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collection",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "AbstractQueuedSynchronizer ▸ equals",
+          "blockText": "AbstractQueuedSynchronizer ▸ equals",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "AbstractQueuedSynchronizer ▸ hashCode",
+          "blockText": "AbstractQueuedSynchronizer ▸ hashCode",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "AbstractQueuedSynchronizer ▸ getClass",
+          "blockText": "AbstractQueuedSynchronizer ▸ getClass",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "AbstractQueuedSynchronizer ▸ notify",
+          "blockText": "AbstractQueuedSynchronizer ▸ notify",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "AbstractQueuedSynchronizer ▸ notifyAll",
+          "blockText": "AbstractQueuedSynchronizer ▸ notifyAll",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "AbstractQueuedSynchronizer ▸ wait",
+          "blockText": "AbstractQueuedSynchronizer ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AbstractQueuedSynchronizer ▸ wait",
+          "blockText": "AbstractQueuedSynchronizer ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AbstractQueuedSynchronizer ▸ wait",
+          "blockText": "AbstractQueuedSynchronizer ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.locks.Condition",
+      "chinese": "Condition",
+      "displayName": "Condition",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "await",
+          "chinese": "Condition ▸ await",
+          "blockText": "Condition ▸ await",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "TimeUnit"
+          ]
+        },
+        {
+          "name": "await",
+          "chinese": "Condition ▸ await",
+          "blockText": "Condition ▸ await",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "signal",
+          "chinese": "Condition ▸ signal",
+          "blockText": "Condition ▸ signal",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "awaitNanos",
+          "chinese": "Condition ▸ awaitNanos",
+          "blockText": "Condition ▸ awaitNanos",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "signalAll",
+          "chinese": "Condition ▸ signalAll",
+          "blockText": "Condition ▸ signalAll",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "awaitUninterruptibly",
+          "chinese": "Condition ▸ awaitUninterruptibly",
+          "blockText": "Condition ▸ awaitUninterruptibly",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "awaitUntil",
+          "chinese": "Condition ▸ awaitUntil",
+          "blockText": "Condition ▸ awaitUntil",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Date"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.locks.LockSupport",
+      "chinese": "LockSupport",
+      "displayName": "LockSupport",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "park",
+          "chinese": "LockSupport ▸ park",
+          "blockText": "LockSupport ▸ park",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "park",
+          "chinese": "LockSupport ▸ park",
+          "blockText": "LockSupport ▸ park",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "unpark",
+          "chinese": "LockSupport ▸ unpark",
+          "blockText": "LockSupport ▸ unpark",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Thread"
+          ]
+        },
+        {
+          "name": "parkNanos",
+          "chinese": "LockSupport ▸ parkNanos",
+          "blockText": "LockSupport ▸ parkNanos",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "parkNanos",
+          "chinese": "LockSupport ▸ parkNanos",
+          "blockText": "LockSupport ▸ parkNanos",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Object",
+            "long"
+          ]
+        },
+        {
+          "name": "parkUntil",
+          "chinese": "LockSupport ▸ parkUntil",
+          "blockText": "LockSupport ▸ parkUntil",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "parkUntil",
+          "chinese": "LockSupport ▸ parkUntil",
+          "blockText": "LockSupport ▸ parkUntil",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Object",
+            "long"
+          ]
+        },
+        {
+          "name": "setCurrentBlocker",
+          "chinese": "LockSupport ▸ setCurrentBlocker",
+          "blockText": "LockSupport ▸ setCurrentBlocker",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "getBlocker",
+          "chinese": "LockSupport ▸ getBlocker",
+          "blockText": "LockSupport ▸ getBlocker",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Thread"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "LockSupport ▸ equals",
+          "blockText": "LockSupport ▸ equals",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "LockSupport ▸ toString",
+          "blockText": "LockSupport ▸ toString",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "LockSupport ▸ hashCode",
+          "blockText": "LockSupport ▸ hashCode",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "LockSupport ▸ getClass",
+          "blockText": "LockSupport ▸ getClass",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "LockSupport ▸ notify",
+          "blockText": "LockSupport ▸ notify",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "LockSupport ▸ notifyAll",
+          "blockText": "LockSupport ▸ notifyAll",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "LockSupport ▸ wait",
+          "blockText": "LockSupport ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "LockSupport ▸ wait",
+          "blockText": "LockSupport ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "LockSupport ▸ wait",
+          "blockText": "LockSupport ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.locks.ReentrantReadWriteLock",
+      "chinese": "ReentrantReadWriteLock",
+      "displayName": "ReentrantReadWriteLock",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "ReentrantReadWriteLock ▸ <init>",
+          "blockText": "ReentrantReadWriteLock ▸ <init>",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "<init>",
+          "chinese": "ReentrantReadWriteLock ▸ <init>",
+          "blockText": "ReentrantReadWriteLock ▸ <init>",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "ReentrantReadWriteLock ▸ toString",
+          "blockText": "ReentrantReadWriteLock ▸ toString",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasQueuedThreads",
+          "chinese": "ReentrantReadWriteLock ▸ hasQueuedThreads",
+          "blockText": "ReentrantReadWriteLock ▸ hasQueuedThreads",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getQueueLength",
+          "chinese": "ReentrantReadWriteLock ▸ getQueueLength",
+          "blockText": "ReentrantReadWriteLock ▸ getQueueLength",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasWaiters",
+          "chinese": "ReentrantReadWriteLock ▸ hasWaiters",
+          "blockText": "ReentrantReadWriteLock ▸ hasWaiters",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Condition"
+          ]
+        },
+        {
+          "name": "getWaitQueueLength",
+          "chinese": "ReentrantReadWriteLock ▸ getWaitQueueLength",
+          "blockText": "ReentrantReadWriteLock ▸ getWaitQueueLength",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Condition"
+          ]
+        },
+        {
+          "name": "isFair",
+          "chinese": "ReentrantReadWriteLock ▸ isFair",
+          "blockText": "ReentrantReadWriteLock ▸ isFair",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasQueuedThread",
+          "chinese": "ReentrantReadWriteLock ▸ hasQueuedThread",
+          "blockText": "ReentrantReadWriteLock ▸ hasQueuedThread",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Thread"
+          ]
+        },
+        {
+          "name": "readLock",
+          "chinese": "ReentrantReadWriteLock ▸ readLock",
+          "blockText": "ReentrantReadWriteLock ▸ readLock",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ReadLock",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "writeLock",
+          "chinese": "ReentrantReadWriteLock ▸ writeLock",
+          "blockText": "ReentrantReadWriteLock ▸ writeLock",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "WriteLock",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getReadLockCount",
+          "chinese": "ReentrantReadWriteLock ▸ getReadLockCount",
+          "blockText": "ReentrantReadWriteLock ▸ getReadLockCount",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isWriteLocked",
+          "chinese": "ReentrantReadWriteLock ▸ isWriteLocked",
+          "blockText": "ReentrantReadWriteLock ▸ isWriteLocked",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getWriteHoldCount",
+          "chinese": "ReentrantReadWriteLock ▸ getWriteHoldCount",
+          "blockText": "ReentrantReadWriteLock ▸ getWriteHoldCount",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getReadHoldCount",
+          "chinese": "ReentrantReadWriteLock ▸ getReadHoldCount",
+          "blockText": "ReentrantReadWriteLock ▸ getReadHoldCount",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isWriteLockedByCurrentThread",
+          "chinese": "ReentrantReadWriteLock ▸ isWriteLockedByCurrentThread",
+          "blockText": "ReentrantReadWriteLock ▸ isWriteLockedByCurrentThread",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "ReentrantReadWriteLock ▸ equals",
+          "blockText": "ReentrantReadWriteLock ▸ equals",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "ReentrantReadWriteLock ▸ hashCode",
+          "blockText": "ReentrantReadWriteLock ▸ hashCode",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "ReentrantReadWriteLock ▸ getClass",
+          "blockText": "ReentrantReadWriteLock ▸ getClass",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "ReentrantReadWriteLock ▸ notify",
+          "blockText": "ReentrantReadWriteLock ▸ notify",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "ReentrantReadWriteLock ▸ notifyAll",
+          "blockText": "ReentrantReadWriteLock ▸ notifyAll",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "ReentrantReadWriteLock ▸ wait",
+          "blockText": "ReentrantReadWriteLock ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ReentrantReadWriteLock ▸ wait",
+          "blockText": "ReentrantReadWriteLock ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ReentrantReadWriteLock ▸ wait",
+          "blockText": "ReentrantReadWriteLock ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.locks.StampedLock",
+      "chinese": "StampedLock",
+      "displayName": "StampedLock",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "StampedLock ▸ <init>",
+          "blockText": "StampedLock ▸ <init>",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "StampedLock ▸ toString",
+          "blockText": "StampedLock ▸ toString",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "validate",
+          "chinese": "StampedLock ▸ validate",
+          "blockText": "StampedLock ▸ validate",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "unlock",
+          "chinese": "StampedLock ▸ unlock",
+          "blockText": "StampedLock ▸ unlock",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "readLock",
+          "chinese": "StampedLock ▸ readLock",
+          "blockText": "StampedLock ▸ readLock",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "writeLock",
+          "chinese": "StampedLock ▸ writeLock",
+          "blockText": "StampedLock ▸ writeLock",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getReadLockCount",
+          "chinese": "StampedLock ▸ getReadLockCount",
+          "blockText": "StampedLock ▸ getReadLockCount",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isWriteLocked",
+          "chinese": "StampedLock ▸ isWriteLocked",
+          "blockText": "StampedLock ▸ isWriteLocked",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "tryReadLock",
+          "chinese": "StampedLock ▸ tryReadLock",
+          "blockText": "StampedLock ▸ tryReadLock",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "tryReadLock",
+          "chinese": "StampedLock ▸ tryReadLock",
+          "blockText": "StampedLock ▸ tryReadLock",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "TimeUnit"
+          ]
+        },
+        {
+          "name": "tryWriteLock",
+          "chinese": "StampedLock ▸ tryWriteLock",
+          "blockText": "StampedLock ▸ tryWriteLock",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "TimeUnit"
+          ]
+        },
+        {
+          "name": "tryWriteLock",
+          "chinese": "StampedLock ▸ tryWriteLock",
+          "blockText": "StampedLock ▸ tryWriteLock",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "unlockWrite",
+          "chinese": "StampedLock ▸ unlockWrite",
+          "blockText": "StampedLock ▸ unlockWrite",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "unlockRead",
+          "chinese": "StampedLock ▸ unlockRead",
+          "blockText": "StampedLock ▸ unlockRead",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "writeLockInterruptibly",
+          "chinese": "StampedLock ▸ writeLockInterruptibly",
+          "blockText": "StampedLock ▸ writeLockInterruptibly",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "readLockInterruptibly",
+          "chinese": "StampedLock ▸ readLockInterruptibly",
+          "blockText": "StampedLock ▸ readLockInterruptibly",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "tryOptimisticRead",
+          "chinese": "StampedLock ▸ tryOptimisticRead",
+          "blockText": "StampedLock ▸ tryOptimisticRead",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "tryConvertToWriteLock",
+          "chinese": "StampedLock ▸ tryConvertToWriteLock",
+          "blockText": "StampedLock ▸ tryConvertToWriteLock",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "tryConvertToReadLock",
+          "chinese": "StampedLock ▸ tryConvertToReadLock",
+          "blockText": "StampedLock ▸ tryConvertToReadLock",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "tryConvertToOptimisticRead",
+          "chinese": "StampedLock ▸ tryConvertToOptimisticRead",
+          "blockText": "StampedLock ▸ tryConvertToOptimisticRead",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "tryUnlockWrite",
+          "chinese": "StampedLock ▸ tryUnlockWrite",
+          "blockText": "StampedLock ▸ tryUnlockWrite",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "tryUnlockRead",
+          "chinese": "StampedLock ▸ tryUnlockRead",
+          "blockText": "StampedLock ▸ tryUnlockRead",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isReadLocked",
+          "chinese": "StampedLock ▸ isReadLocked",
+          "blockText": "StampedLock ▸ isReadLocked",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isWriteLockStamp",
+          "chinese": "StampedLock ▸ isWriteLockStamp",
+          "blockText": "StampedLock ▸ isWriteLockStamp",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "isReadLockStamp",
+          "chinese": "StampedLock ▸ isReadLockStamp",
+          "blockText": "StampedLock ▸ isReadLockStamp",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "isLockStamp",
+          "chinese": "StampedLock ▸ isLockStamp",
+          "blockText": "StampedLock ▸ isLockStamp",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "isOptimisticReadStamp",
+          "chinese": "StampedLock ▸ isOptimisticReadStamp",
+          "blockText": "StampedLock ▸ isOptimisticReadStamp",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "asReadLock",
+          "chinese": "StampedLock ▸ asReadLock",
+          "blockText": "StampedLock ▸ asReadLock",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Lock",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "asWriteLock",
+          "chinese": "StampedLock ▸ asWriteLock",
+          "blockText": "StampedLock ▸ asWriteLock",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Lock",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "asReadWriteLock",
+          "chinese": "StampedLock ▸ asReadWriteLock",
+          "blockText": "StampedLock ▸ asReadWriteLock",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ReadWriteLock",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "StampedLock ▸ equals",
+          "blockText": "StampedLock ▸ equals",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "StampedLock ▸ hashCode",
+          "blockText": "StampedLock ▸ hashCode",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "StampedLock ▸ getClass",
+          "blockText": "StampedLock ▸ getClass",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "StampedLock ▸ notify",
+          "blockText": "StampedLock ▸ notify",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "StampedLock ▸ notifyAll",
+          "blockText": "StampedLock ▸ notifyAll",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "StampedLock ▸ wait",
+          "blockText": "StampedLock ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "StampedLock ▸ wait",
+          "blockText": "StampedLock ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "StampedLock ▸ wait",
+          "blockText": "StampedLock ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    }
+  ]
+}

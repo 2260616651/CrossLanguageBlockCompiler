@@ -1,0 +1,101 @@
+{
+  "defaultLocale": "zh_CN",
+  "locales": {
+    "zh_CN": {
+      "blocks": {
+        "unit.class":      { "text": "类", "category": "结构" },
+        "unit.method":     { "text": "%0 %1 %2( %3 )", "category": "结构" },
+        "control.if":      { "text": "如果 %0 那么", "category": "结构" },
+        "control.else":    { "text": "否则", "category": "结构" },
+        "control.while":   { "text": "当 %0", "category": "结构" },
+        "control.for":     { "text": "重复 直到 %0", "category": "结构" },
+        "control.forEach": { "text": "对于 %0 在 %1 中", "category": "结构" },
+        "control.repeat":  { "text": "重复 %0 次", "category": "结构" },
+        "data.var":        { "text": "%0 %1 %2", "category": "数据" },
+        "data.assign":     { "text": "将 %0 设为 %1", "category": "数据" },
+        "data.return":     { "text": "返回 %0", "category": "数据" },
+        "ops.call":        { "text": "调用 %0", "category": "系统" },
+        "expr.number":     { "text": "%0", "category": "数学" },
+        "expr.string":     { "text": "%0", "category": "字符串" },
+        "expr.bool":       { "text": "%0", "category": "运算" },
+        "raw.code":        { "text": "%0", "category": "结构" }
+      }
+    }
+  },
+  "customBlocks": {},
+  "libraryAliases": {
+    "java.lang.Math": "数学",
+    "java.lang.System": "系统",
+    "java.lang.String": "字符串"
+  },
+  "libraryNames": {
+    "java.lang.Math": "Math",
+    "java.lang.System": "System",
+    "java.lang.String": "String",
+    "java.lang.Object": "Object",
+    "java.lang.Integer": "Integer",
+    "java.lang.Double": "Double",
+    "java.lang.Boolean": "Boolean",
+    "java.lang.Long": "Long",
+    "java.lang.StringBuilder": "StringBuilder",
+    "java.util.List": "列表",
+    "java.util.ArrayList": "列表",
+    "java.util.Map": "映射",
+    "java.util.HashMap": "映射",
+    "java.util.Set": "集合",
+    "java.util.HashSet": "集合",
+    "java.util.Scanner": "Scanner",
+    "java.util.Random": "Random"
+  },
+  "unsafe": {
+    "classes": {
+      "r": "java.lang.Runtime",
+      "pb": "java.lang.ProcessBuilder",
+      "proc": "java.lang.Process",
+      "cls": "java.lang.Class",
+      "cl": "java.lang.ClassLoader",
+      "sm": "java.lang.SecurityManager",
+      "rp": "java.lang.RuntimePermission",
+      "refl": "java.lang.reflect",
+      "inv": "java.lang.invoke",
+      "mod": "java.lang.module",
+      "scr": "javax.script",
+      "sec": "java.security",
+      "csun": "com.sun",
+      "sun": "sun",
+      "jdk": "jdk.internal"
+    },
+    "methods": {
+      "exit": "java.lang.System#exit",
+      "halt": "java.lang.System#halt",
+      "load": "java.lang.System#load",
+      "loadLib": "java.lang.System#loadLibrary",
+      "setSM": "java.lang.System#setSecurityManager",
+      "setProps": "java.lang.System#setProperties",
+      "rexec": "java.lang.Runtime#exec",
+      "rload": "java.lang.Runtime#load",
+      "rloadLib": "java.lang.Runtime#loadLibrary",
+      "rgetRT": "java.lang.Runtime#getRuntime",
+      "forName": "java.lang.Class#forName",
+      "clLoad": "java.lang.ClassLoader#loadClass",
+      "clDefine": "java.lang.ClassLoader#defineClass",
+      "clLib": "java.lang.ClassLoader#loadLibrary",
+      "clFind": "java.lang.ClassLoader#findLibrary",
+      "tStop": "java.lang.Thread#stop",
+      "tSusp": "java.lang.Thread#suspend",
+      "tRes": "java.lang.Thread#resume",
+      "tDest": "java.lang.Thread#destroy",
+      "fDel": "java.io.File#delete",
+      "fDelExit": "java.io.File#deleteOnExit",
+      "pbStart": "java.lang.ProcessBuilder#start"
+    }
+  },
+  "categories": {
+    "结构": "#FFAB19",
+    "数据": "#FF661A",
+    "系统": "#FF8C1A",
+    "数学": "#59C059",
+    "字符串": "#9966FF",
+    "运算": "#5CB1D6"
+  }
+}

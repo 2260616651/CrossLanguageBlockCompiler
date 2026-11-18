@@ -1,0 +1,3330 @@
+{
+  "_comment": "CLBC 自动生成的 JDK 库语言文件。一个库一个文件；java1~java27 共 27 个版本共用本文件，不按版本拆分。since=起始版本，until=移除版本(27 表示仍可用)。方法改名时旧名与新名各写一条，chinese 相同。",
+  "library": "java.nio.charset",
+  "libraryChinese": "字符集",
+  "minVersion": 1,
+  "maxVersion": 27,
+  "versionRange": "java1~java27",
+  "javaVersions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "classes": [
+    {
+      "fqn": "java.nio.charset.Charset",
+      "chinese": "字符集",
+      "displayName": "Charset",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "name",
+          "chinese": "字符集 ▸ name",
+          "blockText": "字符集 ▸ name",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "forName",
+          "chinese": "字符集 ▸ forName",
+          "blockText": "字符集 ▸ forName",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Charset",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String",
+            "Charset"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "字符集 ▸ 相等",
+          "blockText": "字符集 ▸ 相等",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "字符集 ▸ 转为文本",
+          "blockText": "字符集 ▸ 转为文本",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "字符集 ▸ 哈希值",
+          "blockText": "字符集 ▸ 哈希值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "chinese": "字符集 ▸ 比较",
+          "blockText": "字符集 ▸ 比较",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Charset"
+          ]
+        },
+        {
+          "name": "newDecoder",
+          "chinese": "字符集 ▸ newDecoder",
+          "blockText": "字符集 ▸ newDecoder",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharsetDecoder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "decode",
+          "chinese": "字符集 ▸ 解码",
+          "blockText": "字符集 ▸ 解码",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ByteBuffer"
+          ]
+        },
+        {
+          "name": "newEncoder",
+          "chinese": "字符集 ▸ newEncoder",
+          "blockText": "字符集 ▸ newEncoder",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharsetEncoder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "encode",
+          "chinese": "字符集 ▸ 编码",
+          "blockText": "字符集 ▸ 编码",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "CharBuffer"
+          ]
+        },
+        {
+          "name": "defaultCharset",
+          "chinese": "字符集 ▸ defaultCharset",
+          "blockText": "字符集 ▸ defaultCharset",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Charset",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "canEncode",
+          "chinese": "字符集 ▸ canEncode",
+          "blockText": "字符集 ▸ canEncode",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "contains",
+          "chinese": "字符集 ▸ 包含",
+          "blockText": "字符集 ▸ 包含",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Charset"
+          ]
+        },
+        {
+          "name": "isRegistered",
+          "chinese": "字符集 ▸ isRegistered",
+          "blockText": "字符集 ▸ isRegistered",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isSupported",
+          "chinese": "字符集 ▸ isSupported",
+          "blockText": "字符集 ▸ isSupported",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "aliases",
+          "chinese": "字符集 ▸ aliases",
+          "blockText": "字符集 ▸ aliases",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Set",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "availableCharsets",
+          "chinese": "字符集 ▸ availableCharsets",
+          "blockText": "字符集 ▸ availableCharsets",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "SortedMap",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "displayName",
+          "chinese": "字符集 ▸ displayName",
+          "blockText": "字符集 ▸ displayName",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Locale"
+          ]
+        },
+        {
+          "name": "getClass",
+          "chinese": "字符集 ▸ 取类型",
+          "blockText": "字符集 ▸ 取类型",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "字符集 ▸ 通知",
+          "blockText": "字符集 ▸ 通知",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "字符集 ▸ 通知全部",
+          "blockText": "字符集 ▸ 通知全部",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "字符集 ▸ 等待",
+          "blockText": "字符集 ▸ 等待",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.charset.StandardCharsets",
+      "chinese": "标准字符集",
+      "displayName": "StandardCharsets",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "equals",
+          "chinese": "标准字符集 ▸ 相等",
+          "blockText": "标准字符集 ▸ 相等",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "标准字符集 ▸ 转为文本",
+          "blockText": "标准字符集 ▸ 转为文本",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "标准字符集 ▸ 哈希值",
+          "blockText": "标准字符集 ▸ 哈希值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "标准字符集 ▸ 取类型",
+          "blockText": "标准字符集 ▸ 取类型",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "标准字符集 ▸ 通知",
+          "blockText": "标准字符集 ▸ 通知",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "标准字符集 ▸ 通知全部",
+          "blockText": "标准字符集 ▸ 通知全部",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "标准字符集 ▸ 等待",
+          "blockText": "标准字符集 ▸ 等待",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "US_ASCII",
+          "chinese": "标准字符集 ▸ US_ASCII",
+          "blockText": "标准字符集 ▸ US_ASCII",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Charset",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ISO_8859_1",
+          "chinese": "标准字符集 ▸ ISO_8859_1",
+          "blockText": "标准字符集 ▸ ISO_8859_1",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Charset",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "UTF_8",
+          "chinese": "标准字符集 ▸ UTF_8",
+          "blockText": "标准字符集 ▸ UTF_8",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Charset",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "UTF_16BE",
+          "chinese": "标准字符集 ▸ UTF_16BE",
+          "blockText": "标准字符集 ▸ UTF_16BE",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Charset",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "UTF_16LE",
+          "chinese": "标准字符集 ▸ UTF_16LE",
+          "blockText": "标准字符集 ▸ UTF_16LE",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Charset",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "UTF_16",
+          "chinese": "标准字符集 ▸ UTF_16",
+          "blockText": "标准字符集 ▸ UTF_16",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Charset",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "UTF_32BE",
+          "chinese": "标准字符集 ▸ UTF_32BE",
+          "blockText": "标准字符集 ▸ UTF_32BE",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Charset",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "UTF_32LE",
+          "chinese": "标准字符集 ▸ UTF_32LE",
+          "blockText": "标准字符集 ▸ UTF_32LE",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Charset",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "UTF_32",
+          "chinese": "标准字符集 ▸ UTF_32",
+          "blockText": "标准字符集 ▸ UTF_32",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Charset",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.charset.CharsetDecoder",
+      "chinese": "CharsetDecoder",
+      "displayName": "CharsetDecoder",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "reset",
+          "chinese": "CharsetDecoder ▸ 重置",
+          "blockText": "CharsetDecoder ▸ 重置",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharsetDecoder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "maxCharsPerByte",
+          "chinese": "CharsetDecoder ▸ maxCharsPerByte",
+          "blockText": "CharsetDecoder ▸ maxCharsPerByte",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "float",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "onMalformedInput",
+          "chinese": "CharsetDecoder ▸ onMalformedInput",
+          "blockText": "CharsetDecoder ▸ onMalformedInput",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharsetDecoder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "CodingErrorAction"
+          ]
+        },
+        {
+          "name": "onUnmappableCharacter",
+          "chinese": "CharsetDecoder ▸ onUnmappableCharacter",
+          "blockText": "CharsetDecoder ▸ onUnmappableCharacter",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharsetDecoder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "CodingErrorAction"
+          ]
+        },
+        {
+          "name": "decode",
+          "chinese": "CharsetDecoder ▸ 解码",
+          "blockText": "CharsetDecoder ▸ 解码",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ByteBuffer"
+          ]
+        },
+        {
+          "name": "flush",
+          "chinese": "CharsetDecoder ▸ 刷新",
+          "blockText": "CharsetDecoder ▸ 刷新",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CoderResult",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "CharBuffer"
+          ]
+        },
+        {
+          "name": "charset",
+          "chinese": "CharsetDecoder ▸ charset",
+          "blockText": "CharsetDecoder ▸ charset",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Charset",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "replacement",
+          "chinese": "CharsetDecoder ▸ replacement",
+          "blockText": "CharsetDecoder ▸ replacement",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "malformedInputAction",
+          "chinese": "CharsetDecoder ▸ malformedInputAction",
+          "blockText": "CharsetDecoder ▸ malformedInputAction",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CodingErrorAction",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "unmappableCharacterAction",
+          "chinese": "CharsetDecoder ▸ unmappableCharacterAction",
+          "blockText": "CharsetDecoder ▸ unmappableCharacterAction",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CodingErrorAction",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "replaceWith",
+          "chinese": "CharsetDecoder ▸ replaceWith",
+          "blockText": "CharsetDecoder ▸ replaceWith",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharsetDecoder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "averageCharsPerByte",
+          "chinese": "CharsetDecoder ▸ averageCharsPerByte",
+          "blockText": "CharsetDecoder ▸ averageCharsPerByte",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "float",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isAutoDetecting",
+          "chinese": "CharsetDecoder ▸ isAutoDetecting",
+          "blockText": "CharsetDecoder ▸ isAutoDetecting",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isCharsetDetected",
+          "chinese": "CharsetDecoder ▸ isCharsetDetected",
+          "blockText": "CharsetDecoder ▸ isCharsetDetected",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "detectedCharset",
+          "chinese": "CharsetDecoder ▸ detectedCharset",
+          "blockText": "CharsetDecoder ▸ detectedCharset",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Charset",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "CharsetDecoder ▸ 相等",
+          "blockText": "CharsetDecoder ▸ 相等",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "CharsetDecoder ▸ 转为文本",
+          "blockText": "CharsetDecoder ▸ 转为文本",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "CharsetDecoder ▸ 哈希值",
+          "blockText": "CharsetDecoder ▸ 哈希值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "CharsetDecoder ▸ 取类型",
+          "blockText": "CharsetDecoder ▸ 取类型",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "CharsetDecoder ▸ 通知",
+          "blockText": "CharsetDecoder ▸ 通知",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "CharsetDecoder ▸ 通知全部",
+          "blockText": "CharsetDecoder ▸ 通知全部",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "CharsetDecoder ▸ 等待",
+          "blockText": "CharsetDecoder ▸ 等待",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.charset.CharsetEncoder",
+      "chinese": "CharsetEncoder",
+      "displayName": "CharsetEncoder",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "reset",
+          "chinese": "CharsetEncoder ▸ 重置",
+          "blockText": "CharsetEncoder ▸ 重置",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharsetEncoder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "onMalformedInput",
+          "chinese": "CharsetEncoder ▸ onMalformedInput",
+          "blockText": "CharsetEncoder ▸ onMalformedInput",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharsetEncoder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "CodingErrorAction"
+          ]
+        },
+        {
+          "name": "onUnmappableCharacter",
+          "chinese": "CharsetEncoder ▸ onUnmappableCharacter",
+          "blockText": "CharsetEncoder ▸ onUnmappableCharacter",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharsetEncoder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "CodingErrorAction"
+          ]
+        },
+        {
+          "name": "maxBytesPerChar",
+          "chinese": "CharsetEncoder ▸ maxBytesPerChar",
+          "blockText": "CharsetEncoder ▸ maxBytesPerChar",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "float",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "encode",
+          "chinese": "CharsetEncoder ▸ 编码",
+          "blockText": "CharsetEncoder ▸ 编码",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CoderResult",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "CharBuffer",
+            "ByteBuffer",
+            "boolean"
+          ]
+        },
+        {
+          "name": "flush",
+          "chinese": "CharsetEncoder ▸ 刷新",
+          "blockText": "CharsetEncoder ▸ 刷新",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CoderResult",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ByteBuffer"
+          ]
+        },
+        {
+          "name": "canEncode",
+          "chinese": "CharsetEncoder ▸ canEncode",
+          "blockText": "CharsetEncoder ▸ canEncode",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "CharSequence"
+          ]
+        },
+        {
+          "name": "charset",
+          "chinese": "CharsetEncoder ▸ charset",
+          "blockText": "CharsetEncoder ▸ charset",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Charset",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "replacement",
+          "chinese": "CharsetEncoder ▸ replacement",
+          "blockText": "CharsetEncoder ▸ replacement",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "byte[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isLegalReplacement",
+          "chinese": "CharsetEncoder ▸ isLegalReplacement",
+          "blockText": "CharsetEncoder ▸ isLegalReplacement",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "byte[]"
+          ]
+        },
+        {
+          "name": "malformedInputAction",
+          "chinese": "CharsetEncoder ▸ malformedInputAction",
+          "blockText": "CharsetEncoder ▸ malformedInputAction",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CodingErrorAction",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "unmappableCharacterAction",
+          "chinese": "CharsetEncoder ▸ unmappableCharacterAction",
+          "blockText": "CharsetEncoder ▸ unmappableCharacterAction",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CodingErrorAction",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "averageBytesPerChar",
+          "chinese": "CharsetEncoder ▸ averageBytesPerChar",
+          "blockText": "CharsetEncoder ▸ averageBytesPerChar",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "float",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "replaceWith",
+          "chinese": "CharsetEncoder ▸ replaceWith",
+          "blockText": "CharsetEncoder ▸ replaceWith",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharsetEncoder",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "byte[]"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "CharsetEncoder ▸ 相等",
+          "blockText": "CharsetEncoder ▸ 相等",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "CharsetEncoder ▸ 转为文本",
+          "blockText": "CharsetEncoder ▸ 转为文本",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "CharsetEncoder ▸ 哈希值",
+          "blockText": "CharsetEncoder ▸ 哈希值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "CharsetEncoder ▸ 取类型",
+          "blockText": "CharsetEncoder ▸ 取类型",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "CharsetEncoder ▸ 通知",
+          "blockText": "CharsetEncoder ▸ 通知",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "CharsetEncoder ▸ 通知全部",
+          "blockText": "CharsetEncoder ▸ 通知全部",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "CharsetEncoder ▸ 等待",
+          "blockText": "CharsetEncoder ▸ 等待",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.charset.StandardCharsets 默认 UTF-8",
+      "chinese": "StandardCharsets 默认 UTF-8",
+      "displayName": "StandardCharsets 默认 UTF-8",
+      "since": 5,
+      "until": 27,
+      "methods": []
+    },
+    {
+      "fqn": "java.nio.charset.CharacterCodingException",
+      "chinese": "CharacterCodingException",
+      "displayName": "CharacterCodingException",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "CharacterCodingException ▸ <init>",
+          "blockText": "CharacterCodingException ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "CharacterCodingException ▸ printStackTrace",
+          "blockText": "CharacterCodingException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "CharacterCodingException ▸ printStackTrace",
+          "blockText": "CharacterCodingException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "CharacterCodingException ▸ printStackTrace",
+          "blockText": "CharacterCodingException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "CharacterCodingException ▸ getStackTrace",
+          "blockText": "CharacterCodingException ▸ getStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "CharacterCodingException ▸ fillInStackTrace",
+          "blockText": "CharacterCodingException ▸ fillInStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "CharacterCodingException ▸ getCause",
+          "blockText": "CharacterCodingException ▸ getCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initCause",
+          "chinese": "CharacterCodingException ▸ initCause",
+          "blockText": "CharacterCodingException ▸ initCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "CharacterCodingException ▸ toString",
+          "blockText": "CharacterCodingException ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getMessage",
+          "chinese": "CharacterCodingException ▸ getMessage",
+          "blockText": "CharacterCodingException ▸ getMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "CharacterCodingException ▸ getSuppressed",
+          "blockText": "CharacterCodingException ▸ getSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "CharacterCodingException ▸ getLocalizedMessage",
+          "blockText": "CharacterCodingException ▸ getLocalizedMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "CharacterCodingException ▸ setStackTrace",
+          "blockText": "CharacterCodingException ▸ setStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "CharacterCodingException ▸ addSuppressed",
+          "blockText": "CharacterCodingException ▸ addSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "CharacterCodingException ▸ equals",
+          "blockText": "CharacterCodingException ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "CharacterCodingException ▸ hashCode",
+          "blockText": "CharacterCodingException ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "CharacterCodingException ▸ getClass",
+          "blockText": "CharacterCodingException ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "CharacterCodingException ▸ notify",
+          "blockText": "CharacterCodingException ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "CharacterCodingException ▸ notifyAll",
+          "blockText": "CharacterCodingException ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "CharacterCodingException ▸ wait",
+          "blockText": "CharacterCodingException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "CharacterCodingException ▸ wait",
+          "blockText": "CharacterCodingException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "CharacterCodingException ▸ wait",
+          "blockText": "CharacterCodingException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.charset.CoderMalfunctionError",
+      "chinese": "CoderMalfunctionError",
+      "displayName": "CoderMalfunctionError",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "CoderMalfunctionError ▸ <init>",
+          "blockText": "CoderMalfunctionError ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Exception"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "CoderMalfunctionError ▸ printStackTrace",
+          "blockText": "CoderMalfunctionError ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "CoderMalfunctionError ▸ printStackTrace",
+          "blockText": "CoderMalfunctionError ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "CoderMalfunctionError ▸ printStackTrace",
+          "blockText": "CoderMalfunctionError ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "CoderMalfunctionError ▸ getStackTrace",
+          "blockText": "CoderMalfunctionError ▸ getStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "CoderMalfunctionError ▸ fillInStackTrace",
+          "blockText": "CoderMalfunctionError ▸ fillInStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "CoderMalfunctionError ▸ getCause",
+          "blockText": "CoderMalfunctionError ▸ getCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initCause",
+          "chinese": "CoderMalfunctionError ▸ initCause",
+          "blockText": "CoderMalfunctionError ▸ initCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "CoderMalfunctionError ▸ toString",
+          "blockText": "CoderMalfunctionError ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getMessage",
+          "chinese": "CoderMalfunctionError ▸ getMessage",
+          "blockText": "CoderMalfunctionError ▸ getMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "CoderMalfunctionError ▸ getSuppressed",
+          "blockText": "CoderMalfunctionError ▸ getSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "CoderMalfunctionError ▸ getLocalizedMessage",
+          "blockText": "CoderMalfunctionError ▸ getLocalizedMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "CoderMalfunctionError ▸ setStackTrace",
+          "blockText": "CoderMalfunctionError ▸ setStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "CoderMalfunctionError ▸ addSuppressed",
+          "blockText": "CoderMalfunctionError ▸ addSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "CoderMalfunctionError ▸ equals",
+          "blockText": "CoderMalfunctionError ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "CoderMalfunctionError ▸ hashCode",
+          "blockText": "CoderMalfunctionError ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "CoderMalfunctionError ▸ getClass",
+          "blockText": "CoderMalfunctionError ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "CoderMalfunctionError ▸ notify",
+          "blockText": "CoderMalfunctionError ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "CoderMalfunctionError ▸ notifyAll",
+          "blockText": "CoderMalfunctionError ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "CoderMalfunctionError ▸ wait",
+          "blockText": "CoderMalfunctionError ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "CoderMalfunctionError ▸ wait",
+          "blockText": "CoderMalfunctionError ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "CoderMalfunctionError ▸ wait",
+          "blockText": "CoderMalfunctionError ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.charset.CoderResult",
+      "chinese": "CoderResult",
+      "displayName": "CoderResult",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "length",
+          "chinese": "CoderResult ▸ length",
+          "blockText": "CoderResult ▸ length",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "CoderResult ▸ toString",
+          "blockText": "CoderResult ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isUnderflow",
+          "chinese": "CoderResult ▸ isUnderflow",
+          "blockText": "CoderResult ▸ isUnderflow",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "throwException",
+          "chinese": "CoderResult ▸ throwException",
+          "blockText": "CoderResult ▸ throwException",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isOverflow",
+          "chinese": "CoderResult ▸ isOverflow",
+          "blockText": "CoderResult ▸ isOverflow",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "unmappableForLength",
+          "chinese": "CoderResult ▸ unmappableForLength",
+          "blockText": "CoderResult ▸ unmappableForLength",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CoderResult",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "isError",
+          "chinese": "CoderResult ▸ isError",
+          "blockText": "CoderResult ▸ isError",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "malformedForLength",
+          "chinese": "CoderResult ▸ malformedForLength",
+          "blockText": "CoderResult ▸ malformedForLength",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CoderResult",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "isMalformed",
+          "chinese": "CoderResult ▸ isMalformed",
+          "blockText": "CoderResult ▸ isMalformed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isUnmappable",
+          "chinese": "CoderResult ▸ isUnmappable",
+          "blockText": "CoderResult ▸ isUnmappable",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "CoderResult ▸ equals",
+          "blockText": "CoderResult ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "CoderResult ▸ hashCode",
+          "blockText": "CoderResult ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "CoderResult ▸ getClass",
+          "blockText": "CoderResult ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "CoderResult ▸ notify",
+          "blockText": "CoderResult ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "CoderResult ▸ notifyAll",
+          "blockText": "CoderResult ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "CoderResult ▸ wait",
+          "blockText": "CoderResult ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "CoderResult ▸ wait",
+          "blockText": "CoderResult ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "CoderResult ▸ wait",
+          "blockText": "CoderResult ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "UNDERFLOW",
+          "chinese": "CoderResult ▸ UNDERFLOW",
+          "blockText": "CoderResult ▸ UNDERFLOW",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CoderResult",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "OVERFLOW",
+          "chinese": "CoderResult ▸ OVERFLOW",
+          "blockText": "CoderResult ▸ OVERFLOW",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CoderResult",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.charset.CodingErrorAction",
+      "chinese": "CodingErrorAction",
+      "displayName": "CodingErrorAction",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "toString",
+          "chinese": "CodingErrorAction ▸ toString",
+          "blockText": "CodingErrorAction ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "CodingErrorAction ▸ equals",
+          "blockText": "CodingErrorAction ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "CodingErrorAction ▸ hashCode",
+          "blockText": "CodingErrorAction ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "CodingErrorAction ▸ getClass",
+          "blockText": "CodingErrorAction ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "CodingErrorAction ▸ notify",
+          "blockText": "CodingErrorAction ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "CodingErrorAction ▸ notifyAll",
+          "blockText": "CodingErrorAction ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "CodingErrorAction ▸ wait",
+          "blockText": "CodingErrorAction ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "CodingErrorAction ▸ wait",
+          "blockText": "CodingErrorAction ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "CodingErrorAction ▸ wait",
+          "blockText": "CodingErrorAction ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "IGNORE",
+          "chinese": "CodingErrorAction ▸ IGNORE",
+          "blockText": "CodingErrorAction ▸ IGNORE",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CodingErrorAction",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "REPLACE",
+          "chinese": "CodingErrorAction ▸ REPLACE",
+          "blockText": "CodingErrorAction ▸ REPLACE",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CodingErrorAction",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "REPORT",
+          "chinese": "CodingErrorAction ▸ REPORT",
+          "blockText": "CodingErrorAction ▸ REPORT",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CodingErrorAction",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.charset.IllegalCharsetNameException",
+      "chinese": "IllegalCharsetNameException",
+      "displayName": "IllegalCharsetNameException",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "IllegalCharsetNameException ▸ <init>",
+          "blockText": "IllegalCharsetNameException ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "getCharsetName",
+          "chinese": "IllegalCharsetNameException ▸ getCharsetName",
+          "blockText": "IllegalCharsetNameException ▸ getCharsetName",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "IllegalCharsetNameException ▸ printStackTrace",
+          "blockText": "IllegalCharsetNameException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "IllegalCharsetNameException ▸ printStackTrace",
+          "blockText": "IllegalCharsetNameException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "IllegalCharsetNameException ▸ printStackTrace",
+          "blockText": "IllegalCharsetNameException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "IllegalCharsetNameException ▸ getStackTrace",
+          "blockText": "IllegalCharsetNameException ▸ getStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "IllegalCharsetNameException ▸ fillInStackTrace",
+          "blockText": "IllegalCharsetNameException ▸ fillInStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "IllegalCharsetNameException ▸ getCause",
+          "blockText": "IllegalCharsetNameException ▸ getCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initCause",
+          "chinese": "IllegalCharsetNameException ▸ initCause",
+          "blockText": "IllegalCharsetNameException ▸ initCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "IllegalCharsetNameException ▸ toString",
+          "blockText": "IllegalCharsetNameException ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getMessage",
+          "chinese": "IllegalCharsetNameException ▸ getMessage",
+          "blockText": "IllegalCharsetNameException ▸ getMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "IllegalCharsetNameException ▸ getSuppressed",
+          "blockText": "IllegalCharsetNameException ▸ getSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "IllegalCharsetNameException ▸ getLocalizedMessage",
+          "blockText": "IllegalCharsetNameException ▸ getLocalizedMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "IllegalCharsetNameException ▸ setStackTrace",
+          "blockText": "IllegalCharsetNameException ▸ setStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "IllegalCharsetNameException ▸ addSuppressed",
+          "blockText": "IllegalCharsetNameException ▸ addSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "IllegalCharsetNameException ▸ equals",
+          "blockText": "IllegalCharsetNameException ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "IllegalCharsetNameException ▸ hashCode",
+          "blockText": "IllegalCharsetNameException ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "IllegalCharsetNameException ▸ getClass",
+          "blockText": "IllegalCharsetNameException ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "IllegalCharsetNameException ▸ notify",
+          "blockText": "IllegalCharsetNameException ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "IllegalCharsetNameException ▸ notifyAll",
+          "blockText": "IllegalCharsetNameException ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "IllegalCharsetNameException ▸ wait",
+          "blockText": "IllegalCharsetNameException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "IllegalCharsetNameException ▸ wait",
+          "blockText": "IllegalCharsetNameException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "IllegalCharsetNameException ▸ wait",
+          "blockText": "IllegalCharsetNameException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.charset.MalformedInputException",
+      "chinese": "MalformedInputException",
+      "displayName": "MalformedInputException",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "MalformedInputException ▸ <init>",
+          "blockText": "MalformedInputException ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "getMessage",
+          "chinese": "MalformedInputException ▸ getMessage",
+          "blockText": "MalformedInputException ▸ getMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getInputLength",
+          "chinese": "MalformedInputException ▸ getInputLength",
+          "blockText": "MalformedInputException ▸ getInputLength",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "MalformedInputException ▸ printStackTrace",
+          "blockText": "MalformedInputException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "MalformedInputException ▸ printStackTrace",
+          "blockText": "MalformedInputException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "MalformedInputException ▸ printStackTrace",
+          "blockText": "MalformedInputException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "MalformedInputException ▸ getStackTrace",
+          "blockText": "MalformedInputException ▸ getStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "MalformedInputException ▸ fillInStackTrace",
+          "blockText": "MalformedInputException ▸ fillInStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "MalformedInputException ▸ getCause",
+          "blockText": "MalformedInputException ▸ getCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initCause",
+          "chinese": "MalformedInputException ▸ initCause",
+          "blockText": "MalformedInputException ▸ initCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "MalformedInputException ▸ toString",
+          "blockText": "MalformedInputException ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "MalformedInputException ▸ getSuppressed",
+          "blockText": "MalformedInputException ▸ getSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "MalformedInputException ▸ getLocalizedMessage",
+          "blockText": "MalformedInputException ▸ getLocalizedMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "MalformedInputException ▸ setStackTrace",
+          "blockText": "MalformedInputException ▸ setStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "MalformedInputException ▸ addSuppressed",
+          "blockText": "MalformedInputException ▸ addSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "MalformedInputException ▸ equals",
+          "blockText": "MalformedInputException ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "MalformedInputException ▸ hashCode",
+          "blockText": "MalformedInputException ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "MalformedInputException ▸ getClass",
+          "blockText": "MalformedInputException ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "MalformedInputException ▸ notify",
+          "blockText": "MalformedInputException ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "MalformedInputException ▸ notifyAll",
+          "blockText": "MalformedInputException ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "MalformedInputException ▸ wait",
+          "blockText": "MalformedInputException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "MalformedInputException ▸ wait",
+          "blockText": "MalformedInputException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "MalformedInputException ▸ wait",
+          "blockText": "MalformedInputException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.charset.UnmappableCharacterException",
+      "chinese": "UnmappableCharacterException",
+      "displayName": "UnmappableCharacterException",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "UnmappableCharacterException ▸ <init>",
+          "blockText": "UnmappableCharacterException ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "getMessage",
+          "chinese": "UnmappableCharacterException ▸ getMessage",
+          "blockText": "UnmappableCharacterException ▸ getMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getInputLength",
+          "chinese": "UnmappableCharacterException ▸ getInputLength",
+          "blockText": "UnmappableCharacterException ▸ getInputLength",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "UnmappableCharacterException ▸ printStackTrace",
+          "blockText": "UnmappableCharacterException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "UnmappableCharacterException ▸ printStackTrace",
+          "blockText": "UnmappableCharacterException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "UnmappableCharacterException ▸ printStackTrace",
+          "blockText": "UnmappableCharacterException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "UnmappableCharacterException ▸ getStackTrace",
+          "blockText": "UnmappableCharacterException ▸ getStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "UnmappableCharacterException ▸ fillInStackTrace",
+          "blockText": "UnmappableCharacterException ▸ fillInStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "UnmappableCharacterException ▸ getCause",
+          "blockText": "UnmappableCharacterException ▸ getCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initCause",
+          "chinese": "UnmappableCharacterException ▸ initCause",
+          "blockText": "UnmappableCharacterException ▸ initCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "UnmappableCharacterException ▸ toString",
+          "blockText": "UnmappableCharacterException ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "UnmappableCharacterException ▸ getSuppressed",
+          "blockText": "UnmappableCharacterException ▸ getSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "UnmappableCharacterException ▸ getLocalizedMessage",
+          "blockText": "UnmappableCharacterException ▸ getLocalizedMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "UnmappableCharacterException ▸ setStackTrace",
+          "blockText": "UnmappableCharacterException ▸ setStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "UnmappableCharacterException ▸ addSuppressed",
+          "blockText": "UnmappableCharacterException ▸ addSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "UnmappableCharacterException ▸ equals",
+          "blockText": "UnmappableCharacterException ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "UnmappableCharacterException ▸ hashCode",
+          "blockText": "UnmappableCharacterException ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "UnmappableCharacterException ▸ getClass",
+          "blockText": "UnmappableCharacterException ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "UnmappableCharacterException ▸ notify",
+          "blockText": "UnmappableCharacterException ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "UnmappableCharacterException ▸ notifyAll",
+          "blockText": "UnmappableCharacterException ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "UnmappableCharacterException ▸ wait",
+          "blockText": "UnmappableCharacterException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "UnmappableCharacterException ▸ wait",
+          "blockText": "UnmappableCharacterException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "UnmappableCharacterException ▸ wait",
+          "blockText": "UnmappableCharacterException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.charset.UnsupportedCharsetException",
+      "chinese": "UnsupportedCharsetException",
+      "displayName": "UnsupportedCharsetException",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "UnsupportedCharsetException ▸ <init>",
+          "blockText": "UnsupportedCharsetException ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "getCharsetName",
+          "chinese": "UnsupportedCharsetException ▸ getCharsetName",
+          "blockText": "UnsupportedCharsetException ▸ getCharsetName",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "UnsupportedCharsetException ▸ printStackTrace",
+          "blockText": "UnsupportedCharsetException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "UnsupportedCharsetException ▸ printStackTrace",
+          "blockText": "UnsupportedCharsetException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "UnsupportedCharsetException ▸ printStackTrace",
+          "blockText": "UnsupportedCharsetException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "UnsupportedCharsetException ▸ getStackTrace",
+          "blockText": "UnsupportedCharsetException ▸ getStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "UnsupportedCharsetException ▸ fillInStackTrace",
+          "blockText": "UnsupportedCharsetException ▸ fillInStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "UnsupportedCharsetException ▸ getCause",
+          "blockText": "UnsupportedCharsetException ▸ getCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initCause",
+          "chinese": "UnsupportedCharsetException ▸ initCause",
+          "blockText": "UnsupportedCharsetException ▸ initCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "UnsupportedCharsetException ▸ toString",
+          "blockText": "UnsupportedCharsetException ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getMessage",
+          "chinese": "UnsupportedCharsetException ▸ getMessage",
+          "blockText": "UnsupportedCharsetException ▸ getMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "UnsupportedCharsetException ▸ getSuppressed",
+          "blockText": "UnsupportedCharsetException ▸ getSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "UnsupportedCharsetException ▸ getLocalizedMessage",
+          "blockText": "UnsupportedCharsetException ▸ getLocalizedMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "UnsupportedCharsetException ▸ setStackTrace",
+          "blockText": "UnsupportedCharsetException ▸ setStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "UnsupportedCharsetException ▸ addSuppressed",
+          "blockText": "UnsupportedCharsetException ▸ addSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "UnsupportedCharsetException ▸ equals",
+          "blockText": "UnsupportedCharsetException ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "UnsupportedCharsetException ▸ hashCode",
+          "blockText": "UnsupportedCharsetException ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "UnsupportedCharsetException ▸ getClass",
+          "blockText": "UnsupportedCharsetException ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "UnsupportedCharsetException ▸ notify",
+          "blockText": "UnsupportedCharsetException ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "UnsupportedCharsetException ▸ notifyAll",
+          "blockText": "UnsupportedCharsetException ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "UnsupportedCharsetException ▸ wait",
+          "blockText": "UnsupportedCharsetException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "UnsupportedCharsetException ▸ wait",
+          "blockText": "UnsupportedCharsetException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "UnsupportedCharsetException ▸ wait",
+          "blockText": "UnsupportedCharsetException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    }
+  ]
+}

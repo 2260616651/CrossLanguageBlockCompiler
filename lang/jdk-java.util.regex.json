@@ -1,0 +1,1355 @@
+{
+  "_comment": "CLBC 自动生成的 JDK 库语言文件。一个库一个文件；java1~java27 共 27 个版本共用本文件，不按版本拆分。since=起始版本，until=移除版本(27 表示仍可用)。方法改名时旧名与新名各写一条，chinese 相同。",
+  "library": "java.util.regex",
+  "libraryChinese": "正则",
+  "minVersion": 1,
+  "maxVersion": 27,
+  "versionRange": "java1~java27",
+  "javaVersions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "classes": [
+    {
+      "fqn": "java.util.regex.Pattern",
+      "chinese": "正则模式",
+      "displayName": "Pattern",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "toString",
+          "chinese": "正则模式 ▸ 转为文本",
+          "blockText": "正则模式 ▸ 转为文本",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "flags",
+          "chinese": "正则模式 ▸ flags",
+          "blockText": "正则模式 ▸ flags",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "matches",
+          "chinese": "正则模式 ▸ 完全匹配",
+          "blockText": "正则模式 ▸ 完全匹配",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String",
+            "CharSequence"
+          ]
+        },
+        {
+          "name": "compile",
+          "chinese": "正则模式 ▸ compile",
+          "blockText": "正则模式 ▸ compile",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Pattern",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "matcher",
+          "chinese": "正则模式 ▸ matcher",
+          "blockText": "正则模式 ▸ matcher",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Matcher",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "CharSequence"
+          ]
+        },
+        {
+          "name": "split",
+          "chinese": "正则模式 ▸ 拆分",
+          "blockText": "正则模式 ▸ 拆分",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String[]",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "CharSequence",
+            "int"
+          ]
+        },
+        {
+          "name": "splitWithDelimiters",
+          "chinese": "正则模式 ▸ splitWithDelimiters",
+          "blockText": "正则模式 ▸ splitWithDelimiters",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String[]",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "CharSequence",
+            "int"
+          ]
+        },
+        {
+          "name": "pattern",
+          "chinese": "正则模式 ▸ 取模式",
+          "blockText": "正则模式 ▸ 取模式",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "quote",
+          "chinese": "正则模式 ▸ 转义",
+          "blockText": "正则模式 ▸ 转义",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "namedGroups",
+          "chinese": "正则模式 ▸ namedGroups",
+          "blockText": "正则模式 ▸ namedGroups",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Map",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "asPredicate",
+          "chinese": "正则模式 ▸ asPredicate",
+          "blockText": "正则模式 ▸ asPredicate",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Predicate",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "asMatchPredicate",
+          "chinese": "正则模式 ▸ asMatchPredicate",
+          "blockText": "正则模式 ▸ asMatchPredicate",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Predicate",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "splitAsStream",
+          "chinese": "正则模式 ▸ splitAsStream",
+          "blockText": "正则模式 ▸ splitAsStream",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "CharSequence"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "正则模式 ▸ 相等",
+          "blockText": "正则模式 ▸ 相等",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "正则模式 ▸ 哈希值",
+          "blockText": "正则模式 ▸ 哈希值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "正则模式 ▸ 取类型",
+          "blockText": "正则模式 ▸ 取类型",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "正则模式 ▸ 通知",
+          "blockText": "正则模式 ▸ 通知",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "正则模式 ▸ 通知全部",
+          "blockText": "正则模式 ▸ 通知全部",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "正则模式 ▸ 等待",
+          "blockText": "正则模式 ▸ 等待",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "UNIX_LINES",
+          "chinese": "正则模式 ▸ UNIX_LINES",
+          "blockText": "正则模式 ▸ UNIX_LINES",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CASE_INSENSITIVE",
+          "chinese": "正则模式 ▸ CASE_INSENSITIVE",
+          "blockText": "正则模式 ▸ CASE_INSENSITIVE",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "COMMENTS",
+          "chinese": "正则模式 ▸ COMMENTS",
+          "blockText": "正则模式 ▸ COMMENTS",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "MULTILINE",
+          "chinese": "正则模式 ▸ MULTILINE",
+          "blockText": "正则模式 ▸ MULTILINE",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LITERAL",
+          "chinese": "正则模式 ▸ LITERAL",
+          "blockText": "正则模式 ▸ LITERAL",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "DOTALL",
+          "chinese": "正则模式 ▸ DOTALL",
+          "blockText": "正则模式 ▸ DOTALL",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "UNICODE_CASE",
+          "chinese": "正则模式 ▸ UNICODE_CASE",
+          "blockText": "正则模式 ▸ UNICODE_CASE",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CANON_EQ",
+          "chinese": "正则模式 ▸ CANON_EQ",
+          "blockText": "正则模式 ▸ CANON_EQ",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "UNICODE_CHARACTER_CLASS",
+          "chinese": "正则模式 ▸ UNICODE_CHARACTER_CLASS",
+          "blockText": "正则模式 ▸ UNICODE_CHARACTER_CLASS",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.regex.Matcher",
+      "chinese": "正则匹配器",
+      "displayName": "Matcher",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "group",
+          "chinese": "正则匹配器 ▸ 取分组",
+          "blockText": "正则匹配器 ▸ 取分组",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "reset",
+          "chinese": "正则匹配器 ▸ 重置",
+          "blockText": "正则匹配器 ▸ 重置",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Matcher",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "正则匹配器 ▸ 转为文本",
+          "blockText": "正则匹配器 ▸ 转为文本",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "matches",
+          "chinese": "正则匹配器 ▸ 完全匹配",
+          "blockText": "正则匹配器 ▸ 完全匹配",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "replaceFirst",
+          "chinese": "正则匹配器 ▸ 替换首个",
+          "blockText": "正则匹配器 ▸ 替换首个",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Function"
+          ]
+        },
+        {
+          "name": "replaceAll",
+          "chinese": "正则匹配器 ▸ 全部替换",
+          "blockText": "正则匹配器 ▸ 全部替换",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "pattern",
+          "chinese": "正则匹配器 ▸ 取模式",
+          "blockText": "正则匹配器 ▸ 取模式",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Pattern",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "end",
+          "chinese": "正则匹配器 ▸ end",
+          "blockText": "正则匹配器 ▸ end",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "find",
+          "chinese": "正则匹配器 ▸ 查找",
+          "blockText": "正则匹配器 ▸ 查找",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "start",
+          "chinese": "正则匹配器 ▸ 启动",
+          "blockText": "正则匹配器 ▸ 启动",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "results",
+          "chinese": "正则匹配器 ▸ results",
+          "blockText": "正则匹配器 ▸ results",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "region",
+          "chinese": "正则匹配器 ▸ region",
+          "blockText": "正则匹配器 ▸ region",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Matcher",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "namedGroups",
+          "chinese": "正则匹配器 ▸ namedGroups",
+          "blockText": "正则匹配器 ▸ namedGroups",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Map",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "groupCount",
+          "chinese": "正则匹配器 ▸ groupCount",
+          "blockText": "正则匹配器 ▸ groupCount",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasMatch",
+          "chinese": "正则匹配器 ▸ hasMatch",
+          "blockText": "正则匹配器 ▸ hasMatch",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "appendReplacement",
+          "chinese": "正则匹配器 ▸ 追加替换",
+          "blockText": "正则匹配器 ▸ 追加替换",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Matcher",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StringBuffer",
+            "String"
+          ]
+        },
+        {
+          "name": "appendTail",
+          "chinese": "正则匹配器 ▸ 追加尾部",
+          "blockText": "正则匹配器 ▸ 追加尾部",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StringBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StringBuffer"
+          ]
+        },
+        {
+          "name": "regionStart",
+          "chinese": "正则匹配器 ▸ regionStart",
+          "blockText": "正则匹配器 ▸ regionStart",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "regionEnd",
+          "chinese": "正则匹配器 ▸ regionEnd",
+          "blockText": "正则匹配器 ▸ regionEnd",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hitEnd",
+          "chinese": "正则匹配器 ▸ hitEnd",
+          "blockText": "正则匹配器 ▸ hitEnd",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "requireEnd",
+          "chinese": "正则匹配器 ▸ requireEnd",
+          "blockText": "正则匹配器 ▸ requireEnd",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toMatchResult",
+          "chinese": "正则匹配器 ▸ toMatchResult",
+          "blockText": "正则匹配器 ▸ toMatchResult",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "MatchResult",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "usePattern",
+          "chinese": "正则匹配器 ▸ usePattern",
+          "blockText": "正则匹配器 ▸ usePattern",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Matcher",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Pattern"
+          ]
+        },
+        {
+          "name": "lookingAt",
+          "chinese": "正则匹配器 ▸ 从头匹配",
+          "blockText": "正则匹配器 ▸ 从头匹配",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "quoteReplacement",
+          "chinese": "正则匹配器 ▸ quoteReplacement",
+          "blockText": "正则匹配器 ▸ quoteReplacement",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "hasTransparentBounds",
+          "chinese": "正则匹配器 ▸ hasTransparentBounds",
+          "blockText": "正则匹配器 ▸ hasTransparentBounds",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "useTransparentBounds",
+          "chinese": "正则匹配器 ▸ useTransparentBounds",
+          "blockText": "正则匹配器 ▸ useTransparentBounds",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Matcher",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "hasAnchoringBounds",
+          "chinese": "正则匹配器 ▸ hasAnchoringBounds",
+          "blockText": "正则匹配器 ▸ hasAnchoringBounds",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "useAnchoringBounds",
+          "chinese": "正则匹配器 ▸ useAnchoringBounds",
+          "blockText": "正则匹配器 ▸ useAnchoringBounds",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Matcher",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "正则匹配器 ▸ 相等",
+          "blockText": "正则匹配器 ▸ 相等",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "正则匹配器 ▸ 哈希值",
+          "blockText": "正则匹配器 ▸ 哈希值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "正则匹配器 ▸ 取类型",
+          "blockText": "正则匹配器 ▸ 取类型",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "正则匹配器 ▸ 通知",
+          "blockText": "正则匹配器 ▸ 通知",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "正则匹配器 ▸ 通知全部",
+          "blockText": "正则匹配器 ▸ 通知全部",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "正则匹配器 ▸ 等待",
+          "blockText": "正则匹配器 ▸ 等待",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.regex.MatchResult",
+      "chinese": "MatchResult",
+      "displayName": "MatchResult",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "group",
+          "chinese": "MatchResult ▸ group",
+          "blockText": "MatchResult ▸ group",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "group",
+          "chinese": "MatchResult ▸ group",
+          "blockText": "MatchResult ▸ group",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "group",
+          "chinese": "MatchResult ▸ group",
+          "blockText": "MatchResult ▸ group",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "end",
+          "chinese": "MatchResult ▸ end",
+          "blockText": "MatchResult ▸ end",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "end",
+          "chinese": "MatchResult ▸ end",
+          "blockText": "MatchResult ▸ end",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "end",
+          "chinese": "MatchResult ▸ end",
+          "blockText": "MatchResult ▸ end",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "start",
+          "chinese": "MatchResult ▸ start",
+          "blockText": "MatchResult ▸ start",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "start",
+          "chinese": "MatchResult ▸ start",
+          "blockText": "MatchResult ▸ start",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "start",
+          "chinese": "MatchResult ▸ start",
+          "blockText": "MatchResult ▸ start",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "namedGroups",
+          "chinese": "MatchResult ▸ namedGroups",
+          "blockText": "MatchResult ▸ namedGroups",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Map",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "groupCount",
+          "chinese": "MatchResult ▸ groupCount",
+          "blockText": "MatchResult ▸ groupCount",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasMatch",
+          "chinese": "MatchResult ▸ hasMatch",
+          "blockText": "MatchResult ▸ hasMatch",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.regex.PatternSyntaxException",
+      "chinese": "PatternSyntaxException",
+      "displayName": "PatternSyntaxException",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "PatternSyntaxException ▸ <init>",
+          "blockText": "PatternSyntaxException ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "String",
+            "int"
+          ]
+        },
+        {
+          "name": "getMessage",
+          "chinese": "PatternSyntaxException ▸ getMessage",
+          "blockText": "PatternSyntaxException ▸ getMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getIndex",
+          "chinese": "PatternSyntaxException ▸ getIndex",
+          "blockText": "PatternSyntaxException ▸ getIndex",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getPattern",
+          "chinese": "PatternSyntaxException ▸ getPattern",
+          "blockText": "PatternSyntaxException ▸ getPattern",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getDescription",
+          "chinese": "PatternSyntaxException ▸ getDescription",
+          "blockText": "PatternSyntaxException ▸ getDescription",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "PatternSyntaxException ▸ printStackTrace",
+          "blockText": "PatternSyntaxException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "PatternSyntaxException ▸ printStackTrace",
+          "blockText": "PatternSyntaxException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "PatternSyntaxException ▸ printStackTrace",
+          "blockText": "PatternSyntaxException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "PatternSyntaxException ▸ getStackTrace",
+          "blockText": "PatternSyntaxException ▸ getStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "PatternSyntaxException ▸ fillInStackTrace",
+          "blockText": "PatternSyntaxException ▸ fillInStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "PatternSyntaxException ▸ getCause",
+          "blockText": "PatternSyntaxException ▸ getCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initCause",
+          "chinese": "PatternSyntaxException ▸ initCause",
+          "blockText": "PatternSyntaxException ▸ initCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "PatternSyntaxException ▸ toString",
+          "blockText": "PatternSyntaxException ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "PatternSyntaxException ▸ getSuppressed",
+          "blockText": "PatternSyntaxException ▸ getSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "PatternSyntaxException ▸ getLocalizedMessage",
+          "blockText": "PatternSyntaxException ▸ getLocalizedMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "PatternSyntaxException ▸ setStackTrace",
+          "blockText": "PatternSyntaxException ▸ setStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "PatternSyntaxException ▸ addSuppressed",
+          "blockText": "PatternSyntaxException ▸ addSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "PatternSyntaxException ▸ equals",
+          "blockText": "PatternSyntaxException ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "PatternSyntaxException ▸ hashCode",
+          "blockText": "PatternSyntaxException ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "PatternSyntaxException ▸ getClass",
+          "blockText": "PatternSyntaxException ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "PatternSyntaxException ▸ notify",
+          "blockText": "PatternSyntaxException ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "PatternSyntaxException ▸ notifyAll",
+          "blockText": "PatternSyntaxException ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "PatternSyntaxException ▸ wait",
+          "blockText": "PatternSyntaxException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "PatternSyntaxException ▸ wait",
+          "blockText": "PatternSyntaxException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "PatternSyntaxException ▸ wait",
+          "blockText": "PatternSyntaxException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    }
+  ]
+}

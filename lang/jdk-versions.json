@@ -1,0 +1,226 @@
+{
+  "_comment": "CLBC 内置 JDK 版本总表：java1 ~ java27 共 27 个版本。序号与真实 JDK 版本号的映射见 jdk 字段。每个库的具体语言文件为 jdk-<包名>.json，27 个版本共用同一份，差异由 since/until 表达。",
+  "minVersion": 1,
+  "maxVersion": 27,
+  "versionCount": 27,
+  "javaVersions": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27],
+  "versions": [
+    {
+      "v": 1,
+      "jdk": "1.0",
+      "year": 1996,
+      "note": "Java 1.0：语言基础、AWT、基础 I/O",
+      "added": ["java.lang.Object", "java.lang.String", "java.lang.Math", "java.lang.System", "java.lang.Thread", "java.util.Vector", "java.util.Hashtable", "java.util.Date", "java.io.File", "java.net.URL"],
+      "removed": []
+    },
+    {
+      "v": 2,
+      "jdk": "1.1",
+      "year": 1997,
+      "note": "JDK 1.1：内部类、反射、JDBC、RMI、序列化",
+      "added": ["java.lang.reflect", "java.lang.Character", "java.util.Calendar", "java.util.Random", "java.util.StringTokenizer", "java.util.Properties"],
+      "removed": []
+    },
+    {
+      "v": 3,
+      "jdk": "1.2",
+      "year": 1998,
+      "note": "J2SE 1.2：集合框架、Swing、strictfp",
+      "added": ["java.util.ArrayList", "java.util.HashMap", "java.util.List", "java.util.Map", "java.util.Set", "java.util.Iterator", "java.util.Collections", "java.util.Arrays", "java.lang.StrictMath", "java.lang.ThreadLocal"],
+      "removed": []
+    },
+    {
+      "v": 4,
+      "jdk": "1.3",
+      "year": 2000,
+      "note": "J2SE 1.3：HotSpot、JNDI、RMI-IIOP",
+      "added": ["java.util.Timer", "java.util.jar.JarFile", "java.lang.ClassLoader"],
+      "removed": []
+    },
+    {
+      "v": 5,
+      "jdk": "1.4",
+      "year": 2002,
+      "note": "J2SE 1.4：正则、NIO、断言、日志、异常链",
+      "added": ["java.util.regex.Pattern", "java.util.regex.Matcher", "java.nio.ByteBuffer", "java.nio.channels", "java.nio.charset.Charset", "java.util.logging.Logger", "java.lang.StackTraceElement"],
+      "removed": []
+    },
+    {
+      "v": 6,
+      "jdk": "5",
+      "year": 2004,
+      "note": "Java 5：泛型、注解、枚举、自动装箱、for-each、并发包、StringBuilder",
+      "added": ["java.lang.StringBuilder", "java.lang.Enum", "java.util.concurrent", "java.util.concurrent.atomic", "java.util.concurrent.locks", "java.util.EnumSet", "java.util.EnumMap", "java.lang.annotation"],
+      "removed": ["java.util.Vector（被 ArrayList 替代）", "java.util.Hashtable（被 HashMap 替代）"]
+    },
+    {
+      "v": 7,
+      "jdk": "6",
+      "year": 2006,
+      "note": "Java 6：脚本引擎、编译器 API、Desktop、JDBC 4",
+      "added": ["java.util.ServiceLoader", "java.util.Deque", "java.util.ArrayDeque", "java.util.NavigableMap", "javax.script"],
+      "removed": []
+    },
+    {
+      "v": 8,
+      "jdk": "7",
+      "year": 2011,
+      "note": "Java 7：try-with-resources、菱形语法、NIO.2、fork/join、Objects",
+      "added": ["java.nio.file.Path", "java.nio.file.Files", "java.nio.file.Paths", "java.util.Objects", "java.lang.AutoCloseable", "java.util.concurrent.ForkJoinPool", "java.util.concurrent.RecursiveTask"],
+      "removed": []
+    },
+    {
+      "v": 9,
+      "jdk": "8",
+      "year": 2014,
+      "note": "Java 8：Lambda、Stream、新日期时间、Optional、函数式接口、Base64",
+      "added": ["java.util.function", "java.util.stream", "java.time", "java.time.temporal", "java.time.format", "java.util.Optional", "java.util.Base64", "java.util.Spliterator", "java.lang.FunctionalInterface"],
+      "removed": ["java.lang.Compiler（移除）", "java.util.jar.Pack200（弃用）"]
+    },
+    {
+      "v": 10,
+      "jdk": "9",
+      "year": 2017,
+      "note": "Java 9：模块系统、jshell、集合工厂方法、反应流",
+      "added": ["java.util.List#of", "java.util.Map#of", "java.util.Set#of", "java.lang.Module", "java.lang.ProcessHandle", "java.util.concurrent.Flow"],
+      "removed": ["java.lang.Compiler", "java.util.Observable（弃用）", "java.util.Observer（弃用）", "java.lang.Object#finalize（弃用）"]
+    },
+    {
+      "v": 11,
+      "jdk": "10",
+      "year": 2018,
+      "note": "Java 10：局部变量类型推断 var、G1 并行 Full GC",
+      "added": ["java.util.List#copyOf", "java.util.Map#copyOf", "java.util.Set#copyOf", "java.lang.invoke.VarHandle"],
+      "removed": ["java.lang.Thread#stop（移除）", "java.lang.Thread#destroy（移除）"]
+    },
+    {
+      "v": 12,
+      "jdk": "11",
+      "year": 2018,
+      "note": "Java 11（LTS）：HTTP Client、String 增强、单文件源码启动",
+      "added": ["java.net.http.HttpClient", "java.lang.String#isBlank", "java.lang.String#strip", "java.lang.String#lines", "java.lang.String#repeat", "java.util.Optional#isEmpty"],
+      "removed": ["java.util.jar.Pack200（移除）", "java.rmi.activation（移除）", "java.xml.ws（移除）"]
+    },
+    {
+      "v": 13,
+      "jdk": "12",
+      "year": 2019,
+      "note": "Java 12：Switch 表达式预览、Shenandoah GC",
+      "added": ["java.lang.String#indent", "java.lang.String#transform", "java.nio.file.Files#mismatch"],
+      "removed": []
+    },
+    {
+      "v": 14,
+      "jdk": "13",
+      "year": 2019,
+      "note": "Java 13：文本块预览、Socket API 重写",
+      "added": ["java.lang.String#stripIndent", "java.lang.String#formatted（预览）", "java.nio.ByteBuffer#flip"],
+      "removed": []
+    },
+    {
+      "v": 15,
+      "jdk": "14",
+      "year": 2020,
+      "note": "Java 14：Switch 表达式正式、record 预览、instanceof 模式匹配预览",
+      "added": ["java.lang.Record（预览）", "java.lang.NullPointerException 增强"],
+      "removed": ["java.rmi.activation（移除）"]
+    },
+    {
+      "v": 16,
+      "jdk": "15",
+      "year": 2020,
+      "note": "Java 15：文本块正式、sealed 预览、ZGC 正式",
+      "added": ["java.lang.String#formatted", "java.lang.Class#isHidden"],
+      "removed": ["java.lang.Compiler（已移除）"]
+    },
+    {
+      "v": 17,
+      "jdk": "16",
+      "year": 2021,
+      "note": "Java 16（当前 LTS 之前的快版本）：record 正式、instanceof 模式匹配正式",
+      "added": ["java.lang.Record", "java.util.stream.Stream#toList", "java.net.http.HttpClient 增强"],
+      "removed": []
+    },
+    {
+      "v": 18,
+      "jdk": "17",
+      "year": 2021,
+      "note": "Java 17（LTS）：sealed 正式、模式匹配 switch 预览、强封装 JDK 内部",
+      "added": ["java.lang.constant", "java.util.random.RandomGenerator", "java.lang.MatchException（后续）"],
+      "removed": ["java.lang.SecurityManager（弃用）", "java.lang.Object#finalize（弃用）"]
+    },
+    {
+      "v": 19,
+      "jdk": "18",
+      "year": 2022,
+      "note": "Java 18：UTF-8 默认字符集、简单 Web 服务器、代码片段 API",
+      "added": ["java.nio.charset.StandardCharsets 默认 UTF-8", "java.net.spi"],
+      "removed": []
+    },
+    {
+      "v": 20,
+      "jdk": "19",
+      "year": 2022,
+      "note": "Java 19：虚拟线程预览、结构化并发预览",
+      "added": ["java.lang.Thread#ofVirtual（预览）", "java.util.concurrent.StructuredTaskScope（预览）"],
+      "removed": []
+    },
+    {
+      "v": 21,
+      "jdk": "20",
+      "year": 2023,
+      "note": "Java 20：虚拟线程二次预览、记录模式预览",
+      "added": ["java.lang.Thread#ofVirtual（预览）", "java.lang.Record 模式（预览）"],
+      "removed": []
+    },
+    {
+      "v": 22,
+      "jdk": "21",
+      "year": 2023,
+      "note": "Java 21（LTS）：虚拟线程正式、序列集合、模式匹配 switch 正式、记录模式",
+      "added": ["java.lang.Thread#ofVirtual", "java.util.SequencedCollection", "java.util.SequencedMap", "java.util.SequencedSet", "java.util.concurrent.StructuredTaskScope（预览）"],
+      "removed": []
+    },
+    {
+      "v": 23,
+      "jdk": "22",
+      "year": 2024,
+      "note": "Java 22：未命名变量、外部函数与内存 API 正式、G1 区域固定",
+      "added": ["java.lang.foreign", "java.lang.invoke.MethodHandle 增强"],
+      "removed": []
+    },
+    {
+      "v": 24,
+      "jdk": "23",
+      "year": 2024,
+      "note": "Java 23：模式匹配原始类型预览、Markdown 文档注释",
+      "added": ["java.util.stream.Gatherer（预览）", "java.lang.Double 模式匹配（预览）"],
+      "removed": []
+    },
+    {
+      "v": 25,
+      "jdk": "24",
+      "year": 2025,
+      "note": "Java 24：虚拟线程同步器优化、流收集器二次预览、类文件 API",
+      "added": ["java.lang.classfile", "java.util.stream.Gatherer（预览）"],
+      "removed": ["java.lang.SecurityManager（永久禁用）"]
+    },
+    {
+      "v": 26,
+      "jdk": "25",
+      "year": 2025,
+      "note": "Java 25（LTS）：稳定 API、紧凑源文件、模块导入声明",
+      "added": ["java.lang.Module 导入", "java.io.IO", "java.util.concurrent.ScopedValue"],
+      "removed": []
+    },
+    {
+      "v": 27,
+      "jdk": "26",
+      "year": 2026,
+      "note": "Java 26：后续演进版本（保留槽位，保证 1..27 全覆盖）",
+      "added": ["java.lang.* 持续增强", "java.util.* 持续增强"],
+      "removed": []
+    }
+  ],
+  "_note": "added/removed 为该版本代表类或能力；实际识别以运行时 JDK 反射结果为准，本表保证 java1~java27 每个版本都有可用类记录。"
+}

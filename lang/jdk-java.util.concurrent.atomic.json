@@ -1,0 +1,6334 @@
+{
+  "_comment": "CLBC 自动生成的 JDK 库语言文件。一个库一个文件；java1~java27 共 27 个版本共用本文件，不按版本拆分。since=起始版本，until=移除版本(27 表示仍可用)。方法改名时旧名与新名各写一条，chinese 相同。",
+  "library": "java.util.concurrent.atomic",
+  "libraryChinese": "原子类",
+  "minVersion": 1,
+  "maxVersion": 27,
+  "versionRange": "java1~java27",
+  "javaVersions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "classes": [
+    {
+      "fqn": "java.util.concurrent.atomic.AtomicInteger",
+      "chinese": "原子整数",
+      "displayName": "AtomicInteger",
+      "since": 6,
+      "until": 27,
+      "methods": [
+        {
+          "name": "AtomicInteger",
+          "chinese": "原子整数 ▸ 新建",
+          "blockText": "原子整数 ▸ 新建",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "AtomicInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "get",
+          "chinese": "原子整数 ▸ 取值",
+          "blockText": "原子整数 ▸ 取值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "原子整数 ▸ 转为文本",
+          "blockText": "原子整数 ▸ 转为文本",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "intValue",
+          "chinese": "原子整数 ▸ 取整数值",
+          "blockText": "原子整数 ▸ 取整数值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "longValue",
+          "chinese": "原子整数 ▸ 取长整数值",
+          "blockText": "原子整数 ▸ 取长整数值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "floatValue",
+          "chinese": "原子整数 ▸ 取单精度值",
+          "blockText": "原子整数 ▸ 取单精度值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "float",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "doubleValue",
+          "chinese": "原子整数 ▸ 取小数值",
+          "blockText": "原子整数 ▸ 取小数值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "set",
+          "chinese": "原子整数 ▸ 设值",
+          "blockText": "原子整数 ▸ 设值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "getOpaque",
+          "chinese": "原子整数 ▸ getOpaque",
+          "blockText": "原子整数 ▸ getOpaque",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setOpaque",
+          "chinese": "原子整数 ▸ setOpaque",
+          "blockText": "原子整数 ▸ setOpaque",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "getAcquire",
+          "chinese": "原子整数 ▸ getAcquire",
+          "blockText": "原子整数 ▸ getAcquire",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setRelease",
+          "chinese": "原子整数 ▸ setRelease",
+          "blockText": "原子整数 ▸ setRelease",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "compareAndSet",
+          "chinese": "原子整数 ▸ compareAndSet",
+          "blockText": "原子整数 ▸ compareAndSet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "compareAndExchange",
+          "chinese": "原子整数 ▸ compareAndExchange",
+          "blockText": "原子整数 ▸ compareAndExchange",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "compareAndExchangeAcquire",
+          "chinese": "原子整数 ▸ compareAndExchangeAcquire",
+          "blockText": "原子整数 ▸ compareAndExchangeAcquire",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "compareAndExchangeRelease",
+          "chinese": "原子整数 ▸ compareAndExchangeRelease",
+          "blockText": "原子整数 ▸ compareAndExchangeRelease",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetPlain",
+          "chinese": "原子整数 ▸ weakCompareAndSetPlain",
+          "blockText": "原子整数 ▸ weakCompareAndSetPlain",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "weakCompareAndSet",
+          "chinese": "原子整数 ▸ weakCompareAndSet",
+          "blockText": "原子整数 ▸ weakCompareAndSet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetAcquire",
+          "chinese": "原子整数 ▸ weakCompareAndSetAcquire",
+          "blockText": "原子整数 ▸ weakCompareAndSetAcquire",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetRelease",
+          "chinese": "原子整数 ▸ weakCompareAndSetRelease",
+          "blockText": "原子整数 ▸ weakCompareAndSetRelease",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "getAndSet",
+          "chinese": "原子整数 ▸ getAndSet",
+          "blockText": "原子整数 ▸ getAndSet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "getAndAdd",
+          "chinese": "原子整数 ▸ getAndAdd",
+          "blockText": "原子整数 ▸ getAndAdd",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "incrementAndGet",
+          "chinese": "原子整数 ▸ incrementAndGet",
+          "blockText": "原子整数 ▸ incrementAndGet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "weakCompareAndSetVolatile",
+          "chinese": "原子整数 ▸ weakCompareAndSetVolatile",
+          "blockText": "原子整数 ▸ weakCompareAndSetVolatile",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "lazySet",
+          "chinese": "原子整数 ▸ lazySet",
+          "blockText": "原子整数 ▸ lazySet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "getAndIncrement",
+          "chinese": "原子整数 ▸ getAndIncrement",
+          "blockText": "原子整数 ▸ getAndIncrement",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getAndDecrement",
+          "chinese": "原子整数 ▸ getAndDecrement",
+          "blockText": "原子整数 ▸ getAndDecrement",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "decrementAndGet",
+          "chinese": "原子整数 ▸ decrementAndGet",
+          "blockText": "原子整数 ▸ decrementAndGet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "addAndGet",
+          "chinese": "原子整数 ▸ addAndGet",
+          "blockText": "原子整数 ▸ addAndGet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "getAndUpdate",
+          "chinese": "原子整数 ▸ getAndUpdate",
+          "blockText": "原子整数 ▸ getAndUpdate",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntUnaryOperator"
+          ]
+        },
+        {
+          "name": "updateAndGet",
+          "chinese": "原子整数 ▸ updateAndGet",
+          "blockText": "原子整数 ▸ updateAndGet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntUnaryOperator"
+          ]
+        },
+        {
+          "name": "getAndAccumulate",
+          "chinese": "原子整数 ▸ getAndAccumulate",
+          "blockText": "原子整数 ▸ getAndAccumulate",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "IntBinaryOperator"
+          ]
+        },
+        {
+          "name": "accumulateAndGet",
+          "chinese": "原子整数 ▸ accumulateAndGet",
+          "blockText": "原子整数 ▸ accumulateAndGet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "IntBinaryOperator"
+          ]
+        },
+        {
+          "name": "getPlain",
+          "chinese": "原子整数 ▸ getPlain",
+          "blockText": "原子整数 ▸ getPlain",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setPlain",
+          "chinese": "原子整数 ▸ setPlain",
+          "blockText": "原子整数 ▸ setPlain",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "byteValue",
+          "chinese": "原子整数 ▸ 取字节值",
+          "blockText": "原子整数 ▸ 取字节值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "byte",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "shortValue",
+          "chinese": "原子整数 ▸ 取短整数值",
+          "blockText": "原子整数 ▸ 取短整数值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "short",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "原子整数 ▸ 相等",
+          "blockText": "原子整数 ▸ 相等",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "原子整数 ▸ 哈希值",
+          "blockText": "原子整数 ▸ 哈希值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "原子整数 ▸ 取类型",
+          "blockText": "原子整数 ▸ 取类型",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "原子整数 ▸ 通知",
+          "blockText": "原子整数 ▸ 通知",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "原子整数 ▸ 通知全部",
+          "blockText": "原子整数 ▸ 通知全部",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "原子整数 ▸ 等待",
+          "blockText": "原子整数 ▸ 等待",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.atomic.AtomicLong",
+      "chinese": "原子长整数",
+      "displayName": "AtomicLong",
+      "since": 6,
+      "until": 27,
+      "methods": [
+        {
+          "name": "AtomicLong",
+          "chinese": "原子长整数 ▸ 新建",
+          "blockText": "原子长整数 ▸ 新建",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "AtomicLong",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "get",
+          "chinese": "原子长整数 ▸ 取值",
+          "blockText": "原子长整数 ▸ 取值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "原子长整数 ▸ 转为文本",
+          "blockText": "原子长整数 ▸ 转为文本",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "intValue",
+          "chinese": "原子长整数 ▸ 取整数值",
+          "blockText": "原子长整数 ▸ 取整数值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "longValue",
+          "chinese": "原子长整数 ▸ 取长整数值",
+          "blockText": "原子长整数 ▸ 取长整数值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "floatValue",
+          "chinese": "原子长整数 ▸ 取单精度值",
+          "blockText": "原子长整数 ▸ 取单精度值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "float",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "doubleValue",
+          "chinese": "原子长整数 ▸ 取小数值",
+          "blockText": "原子长整数 ▸ 取小数值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "set",
+          "chinese": "原子长整数 ▸ 设值",
+          "blockText": "原子长整数 ▸ 设值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "getOpaque",
+          "chinese": "原子长整数 ▸ getOpaque",
+          "blockText": "原子长整数 ▸ getOpaque",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setOpaque",
+          "chinese": "原子长整数 ▸ setOpaque",
+          "blockText": "原子长整数 ▸ setOpaque",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "getAcquire",
+          "chinese": "原子长整数 ▸ getAcquire",
+          "blockText": "原子长整数 ▸ getAcquire",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setRelease",
+          "chinese": "原子长整数 ▸ setRelease",
+          "blockText": "原子长整数 ▸ setRelease",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "compareAndSet",
+          "chinese": "原子长整数 ▸ compareAndSet",
+          "blockText": "原子长整数 ▸ compareAndSet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "compareAndExchange",
+          "chinese": "原子长整数 ▸ compareAndExchange",
+          "blockText": "原子长整数 ▸ compareAndExchange",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "compareAndExchangeAcquire",
+          "chinese": "原子长整数 ▸ compareAndExchangeAcquire",
+          "blockText": "原子长整数 ▸ compareAndExchangeAcquire",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "compareAndExchangeRelease",
+          "chinese": "原子长整数 ▸ compareAndExchangeRelease",
+          "blockText": "原子长整数 ▸ compareAndExchangeRelease",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetPlain",
+          "chinese": "原子长整数 ▸ weakCompareAndSetPlain",
+          "blockText": "原子长整数 ▸ weakCompareAndSetPlain",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "weakCompareAndSet",
+          "chinese": "原子长整数 ▸ weakCompareAndSet",
+          "blockText": "原子长整数 ▸ weakCompareAndSet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetAcquire",
+          "chinese": "原子长整数 ▸ weakCompareAndSetAcquire",
+          "blockText": "原子长整数 ▸ weakCompareAndSetAcquire",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetRelease",
+          "chinese": "原子长整数 ▸ weakCompareAndSetRelease",
+          "blockText": "原子长整数 ▸ weakCompareAndSetRelease",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "getAndSet",
+          "chinese": "原子长整数 ▸ getAndSet",
+          "blockText": "原子长整数 ▸ getAndSet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "getAndAdd",
+          "chinese": "原子长整数 ▸ getAndAdd",
+          "blockText": "原子长整数 ▸ getAndAdd",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "incrementAndGet",
+          "chinese": "原子长整数 ▸ incrementAndGet",
+          "blockText": "原子长整数 ▸ incrementAndGet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "weakCompareAndSetVolatile",
+          "chinese": "原子长整数 ▸ weakCompareAndSetVolatile",
+          "blockText": "原子长整数 ▸ weakCompareAndSetVolatile",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "lazySet",
+          "chinese": "原子长整数 ▸ lazySet",
+          "blockText": "原子长整数 ▸ lazySet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "getAndIncrement",
+          "chinese": "原子长整数 ▸ getAndIncrement",
+          "blockText": "原子长整数 ▸ getAndIncrement",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getAndDecrement",
+          "chinese": "原子长整数 ▸ getAndDecrement",
+          "blockText": "原子长整数 ▸ getAndDecrement",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "decrementAndGet",
+          "chinese": "原子长整数 ▸ decrementAndGet",
+          "blockText": "原子长整数 ▸ decrementAndGet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "addAndGet",
+          "chinese": "原子长整数 ▸ addAndGet",
+          "blockText": "原子长整数 ▸ addAndGet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "getAndUpdate",
+          "chinese": "原子长整数 ▸ getAndUpdate",
+          "blockText": "原子长整数 ▸ getAndUpdate",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongUnaryOperator"
+          ]
+        },
+        {
+          "name": "updateAndGet",
+          "chinese": "原子长整数 ▸ updateAndGet",
+          "blockText": "原子长整数 ▸ updateAndGet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongUnaryOperator"
+          ]
+        },
+        {
+          "name": "getAndAccumulate",
+          "chinese": "原子长整数 ▸ getAndAccumulate",
+          "blockText": "原子长整数 ▸ getAndAccumulate",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "LongBinaryOperator"
+          ]
+        },
+        {
+          "name": "accumulateAndGet",
+          "chinese": "原子长整数 ▸ accumulateAndGet",
+          "blockText": "原子长整数 ▸ accumulateAndGet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "LongBinaryOperator"
+          ]
+        },
+        {
+          "name": "getPlain",
+          "chinese": "原子长整数 ▸ getPlain",
+          "blockText": "原子长整数 ▸ getPlain",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setPlain",
+          "chinese": "原子长整数 ▸ setPlain",
+          "blockText": "原子长整数 ▸ setPlain",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "byteValue",
+          "chinese": "原子长整数 ▸ 取字节值",
+          "blockText": "原子长整数 ▸ 取字节值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "byte",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "shortValue",
+          "chinese": "原子长整数 ▸ 取短整数值",
+          "blockText": "原子长整数 ▸ 取短整数值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "short",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "原子长整数 ▸ 相等",
+          "blockText": "原子长整数 ▸ 相等",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "原子长整数 ▸ 哈希值",
+          "blockText": "原子长整数 ▸ 哈希值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "原子长整数 ▸ 取类型",
+          "blockText": "原子长整数 ▸ 取类型",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "原子长整数 ▸ 通知",
+          "blockText": "原子长整数 ▸ 通知",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "原子长整数 ▸ 通知全部",
+          "blockText": "原子长整数 ▸ 通知全部",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "原子长整数 ▸ 等待",
+          "blockText": "原子长整数 ▸ 等待",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.atomic.AtomicReference",
+      "chinese": "AtomicReference",
+      "displayName": "AtomicReference",
+      "since": 6,
+      "until": 27,
+      "methods": [
+        {
+          "name": "AtomicReference",
+          "chinese": "AtomicReference ▸ 新建",
+          "blockText": "AtomicReference ▸ 新建",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "AtomicReference",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "get",
+          "chinese": "AtomicReference ▸ 取值",
+          "blockText": "AtomicReference ▸ 取值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "AtomicReference ▸ 转为文本",
+          "blockText": "AtomicReference ▸ 转为文本",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "set",
+          "chinese": "AtomicReference ▸ 设值",
+          "blockText": "AtomicReference ▸ 设值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "getOpaque",
+          "chinese": "AtomicReference ▸ getOpaque",
+          "blockText": "AtomicReference ▸ getOpaque",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setOpaque",
+          "chinese": "AtomicReference ▸ setOpaque",
+          "blockText": "AtomicReference ▸ setOpaque",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "getAcquire",
+          "chinese": "AtomicReference ▸ getAcquire",
+          "blockText": "AtomicReference ▸ getAcquire",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setRelease",
+          "chinese": "AtomicReference ▸ setRelease",
+          "blockText": "AtomicReference ▸ setRelease",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "compareAndSet",
+          "chinese": "AtomicReference ▸ compareAndSet",
+          "blockText": "AtomicReference ▸ compareAndSet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "compareAndExchange",
+          "chinese": "AtomicReference ▸ compareAndExchange",
+          "blockText": "AtomicReference ▸ compareAndExchange",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "compareAndExchangeAcquire",
+          "chinese": "AtomicReference ▸ compareAndExchangeAcquire",
+          "blockText": "AtomicReference ▸ compareAndExchangeAcquire",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "compareAndExchangeRelease",
+          "chinese": "AtomicReference ▸ compareAndExchangeRelease",
+          "blockText": "AtomicReference ▸ compareAndExchangeRelease",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetPlain",
+          "chinese": "AtomicReference ▸ weakCompareAndSetPlain",
+          "blockText": "AtomicReference ▸ weakCompareAndSetPlain",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "weakCompareAndSet",
+          "chinese": "AtomicReference ▸ weakCompareAndSet",
+          "blockText": "AtomicReference ▸ weakCompareAndSet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetAcquire",
+          "chinese": "AtomicReference ▸ weakCompareAndSetAcquire",
+          "blockText": "AtomicReference ▸ weakCompareAndSetAcquire",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetRelease",
+          "chinese": "AtomicReference ▸ weakCompareAndSetRelease",
+          "blockText": "AtomicReference ▸ weakCompareAndSetRelease",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "getAndSet",
+          "chinese": "AtomicReference ▸ getAndSet",
+          "blockText": "AtomicReference ▸ getAndSet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetVolatile",
+          "chinese": "AtomicReference ▸ weakCompareAndSetVolatile",
+          "blockText": "AtomicReference ▸ weakCompareAndSetVolatile",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "lazySet",
+          "chinese": "AtomicReference ▸ lazySet",
+          "blockText": "AtomicReference ▸ lazySet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "getAndUpdate",
+          "chinese": "AtomicReference ▸ getAndUpdate",
+          "blockText": "AtomicReference ▸ getAndUpdate",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "UnaryOperator"
+          ]
+        },
+        {
+          "name": "updateAndGet",
+          "chinese": "AtomicReference ▸ updateAndGet",
+          "blockText": "AtomicReference ▸ updateAndGet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "UnaryOperator"
+          ]
+        },
+        {
+          "name": "getAndAccumulate",
+          "chinese": "AtomicReference ▸ getAndAccumulate",
+          "blockText": "AtomicReference ▸ getAndAccumulate",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "BinaryOperator"
+          ]
+        },
+        {
+          "name": "accumulateAndGet",
+          "chinese": "AtomicReference ▸ accumulateAndGet",
+          "blockText": "AtomicReference ▸ accumulateAndGet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "BinaryOperator"
+          ]
+        },
+        {
+          "name": "getPlain",
+          "chinese": "AtomicReference ▸ getPlain",
+          "blockText": "AtomicReference ▸ getPlain",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setPlain",
+          "chinese": "AtomicReference ▸ setPlain",
+          "blockText": "AtomicReference ▸ setPlain",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "AtomicReference ▸ 相等",
+          "blockText": "AtomicReference ▸ 相等",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "AtomicReference ▸ 哈希值",
+          "blockText": "AtomicReference ▸ 哈希值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "AtomicReference ▸ 取类型",
+          "blockText": "AtomicReference ▸ 取类型",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "AtomicReference ▸ 通知",
+          "blockText": "AtomicReference ▸ 通知",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "AtomicReference ▸ 通知全部",
+          "blockText": "AtomicReference ▸ 通知全部",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicReference ▸ 等待",
+          "blockText": "AtomicReference ▸ 等待",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.atomic.AtomicBoolean",
+      "chinese": "AtomicBoolean",
+      "displayName": "AtomicBoolean",
+      "since": 6,
+      "until": 27,
+      "methods": [
+        {
+          "name": "AtomicBoolean",
+          "chinese": "AtomicBoolean ▸ 新建",
+          "blockText": "AtomicBoolean ▸ 新建",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "AtomicBoolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "get",
+          "chinese": "AtomicBoolean ▸ 取值",
+          "blockText": "AtomicBoolean ▸ 取值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "AtomicBoolean ▸ 转为文本",
+          "blockText": "AtomicBoolean ▸ 转为文本",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "set",
+          "chinese": "AtomicBoolean ▸ 设值",
+          "blockText": "AtomicBoolean ▸ 设值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "getOpaque",
+          "chinese": "AtomicBoolean ▸ getOpaque",
+          "blockText": "AtomicBoolean ▸ getOpaque",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setOpaque",
+          "chinese": "AtomicBoolean ▸ setOpaque",
+          "blockText": "AtomicBoolean ▸ setOpaque",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "getAcquire",
+          "chinese": "AtomicBoolean ▸ getAcquire",
+          "blockText": "AtomicBoolean ▸ getAcquire",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setRelease",
+          "chinese": "AtomicBoolean ▸ setRelease",
+          "blockText": "AtomicBoolean ▸ setRelease",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "compareAndSet",
+          "chinese": "AtomicBoolean ▸ compareAndSet",
+          "blockText": "AtomicBoolean ▸ compareAndSet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean",
+            "boolean"
+          ]
+        },
+        {
+          "name": "compareAndExchange",
+          "chinese": "AtomicBoolean ▸ compareAndExchange",
+          "blockText": "AtomicBoolean ▸ compareAndExchange",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean",
+            "boolean"
+          ]
+        },
+        {
+          "name": "compareAndExchangeAcquire",
+          "chinese": "AtomicBoolean ▸ compareAndExchangeAcquire",
+          "blockText": "AtomicBoolean ▸ compareAndExchangeAcquire",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean",
+            "boolean"
+          ]
+        },
+        {
+          "name": "compareAndExchangeRelease",
+          "chinese": "AtomicBoolean ▸ compareAndExchangeRelease",
+          "blockText": "AtomicBoolean ▸ compareAndExchangeRelease",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean",
+            "boolean"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetPlain",
+          "chinese": "AtomicBoolean ▸ weakCompareAndSetPlain",
+          "blockText": "AtomicBoolean ▸ weakCompareAndSetPlain",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean",
+            "boolean"
+          ]
+        },
+        {
+          "name": "weakCompareAndSet",
+          "chinese": "AtomicBoolean ▸ weakCompareAndSet",
+          "blockText": "AtomicBoolean ▸ weakCompareAndSet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean",
+            "boolean"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetAcquire",
+          "chinese": "AtomicBoolean ▸ weakCompareAndSetAcquire",
+          "blockText": "AtomicBoolean ▸ weakCompareAndSetAcquire",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean",
+            "boolean"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetRelease",
+          "chinese": "AtomicBoolean ▸ weakCompareAndSetRelease",
+          "blockText": "AtomicBoolean ▸ weakCompareAndSetRelease",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean",
+            "boolean"
+          ]
+        },
+        {
+          "name": "getAndSet",
+          "chinese": "AtomicBoolean ▸ getAndSet",
+          "blockText": "AtomicBoolean ▸ getAndSet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetVolatile",
+          "chinese": "AtomicBoolean ▸ weakCompareAndSetVolatile",
+          "blockText": "AtomicBoolean ▸ weakCompareAndSetVolatile",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean",
+            "boolean"
+          ]
+        },
+        {
+          "name": "lazySet",
+          "chinese": "AtomicBoolean ▸ lazySet",
+          "blockText": "AtomicBoolean ▸ lazySet",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "getPlain",
+          "chinese": "AtomicBoolean ▸ getPlain",
+          "blockText": "AtomicBoolean ▸ getPlain",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setPlain",
+          "chinese": "AtomicBoolean ▸ setPlain",
+          "blockText": "AtomicBoolean ▸ setPlain",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "AtomicBoolean ▸ 相等",
+          "blockText": "AtomicBoolean ▸ 相等",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "AtomicBoolean ▸ 哈希值",
+          "blockText": "AtomicBoolean ▸ 哈希值",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "AtomicBoolean ▸ 取类型",
+          "blockText": "AtomicBoolean ▸ 取类型",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "AtomicBoolean ▸ 通知",
+          "blockText": "AtomicBoolean ▸ 通知",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "AtomicBoolean ▸ 通知全部",
+          "blockText": "AtomicBoolean ▸ 通知全部",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicBoolean ▸ 等待",
+          "blockText": "AtomicBoolean ▸ 等待",
+          "since": 6,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.atomic.AtomicIntegerArray",
+      "chinese": "AtomicIntegerArray",
+      "displayName": "AtomicIntegerArray",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "AtomicIntegerArray ▸ <init>",
+          "blockText": "AtomicIntegerArray ▸ <init>",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "AtomicIntegerArray ▸ <init>",
+          "blockText": "AtomicIntegerArray ▸ <init>",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int[]"
+          ]
+        },
+        {
+          "name": "get",
+          "chinese": "AtomicIntegerArray ▸ get",
+          "blockText": "AtomicIntegerArray ▸ get",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "length",
+          "chinese": "AtomicIntegerArray ▸ length",
+          "blockText": "AtomicIntegerArray ▸ length",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "AtomicIntegerArray ▸ toString",
+          "blockText": "AtomicIntegerArray ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "set",
+          "chinese": "AtomicIntegerArray ▸ set",
+          "blockText": "AtomicIntegerArray ▸ set",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "getOpaque",
+          "chinese": "AtomicIntegerArray ▸ getOpaque",
+          "blockText": "AtomicIntegerArray ▸ getOpaque",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "setOpaque",
+          "chinese": "AtomicIntegerArray ▸ setOpaque",
+          "blockText": "AtomicIntegerArray ▸ setOpaque",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "getAcquire",
+          "chinese": "AtomicIntegerArray ▸ getAcquire",
+          "blockText": "AtomicIntegerArray ▸ getAcquire",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "setRelease",
+          "chinese": "AtomicIntegerArray ▸ setRelease",
+          "blockText": "AtomicIntegerArray ▸ setRelease",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "compareAndSet",
+          "chinese": "AtomicIntegerArray ▸ compareAndSet",
+          "blockText": "AtomicIntegerArray ▸ compareAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "compareAndExchange",
+          "chinese": "AtomicIntegerArray ▸ compareAndExchange",
+          "blockText": "AtomicIntegerArray ▸ compareAndExchange",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "compareAndExchangeAcquire",
+          "chinese": "AtomicIntegerArray ▸ compareAndExchangeAcquire",
+          "blockText": "AtomicIntegerArray ▸ compareAndExchangeAcquire",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "compareAndExchangeRelease",
+          "chinese": "AtomicIntegerArray ▸ compareAndExchangeRelease",
+          "blockText": "AtomicIntegerArray ▸ compareAndExchangeRelease",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetPlain",
+          "chinese": "AtomicIntegerArray ▸ weakCompareAndSetPlain",
+          "blockText": "AtomicIntegerArray ▸ weakCompareAndSetPlain",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "weakCompareAndSet",
+          "chinese": "AtomicIntegerArray ▸ weakCompareAndSet",
+          "blockText": "AtomicIntegerArray ▸ weakCompareAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetAcquire",
+          "chinese": "AtomicIntegerArray ▸ weakCompareAndSetAcquire",
+          "blockText": "AtomicIntegerArray ▸ weakCompareAndSetAcquire",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetRelease",
+          "chinese": "AtomicIntegerArray ▸ weakCompareAndSetRelease",
+          "blockText": "AtomicIntegerArray ▸ weakCompareAndSetRelease",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "getAndSet",
+          "chinese": "AtomicIntegerArray ▸ getAndSet",
+          "blockText": "AtomicIntegerArray ▸ getAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "getAndAdd",
+          "chinese": "AtomicIntegerArray ▸ getAndAdd",
+          "blockText": "AtomicIntegerArray ▸ getAndAdd",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "incrementAndGet",
+          "chinese": "AtomicIntegerArray ▸ incrementAndGet",
+          "blockText": "AtomicIntegerArray ▸ incrementAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetVolatile",
+          "chinese": "AtomicIntegerArray ▸ weakCompareAndSetVolatile",
+          "blockText": "AtomicIntegerArray ▸ weakCompareAndSetVolatile",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "lazySet",
+          "chinese": "AtomicIntegerArray ▸ lazySet",
+          "blockText": "AtomicIntegerArray ▸ lazySet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "getAndIncrement",
+          "chinese": "AtomicIntegerArray ▸ getAndIncrement",
+          "blockText": "AtomicIntegerArray ▸ getAndIncrement",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "getAndDecrement",
+          "chinese": "AtomicIntegerArray ▸ getAndDecrement",
+          "blockText": "AtomicIntegerArray ▸ getAndDecrement",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "decrementAndGet",
+          "chinese": "AtomicIntegerArray ▸ decrementAndGet",
+          "blockText": "AtomicIntegerArray ▸ decrementAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "addAndGet",
+          "chinese": "AtomicIntegerArray ▸ addAndGet",
+          "blockText": "AtomicIntegerArray ▸ addAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "getAndUpdate",
+          "chinese": "AtomicIntegerArray ▸ getAndUpdate",
+          "blockText": "AtomicIntegerArray ▸ getAndUpdate",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "IntUnaryOperator"
+          ]
+        },
+        {
+          "name": "updateAndGet",
+          "chinese": "AtomicIntegerArray ▸ updateAndGet",
+          "blockText": "AtomicIntegerArray ▸ updateAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "IntUnaryOperator"
+          ]
+        },
+        {
+          "name": "getAndAccumulate",
+          "chinese": "AtomicIntegerArray ▸ getAndAccumulate",
+          "blockText": "AtomicIntegerArray ▸ getAndAccumulate",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int",
+            "IntBinaryOperator"
+          ]
+        },
+        {
+          "name": "accumulateAndGet",
+          "chinese": "AtomicIntegerArray ▸ accumulateAndGet",
+          "blockText": "AtomicIntegerArray ▸ accumulateAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int",
+            "IntBinaryOperator"
+          ]
+        },
+        {
+          "name": "getPlain",
+          "chinese": "AtomicIntegerArray ▸ getPlain",
+          "blockText": "AtomicIntegerArray ▸ getPlain",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "setPlain",
+          "chinese": "AtomicIntegerArray ▸ setPlain",
+          "blockText": "AtomicIntegerArray ▸ setPlain",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "AtomicIntegerArray ▸ equals",
+          "blockText": "AtomicIntegerArray ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "AtomicIntegerArray ▸ hashCode",
+          "blockText": "AtomicIntegerArray ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "AtomicIntegerArray ▸ getClass",
+          "blockText": "AtomicIntegerArray ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "AtomicIntegerArray ▸ notify",
+          "blockText": "AtomicIntegerArray ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "AtomicIntegerArray ▸ notifyAll",
+          "blockText": "AtomicIntegerArray ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicIntegerArray ▸ wait",
+          "blockText": "AtomicIntegerArray ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicIntegerArray ▸ wait",
+          "blockText": "AtomicIntegerArray ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicIntegerArray ▸ wait",
+          "blockText": "AtomicIntegerArray ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.atomic.AtomicIntegerFieldUpdater",
+      "chinese": "AtomicIntegerFieldUpdater",
+      "displayName": "AtomicIntegerFieldUpdater",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "get",
+          "chinese": "AtomicIntegerFieldUpdater ▸ get",
+          "blockText": "AtomicIntegerFieldUpdater ▸ get",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "set",
+          "chinese": "AtomicIntegerFieldUpdater ▸ set",
+          "blockText": "AtomicIntegerFieldUpdater ▸ set",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "int"
+          ]
+        },
+        {
+          "name": "compareAndSet",
+          "chinese": "AtomicIntegerFieldUpdater ▸ compareAndSet",
+          "blockText": "AtomicIntegerFieldUpdater ▸ compareAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "weakCompareAndSet",
+          "chinese": "AtomicIntegerFieldUpdater ▸ weakCompareAndSet",
+          "blockText": "AtomicIntegerFieldUpdater ▸ weakCompareAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "getAndSet",
+          "chinese": "AtomicIntegerFieldUpdater ▸ getAndSet",
+          "blockText": "AtomicIntegerFieldUpdater ▸ getAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "int"
+          ]
+        },
+        {
+          "name": "getAndAdd",
+          "chinese": "AtomicIntegerFieldUpdater ▸ getAndAdd",
+          "blockText": "AtomicIntegerFieldUpdater ▸ getAndAdd",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "int"
+          ]
+        },
+        {
+          "name": "incrementAndGet",
+          "chinese": "AtomicIntegerFieldUpdater ▸ incrementAndGet",
+          "blockText": "AtomicIntegerFieldUpdater ▸ incrementAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "lazySet",
+          "chinese": "AtomicIntegerFieldUpdater ▸ lazySet",
+          "blockText": "AtomicIntegerFieldUpdater ▸ lazySet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "int"
+          ]
+        },
+        {
+          "name": "getAndIncrement",
+          "chinese": "AtomicIntegerFieldUpdater ▸ getAndIncrement",
+          "blockText": "AtomicIntegerFieldUpdater ▸ getAndIncrement",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "getAndDecrement",
+          "chinese": "AtomicIntegerFieldUpdater ▸ getAndDecrement",
+          "blockText": "AtomicIntegerFieldUpdater ▸ getAndDecrement",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "decrementAndGet",
+          "chinese": "AtomicIntegerFieldUpdater ▸ decrementAndGet",
+          "blockText": "AtomicIntegerFieldUpdater ▸ decrementAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "addAndGet",
+          "chinese": "AtomicIntegerFieldUpdater ▸ addAndGet",
+          "blockText": "AtomicIntegerFieldUpdater ▸ addAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "int"
+          ]
+        },
+        {
+          "name": "getAndUpdate",
+          "chinese": "AtomicIntegerFieldUpdater ▸ getAndUpdate",
+          "blockText": "AtomicIntegerFieldUpdater ▸ getAndUpdate",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "IntUnaryOperator"
+          ]
+        },
+        {
+          "name": "updateAndGet",
+          "chinese": "AtomicIntegerFieldUpdater ▸ updateAndGet",
+          "blockText": "AtomicIntegerFieldUpdater ▸ updateAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "IntUnaryOperator"
+          ]
+        },
+        {
+          "name": "getAndAccumulate",
+          "chinese": "AtomicIntegerFieldUpdater ▸ getAndAccumulate",
+          "blockText": "AtomicIntegerFieldUpdater ▸ getAndAccumulate",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "int",
+            "IntBinaryOperator"
+          ]
+        },
+        {
+          "name": "accumulateAndGet",
+          "chinese": "AtomicIntegerFieldUpdater ▸ accumulateAndGet",
+          "blockText": "AtomicIntegerFieldUpdater ▸ accumulateAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "int",
+            "IntBinaryOperator"
+          ]
+        },
+        {
+          "name": "newUpdater",
+          "chinese": "AtomicIntegerFieldUpdater ▸ newUpdater",
+          "blockText": "AtomicIntegerFieldUpdater ▸ newUpdater",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "AtomicIntegerFieldUpdater",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Class",
+            "String"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "AtomicIntegerFieldUpdater ▸ equals",
+          "blockText": "AtomicIntegerFieldUpdater ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "AtomicIntegerFieldUpdater ▸ toString",
+          "blockText": "AtomicIntegerFieldUpdater ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "AtomicIntegerFieldUpdater ▸ hashCode",
+          "blockText": "AtomicIntegerFieldUpdater ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "AtomicIntegerFieldUpdater ▸ getClass",
+          "blockText": "AtomicIntegerFieldUpdater ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "AtomicIntegerFieldUpdater ▸ notify",
+          "blockText": "AtomicIntegerFieldUpdater ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "AtomicIntegerFieldUpdater ▸ notifyAll",
+          "blockText": "AtomicIntegerFieldUpdater ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicIntegerFieldUpdater ▸ wait",
+          "blockText": "AtomicIntegerFieldUpdater ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicIntegerFieldUpdater ▸ wait",
+          "blockText": "AtomicIntegerFieldUpdater ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicIntegerFieldUpdater ▸ wait",
+          "blockText": "AtomicIntegerFieldUpdater ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.atomic.AtomicLongArray",
+      "chinese": "AtomicLongArray",
+      "displayName": "AtomicLongArray",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "AtomicLongArray ▸ <init>",
+          "blockText": "AtomicLongArray ▸ <init>",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "AtomicLongArray ▸ <init>",
+          "blockText": "AtomicLongArray ▸ <init>",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "get",
+          "chinese": "AtomicLongArray ▸ get",
+          "blockText": "AtomicLongArray ▸ get",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "length",
+          "chinese": "AtomicLongArray ▸ length",
+          "blockText": "AtomicLongArray ▸ length",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "AtomicLongArray ▸ toString",
+          "blockText": "AtomicLongArray ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "set",
+          "chinese": "AtomicLongArray ▸ set",
+          "blockText": "AtomicLongArray ▸ set",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long"
+          ]
+        },
+        {
+          "name": "getOpaque",
+          "chinese": "AtomicLongArray ▸ getOpaque",
+          "blockText": "AtomicLongArray ▸ getOpaque",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "setOpaque",
+          "chinese": "AtomicLongArray ▸ setOpaque",
+          "blockText": "AtomicLongArray ▸ setOpaque",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long"
+          ]
+        },
+        {
+          "name": "getAcquire",
+          "chinese": "AtomicLongArray ▸ getAcquire",
+          "blockText": "AtomicLongArray ▸ getAcquire",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "setRelease",
+          "chinese": "AtomicLongArray ▸ setRelease",
+          "blockText": "AtomicLongArray ▸ setRelease",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long"
+          ]
+        },
+        {
+          "name": "compareAndSet",
+          "chinese": "AtomicLongArray ▸ compareAndSet",
+          "blockText": "AtomicLongArray ▸ compareAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "compareAndExchange",
+          "chinese": "AtomicLongArray ▸ compareAndExchange",
+          "blockText": "AtomicLongArray ▸ compareAndExchange",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "compareAndExchangeAcquire",
+          "chinese": "AtomicLongArray ▸ compareAndExchangeAcquire",
+          "blockText": "AtomicLongArray ▸ compareAndExchangeAcquire",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "compareAndExchangeRelease",
+          "chinese": "AtomicLongArray ▸ compareAndExchangeRelease",
+          "blockText": "AtomicLongArray ▸ compareAndExchangeRelease",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetPlain",
+          "chinese": "AtomicLongArray ▸ weakCompareAndSetPlain",
+          "blockText": "AtomicLongArray ▸ weakCompareAndSetPlain",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "weakCompareAndSet",
+          "chinese": "AtomicLongArray ▸ weakCompareAndSet",
+          "blockText": "AtomicLongArray ▸ weakCompareAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetAcquire",
+          "chinese": "AtomicLongArray ▸ weakCompareAndSetAcquire",
+          "blockText": "AtomicLongArray ▸ weakCompareAndSetAcquire",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetRelease",
+          "chinese": "AtomicLongArray ▸ weakCompareAndSetRelease",
+          "blockText": "AtomicLongArray ▸ weakCompareAndSetRelease",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "getAndSet",
+          "chinese": "AtomicLongArray ▸ getAndSet",
+          "blockText": "AtomicLongArray ▸ getAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long"
+          ]
+        },
+        {
+          "name": "getAndAdd",
+          "chinese": "AtomicLongArray ▸ getAndAdd",
+          "blockText": "AtomicLongArray ▸ getAndAdd",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long"
+          ]
+        },
+        {
+          "name": "incrementAndGet",
+          "chinese": "AtomicLongArray ▸ incrementAndGet",
+          "blockText": "AtomicLongArray ▸ incrementAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetVolatile",
+          "chinese": "AtomicLongArray ▸ weakCompareAndSetVolatile",
+          "blockText": "AtomicLongArray ▸ weakCompareAndSetVolatile",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "lazySet",
+          "chinese": "AtomicLongArray ▸ lazySet",
+          "blockText": "AtomicLongArray ▸ lazySet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long"
+          ]
+        },
+        {
+          "name": "getAndIncrement",
+          "chinese": "AtomicLongArray ▸ getAndIncrement",
+          "blockText": "AtomicLongArray ▸ getAndIncrement",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "getAndDecrement",
+          "chinese": "AtomicLongArray ▸ getAndDecrement",
+          "blockText": "AtomicLongArray ▸ getAndDecrement",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "decrementAndGet",
+          "chinese": "AtomicLongArray ▸ decrementAndGet",
+          "blockText": "AtomicLongArray ▸ decrementAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "addAndGet",
+          "chinese": "AtomicLongArray ▸ addAndGet",
+          "blockText": "AtomicLongArray ▸ addAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long"
+          ]
+        },
+        {
+          "name": "getAndUpdate",
+          "chinese": "AtomicLongArray ▸ getAndUpdate",
+          "blockText": "AtomicLongArray ▸ getAndUpdate",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "LongUnaryOperator"
+          ]
+        },
+        {
+          "name": "updateAndGet",
+          "chinese": "AtomicLongArray ▸ updateAndGet",
+          "blockText": "AtomicLongArray ▸ updateAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "LongUnaryOperator"
+          ]
+        },
+        {
+          "name": "getAndAccumulate",
+          "chinese": "AtomicLongArray ▸ getAndAccumulate",
+          "blockText": "AtomicLongArray ▸ getAndAccumulate",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long",
+            "LongBinaryOperator"
+          ]
+        },
+        {
+          "name": "accumulateAndGet",
+          "chinese": "AtomicLongArray ▸ accumulateAndGet",
+          "blockText": "AtomicLongArray ▸ accumulateAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long",
+            "LongBinaryOperator"
+          ]
+        },
+        {
+          "name": "getPlain",
+          "chinese": "AtomicLongArray ▸ getPlain",
+          "blockText": "AtomicLongArray ▸ getPlain",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "setPlain",
+          "chinese": "AtomicLongArray ▸ setPlain",
+          "blockText": "AtomicLongArray ▸ setPlain",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "long"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "AtomicLongArray ▸ equals",
+          "blockText": "AtomicLongArray ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "AtomicLongArray ▸ hashCode",
+          "blockText": "AtomicLongArray ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "AtomicLongArray ▸ getClass",
+          "blockText": "AtomicLongArray ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "AtomicLongArray ▸ notify",
+          "blockText": "AtomicLongArray ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "AtomicLongArray ▸ notifyAll",
+          "blockText": "AtomicLongArray ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicLongArray ▸ wait",
+          "blockText": "AtomicLongArray ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicLongArray ▸ wait",
+          "blockText": "AtomicLongArray ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicLongArray ▸ wait",
+          "blockText": "AtomicLongArray ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.atomic.AtomicLongFieldUpdater",
+      "chinese": "AtomicLongFieldUpdater",
+      "displayName": "AtomicLongFieldUpdater",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "get",
+          "chinese": "AtomicLongFieldUpdater ▸ get",
+          "blockText": "AtomicLongFieldUpdater ▸ get",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "set",
+          "chinese": "AtomicLongFieldUpdater ▸ set",
+          "blockText": "AtomicLongFieldUpdater ▸ set",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "long"
+          ]
+        },
+        {
+          "name": "compareAndSet",
+          "chinese": "AtomicLongFieldUpdater ▸ compareAndSet",
+          "blockText": "AtomicLongFieldUpdater ▸ compareAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "weakCompareAndSet",
+          "chinese": "AtomicLongFieldUpdater ▸ weakCompareAndSet",
+          "blockText": "AtomicLongFieldUpdater ▸ weakCompareAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "getAndSet",
+          "chinese": "AtomicLongFieldUpdater ▸ getAndSet",
+          "blockText": "AtomicLongFieldUpdater ▸ getAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "long"
+          ]
+        },
+        {
+          "name": "getAndAdd",
+          "chinese": "AtomicLongFieldUpdater ▸ getAndAdd",
+          "blockText": "AtomicLongFieldUpdater ▸ getAndAdd",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "long"
+          ]
+        },
+        {
+          "name": "incrementAndGet",
+          "chinese": "AtomicLongFieldUpdater ▸ incrementAndGet",
+          "blockText": "AtomicLongFieldUpdater ▸ incrementAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "lazySet",
+          "chinese": "AtomicLongFieldUpdater ▸ lazySet",
+          "blockText": "AtomicLongFieldUpdater ▸ lazySet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "long"
+          ]
+        },
+        {
+          "name": "getAndIncrement",
+          "chinese": "AtomicLongFieldUpdater ▸ getAndIncrement",
+          "blockText": "AtomicLongFieldUpdater ▸ getAndIncrement",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "getAndDecrement",
+          "chinese": "AtomicLongFieldUpdater ▸ getAndDecrement",
+          "blockText": "AtomicLongFieldUpdater ▸ getAndDecrement",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "decrementAndGet",
+          "chinese": "AtomicLongFieldUpdater ▸ decrementAndGet",
+          "blockText": "AtomicLongFieldUpdater ▸ decrementAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "addAndGet",
+          "chinese": "AtomicLongFieldUpdater ▸ addAndGet",
+          "blockText": "AtomicLongFieldUpdater ▸ addAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "long"
+          ]
+        },
+        {
+          "name": "getAndUpdate",
+          "chinese": "AtomicLongFieldUpdater ▸ getAndUpdate",
+          "blockText": "AtomicLongFieldUpdater ▸ getAndUpdate",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "LongUnaryOperator"
+          ]
+        },
+        {
+          "name": "updateAndGet",
+          "chinese": "AtomicLongFieldUpdater ▸ updateAndGet",
+          "blockText": "AtomicLongFieldUpdater ▸ updateAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "LongUnaryOperator"
+          ]
+        },
+        {
+          "name": "getAndAccumulate",
+          "chinese": "AtomicLongFieldUpdater ▸ getAndAccumulate",
+          "blockText": "AtomicLongFieldUpdater ▸ getAndAccumulate",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "long",
+            "LongBinaryOperator"
+          ]
+        },
+        {
+          "name": "accumulateAndGet",
+          "chinese": "AtomicLongFieldUpdater ▸ accumulateAndGet",
+          "blockText": "AtomicLongFieldUpdater ▸ accumulateAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "long",
+            "LongBinaryOperator"
+          ]
+        },
+        {
+          "name": "newUpdater",
+          "chinese": "AtomicLongFieldUpdater ▸ newUpdater",
+          "blockText": "AtomicLongFieldUpdater ▸ newUpdater",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "AtomicLongFieldUpdater",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Class",
+            "String"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "AtomicLongFieldUpdater ▸ equals",
+          "blockText": "AtomicLongFieldUpdater ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "AtomicLongFieldUpdater ▸ toString",
+          "blockText": "AtomicLongFieldUpdater ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "AtomicLongFieldUpdater ▸ hashCode",
+          "blockText": "AtomicLongFieldUpdater ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "AtomicLongFieldUpdater ▸ getClass",
+          "blockText": "AtomicLongFieldUpdater ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "AtomicLongFieldUpdater ▸ notify",
+          "blockText": "AtomicLongFieldUpdater ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "AtomicLongFieldUpdater ▸ notifyAll",
+          "blockText": "AtomicLongFieldUpdater ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicLongFieldUpdater ▸ wait",
+          "blockText": "AtomicLongFieldUpdater ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicLongFieldUpdater ▸ wait",
+          "blockText": "AtomicLongFieldUpdater ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicLongFieldUpdater ▸ wait",
+          "blockText": "AtomicLongFieldUpdater ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.atomic.AtomicMarkableReference",
+      "chinese": "AtomicMarkableReference",
+      "displayName": "AtomicMarkableReference",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "AtomicMarkableReference ▸ <init>",
+          "blockText": "AtomicMarkableReference ▸ <init>",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "boolean"
+          ]
+        },
+        {
+          "name": "get",
+          "chinese": "AtomicMarkableReference ▸ get",
+          "blockText": "AtomicMarkableReference ▸ get",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean[]"
+          ]
+        },
+        {
+          "name": "getReference",
+          "chinese": "AtomicMarkableReference ▸ getReference",
+          "blockText": "AtomicMarkableReference ▸ getReference",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "set",
+          "chinese": "AtomicMarkableReference ▸ set",
+          "blockText": "AtomicMarkableReference ▸ set",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "boolean"
+          ]
+        },
+        {
+          "name": "compareAndSet",
+          "chinese": "AtomicMarkableReference ▸ compareAndSet",
+          "blockText": "AtomicMarkableReference ▸ compareAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object",
+            "boolean",
+            "boolean"
+          ]
+        },
+        {
+          "name": "weakCompareAndSet",
+          "chinese": "AtomicMarkableReference ▸ weakCompareAndSet",
+          "blockText": "AtomicMarkableReference ▸ weakCompareAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object",
+            "boolean",
+            "boolean"
+          ]
+        },
+        {
+          "name": "isMarked",
+          "chinese": "AtomicMarkableReference ▸ isMarked",
+          "blockText": "AtomicMarkableReference ▸ isMarked",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "attemptMark",
+          "chinese": "AtomicMarkableReference ▸ attemptMark",
+          "blockText": "AtomicMarkableReference ▸ attemptMark",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "boolean"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "AtomicMarkableReference ▸ equals",
+          "blockText": "AtomicMarkableReference ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "AtomicMarkableReference ▸ toString",
+          "blockText": "AtomicMarkableReference ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "AtomicMarkableReference ▸ hashCode",
+          "blockText": "AtomicMarkableReference ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "AtomicMarkableReference ▸ getClass",
+          "blockText": "AtomicMarkableReference ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "AtomicMarkableReference ▸ notify",
+          "blockText": "AtomicMarkableReference ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "AtomicMarkableReference ▸ notifyAll",
+          "blockText": "AtomicMarkableReference ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicMarkableReference ▸ wait",
+          "blockText": "AtomicMarkableReference ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicMarkableReference ▸ wait",
+          "blockText": "AtomicMarkableReference ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicMarkableReference ▸ wait",
+          "blockText": "AtomicMarkableReference ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.atomic.AtomicReferenceArray",
+      "chinese": "AtomicReferenceArray",
+      "displayName": "AtomicReferenceArray",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "AtomicReferenceArray ▸ <init>",
+          "blockText": "AtomicReferenceArray ▸ <init>",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "AtomicReferenceArray ▸ <init>",
+          "blockText": "AtomicReferenceArray ▸ <init>",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object[]"
+          ]
+        },
+        {
+          "name": "get",
+          "chinese": "AtomicReferenceArray ▸ get",
+          "blockText": "AtomicReferenceArray ▸ get",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "length",
+          "chinese": "AtomicReferenceArray ▸ length",
+          "blockText": "AtomicReferenceArray ▸ length",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "AtomicReferenceArray ▸ toString",
+          "blockText": "AtomicReferenceArray ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "set",
+          "chinese": "AtomicReferenceArray ▸ set",
+          "blockText": "AtomicReferenceArray ▸ set",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "Object"
+          ]
+        },
+        {
+          "name": "getOpaque",
+          "chinese": "AtomicReferenceArray ▸ getOpaque",
+          "blockText": "AtomicReferenceArray ▸ getOpaque",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "setOpaque",
+          "chinese": "AtomicReferenceArray ▸ setOpaque",
+          "blockText": "AtomicReferenceArray ▸ setOpaque",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "Object"
+          ]
+        },
+        {
+          "name": "getAcquire",
+          "chinese": "AtomicReferenceArray ▸ getAcquire",
+          "blockText": "AtomicReferenceArray ▸ getAcquire",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "setRelease",
+          "chinese": "AtomicReferenceArray ▸ setRelease",
+          "blockText": "AtomicReferenceArray ▸ setRelease",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "Object"
+          ]
+        },
+        {
+          "name": "compareAndSet",
+          "chinese": "AtomicReferenceArray ▸ compareAndSet",
+          "blockText": "AtomicReferenceArray ▸ compareAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "compareAndExchange",
+          "chinese": "AtomicReferenceArray ▸ compareAndExchange",
+          "blockText": "AtomicReferenceArray ▸ compareAndExchange",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "compareAndExchangeAcquire",
+          "chinese": "AtomicReferenceArray ▸ compareAndExchangeAcquire",
+          "blockText": "AtomicReferenceArray ▸ compareAndExchangeAcquire",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "compareAndExchangeRelease",
+          "chinese": "AtomicReferenceArray ▸ compareAndExchangeRelease",
+          "blockText": "AtomicReferenceArray ▸ compareAndExchangeRelease",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetPlain",
+          "chinese": "AtomicReferenceArray ▸ weakCompareAndSetPlain",
+          "blockText": "AtomicReferenceArray ▸ weakCompareAndSetPlain",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "weakCompareAndSet",
+          "chinese": "AtomicReferenceArray ▸ weakCompareAndSet",
+          "blockText": "AtomicReferenceArray ▸ weakCompareAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetAcquire",
+          "chinese": "AtomicReferenceArray ▸ weakCompareAndSetAcquire",
+          "blockText": "AtomicReferenceArray ▸ weakCompareAndSetAcquire",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetRelease",
+          "chinese": "AtomicReferenceArray ▸ weakCompareAndSetRelease",
+          "blockText": "AtomicReferenceArray ▸ weakCompareAndSetRelease",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "getAndSet",
+          "chinese": "AtomicReferenceArray ▸ getAndSet",
+          "blockText": "AtomicReferenceArray ▸ getAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "Object"
+          ]
+        },
+        {
+          "name": "weakCompareAndSetVolatile",
+          "chinese": "AtomicReferenceArray ▸ weakCompareAndSetVolatile",
+          "blockText": "AtomicReferenceArray ▸ weakCompareAndSetVolatile",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "lazySet",
+          "chinese": "AtomicReferenceArray ▸ lazySet",
+          "blockText": "AtomicReferenceArray ▸ lazySet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "Object"
+          ]
+        },
+        {
+          "name": "getAndUpdate",
+          "chinese": "AtomicReferenceArray ▸ getAndUpdate",
+          "blockText": "AtomicReferenceArray ▸ getAndUpdate",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "UnaryOperator"
+          ]
+        },
+        {
+          "name": "updateAndGet",
+          "chinese": "AtomicReferenceArray ▸ updateAndGet",
+          "blockText": "AtomicReferenceArray ▸ updateAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "UnaryOperator"
+          ]
+        },
+        {
+          "name": "getAndAccumulate",
+          "chinese": "AtomicReferenceArray ▸ getAndAccumulate",
+          "blockText": "AtomicReferenceArray ▸ getAndAccumulate",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "Object",
+            "BinaryOperator"
+          ]
+        },
+        {
+          "name": "accumulateAndGet",
+          "chinese": "AtomicReferenceArray ▸ accumulateAndGet",
+          "blockText": "AtomicReferenceArray ▸ accumulateAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "Object",
+            "BinaryOperator"
+          ]
+        },
+        {
+          "name": "getPlain",
+          "chinese": "AtomicReferenceArray ▸ getPlain",
+          "blockText": "AtomicReferenceArray ▸ getPlain",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "setPlain",
+          "chinese": "AtomicReferenceArray ▸ setPlain",
+          "blockText": "AtomicReferenceArray ▸ setPlain",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "Object"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "AtomicReferenceArray ▸ equals",
+          "blockText": "AtomicReferenceArray ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "AtomicReferenceArray ▸ hashCode",
+          "blockText": "AtomicReferenceArray ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "AtomicReferenceArray ▸ getClass",
+          "blockText": "AtomicReferenceArray ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "AtomicReferenceArray ▸ notify",
+          "blockText": "AtomicReferenceArray ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "AtomicReferenceArray ▸ notifyAll",
+          "blockText": "AtomicReferenceArray ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicReferenceArray ▸ wait",
+          "blockText": "AtomicReferenceArray ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicReferenceArray ▸ wait",
+          "blockText": "AtomicReferenceArray ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicReferenceArray ▸ wait",
+          "blockText": "AtomicReferenceArray ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.atomic.AtomicReferenceFieldUpdater",
+      "chinese": "AtomicReferenceFieldUpdater",
+      "displayName": "AtomicReferenceFieldUpdater",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "get",
+          "chinese": "AtomicReferenceFieldUpdater ▸ get",
+          "blockText": "AtomicReferenceFieldUpdater ▸ get",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "set",
+          "chinese": "AtomicReferenceFieldUpdater ▸ set",
+          "blockText": "AtomicReferenceFieldUpdater ▸ set",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "compareAndSet",
+          "chinese": "AtomicReferenceFieldUpdater ▸ compareAndSet",
+          "blockText": "AtomicReferenceFieldUpdater ▸ compareAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "weakCompareAndSet",
+          "chinese": "AtomicReferenceFieldUpdater ▸ weakCompareAndSet",
+          "blockText": "AtomicReferenceFieldUpdater ▸ weakCompareAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "getAndSet",
+          "chinese": "AtomicReferenceFieldUpdater ▸ getAndSet",
+          "blockText": "AtomicReferenceFieldUpdater ▸ getAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "lazySet",
+          "chinese": "AtomicReferenceFieldUpdater ▸ lazySet",
+          "blockText": "AtomicReferenceFieldUpdater ▸ lazySet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "getAndUpdate",
+          "chinese": "AtomicReferenceFieldUpdater ▸ getAndUpdate",
+          "blockText": "AtomicReferenceFieldUpdater ▸ getAndUpdate",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "UnaryOperator"
+          ]
+        },
+        {
+          "name": "updateAndGet",
+          "chinese": "AtomicReferenceFieldUpdater ▸ updateAndGet",
+          "blockText": "AtomicReferenceFieldUpdater ▸ updateAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "UnaryOperator"
+          ]
+        },
+        {
+          "name": "getAndAccumulate",
+          "chinese": "AtomicReferenceFieldUpdater ▸ getAndAccumulate",
+          "blockText": "AtomicReferenceFieldUpdater ▸ getAndAccumulate",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object",
+            "BinaryOperator"
+          ]
+        },
+        {
+          "name": "accumulateAndGet",
+          "chinese": "AtomicReferenceFieldUpdater ▸ accumulateAndGet",
+          "blockText": "AtomicReferenceFieldUpdater ▸ accumulateAndGet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object",
+            "BinaryOperator"
+          ]
+        },
+        {
+          "name": "newUpdater",
+          "chinese": "AtomicReferenceFieldUpdater ▸ newUpdater",
+          "blockText": "AtomicReferenceFieldUpdater ▸ newUpdater",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "AtomicReferenceFieldUpdater",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Class",
+            "Class",
+            "String"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "AtomicReferenceFieldUpdater ▸ equals",
+          "blockText": "AtomicReferenceFieldUpdater ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "AtomicReferenceFieldUpdater ▸ toString",
+          "blockText": "AtomicReferenceFieldUpdater ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "AtomicReferenceFieldUpdater ▸ hashCode",
+          "blockText": "AtomicReferenceFieldUpdater ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "AtomicReferenceFieldUpdater ▸ getClass",
+          "blockText": "AtomicReferenceFieldUpdater ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "AtomicReferenceFieldUpdater ▸ notify",
+          "blockText": "AtomicReferenceFieldUpdater ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "AtomicReferenceFieldUpdater ▸ notifyAll",
+          "blockText": "AtomicReferenceFieldUpdater ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicReferenceFieldUpdater ▸ wait",
+          "blockText": "AtomicReferenceFieldUpdater ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicReferenceFieldUpdater ▸ wait",
+          "blockText": "AtomicReferenceFieldUpdater ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicReferenceFieldUpdater ▸ wait",
+          "blockText": "AtomicReferenceFieldUpdater ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.atomic.AtomicStampedReference",
+      "chinese": "AtomicStampedReference",
+      "displayName": "AtomicStampedReference",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "AtomicStampedReference ▸ <init>",
+          "blockText": "AtomicStampedReference ▸ <init>",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "int"
+          ]
+        },
+        {
+          "name": "get",
+          "chinese": "AtomicStampedReference ▸ get",
+          "blockText": "AtomicStampedReference ▸ get",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int[]"
+          ]
+        },
+        {
+          "name": "getReference",
+          "chinese": "AtomicStampedReference ▸ getReference",
+          "blockText": "AtomicStampedReference ▸ getReference",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "set",
+          "chinese": "AtomicStampedReference ▸ set",
+          "blockText": "AtomicStampedReference ▸ set",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "int"
+          ]
+        },
+        {
+          "name": "compareAndSet",
+          "chinese": "AtomicStampedReference ▸ compareAndSet",
+          "blockText": "AtomicStampedReference ▸ compareAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "weakCompareAndSet",
+          "chinese": "AtomicStampedReference ▸ weakCompareAndSet",
+          "blockText": "AtomicStampedReference ▸ weakCompareAndSet",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "getStamp",
+          "chinese": "AtomicStampedReference ▸ getStamp",
+          "blockText": "AtomicStampedReference ▸ getStamp",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "attemptStamp",
+          "chinese": "AtomicStampedReference ▸ attemptStamp",
+          "blockText": "AtomicStampedReference ▸ attemptStamp",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "int"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "AtomicStampedReference ▸ equals",
+          "blockText": "AtomicStampedReference ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "AtomicStampedReference ▸ toString",
+          "blockText": "AtomicStampedReference ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "AtomicStampedReference ▸ hashCode",
+          "blockText": "AtomicStampedReference ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "AtomicStampedReference ▸ getClass",
+          "blockText": "AtomicStampedReference ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "AtomicStampedReference ▸ notify",
+          "blockText": "AtomicStampedReference ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "AtomicStampedReference ▸ notifyAll",
+          "blockText": "AtomicStampedReference ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicStampedReference ▸ wait",
+          "blockText": "AtomicStampedReference ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicStampedReference ▸ wait",
+          "blockText": "AtomicStampedReference ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AtomicStampedReference ▸ wait",
+          "blockText": "AtomicStampedReference ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.atomic.DoubleAccumulator",
+      "chinese": "DoubleAccumulator",
+      "displayName": "DoubleAccumulator",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "DoubleAccumulator ▸ <init>",
+          "blockText": "DoubleAccumulator ▸ <init>",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoubleBinaryOperator",
+            "double"
+          ]
+        },
+        {
+          "name": "reset",
+          "chinese": "DoubleAccumulator ▸ reset",
+          "blockText": "DoubleAccumulator ▸ reset",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "get",
+          "chinese": "DoubleAccumulator ▸ get",
+          "blockText": "DoubleAccumulator ▸ get",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "DoubleAccumulator ▸ toString",
+          "blockText": "DoubleAccumulator ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "intValue",
+          "chinese": "DoubleAccumulator ▸ intValue",
+          "blockText": "DoubleAccumulator ▸ intValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "longValue",
+          "chinese": "DoubleAccumulator ▸ longValue",
+          "blockText": "DoubleAccumulator ▸ longValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "floatValue",
+          "chinese": "DoubleAccumulator ▸ floatValue",
+          "blockText": "DoubleAccumulator ▸ floatValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "float",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "doubleValue",
+          "chinese": "DoubleAccumulator ▸ doubleValue",
+          "blockText": "DoubleAccumulator ▸ doubleValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "accumulate",
+          "chinese": "DoubleAccumulator ▸ accumulate",
+          "blockText": "DoubleAccumulator ▸ accumulate",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "double"
+          ]
+        },
+        {
+          "name": "getThenReset",
+          "chinese": "DoubleAccumulator ▸ getThenReset",
+          "blockText": "DoubleAccumulator ▸ getThenReset",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "byteValue",
+          "chinese": "DoubleAccumulator ▸ byteValue",
+          "blockText": "DoubleAccumulator ▸ byteValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "byte",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "shortValue",
+          "chinese": "DoubleAccumulator ▸ shortValue",
+          "blockText": "DoubleAccumulator ▸ shortValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "short",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "DoubleAccumulator ▸ equals",
+          "blockText": "DoubleAccumulator ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "DoubleAccumulator ▸ hashCode",
+          "blockText": "DoubleAccumulator ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "DoubleAccumulator ▸ getClass",
+          "blockText": "DoubleAccumulator ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "DoubleAccumulator ▸ notify",
+          "blockText": "DoubleAccumulator ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "DoubleAccumulator ▸ notifyAll",
+          "blockText": "DoubleAccumulator ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "DoubleAccumulator ▸ wait",
+          "blockText": "DoubleAccumulator ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "DoubleAccumulator ▸ wait",
+          "blockText": "DoubleAccumulator ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "DoubleAccumulator ▸ wait",
+          "blockText": "DoubleAccumulator ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.atomic.DoubleAdder",
+      "chinese": "DoubleAdder",
+      "displayName": "DoubleAdder",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "DoubleAdder ▸ <init>",
+          "blockText": "DoubleAdder ▸ <init>",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "reset",
+          "chinese": "DoubleAdder ▸ reset",
+          "blockText": "DoubleAdder ▸ reset",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "DoubleAdder ▸ toString",
+          "blockText": "DoubleAdder ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "intValue",
+          "chinese": "DoubleAdder ▸ intValue",
+          "blockText": "DoubleAdder ▸ intValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "longValue",
+          "chinese": "DoubleAdder ▸ longValue",
+          "blockText": "DoubleAdder ▸ longValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "floatValue",
+          "chinese": "DoubleAdder ▸ floatValue",
+          "blockText": "DoubleAdder ▸ floatValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "float",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "doubleValue",
+          "chinese": "DoubleAdder ▸ doubleValue",
+          "blockText": "DoubleAdder ▸ doubleValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "add",
+          "chinese": "DoubleAdder ▸ add",
+          "blockText": "DoubleAdder ▸ add",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "double"
+          ]
+        },
+        {
+          "name": "sum",
+          "chinese": "DoubleAdder ▸ sum",
+          "blockText": "DoubleAdder ▸ sum",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "sumThenReset",
+          "chinese": "DoubleAdder ▸ sumThenReset",
+          "blockText": "DoubleAdder ▸ sumThenReset",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "byteValue",
+          "chinese": "DoubleAdder ▸ byteValue",
+          "blockText": "DoubleAdder ▸ byteValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "byte",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "shortValue",
+          "chinese": "DoubleAdder ▸ shortValue",
+          "blockText": "DoubleAdder ▸ shortValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "short",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "DoubleAdder ▸ equals",
+          "blockText": "DoubleAdder ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "DoubleAdder ▸ hashCode",
+          "blockText": "DoubleAdder ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "DoubleAdder ▸ getClass",
+          "blockText": "DoubleAdder ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "DoubleAdder ▸ notify",
+          "blockText": "DoubleAdder ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "DoubleAdder ▸ notifyAll",
+          "blockText": "DoubleAdder ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "DoubleAdder ▸ wait",
+          "blockText": "DoubleAdder ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "DoubleAdder ▸ wait",
+          "blockText": "DoubleAdder ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "DoubleAdder ▸ wait",
+          "blockText": "DoubleAdder ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.atomic.LongAccumulator",
+      "chinese": "LongAccumulator",
+      "displayName": "LongAccumulator",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "LongAccumulator ▸ <init>",
+          "blockText": "LongAccumulator ▸ <init>",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongBinaryOperator",
+            "long"
+          ]
+        },
+        {
+          "name": "reset",
+          "chinese": "LongAccumulator ▸ reset",
+          "blockText": "LongAccumulator ▸ reset",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "get",
+          "chinese": "LongAccumulator ▸ get",
+          "blockText": "LongAccumulator ▸ get",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "LongAccumulator ▸ toString",
+          "blockText": "LongAccumulator ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "intValue",
+          "chinese": "LongAccumulator ▸ intValue",
+          "blockText": "LongAccumulator ▸ intValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "longValue",
+          "chinese": "LongAccumulator ▸ longValue",
+          "blockText": "LongAccumulator ▸ longValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "floatValue",
+          "chinese": "LongAccumulator ▸ floatValue",
+          "blockText": "LongAccumulator ▸ floatValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "float",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "doubleValue",
+          "chinese": "LongAccumulator ▸ doubleValue",
+          "blockText": "LongAccumulator ▸ doubleValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "accumulate",
+          "chinese": "LongAccumulator ▸ accumulate",
+          "blockText": "LongAccumulator ▸ accumulate",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "getThenReset",
+          "chinese": "LongAccumulator ▸ getThenReset",
+          "blockText": "LongAccumulator ▸ getThenReset",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "byteValue",
+          "chinese": "LongAccumulator ▸ byteValue",
+          "blockText": "LongAccumulator ▸ byteValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "byte",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "shortValue",
+          "chinese": "LongAccumulator ▸ shortValue",
+          "blockText": "LongAccumulator ▸ shortValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "short",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "LongAccumulator ▸ equals",
+          "blockText": "LongAccumulator ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "LongAccumulator ▸ hashCode",
+          "blockText": "LongAccumulator ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "LongAccumulator ▸ getClass",
+          "blockText": "LongAccumulator ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "LongAccumulator ▸ notify",
+          "blockText": "LongAccumulator ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "LongAccumulator ▸ notifyAll",
+          "blockText": "LongAccumulator ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "LongAccumulator ▸ wait",
+          "blockText": "LongAccumulator ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "LongAccumulator ▸ wait",
+          "blockText": "LongAccumulator ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "LongAccumulator ▸ wait",
+          "blockText": "LongAccumulator ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.concurrent.atomic.LongAdder",
+      "chinese": "LongAdder",
+      "displayName": "LongAdder",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "LongAdder ▸ <init>",
+          "blockText": "LongAdder ▸ <init>",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "reset",
+          "chinese": "LongAdder ▸ reset",
+          "blockText": "LongAdder ▸ reset",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "LongAdder ▸ toString",
+          "blockText": "LongAdder ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "intValue",
+          "chinese": "LongAdder ▸ intValue",
+          "blockText": "LongAdder ▸ intValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "longValue",
+          "chinese": "LongAdder ▸ longValue",
+          "blockText": "LongAdder ▸ longValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "floatValue",
+          "chinese": "LongAdder ▸ floatValue",
+          "blockText": "LongAdder ▸ floatValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "float",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "doubleValue",
+          "chinese": "LongAdder ▸ doubleValue",
+          "blockText": "LongAdder ▸ doubleValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "add",
+          "chinese": "LongAdder ▸ add",
+          "blockText": "LongAdder ▸ add",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "increment",
+          "chinese": "LongAdder ▸ increment",
+          "blockText": "LongAdder ▸ increment",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "sum",
+          "chinese": "LongAdder ▸ sum",
+          "blockText": "LongAdder ▸ sum",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "decrement",
+          "chinese": "LongAdder ▸ decrement",
+          "blockText": "LongAdder ▸ decrement",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "sumThenReset",
+          "chinese": "LongAdder ▸ sumThenReset",
+          "blockText": "LongAdder ▸ sumThenReset",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "byteValue",
+          "chinese": "LongAdder ▸ byteValue",
+          "blockText": "LongAdder ▸ byteValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "byte",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "shortValue",
+          "chinese": "LongAdder ▸ shortValue",
+          "blockText": "LongAdder ▸ shortValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "short",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "LongAdder ▸ equals",
+          "blockText": "LongAdder ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "LongAdder ▸ hashCode",
+          "blockText": "LongAdder ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "LongAdder ▸ getClass",
+          "blockText": "LongAdder ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "LongAdder ▸ notify",
+          "blockText": "LongAdder ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "LongAdder ▸ notifyAll",
+          "blockText": "LongAdder ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "LongAdder ▸ wait",
+          "blockText": "LongAdder ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "LongAdder ▸ wait",
+          "blockText": "LongAdder ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "LongAdder ▸ wait",
+          "blockText": "LongAdder ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    }
+  ]
+}

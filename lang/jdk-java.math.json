@@ -1,0 +1,2099 @@
+{
+  "_comment": "CLBC 自动生成的 JDK 库语言文件。一个库一个文件；java1~java27 共 27 个版本共用本文件，不按版本拆分。since=起始版本，until=移除版本(27 表示仍可用)。方法改名时旧名与新名各写一条，chinese 相同。",
+  "library": "java.math",
+  "libraryChinese": "数学精度",
+  "minVersion": 1,
+  "maxVersion": 27,
+  "versionRange": "java1~java27",
+  "javaVersions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "classes": [
+    {
+      "fqn": "java.math.BigInteger",
+      "chinese": "大整数",
+      "displayName": "BigInteger",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "BigInteger",
+          "chinese": "大整数 ▸ 新建",
+          "blockText": "大整数 ▸ 新建",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "bitCount",
+          "chinese": "大整数 ▸ 置位数",
+          "blockText": "大整数 ▸ 置位数",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "大整数 ▸ 相等",
+          "blockText": "大整数 ▸ 相等",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "大整数 ▸ 转为文本",
+          "blockText": "大整数 ▸ 转为文本",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "大整数 ▸ 哈希值",
+          "blockText": "大整数 ▸ 哈希值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "abs",
+          "chinese": "大整数 ▸ 绝对值",
+          "blockText": "大整数 ▸ 绝对值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "sqrt",
+          "chinese": "大整数 ▸ 平方根",
+          "blockText": "大整数 ▸ 平方根",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "pow",
+          "chinese": "大整数 ▸ 幂",
+          "blockText": "大整数 ▸ 幂",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "min",
+          "chinese": "大整数 ▸ 最小值",
+          "blockText": "大整数 ▸ 最小值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigInteger"
+          ]
+        },
+        {
+          "name": "max",
+          "chinese": "大整数 ▸ 最大值",
+          "blockText": "大整数 ▸ 最大值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigInteger"
+          ]
+        },
+        {
+          "name": "signum",
+          "chinese": "大整数 ▸ 取符号",
+          "blockText": "大整数 ▸ 取符号",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "chinese": "大整数 ▸ 比较",
+          "blockText": "大整数 ▸ 比较",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigInteger"
+          ]
+        },
+        {
+          "name": "intValue",
+          "chinese": "大整数 ▸ 取整数值",
+          "blockText": "大整数 ▸ 取整数值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "longValue",
+          "chinese": "大整数 ▸ 取长整数值",
+          "blockText": "大整数 ▸ 取长整数值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "floatValue",
+          "chinese": "大整数 ▸ 取单精度值",
+          "blockText": "大整数 ▸ 取单精度值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "float",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "doubleValue",
+          "chinese": "大整数 ▸ 取小数值",
+          "blockText": "大整数 ▸ 取小数值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "valueOf",
+          "chinese": "大整数 ▸ 转为",
+          "blockText": "大整数 ▸ 转为",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "add",
+          "chinese": "大整数 ▸ 添加",
+          "blockText": "大整数 ▸ 添加",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigInteger"
+          ]
+        },
+        {
+          "name": "mod",
+          "chinese": "大整数 ▸ 取模",
+          "blockText": "大整数 ▸ 取模",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigInteger"
+          ]
+        },
+        {
+          "name": "setBit",
+          "chinese": "大整数 ▸ 置位",
+          "blockText": "大整数 ▸ 置位",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "shiftLeft",
+          "chinese": "大整数 ▸ 左移",
+          "blockText": "大整数 ▸ 左移",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "toByteArray",
+          "chinese": "大整数 ▸ toByteArray",
+          "blockText": "大整数 ▸ toByteArray",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "byte[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "multiply",
+          "chinese": "大整数 ▸ 乘",
+          "blockText": "大整数 ▸ 乘",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigInteger"
+          ]
+        },
+        {
+          "name": "or",
+          "chinese": "大整数 ▸ 或者",
+          "blockText": "大整数 ▸ 或者",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigInteger"
+          ]
+        },
+        {
+          "name": "negate",
+          "chinese": "大整数 ▸ 取反",
+          "blockText": "大整数 ▸ 取反",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "and",
+          "chinese": "大整数 ▸ 并且",
+          "blockText": "大整数 ▸ 并且",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigInteger"
+          ]
+        },
+        {
+          "name": "not",
+          "chinese": "大整数 ▸ 按位取反",
+          "blockText": "大整数 ▸ 按位取反",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "remainder",
+          "chinese": "大整数 ▸ 取余",
+          "blockText": "大整数 ▸ 取余",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigInteger"
+          ]
+        },
+        {
+          "name": "bitLength",
+          "chinese": "大整数 ▸ 位长度",
+          "blockText": "大整数 ▸ 位长度",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "testBit",
+          "chinese": "大整数 ▸ 测试位",
+          "blockText": "大整数 ▸ 测试位",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "subtract",
+          "chinese": "大整数 ▸ 减",
+          "blockText": "大整数 ▸ 减",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigInteger"
+          ]
+        },
+        {
+          "name": "shiftRight",
+          "chinese": "大整数 ▸ 右移",
+          "blockText": "大整数 ▸ 右移",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "getLowestSetBit",
+          "chinese": "大整数 ▸ getLowestSetBit",
+          "blockText": "大整数 ▸ getLowestSetBit",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "modPow",
+          "chinese": "大整数 ▸ modPow",
+          "blockText": "大整数 ▸ modPow",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigInteger",
+            "BigInteger"
+          ]
+        },
+        {
+          "name": "modInverse",
+          "chinese": "大整数 ▸ 模逆",
+          "blockText": "大整数 ▸ 模逆",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigInteger"
+          ]
+        },
+        {
+          "name": "divide",
+          "chinese": "大整数 ▸ 除",
+          "blockText": "大整数 ▸ 除",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigInteger"
+          ]
+        },
+        {
+          "name": "divideAndRemainder",
+          "chinese": "大整数 ▸ divideAndRemainder",
+          "blockText": "大整数 ▸ divideAndRemainder",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger[]",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigInteger"
+          ]
+        },
+        {
+          "name": "probablePrime",
+          "chinese": "大整数 ▸ probablePrime",
+          "blockText": "大整数 ▸ probablePrime",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int",
+            "Random"
+          ]
+        },
+        {
+          "name": "nextProbablePrime",
+          "chinese": "大整数 ▸ nextProbablePrime",
+          "blockText": "大整数 ▸ nextProbablePrime",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "parallelMultiply",
+          "chinese": "大整数 ▸ parallelMultiply",
+          "blockText": "大整数 ▸ parallelMultiply",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigInteger"
+          ]
+        },
+        {
+          "name": "sqrtAndRemainder",
+          "chinese": "大整数 ▸ sqrtAndRemainder",
+          "blockText": "大整数 ▸ sqrtAndRemainder",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "gcd",
+          "chinese": "大整数 ▸ 最大公约数",
+          "blockText": "大整数 ▸ 最大公约数",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigInteger"
+          ]
+        },
+        {
+          "name": "xor",
+          "chinese": "大整数 ▸ 按位异或",
+          "blockText": "大整数 ▸ 按位异或",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigInteger"
+          ]
+        },
+        {
+          "name": "andNot",
+          "chinese": "大整数 ▸ andNot",
+          "blockText": "大整数 ▸ andNot",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigInteger"
+          ]
+        },
+        {
+          "name": "clearBit",
+          "chinese": "大整数 ▸ clearBit",
+          "blockText": "大整数 ▸ clearBit",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "flipBit",
+          "chinese": "大整数 ▸ 翻转位",
+          "blockText": "大整数 ▸ 翻转位",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "isProbablePrime",
+          "chinese": "大整数 ▸ 可能是质数",
+          "blockText": "大整数 ▸ 可能是质数",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "longValueExact",
+          "chinese": "大整数 ▸ longValueExact",
+          "blockText": "大整数 ▸ longValueExact",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "intValueExact",
+          "chinese": "大整数 ▸ intValueExact",
+          "blockText": "大整数 ▸ intValueExact",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "shortValueExact",
+          "chinese": "大整数 ▸ shortValueExact",
+          "blockText": "大整数 ▸ shortValueExact",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "short",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "byteValueExact",
+          "chinese": "大整数 ▸ byteValueExact",
+          "blockText": "大整数 ▸ byteValueExact",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "byte",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "byteValue",
+          "chinese": "大整数 ▸ 取字节值",
+          "blockText": "大整数 ▸ 取字节值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "byte",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "shortValue",
+          "chinese": "大整数 ▸ 取短整数值",
+          "blockText": "大整数 ▸ 取短整数值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "short",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "大整数 ▸ 取类型",
+          "blockText": "大整数 ▸ 取类型",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "大整数 ▸ 通知",
+          "blockText": "大整数 ▸ 通知",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "大整数 ▸ 通知全部",
+          "blockText": "大整数 ▸ 通知全部",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "大整数 ▸ 等待",
+          "blockText": "大整数 ▸ 等待",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "ZERO",
+          "chinese": "大整数 ▸ ZERO",
+          "blockText": "大整数 ▸ ZERO",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ONE",
+          "chinese": "大整数 ▸ ONE",
+          "blockText": "大整数 ▸ ONE",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "TWO",
+          "chinese": "大整数 ▸ TWO",
+          "blockText": "大整数 ▸ TWO",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "TEN",
+          "chinese": "大整数 ▸ TEN",
+          "blockText": "大整数 ▸ TEN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.math.BigDecimal",
+      "chinese": "高精度小数",
+      "displayName": "BigDecimal",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "BigDecimal",
+          "chinese": "高精度小数 ▸ 新建",
+          "blockText": "高精度小数 ▸ 新建",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigInteger",
+            "int"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "高精度小数 ▸ 相等",
+          "blockText": "高精度小数 ▸ 相等",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "高精度小数 ▸ 转为文本",
+          "blockText": "高精度小数 ▸ 转为文本",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "高精度小数 ▸ 哈希值",
+          "blockText": "高精度小数 ▸ 哈希值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "abs",
+          "chinese": "高精度小数 ▸ 绝对值",
+          "blockText": "高精度小数 ▸ 绝对值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "sqrt",
+          "chinese": "高精度小数 ▸ 平方根",
+          "blockText": "高精度小数 ▸ 平方根",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "MathContext"
+          ]
+        },
+        {
+          "name": "pow",
+          "chinese": "高精度小数 ▸ 幂",
+          "blockText": "高精度小数 ▸ 幂",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "min",
+          "chinese": "高精度小数 ▸ 最小值",
+          "blockText": "高精度小数 ▸ 最小值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigDecimal"
+          ]
+        },
+        {
+          "name": "max",
+          "chinese": "高精度小数 ▸ 最大值",
+          "blockText": "高精度小数 ▸ 最大值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigDecimal"
+          ]
+        },
+        {
+          "name": "round",
+          "chinese": "高精度小数 ▸ 四舍五入",
+          "blockText": "高精度小数 ▸ 四舍五入",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "MathContext"
+          ]
+        },
+        {
+          "name": "signum",
+          "chinese": "高精度小数 ▸ 取符号",
+          "blockText": "高精度小数 ▸ 取符号",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "chinese": "高精度小数 ▸ 比较",
+          "blockText": "高精度小数 ▸ 比较",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigDecimal"
+          ]
+        },
+        {
+          "name": "intValue",
+          "chinese": "高精度小数 ▸ 取整数值",
+          "blockText": "高精度小数 ▸ 取整数值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "longValue",
+          "chinese": "高精度小数 ▸ 取长整数值",
+          "blockText": "高精度小数 ▸ 取长整数值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "floatValue",
+          "chinese": "高精度小数 ▸ 取单精度值",
+          "blockText": "高精度小数 ▸ 取单精度值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "float",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "doubleValue",
+          "chinese": "高精度小数 ▸ 取小数值",
+          "blockText": "高精度小数 ▸ 取小数值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "valueOf",
+          "chinese": "高精度小数 ▸ 转为",
+          "blockText": "高精度小数 ▸ 转为",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "scale",
+          "chinese": "高精度小数 ▸ 小数位数",
+          "blockText": "高精度小数 ▸ 小数位数",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "add",
+          "chinese": "高精度小数 ▸ 添加",
+          "blockText": "高精度小数 ▸ 添加",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigDecimal",
+            "MathContext"
+          ]
+        },
+        {
+          "name": "multiply",
+          "chinese": "高精度小数 ▸ 乘",
+          "blockText": "高精度小数 ▸ 乘",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigDecimal"
+          ]
+        },
+        {
+          "name": "ulp",
+          "chinese": "高精度小数 ▸ ulp",
+          "blockText": "高精度小数 ▸ ulp",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "negate",
+          "chinese": "高精度小数 ▸ 取反",
+          "blockText": "高精度小数 ▸ 取反",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "remainder",
+          "chinese": "高精度小数 ▸ 取余",
+          "blockText": "高精度小数 ▸ 取余",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigDecimal"
+          ]
+        },
+        {
+          "name": "subtract",
+          "chinese": "高精度小数 ▸ 减",
+          "blockText": "高精度小数 ▸ 减",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigDecimal",
+            "MathContext"
+          ]
+        },
+        {
+          "name": "toBigInteger",
+          "chinese": "高精度小数 ▸ toBigInteger",
+          "blockText": "高精度小数 ▸ toBigInteger",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "divide",
+          "chinese": "高精度小数 ▸ 除",
+          "blockText": "高精度小数 ▸ 除",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigDecimal"
+          ]
+        },
+        {
+          "name": "divideAndRemainder",
+          "chinese": "高精度小数 ▸ divideAndRemainder",
+          "blockText": "高精度小数 ▸ divideAndRemainder",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal[]",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigDecimal",
+            "MathContext"
+          ]
+        },
+        {
+          "name": "longValueExact",
+          "chinese": "高精度小数 ▸ longValueExact",
+          "blockText": "高精度小数 ▸ longValueExact",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "intValueExact",
+          "chinese": "高精度小数 ▸ intValueExact",
+          "blockText": "高精度小数 ▸ intValueExact",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "shortValueExact",
+          "chinese": "高精度小数 ▸ shortValueExact",
+          "blockText": "高精度小数 ▸ shortValueExact",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "short",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "byteValueExact",
+          "chinese": "高精度小数 ▸ byteValueExact",
+          "blockText": "高精度小数 ▸ byteValueExact",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "byte",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "scaleByPowerOfTen",
+          "chinese": "高精度小数 ▸ scaleByPowerOfTen",
+          "blockText": "高精度小数 ▸ scaleByPowerOfTen",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "plus",
+          "chinese": "高精度小数 ▸ 加",
+          "blockText": "高精度小数 ▸ 加",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "MathContext"
+          ]
+        },
+        {
+          "name": "divideToIntegralValue",
+          "chinese": "高精度小数 ▸ divideToIntegralValue",
+          "blockText": "高精度小数 ▸ divideToIntegralValue",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BigDecimal",
+            "MathContext"
+          ]
+        },
+        {
+          "name": "movePointRight",
+          "chinese": "高精度小数 ▸ movePointRight",
+          "blockText": "高精度小数 ▸ movePointRight",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "toBigIntegerExact",
+          "chinese": "高精度小数 ▸ toBigIntegerExact",
+          "blockText": "高精度小数 ▸ toBigIntegerExact",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "precision",
+          "chinese": "高精度小数 ▸ precision",
+          "blockText": "高精度小数 ▸ precision",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "unscaledValue",
+          "chinese": "高精度小数 ▸ unscaledValue",
+          "blockText": "高精度小数 ▸ unscaledValue",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigInteger",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setScale",
+          "chinese": "高精度小数 ▸ 设小数位数",
+          "blockText": "高精度小数 ▸ 设小数位数",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "movePointLeft",
+          "chinese": "高精度小数 ▸ movePointLeft",
+          "blockText": "高精度小数 ▸ movePointLeft",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "toEngineeringString",
+          "chinese": "高精度小数 ▸ toEngineeringString",
+          "blockText": "高精度小数 ▸ toEngineeringString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "stripTrailingZeros",
+          "chinese": "高精度小数 ▸ 去尾零",
+          "blockText": "高精度小数 ▸ 去尾零",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toPlainString",
+          "chinese": "高精度小数 ▸ 转为普通文本",
+          "blockText": "高精度小数 ▸ 转为普通文本",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "byteValue",
+          "chinese": "高精度小数 ▸ 取字节值",
+          "blockText": "高精度小数 ▸ 取字节值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "byte",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "shortValue",
+          "chinese": "高精度小数 ▸ 取短整数值",
+          "blockText": "高精度小数 ▸ 取短整数值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "short",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "高精度小数 ▸ 取类型",
+          "blockText": "高精度小数 ▸ 取类型",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "高精度小数 ▸ 通知",
+          "blockText": "高精度小数 ▸ 通知",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "高精度小数 ▸ 通知全部",
+          "blockText": "高精度小数 ▸ 通知全部",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "高精度小数 ▸ 等待",
+          "blockText": "高精度小数 ▸ 等待",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "ZERO",
+          "chinese": "高精度小数 ▸ ZERO",
+          "blockText": "高精度小数 ▸ ZERO",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ONE",
+          "chinese": "高精度小数 ▸ ONE",
+          "blockText": "高精度小数 ▸ ONE",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "TWO",
+          "chinese": "高精度小数 ▸ TWO",
+          "blockText": "高精度小数 ▸ TWO",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "TEN",
+          "chinese": "高精度小数 ▸ TEN",
+          "blockText": "高精度小数 ▸ TEN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BigDecimal",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ROUND_UP",
+          "chinese": "高精度小数 ▸ ROUND_UP",
+          "blockText": "高精度小数 ▸ ROUND_UP",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ROUND_DOWN",
+          "chinese": "高精度小数 ▸ ROUND_DOWN",
+          "blockText": "高精度小数 ▸ ROUND_DOWN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ROUND_CEILING",
+          "chinese": "高精度小数 ▸ ROUND_CEILING",
+          "blockText": "高精度小数 ▸ ROUND_CEILING",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ROUND_FLOOR",
+          "chinese": "高精度小数 ▸ ROUND_FLOOR",
+          "blockText": "高精度小数 ▸ ROUND_FLOOR",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ROUND_HALF_UP",
+          "chinese": "高精度小数 ▸ ROUND_HALF_UP",
+          "blockText": "高精度小数 ▸ ROUND_HALF_UP",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ROUND_HALF_DOWN",
+          "chinese": "高精度小数 ▸ ROUND_HALF_DOWN",
+          "blockText": "高精度小数 ▸ ROUND_HALF_DOWN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ROUND_HALF_EVEN",
+          "chinese": "高精度小数 ▸ ROUND_HALF_EVEN",
+          "blockText": "高精度小数 ▸ ROUND_HALF_EVEN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ROUND_UNNECESSARY",
+          "chinese": "高精度小数 ▸ ROUND_UNNECESSARY",
+          "blockText": "高精度小数 ▸ ROUND_UNNECESSARY",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.math.MathContext",
+      "chinese": "MathContext",
+      "displayName": "MathContext",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "MathContext",
+          "chinese": "MathContext ▸ 新建",
+          "blockText": "MathContext ▸ 新建",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "MathContext",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "MathContext ▸ 相等",
+          "blockText": "MathContext ▸ 相等",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "MathContext ▸ 转为文本",
+          "blockText": "MathContext ▸ 转为文本",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "MathContext ▸ 哈希值",
+          "blockText": "MathContext ▸ 哈希值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getRoundingMode",
+          "chinese": "MathContext ▸ getRoundingMode",
+          "blockText": "MathContext ▸ getRoundingMode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "RoundingMode",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getPrecision",
+          "chinese": "MathContext ▸ getPrecision",
+          "blockText": "MathContext ▸ getPrecision",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "MathContext ▸ 取类型",
+          "blockText": "MathContext ▸ 取类型",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "MathContext ▸ 通知",
+          "blockText": "MathContext ▸ 通知",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "MathContext ▸ 通知全部",
+          "blockText": "MathContext ▸ 通知全部",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "MathContext ▸ 等待",
+          "blockText": "MathContext ▸ 等待",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "UNLIMITED",
+          "chinese": "MathContext ▸ UNLIMITED",
+          "blockText": "MathContext ▸ UNLIMITED",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "MathContext",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "DECIMAL32",
+          "chinese": "MathContext ▸ DECIMAL32",
+          "blockText": "MathContext ▸ DECIMAL32",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "MathContext",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "DECIMAL64",
+          "chinese": "MathContext ▸ DECIMAL64",
+          "blockText": "MathContext ▸ DECIMAL64",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "MathContext",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "DECIMAL128",
+          "chinese": "MathContext ▸ DECIMAL128",
+          "blockText": "MathContext ▸ DECIMAL128",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "MathContext",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.math.RoundingMode",
+      "chinese": "RoundingMode",
+      "displayName": "RoundingMode",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "values",
+          "chinese": "RoundingMode ▸ 取所有值",
+          "blockText": "RoundingMode ▸ 取所有值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "RoundingMode[]",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "valueOf",
+          "chinese": "RoundingMode ▸ 转为",
+          "blockText": "RoundingMode ▸ 转为",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "RoundingMode",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "name",
+          "chinese": "RoundingMode ▸ name",
+          "blockText": "RoundingMode ▸ name",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "RoundingMode ▸ 相等",
+          "blockText": "RoundingMode ▸ 相等",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "RoundingMode ▸ 转为文本",
+          "blockText": "RoundingMode ▸ 转为文本",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "RoundingMode ▸ 哈希值",
+          "blockText": "RoundingMode ▸ 哈希值",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "chinese": "RoundingMode ▸ 比较",
+          "blockText": "RoundingMode ▸ 比较",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Enum"
+          ]
+        },
+        {
+          "name": "describeConstable",
+          "chinese": "RoundingMode ▸ 描述常量",
+          "blockText": "RoundingMode ▸ 描述常量",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getDeclaringClass",
+          "chinese": "RoundingMode ▸ getDeclaringClass",
+          "blockText": "RoundingMode ▸ getDeclaringClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "ordinal",
+          "chinese": "RoundingMode ▸ ordinal",
+          "blockText": "RoundingMode ▸ ordinal",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "RoundingMode ▸ 取类型",
+          "blockText": "RoundingMode ▸ 取类型",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "RoundingMode ▸ 通知",
+          "blockText": "RoundingMode ▸ 通知",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "RoundingMode ▸ 通知全部",
+          "blockText": "RoundingMode ▸ 通知全部",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "RoundingMode ▸ 等待",
+          "blockText": "RoundingMode ▸ 等待",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "UP",
+          "chinese": "RoundingMode ▸ UP",
+          "blockText": "RoundingMode ▸ UP",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "RoundingMode",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "DOWN",
+          "chinese": "RoundingMode ▸ DOWN",
+          "blockText": "RoundingMode ▸ DOWN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "RoundingMode",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CEILING",
+          "chinese": "RoundingMode ▸ CEILING",
+          "blockText": "RoundingMode ▸ CEILING",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "RoundingMode",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "FLOOR",
+          "chinese": "RoundingMode ▸ FLOOR",
+          "blockText": "RoundingMode ▸ FLOOR",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "RoundingMode",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "HALF_UP",
+          "chinese": "RoundingMode ▸ HALF_UP",
+          "blockText": "RoundingMode ▸ HALF_UP",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "RoundingMode",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "HALF_DOWN",
+          "chinese": "RoundingMode ▸ HALF_DOWN",
+          "blockText": "RoundingMode ▸ HALF_DOWN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "RoundingMode",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "HALF_EVEN",
+          "chinese": "RoundingMode ▸ HALF_EVEN",
+          "blockText": "RoundingMode ▸ HALF_EVEN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "RoundingMode",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "UNNECESSARY",
+          "chinese": "RoundingMode ▸ UNNECESSARY",
+          "blockText": "RoundingMode ▸ UNNECESSARY",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "RoundingMode",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    }
+  ]
+}

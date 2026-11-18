@@ -1,0 +1,90 @@
+{
+  "_comment": "CLBC 自动生成的 JDK 库语言文件。一个库一个文件；java1~java27 共 27 个版本共用本文件，不按版本拆分。since=起始版本，until=移除版本(27 表示仍可用)。方法改名时旧名与新名各写一条，chinese 相同。",
+  "library": "java.awt",
+  "libraryChinese": "图形界面",
+  "minVersion": 1,
+  "maxVersion": 27,
+  "versionRange": "java1~java27",
+  "javaVersions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "classes": [
+    {
+      "fqn": "java.awt.Component",
+      "chinese": "Component",
+      "displayName": "Component",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "show",
+          "chinese": "显示或隐藏组件",
+          "blockText": "显示或隐藏组件",
+          "since": 1,
+          "until": 2,
+          "aliases": [
+            "setVisible"
+          ],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setVisible",
+          "chinese": "显示或隐藏组件",
+          "blockText": "显示或隐藏组件",
+          "since": 2,
+          "until": 27,
+          "aliases": [
+            "hide"
+          ],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hide",
+          "chinese": "显示或隐藏组件",
+          "blockText": "显示或隐藏组件",
+          "since": 1,
+          "until": 2,
+          "aliases": [
+            "setVisible"
+          ],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    }
+  ]
+}

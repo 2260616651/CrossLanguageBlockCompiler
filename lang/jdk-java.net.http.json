@@ -1,0 +1,2026 @@
+{
+  "_comment": "CLBC 自动生成的 JDK 库语言文件。一个库一个文件；java1~java27 共 27 个版本共用本文件，不按版本拆分。since=起始版本，until=移除版本(27 表示仍可用)。方法改名时旧名与新名各写一条，chinese 相同。",
+  "library": "java.net.http",
+  "libraryChinese": "HTTP",
+  "minVersion": 1,
+  "maxVersion": 27,
+  "versionRange": "java1~java27",
+  "javaVersions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "classes": [
+    {
+      "fqn": "java.net.http.HttpClient",
+      "chinese": "HTTP 客户端",
+      "displayName": "HttpClient",
+      "since": 11,
+      "until": 27,
+      "methods": [
+        {
+          "name": "shutdown",
+          "chinese": "HttpClient ▸ shutdown",
+          "blockText": "HttpClient ▸ shutdown",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "version",
+          "chinese": "HttpClient ▸ version",
+          "blockText": "HttpClient ▸ version",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Version",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isTerminated",
+          "chinese": "HttpClient ▸ isTerminated",
+          "blockText": "HttpClient ▸ isTerminated",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "close",
+          "chinese": "HttpClient ▸ close",
+          "blockText": "HttpClient ▸ close",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "proxy",
+          "chinese": "HttpClient ▸ proxy",
+          "blockText": "HttpClient ▸ proxy",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "executor",
+          "chinese": "HttpClient ▸ executor",
+          "blockText": "HttpClient ▸ executor",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "awaitTermination",
+          "chinese": "HttpClient ▸ awaitTermination",
+          "blockText": "HttpClient ▸ awaitTermination",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Duration"
+          ]
+        },
+        {
+          "name": "shutdownNow",
+          "chinese": "HttpClient ▸ shutdownNow",
+          "blockText": "HttpClient ▸ shutdownNow",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "newBuilder",
+          "chinese": "HttpClient ▸ newBuilder",
+          "blockText": "HttpClient ▸ newBuilder",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Builder",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "connectTimeout",
+          "chinese": "HttpClient ▸ connectTimeout",
+          "blockText": "HttpClient ▸ connectTimeout",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "send",
+          "chinese": "HttpClient ▸ send",
+          "blockText": "HttpClient ▸ send",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "HttpResponse",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "HttpRequest",
+            "BodyHandler"
+          ]
+        },
+        {
+          "name": "followRedirects",
+          "chinese": "HttpClient ▸ followRedirects",
+          "blockText": "HttpClient ▸ followRedirects",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Redirect",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "newHttpClient",
+          "chinese": "HttpClient ▸ newHttpClient",
+          "blockText": "HttpClient ▸ newHttpClient",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "HttpClient",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "newWebSocketBuilder",
+          "chinese": "HttpClient ▸ newWebSocketBuilder",
+          "blockText": "HttpClient ▸ newWebSocketBuilder",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Builder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "sslParameters",
+          "chinese": "HttpClient ▸ sslParameters",
+          "blockText": "HttpClient ▸ sslParameters",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "SSLParameters",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "sendAsync",
+          "chinese": "HttpClient ▸ sendAsync",
+          "blockText": "HttpClient ▸ sendAsync",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CompletableFuture",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "HttpRequest",
+            "BodyHandler",
+            "PushPromiseHandler"
+          ]
+        },
+        {
+          "name": "sendAsync",
+          "chinese": "HttpClient ▸ sendAsync",
+          "blockText": "HttpClient ▸ sendAsync",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CompletableFuture",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "HttpRequest",
+            "BodyHandler"
+          ]
+        },
+        {
+          "name": "sslContext",
+          "chinese": "HttpClient ▸ sslContext",
+          "blockText": "HttpClient ▸ sslContext",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "SSLContext",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "authenticator",
+          "chinese": "HttpClient ▸ authenticator",
+          "blockText": "HttpClient ▸ authenticator",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "cookieHandler",
+          "chinese": "HttpClient ▸ cookieHandler",
+          "blockText": "HttpClient ▸ cookieHandler",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "HttpClient ▸ equals",
+          "blockText": "HttpClient ▸ equals",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "HttpClient ▸ toString",
+          "blockText": "HttpClient ▸ toString",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "HttpClient ▸ hashCode",
+          "blockText": "HttpClient ▸ hashCode",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "HttpClient ▸ getClass",
+          "blockText": "HttpClient ▸ getClass",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "HttpClient ▸ notify",
+          "blockText": "HttpClient ▸ notify",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "HttpClient ▸ notifyAll",
+          "blockText": "HttpClient ▸ notifyAll",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "HttpClient ▸ wait",
+          "blockText": "HttpClient ▸ wait",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "HttpClient ▸ wait",
+          "blockText": "HttpClient ▸ wait",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "HttpClient ▸ wait",
+          "blockText": "HttpClient ▸ wait",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.net.http.HttpClient 增强",
+      "chinese": "HttpClient 增强",
+      "displayName": "HttpClient 增强",
+      "since": 12,
+      "until": 27,
+      "methods": []
+    },
+    {
+      "fqn": "java.net.http.HttpConnectTimeoutException",
+      "chinese": "HttpConnectTimeoutException",
+      "displayName": "HttpConnectTimeoutException",
+      "since": 11,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "HttpConnectTimeoutException ▸ <init>",
+          "blockText": "HttpConnectTimeoutException ▸ <init>",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "HttpConnectTimeoutException ▸ printStackTrace",
+          "blockText": "HttpConnectTimeoutException ▸ printStackTrace",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "HttpConnectTimeoutException ▸ printStackTrace",
+          "blockText": "HttpConnectTimeoutException ▸ printStackTrace",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "HttpConnectTimeoutException ▸ printStackTrace",
+          "blockText": "HttpConnectTimeoutException ▸ printStackTrace",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "HttpConnectTimeoutException ▸ getStackTrace",
+          "blockText": "HttpConnectTimeoutException ▸ getStackTrace",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "HttpConnectTimeoutException ▸ fillInStackTrace",
+          "blockText": "HttpConnectTimeoutException ▸ fillInStackTrace",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "HttpConnectTimeoutException ▸ getCause",
+          "blockText": "HttpConnectTimeoutException ▸ getCause",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initCause",
+          "chinese": "HttpConnectTimeoutException ▸ initCause",
+          "blockText": "HttpConnectTimeoutException ▸ initCause",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "HttpConnectTimeoutException ▸ toString",
+          "blockText": "HttpConnectTimeoutException ▸ toString",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getMessage",
+          "chinese": "HttpConnectTimeoutException ▸ getMessage",
+          "blockText": "HttpConnectTimeoutException ▸ getMessage",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "HttpConnectTimeoutException ▸ getSuppressed",
+          "blockText": "HttpConnectTimeoutException ▸ getSuppressed",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "HttpConnectTimeoutException ▸ getLocalizedMessage",
+          "blockText": "HttpConnectTimeoutException ▸ getLocalizedMessage",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "HttpConnectTimeoutException ▸ setStackTrace",
+          "blockText": "HttpConnectTimeoutException ▸ setStackTrace",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "HttpConnectTimeoutException ▸ addSuppressed",
+          "blockText": "HttpConnectTimeoutException ▸ addSuppressed",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "HttpConnectTimeoutException ▸ equals",
+          "blockText": "HttpConnectTimeoutException ▸ equals",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "HttpConnectTimeoutException ▸ hashCode",
+          "blockText": "HttpConnectTimeoutException ▸ hashCode",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "HttpConnectTimeoutException ▸ getClass",
+          "blockText": "HttpConnectTimeoutException ▸ getClass",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "HttpConnectTimeoutException ▸ notify",
+          "blockText": "HttpConnectTimeoutException ▸ notify",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "HttpConnectTimeoutException ▸ notifyAll",
+          "blockText": "HttpConnectTimeoutException ▸ notifyAll",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "HttpConnectTimeoutException ▸ wait",
+          "blockText": "HttpConnectTimeoutException ▸ wait",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "HttpConnectTimeoutException ▸ wait",
+          "blockText": "HttpConnectTimeoutException ▸ wait",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "HttpConnectTimeoutException ▸ wait",
+          "blockText": "HttpConnectTimeoutException ▸ wait",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.net.http.HttpHeaders",
+      "chinese": "HttpHeaders",
+      "displayName": "HttpHeaders",
+      "since": 11,
+      "until": 27,
+      "methods": [
+        {
+          "name": "equals",
+          "chinese": "HttpHeaders ▸ equals",
+          "blockText": "HttpHeaders ▸ equals",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "HttpHeaders ▸ toString",
+          "blockText": "HttpHeaders ▸ toString",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "HttpHeaders ▸ hashCode",
+          "blockText": "HttpHeaders ▸ hashCode",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "of",
+          "chinese": "HttpHeaders ▸ of",
+          "blockText": "HttpHeaders ▸ of",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "HttpHeaders",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Map",
+            "BiPredicate"
+          ]
+        },
+        {
+          "name": "map",
+          "chinese": "HttpHeaders ▸ map",
+          "blockText": "HttpHeaders ▸ map",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Map",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "firstValue",
+          "chinese": "HttpHeaders ▸ firstValue",
+          "blockText": "HttpHeaders ▸ firstValue",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "firstValueAsLong",
+          "chinese": "HttpHeaders ▸ firstValueAsLong",
+          "blockText": "HttpHeaders ▸ firstValueAsLong",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "OptionalLong",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "allValues",
+          "chinese": "HttpHeaders ▸ allValues",
+          "blockText": "HttpHeaders ▸ allValues",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "List",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "getClass",
+          "chinese": "HttpHeaders ▸ getClass",
+          "blockText": "HttpHeaders ▸ getClass",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "HttpHeaders ▸ notify",
+          "blockText": "HttpHeaders ▸ notify",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "HttpHeaders ▸ notifyAll",
+          "blockText": "HttpHeaders ▸ notifyAll",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "HttpHeaders ▸ wait",
+          "blockText": "HttpHeaders ▸ wait",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "HttpHeaders ▸ wait",
+          "blockText": "HttpHeaders ▸ wait",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "HttpHeaders ▸ wait",
+          "blockText": "HttpHeaders ▸ wait",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.net.http.HttpRequest",
+      "chinese": "HttpRequest",
+      "displayName": "HttpRequest",
+      "since": 11,
+      "until": 27,
+      "methods": [
+        {
+          "name": "equals",
+          "chinese": "HttpRequest ▸ equals",
+          "blockText": "HttpRequest ▸ equals",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "method",
+          "chinese": "HttpRequest ▸ method",
+          "blockText": "HttpRequest ▸ method",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "version",
+          "chinese": "HttpRequest ▸ version",
+          "blockText": "HttpRequest ▸ version",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "HttpRequest ▸ hashCode",
+          "blockText": "HttpRequest ▸ hashCode",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "timeout",
+          "chinese": "HttpRequest ▸ timeout",
+          "blockText": "HttpRequest ▸ timeout",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "uri",
+          "chinese": "HttpRequest ▸ uri",
+          "blockText": "HttpRequest ▸ uri",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "URI",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "newBuilder",
+          "chinese": "HttpRequest ▸ newBuilder",
+          "blockText": "HttpRequest ▸ newBuilder",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Builder",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "newBuilder",
+          "chinese": "HttpRequest ▸ newBuilder",
+          "blockText": "HttpRequest ▸ newBuilder",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Builder",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "HttpRequest",
+            "BiPredicate"
+          ]
+        },
+        {
+          "name": "newBuilder",
+          "chinese": "HttpRequest ▸ newBuilder",
+          "blockText": "HttpRequest ▸ newBuilder",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Builder",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "URI"
+          ]
+        },
+        {
+          "name": "headers",
+          "chinese": "HttpRequest ▸ headers",
+          "blockText": "HttpRequest ▸ headers",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "HttpHeaders",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "expectContinue",
+          "chinese": "HttpRequest ▸ expectContinue",
+          "blockText": "HttpRequest ▸ expectContinue",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "bodyPublisher",
+          "chinese": "HttpRequest ▸ bodyPublisher",
+          "blockText": "HttpRequest ▸ bodyPublisher",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "HttpRequest ▸ toString",
+          "blockText": "HttpRequest ▸ toString",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "HttpRequest ▸ getClass",
+          "blockText": "HttpRequest ▸ getClass",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "HttpRequest ▸ notify",
+          "blockText": "HttpRequest ▸ notify",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "HttpRequest ▸ notifyAll",
+          "blockText": "HttpRequest ▸ notifyAll",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "HttpRequest ▸ wait",
+          "blockText": "HttpRequest ▸ wait",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "HttpRequest ▸ wait",
+          "blockText": "HttpRequest ▸ wait",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "HttpRequest ▸ wait",
+          "blockText": "HttpRequest ▸ wait",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.net.http.HttpResponse",
+      "chinese": "HttpResponse",
+      "displayName": "HttpResponse",
+      "since": 11,
+      "until": 27,
+      "methods": [
+        {
+          "name": "version",
+          "chinese": "HttpResponse ▸ version",
+          "blockText": "HttpResponse ▸ version",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Version",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "uri",
+          "chinese": "HttpResponse ▸ uri",
+          "blockText": "HttpResponse ▸ uri",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "URI",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "body",
+          "chinese": "HttpResponse ▸ body",
+          "blockText": "HttpResponse ▸ body",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "request",
+          "chinese": "HttpResponse ▸ request",
+          "blockText": "HttpResponse ▸ request",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "HttpRequest",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "headers",
+          "chinese": "HttpResponse ▸ headers",
+          "blockText": "HttpResponse ▸ headers",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "HttpHeaders",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "previousResponse",
+          "chinese": "HttpResponse ▸ previousResponse",
+          "blockText": "HttpResponse ▸ previousResponse",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "connectionLabel",
+          "chinese": "HttpResponse ▸ connectionLabel",
+          "blockText": "HttpResponse ▸ connectionLabel",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "sslSession",
+          "chinese": "HttpResponse ▸ sslSession",
+          "blockText": "HttpResponse ▸ sslSession",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "statusCode",
+          "chinese": "HttpResponse ▸ statusCode",
+          "blockText": "HttpResponse ▸ statusCode",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.net.http.HttpTimeoutException",
+      "chinese": "HttpTimeoutException",
+      "displayName": "HttpTimeoutException",
+      "since": 11,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "HttpTimeoutException ▸ <init>",
+          "blockText": "HttpTimeoutException ▸ <init>",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "HttpTimeoutException ▸ printStackTrace",
+          "blockText": "HttpTimeoutException ▸ printStackTrace",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "HttpTimeoutException ▸ printStackTrace",
+          "blockText": "HttpTimeoutException ▸ printStackTrace",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "HttpTimeoutException ▸ printStackTrace",
+          "blockText": "HttpTimeoutException ▸ printStackTrace",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "HttpTimeoutException ▸ getStackTrace",
+          "blockText": "HttpTimeoutException ▸ getStackTrace",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "HttpTimeoutException ▸ fillInStackTrace",
+          "blockText": "HttpTimeoutException ▸ fillInStackTrace",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "HttpTimeoutException ▸ getCause",
+          "blockText": "HttpTimeoutException ▸ getCause",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initCause",
+          "chinese": "HttpTimeoutException ▸ initCause",
+          "blockText": "HttpTimeoutException ▸ initCause",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "HttpTimeoutException ▸ toString",
+          "blockText": "HttpTimeoutException ▸ toString",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getMessage",
+          "chinese": "HttpTimeoutException ▸ getMessage",
+          "blockText": "HttpTimeoutException ▸ getMessage",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "HttpTimeoutException ▸ getSuppressed",
+          "blockText": "HttpTimeoutException ▸ getSuppressed",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "HttpTimeoutException ▸ getLocalizedMessage",
+          "blockText": "HttpTimeoutException ▸ getLocalizedMessage",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "HttpTimeoutException ▸ setStackTrace",
+          "blockText": "HttpTimeoutException ▸ setStackTrace",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "HttpTimeoutException ▸ addSuppressed",
+          "blockText": "HttpTimeoutException ▸ addSuppressed",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "HttpTimeoutException ▸ equals",
+          "blockText": "HttpTimeoutException ▸ equals",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "HttpTimeoutException ▸ hashCode",
+          "blockText": "HttpTimeoutException ▸ hashCode",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "HttpTimeoutException ▸ getClass",
+          "blockText": "HttpTimeoutException ▸ getClass",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "HttpTimeoutException ▸ notify",
+          "blockText": "HttpTimeoutException ▸ notify",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "HttpTimeoutException ▸ notifyAll",
+          "blockText": "HttpTimeoutException ▸ notifyAll",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "HttpTimeoutException ▸ wait",
+          "blockText": "HttpTimeoutException ▸ wait",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "HttpTimeoutException ▸ wait",
+          "blockText": "HttpTimeoutException ▸ wait",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "HttpTimeoutException ▸ wait",
+          "blockText": "HttpTimeoutException ▸ wait",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.net.http.WebSocket",
+      "chinese": "WebSocket",
+      "displayName": "WebSocket",
+      "since": 11,
+      "until": 27,
+      "methods": [
+        {
+          "name": "request",
+          "chinese": "WebSocket ▸ request",
+          "blockText": "WebSocket ▸ request",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "abort",
+          "chinese": "WebSocket ▸ abort",
+          "blockText": "WebSocket ▸ abort",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isInputClosed",
+          "chinese": "WebSocket ▸ isInputClosed",
+          "blockText": "WebSocket ▸ isInputClosed",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isOutputClosed",
+          "chinese": "WebSocket ▸ isOutputClosed",
+          "blockText": "WebSocket ▸ isOutputClosed",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSubprotocol",
+          "chinese": "WebSocket ▸ getSubprotocol",
+          "blockText": "WebSocket ▸ getSubprotocol",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "sendText",
+          "chinese": "WebSocket ▸ sendText",
+          "blockText": "WebSocket ▸ sendText",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CompletableFuture",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "CharSequence",
+            "boolean"
+          ]
+        },
+        {
+          "name": "sendPong",
+          "chinese": "WebSocket ▸ sendPong",
+          "blockText": "WebSocket ▸ sendPong",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CompletableFuture",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ByteBuffer"
+          ]
+        },
+        {
+          "name": "sendClose",
+          "chinese": "WebSocket ▸ sendClose",
+          "blockText": "WebSocket ▸ sendClose",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CompletableFuture",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "String"
+          ]
+        },
+        {
+          "name": "sendPing",
+          "chinese": "WebSocket ▸ sendPing",
+          "blockText": "WebSocket ▸ sendPing",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CompletableFuture",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ByteBuffer"
+          ]
+        },
+        {
+          "name": "sendBinary",
+          "chinese": "WebSocket ▸ sendBinary",
+          "blockText": "WebSocket ▸ sendBinary",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CompletableFuture",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ByteBuffer",
+            "boolean"
+          ]
+        },
+        {
+          "name": "NORMAL_CLOSURE",
+          "chinese": "WebSocket ▸ NORMAL_CLOSURE",
+          "blockText": "WebSocket ▸ NORMAL_CLOSURE",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.net.http.WebSocketHandshakeException",
+      "chinese": "WebSocketHandshakeException",
+      "displayName": "WebSocketHandshakeException",
+      "since": 11,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "WebSocketHandshakeException ▸ <init>",
+          "blockText": "WebSocketHandshakeException ▸ <init>",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "HttpResponse"
+          ]
+        },
+        {
+          "name": "initCause",
+          "chinese": "WebSocketHandshakeException ▸ initCause",
+          "blockText": "WebSocketHandshakeException ▸ initCause",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "WebSocketHandshakeException",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "getResponse",
+          "chinese": "WebSocketHandshakeException ▸ getResponse",
+          "blockText": "WebSocketHandshakeException ▸ getResponse",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "HttpResponse",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "WebSocketHandshakeException ▸ printStackTrace",
+          "blockText": "WebSocketHandshakeException ▸ printStackTrace",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "WebSocketHandshakeException ▸ printStackTrace",
+          "blockText": "WebSocketHandshakeException ▸ printStackTrace",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "WebSocketHandshakeException ▸ printStackTrace",
+          "blockText": "WebSocketHandshakeException ▸ printStackTrace",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "WebSocketHandshakeException ▸ getStackTrace",
+          "blockText": "WebSocketHandshakeException ▸ getStackTrace",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "WebSocketHandshakeException ▸ fillInStackTrace",
+          "blockText": "WebSocketHandshakeException ▸ fillInStackTrace",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "WebSocketHandshakeException ▸ getCause",
+          "blockText": "WebSocketHandshakeException ▸ getCause",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "WebSocketHandshakeException ▸ toString",
+          "blockText": "WebSocketHandshakeException ▸ toString",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getMessage",
+          "chinese": "WebSocketHandshakeException ▸ getMessage",
+          "blockText": "WebSocketHandshakeException ▸ getMessage",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "WebSocketHandshakeException ▸ getSuppressed",
+          "blockText": "WebSocketHandshakeException ▸ getSuppressed",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "WebSocketHandshakeException ▸ getLocalizedMessage",
+          "blockText": "WebSocketHandshakeException ▸ getLocalizedMessage",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "WebSocketHandshakeException ▸ setStackTrace",
+          "blockText": "WebSocketHandshakeException ▸ setStackTrace",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "WebSocketHandshakeException ▸ addSuppressed",
+          "blockText": "WebSocketHandshakeException ▸ addSuppressed",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "WebSocketHandshakeException ▸ equals",
+          "blockText": "WebSocketHandshakeException ▸ equals",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "WebSocketHandshakeException ▸ hashCode",
+          "blockText": "WebSocketHandshakeException ▸ hashCode",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "WebSocketHandshakeException ▸ getClass",
+          "blockText": "WebSocketHandshakeException ▸ getClass",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "WebSocketHandshakeException ▸ notify",
+          "blockText": "WebSocketHandshakeException ▸ notify",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "WebSocketHandshakeException ▸ notifyAll",
+          "blockText": "WebSocketHandshakeException ▸ notifyAll",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "WebSocketHandshakeException ▸ wait",
+          "blockText": "WebSocketHandshakeException ▸ wait",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "WebSocketHandshakeException ▸ wait",
+          "blockText": "WebSocketHandshakeException ▸ wait",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "WebSocketHandshakeException ▸ wait",
+          "blockText": "WebSocketHandshakeException ▸ wait",
+          "since": 11,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    }
+  ]
+}

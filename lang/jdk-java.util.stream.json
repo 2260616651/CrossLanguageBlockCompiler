@@ -1,0 +1,3923 @@
+{
+  "_comment": "CLBC 自动生成的 JDK 库语言文件。一个库一个文件；java1~java27 共 27 个版本共用本文件，不按版本拆分。since=起始版本，until=移除版本(27 表示仍可用)。方法改名时旧名与新名各写一条，chinese 相同。",
+  "library": "java.util.stream",
+  "libraryChinese": "流",
+  "minVersion": 1,
+  "maxVersion": 27,
+  "versionRange": "java1~java27",
+  "javaVersions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "classes": [
+    {
+      "fqn": "java.util.stream.Stream",
+      "chinese": "流",
+      "displayName": "Stream",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "min",
+          "chinese": "流 ▸ 最小值",
+          "blockText": "流 ▸ 最小值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Comparator"
+          ]
+        },
+        {
+          "name": "max",
+          "chinese": "流 ▸ 最大值",
+          "blockText": "流 ▸ 最大值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Comparator"
+          ]
+        },
+        {
+          "name": "of",
+          "chinese": "流 ▸ 创建",
+          "blockText": "流 ▸ 创建",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Object[]"
+          ]
+        },
+        {
+          "name": "toArray",
+          "chinese": "流 ▸ 转为数组",
+          "blockText": "流 ▸ 转为数组",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "map",
+          "chinese": "流 ▸ 映射",
+          "blockText": "流 ▸ 映射",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Function"
+          ]
+        },
+        {
+          "name": "collect",
+          "chinese": "流 ▸ 收集",
+          "blockText": "流 ▸ 收集",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Supplier",
+            "BiConsumer",
+            "BiConsumer"
+          ]
+        },
+        {
+          "name": "toList",
+          "chinese": "流 ▸ 转为列表",
+          "blockText": "流 ▸ 转为列表",
+          "since": 17,
+          "until": 27,
+          "aliases": [],
+          "returnType": "List",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "count",
+          "chinese": "流 ▸ 计数",
+          "blockText": "流 ▸ 计数",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "builder",
+          "chinese": "流 ▸ builder",
+          "blockText": "流 ▸ builder",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream$Builder",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "concat",
+          "chinese": "流 ▸ 拼接",
+          "blockText": "流 ▸ 拼接",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Stream",
+            "Stream"
+          ]
+        },
+        {
+          "name": "limit",
+          "chinese": "流 ▸ 限制数量",
+          "blockText": "流 ▸ 限制数量",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "filter",
+          "chinese": "流 ▸ 筛选",
+          "blockText": "流 ▸ 筛选",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Predicate"
+          ]
+        },
+        {
+          "name": "empty",
+          "chinese": "流 ▸ empty",
+          "blockText": "流 ▸ empty",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "anyMatch",
+          "chinese": "流 ▸ 任一满足",
+          "blockText": "流 ▸ 任一满足",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Predicate"
+          ]
+        },
+        {
+          "name": "forEach",
+          "chinese": "流 ▸ 逐个处理",
+          "blockText": "流 ▸ 逐个处理",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Consumer"
+          ]
+        },
+        {
+          "name": "findAny",
+          "chinese": "流 ▸ 取任意一个",
+          "blockText": "流 ▸ 取任意一个",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "skip",
+          "chinese": "流 ▸ 跳过",
+          "blockText": "流 ▸ 跳过",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "peek",
+          "chinese": "流 ▸ 逐个查看",
+          "blockText": "流 ▸ 逐个查看",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Consumer"
+          ]
+        },
+        {
+          "name": "reduce",
+          "chinese": "流 ▸ 归约",
+          "blockText": "流 ▸ 归约",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BinaryOperator"
+          ]
+        },
+        {
+          "name": "iterate",
+          "chinese": "流 ▸ 迭代生成",
+          "blockText": "流 ▸ 迭代生成",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Object",
+            "UnaryOperator"
+          ]
+        },
+        {
+          "name": "flatMap",
+          "chinese": "流 ▸ 扁平映射",
+          "blockText": "流 ▸ 扁平映射",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Function"
+          ]
+        },
+        {
+          "name": "allMatch",
+          "chinese": "流 ▸ 全部满足",
+          "blockText": "流 ▸ 全部满足",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Predicate"
+          ]
+        },
+        {
+          "name": "distinct",
+          "chinese": "流 ▸ 去重",
+          "blockText": "流 ▸ 去重",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "ofNullable",
+          "chinese": "流 ▸ 可空创建",
+          "blockText": "流 ▸ 可空创建",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "findFirst",
+          "chinese": "流 ▸ 取第一个",
+          "blockText": "流 ▸ 取第一个",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "noneMatch",
+          "chinese": "流 ▸ 全不满足",
+          "blockText": "流 ▸ 全不满足",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Predicate"
+          ]
+        },
+        {
+          "name": "sorted",
+          "chinese": "流 ▸ 排序",
+          "blockText": "流 ▸ 排序",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "generate",
+          "chinese": "流 ▸ 生成",
+          "blockText": "流 ▸ 生成",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Supplier"
+          ]
+        },
+        {
+          "name": "forEachOrdered",
+          "chinese": "流 ▸ forEachOrdered",
+          "blockText": "流 ▸ forEachOrdered",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Consumer"
+          ]
+        },
+        {
+          "name": "mapToInt",
+          "chinese": "流 ▸ 映射为整数",
+          "blockText": "流 ▸ 映射为整数",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ToIntFunction"
+          ]
+        },
+        {
+          "name": "mapToLong",
+          "chinese": "流 ▸ mapToLong",
+          "blockText": "流 ▸ mapToLong",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ToLongFunction"
+          ]
+        },
+        {
+          "name": "mapToDouble",
+          "chinese": "流 ▸ mapToDouble",
+          "blockText": "流 ▸ mapToDouble",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ToDoubleFunction"
+          ]
+        },
+        {
+          "name": "flatMapToInt",
+          "chinese": "流 ▸ flatMapToInt",
+          "blockText": "流 ▸ flatMapToInt",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Function"
+          ]
+        },
+        {
+          "name": "flatMapToDouble",
+          "chinese": "流 ▸ flatMapToDouble",
+          "blockText": "流 ▸ flatMapToDouble",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Function"
+          ]
+        },
+        {
+          "name": "flatMapToLong",
+          "chinese": "流 ▸ flatMapToLong",
+          "blockText": "流 ▸ flatMapToLong",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Function"
+          ]
+        },
+        {
+          "name": "mapMulti",
+          "chinese": "流 ▸ mapMulti",
+          "blockText": "流 ▸ mapMulti",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BiConsumer"
+          ]
+        },
+        {
+          "name": "mapMultiToInt",
+          "chinese": "流 ▸ mapMultiToInt",
+          "blockText": "流 ▸ mapMultiToInt",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BiConsumer"
+          ]
+        },
+        {
+          "name": "mapMultiToLong",
+          "chinese": "流 ▸ mapMultiToLong",
+          "blockText": "流 ▸ mapMultiToLong",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BiConsumer"
+          ]
+        },
+        {
+          "name": "mapMultiToDouble",
+          "chinese": "流 ▸ mapMultiToDouble",
+          "blockText": "流 ▸ mapMultiToDouble",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BiConsumer"
+          ]
+        },
+        {
+          "name": "takeWhile",
+          "chinese": "流 ▸ takeWhile",
+          "blockText": "流 ▸ takeWhile",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Predicate"
+          ]
+        },
+        {
+          "name": "dropWhile",
+          "chinese": "流 ▸ dropWhile",
+          "blockText": "流 ▸ dropWhile",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Predicate"
+          ]
+        },
+        {
+          "name": "gather",
+          "chinese": "流 ▸ gather",
+          "blockText": "流 ▸ gather",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Gatherer"
+          ]
+        },
+        {
+          "name": "iterator",
+          "chinese": "流 ▸ 取迭代器",
+          "blockText": "流 ▸ 取迭代器",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Iterator",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "spliterator",
+          "chinese": "流 ▸ spliterator",
+          "blockText": "流 ▸ spliterator",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Spliterator",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "close",
+          "chinese": "流 ▸ 关闭",
+          "blockText": "流 ▸ 关闭",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "parallel",
+          "chinese": "流 ▸ parallel",
+          "blockText": "流 ▸ parallel",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BaseStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isParallel",
+          "chinese": "流 ▸ isParallel",
+          "blockText": "流 ▸ isParallel",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "unordered",
+          "chinese": "流 ▸ unordered",
+          "blockText": "流 ▸ unordered",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BaseStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "onClose",
+          "chinese": "流 ▸ onClose",
+          "blockText": "流 ▸ onClose",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BaseStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Runnable"
+          ]
+        },
+        {
+          "name": "sequential",
+          "chinese": "流 ▸ sequential",
+          "blockText": "流 ▸ sequential",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BaseStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.stream.IntStream",
+      "chinese": "IntStream",
+      "displayName": "IntStream",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "min",
+          "chinese": "IntStream ▸ 最小值",
+          "blockText": "IntStream ▸ 最小值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "OptionalInt",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "max",
+          "chinese": "IntStream ▸ 最大值",
+          "blockText": "IntStream ▸ 最大值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "OptionalInt",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "of",
+          "chinese": "IntStream ▸ 创建",
+          "blockText": "IntStream ▸ 创建",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "toArray",
+          "chinese": "IntStream ▸ 转为数组",
+          "blockText": "IntStream ▸ 转为数组",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "iterator",
+          "chinese": "IntStream ▸ 取迭代器",
+          "blockText": "IntStream ▸ 取迭代器",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "PrimitiveIterator$OfInt",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "map",
+          "chinese": "IntStream ▸ 映射",
+          "blockText": "IntStream ▸ 映射",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntUnaryOperator"
+          ]
+        },
+        {
+          "name": "collect",
+          "chinese": "IntStream ▸ 收集",
+          "blockText": "IntStream ▸ 收集",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Supplier",
+            "ObjIntConsumer",
+            "BiConsumer"
+          ]
+        },
+        {
+          "name": "count",
+          "chinese": "IntStream ▸ 计数",
+          "blockText": "IntStream ▸ 计数",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "builder",
+          "chinese": "IntStream ▸ builder",
+          "blockText": "IntStream ▸ builder",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream$Builder",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "concat",
+          "chinese": "IntStream ▸ 拼接",
+          "blockText": "IntStream ▸ 拼接",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "IntStream",
+            "IntStream"
+          ]
+        },
+        {
+          "name": "limit",
+          "chinese": "IntStream ▸ 限制数量",
+          "blockText": "IntStream ▸ 限制数量",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "spliterator",
+          "chinese": "IntStream ▸ spliterator",
+          "blockText": "IntStream ▸ spliterator",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Spliterator$OfInt",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "filter",
+          "chinese": "IntStream ▸ 筛选",
+          "blockText": "IntStream ▸ 筛选",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntPredicate"
+          ]
+        },
+        {
+          "name": "empty",
+          "chinese": "IntStream ▸ empty",
+          "blockText": "IntStream ▸ empty",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "anyMatch",
+          "chinese": "IntStream ▸ 任一满足",
+          "blockText": "IntStream ▸ 任一满足",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntPredicate"
+          ]
+        },
+        {
+          "name": "forEach",
+          "chinese": "IntStream ▸ 逐个处理",
+          "blockText": "IntStream ▸ 逐个处理",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntConsumer"
+          ]
+        },
+        {
+          "name": "findAny",
+          "chinese": "IntStream ▸ 取任意一个",
+          "blockText": "IntStream ▸ 取任意一个",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "OptionalInt",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "skip",
+          "chinese": "IntStream ▸ 跳过",
+          "blockText": "IntStream ▸ 跳过",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "peek",
+          "chinese": "IntStream ▸ 逐个查看",
+          "blockText": "IntStream ▸ 逐个查看",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntConsumer"
+          ]
+        },
+        {
+          "name": "sum",
+          "chinese": "IntStream ▸ sum",
+          "blockText": "IntStream ▸ sum",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "reduce",
+          "chinese": "IntStream ▸ 归约",
+          "blockText": "IntStream ▸ 归约",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "OptionalInt",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntBinaryOperator"
+          ]
+        },
+        {
+          "name": "range",
+          "chinese": "IntStream ▸ range",
+          "blockText": "IntStream ▸ range",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "parallel",
+          "chinese": "IntStream ▸ parallel",
+          "blockText": "IntStream ▸ parallel",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "iterate",
+          "chinese": "IntStream ▸ 迭代生成",
+          "blockText": "IntStream ▸ 迭代生成",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int",
+            "IntUnaryOperator"
+          ]
+        },
+        {
+          "name": "flatMap",
+          "chinese": "IntStream ▸ 扁平映射",
+          "blockText": "IntStream ▸ 扁平映射",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntFunction"
+          ]
+        },
+        {
+          "name": "allMatch",
+          "chinese": "IntStream ▸ 全部满足",
+          "blockText": "IntStream ▸ 全部满足",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntPredicate"
+          ]
+        },
+        {
+          "name": "distinct",
+          "chinese": "IntStream ▸ 去重",
+          "blockText": "IntStream ▸ 去重",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "findFirst",
+          "chinese": "IntStream ▸ 取第一个",
+          "blockText": "IntStream ▸ 取第一个",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "OptionalInt",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "noneMatch",
+          "chinese": "IntStream ▸ 全不满足",
+          "blockText": "IntStream ▸ 全不满足",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntPredicate"
+          ]
+        },
+        {
+          "name": "mapToObj",
+          "chinese": "IntStream ▸ mapToObj",
+          "blockText": "IntStream ▸ mapToObj",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntFunction"
+          ]
+        },
+        {
+          "name": "sorted",
+          "chinese": "IntStream ▸ 排序",
+          "blockText": "IntStream ▸ 排序",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "generate",
+          "chinese": "IntStream ▸ 生成",
+          "blockText": "IntStream ▸ 生成",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "IntSupplier"
+          ]
+        },
+        {
+          "name": "forEachOrdered",
+          "chinese": "IntStream ▸ forEachOrdered",
+          "blockText": "IntStream ▸ forEachOrdered",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntConsumer"
+          ]
+        },
+        {
+          "name": "mapToLong",
+          "chinese": "IntStream ▸ mapToLong",
+          "blockText": "IntStream ▸ mapToLong",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntToLongFunction"
+          ]
+        },
+        {
+          "name": "mapToDouble",
+          "chinese": "IntStream ▸ mapToDouble",
+          "blockText": "IntStream ▸ mapToDouble",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntToDoubleFunction"
+          ]
+        },
+        {
+          "name": "mapMulti",
+          "chinese": "IntStream ▸ mapMulti",
+          "blockText": "IntStream ▸ mapMulti",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntStream$IntMapMultiConsumer"
+          ]
+        },
+        {
+          "name": "takeWhile",
+          "chinese": "IntStream ▸ takeWhile",
+          "blockText": "IntStream ▸ takeWhile",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntPredicate"
+          ]
+        },
+        {
+          "name": "dropWhile",
+          "chinese": "IntStream ▸ dropWhile",
+          "blockText": "IntStream ▸ dropWhile",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntPredicate"
+          ]
+        },
+        {
+          "name": "sequential",
+          "chinese": "IntStream ▸ sequential",
+          "blockText": "IntStream ▸ sequential",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "rangeClosed",
+          "chinese": "IntStream ▸ rangeClosed",
+          "blockText": "IntStream ▸ rangeClosed",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "boxed",
+          "chinese": "IntStream ▸ 装箱",
+          "blockText": "IntStream ▸ 装箱",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "average",
+          "chinese": "IntStream ▸ average",
+          "blockText": "IntStream ▸ average",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "OptionalDouble",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "summaryStatistics",
+          "chinese": "IntStream ▸ summaryStatistics",
+          "blockText": "IntStream ▸ summaryStatistics",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntSummaryStatistics",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "asLongStream",
+          "chinese": "IntStream ▸ asLongStream",
+          "blockText": "IntStream ▸ asLongStream",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "asDoubleStream",
+          "chinese": "IntStream ▸ asDoubleStream",
+          "blockText": "IntStream ▸ asDoubleStream",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "close",
+          "chinese": "IntStream ▸ 关闭",
+          "blockText": "IntStream ▸ 关闭",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isParallel",
+          "chinese": "IntStream ▸ isParallel",
+          "blockText": "IntStream ▸ isParallel",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "unordered",
+          "chinese": "IntStream ▸ unordered",
+          "blockText": "IntStream ▸ unordered",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BaseStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "onClose",
+          "chinese": "IntStream ▸ onClose",
+          "blockText": "IntStream ▸ onClose",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BaseStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Runnable"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.stream.LongStream",
+      "chinese": "LongStream",
+      "displayName": "LongStream",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "min",
+          "chinese": "LongStream ▸ 最小值",
+          "blockText": "LongStream ▸ 最小值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "OptionalLong",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "max",
+          "chinese": "LongStream ▸ 最大值",
+          "blockText": "LongStream ▸ 最大值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "OptionalLong",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "of",
+          "chinese": "LongStream ▸ 创建",
+          "blockText": "LongStream ▸ 创建",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "toArray",
+          "chinese": "LongStream ▸ 转为数组",
+          "blockText": "LongStream ▸ 转为数组",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "iterator",
+          "chinese": "LongStream ▸ 取迭代器",
+          "blockText": "LongStream ▸ 取迭代器",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "PrimitiveIterator$OfLong",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "map",
+          "chinese": "LongStream ▸ 映射",
+          "blockText": "LongStream ▸ 映射",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongUnaryOperator"
+          ]
+        },
+        {
+          "name": "collect",
+          "chinese": "LongStream ▸ 收集",
+          "blockText": "LongStream ▸ 收集",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Supplier",
+            "ObjLongConsumer",
+            "BiConsumer"
+          ]
+        },
+        {
+          "name": "count",
+          "chinese": "LongStream ▸ 计数",
+          "blockText": "LongStream ▸ 计数",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "builder",
+          "chinese": "LongStream ▸ builder",
+          "blockText": "LongStream ▸ builder",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream$Builder",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "concat",
+          "chinese": "LongStream ▸ 拼接",
+          "blockText": "LongStream ▸ 拼接",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "LongStream",
+            "LongStream"
+          ]
+        },
+        {
+          "name": "limit",
+          "chinese": "LongStream ▸ 限制数量",
+          "blockText": "LongStream ▸ 限制数量",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "spliterator",
+          "chinese": "LongStream ▸ spliterator",
+          "blockText": "LongStream ▸ spliterator",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Spliterator$OfLong",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "filter",
+          "chinese": "LongStream ▸ 筛选",
+          "blockText": "LongStream ▸ 筛选",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongPredicate"
+          ]
+        },
+        {
+          "name": "empty",
+          "chinese": "LongStream ▸ empty",
+          "blockText": "LongStream ▸ empty",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "anyMatch",
+          "chinese": "LongStream ▸ 任一满足",
+          "blockText": "LongStream ▸ 任一满足",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongPredicate"
+          ]
+        },
+        {
+          "name": "forEach",
+          "chinese": "LongStream ▸ 逐个处理",
+          "blockText": "LongStream ▸ 逐个处理",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongConsumer"
+          ]
+        },
+        {
+          "name": "findAny",
+          "chinese": "LongStream ▸ 取任意一个",
+          "blockText": "LongStream ▸ 取任意一个",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "OptionalLong",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "skip",
+          "chinese": "LongStream ▸ 跳过",
+          "blockText": "LongStream ▸ 跳过",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "peek",
+          "chinese": "LongStream ▸ 逐个查看",
+          "blockText": "LongStream ▸ 逐个查看",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongConsumer"
+          ]
+        },
+        {
+          "name": "sum",
+          "chinese": "LongStream ▸ sum",
+          "blockText": "LongStream ▸ sum",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "reduce",
+          "chinese": "LongStream ▸ 归约",
+          "blockText": "LongStream ▸ 归约",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "OptionalLong",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongBinaryOperator"
+          ]
+        },
+        {
+          "name": "range",
+          "chinese": "LongStream ▸ range",
+          "blockText": "LongStream ▸ range",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "parallel",
+          "chinese": "LongStream ▸ parallel",
+          "blockText": "LongStream ▸ parallel",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "iterate",
+          "chinese": "LongStream ▸ 迭代生成",
+          "blockText": "LongStream ▸ 迭代生成",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "long",
+            "LongPredicate",
+            "LongUnaryOperator"
+          ]
+        },
+        {
+          "name": "flatMap",
+          "chinese": "LongStream ▸ 扁平映射",
+          "blockText": "LongStream ▸ 扁平映射",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongFunction"
+          ]
+        },
+        {
+          "name": "allMatch",
+          "chinese": "LongStream ▸ 全部满足",
+          "blockText": "LongStream ▸ 全部满足",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongPredicate"
+          ]
+        },
+        {
+          "name": "distinct",
+          "chinese": "LongStream ▸ 去重",
+          "blockText": "LongStream ▸ 去重",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "findFirst",
+          "chinese": "LongStream ▸ 取第一个",
+          "blockText": "LongStream ▸ 取第一个",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "OptionalLong",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "noneMatch",
+          "chinese": "LongStream ▸ 全不满足",
+          "blockText": "LongStream ▸ 全不满足",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongPredicate"
+          ]
+        },
+        {
+          "name": "mapToObj",
+          "chinese": "LongStream ▸ mapToObj",
+          "blockText": "LongStream ▸ mapToObj",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongFunction"
+          ]
+        },
+        {
+          "name": "sorted",
+          "chinese": "LongStream ▸ 排序",
+          "blockText": "LongStream ▸ 排序",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "generate",
+          "chinese": "LongStream ▸ 生成",
+          "blockText": "LongStream ▸ 生成",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "LongSupplier"
+          ]
+        },
+        {
+          "name": "forEachOrdered",
+          "chinese": "LongStream ▸ forEachOrdered",
+          "blockText": "LongStream ▸ forEachOrdered",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongConsumer"
+          ]
+        },
+        {
+          "name": "mapToInt",
+          "chinese": "LongStream ▸ 映射为整数",
+          "blockText": "LongStream ▸ 映射为整数",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongToIntFunction"
+          ]
+        },
+        {
+          "name": "mapToDouble",
+          "chinese": "LongStream ▸ mapToDouble",
+          "blockText": "LongStream ▸ mapToDouble",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongToDoubleFunction"
+          ]
+        },
+        {
+          "name": "mapMulti",
+          "chinese": "LongStream ▸ mapMulti",
+          "blockText": "LongStream ▸ mapMulti",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongStream$LongMapMultiConsumer"
+          ]
+        },
+        {
+          "name": "takeWhile",
+          "chinese": "LongStream ▸ takeWhile",
+          "blockText": "LongStream ▸ takeWhile",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongPredicate"
+          ]
+        },
+        {
+          "name": "dropWhile",
+          "chinese": "LongStream ▸ dropWhile",
+          "blockText": "LongStream ▸ dropWhile",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongPredicate"
+          ]
+        },
+        {
+          "name": "sequential",
+          "chinese": "LongStream ▸ sequential",
+          "blockText": "LongStream ▸ sequential",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "rangeClosed",
+          "chinese": "LongStream ▸ rangeClosed",
+          "blockText": "LongStream ▸ rangeClosed",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "boxed",
+          "chinese": "LongStream ▸ 装箱",
+          "blockText": "LongStream ▸ 装箱",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "average",
+          "chinese": "LongStream ▸ average",
+          "blockText": "LongStream ▸ average",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "OptionalDouble",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "summaryStatistics",
+          "chinese": "LongStream ▸ summaryStatistics",
+          "blockText": "LongStream ▸ summaryStatistics",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongSummaryStatistics",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "asDoubleStream",
+          "chinese": "LongStream ▸ asDoubleStream",
+          "blockText": "LongStream ▸ asDoubleStream",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "close",
+          "chinese": "LongStream ▸ 关闭",
+          "blockText": "LongStream ▸ 关闭",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isParallel",
+          "chinese": "LongStream ▸ isParallel",
+          "blockText": "LongStream ▸ isParallel",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "unordered",
+          "chinese": "LongStream ▸ unordered",
+          "blockText": "LongStream ▸ unordered",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BaseStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "onClose",
+          "chinese": "LongStream ▸ onClose",
+          "blockText": "LongStream ▸ onClose",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BaseStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Runnable"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.stream.DoubleStream",
+      "chinese": "DoubleStream",
+      "displayName": "DoubleStream",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "min",
+          "chinese": "DoubleStream ▸ 最小值",
+          "blockText": "DoubleStream ▸ 最小值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "OptionalDouble",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "max",
+          "chinese": "DoubleStream ▸ 最大值",
+          "blockText": "DoubleStream ▸ 最大值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "OptionalDouble",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "of",
+          "chinese": "DoubleStream ▸ 创建",
+          "blockText": "DoubleStream ▸ 创建",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "double"
+          ]
+        },
+        {
+          "name": "toArray",
+          "chinese": "DoubleStream ▸ 转为数组",
+          "blockText": "DoubleStream ▸ 转为数组",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "iterator",
+          "chinese": "DoubleStream ▸ 取迭代器",
+          "blockText": "DoubleStream ▸ 取迭代器",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "PrimitiveIterator$OfDouble",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "map",
+          "chinese": "DoubleStream ▸ 映射",
+          "blockText": "DoubleStream ▸ 映射",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoubleUnaryOperator"
+          ]
+        },
+        {
+          "name": "collect",
+          "chinese": "DoubleStream ▸ 收集",
+          "blockText": "DoubleStream ▸ 收集",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Supplier",
+            "ObjDoubleConsumer",
+            "BiConsumer"
+          ]
+        },
+        {
+          "name": "count",
+          "chinese": "DoubleStream ▸ 计数",
+          "blockText": "DoubleStream ▸ 计数",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "builder",
+          "chinese": "DoubleStream ▸ builder",
+          "blockText": "DoubleStream ▸ builder",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream$Builder",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "concat",
+          "chinese": "DoubleStream ▸ 拼接",
+          "blockText": "DoubleStream ▸ 拼接",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "DoubleStream",
+            "DoubleStream"
+          ]
+        },
+        {
+          "name": "limit",
+          "chinese": "DoubleStream ▸ 限制数量",
+          "blockText": "DoubleStream ▸ 限制数量",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "spliterator",
+          "chinese": "DoubleStream ▸ spliterator",
+          "blockText": "DoubleStream ▸ spliterator",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Spliterator$OfDouble",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "filter",
+          "chinese": "DoubleStream ▸ 筛选",
+          "blockText": "DoubleStream ▸ 筛选",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoublePredicate"
+          ]
+        },
+        {
+          "name": "empty",
+          "chinese": "DoubleStream ▸ empty",
+          "blockText": "DoubleStream ▸ empty",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "anyMatch",
+          "chinese": "DoubleStream ▸ 任一满足",
+          "blockText": "DoubleStream ▸ 任一满足",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoublePredicate"
+          ]
+        },
+        {
+          "name": "forEach",
+          "chinese": "DoubleStream ▸ 逐个处理",
+          "blockText": "DoubleStream ▸ 逐个处理",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoubleConsumer"
+          ]
+        },
+        {
+          "name": "findAny",
+          "chinese": "DoubleStream ▸ 取任意一个",
+          "blockText": "DoubleStream ▸ 取任意一个",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "OptionalDouble",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "skip",
+          "chinese": "DoubleStream ▸ 跳过",
+          "blockText": "DoubleStream ▸ 跳过",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "peek",
+          "chinese": "DoubleStream ▸ 逐个查看",
+          "blockText": "DoubleStream ▸ 逐个查看",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoubleConsumer"
+          ]
+        },
+        {
+          "name": "sum",
+          "chinese": "DoubleStream ▸ sum",
+          "blockText": "DoubleStream ▸ sum",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "reduce",
+          "chinese": "DoubleStream ▸ 归约",
+          "blockText": "DoubleStream ▸ 归约",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "double",
+            "DoubleBinaryOperator"
+          ]
+        },
+        {
+          "name": "parallel",
+          "chinese": "DoubleStream ▸ parallel",
+          "blockText": "DoubleStream ▸ parallel",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "iterate",
+          "chinese": "DoubleStream ▸ 迭代生成",
+          "blockText": "DoubleStream ▸ 迭代生成",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "double",
+            "DoublePredicate",
+            "DoubleUnaryOperator"
+          ]
+        },
+        {
+          "name": "flatMap",
+          "chinese": "DoubleStream ▸ 扁平映射",
+          "blockText": "DoubleStream ▸ 扁平映射",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoubleFunction"
+          ]
+        },
+        {
+          "name": "allMatch",
+          "chinese": "DoubleStream ▸ 全部满足",
+          "blockText": "DoubleStream ▸ 全部满足",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoublePredicate"
+          ]
+        },
+        {
+          "name": "distinct",
+          "chinese": "DoubleStream ▸ 去重",
+          "blockText": "DoubleStream ▸ 去重",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "findFirst",
+          "chinese": "DoubleStream ▸ 取第一个",
+          "blockText": "DoubleStream ▸ 取第一个",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "OptionalDouble",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "noneMatch",
+          "chinese": "DoubleStream ▸ 全不满足",
+          "blockText": "DoubleStream ▸ 全不满足",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoublePredicate"
+          ]
+        },
+        {
+          "name": "mapToObj",
+          "chinese": "DoubleStream ▸ mapToObj",
+          "blockText": "DoubleStream ▸ mapToObj",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoubleFunction"
+          ]
+        },
+        {
+          "name": "sorted",
+          "chinese": "DoubleStream ▸ 排序",
+          "blockText": "DoubleStream ▸ 排序",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "generate",
+          "chinese": "DoubleStream ▸ 生成",
+          "blockText": "DoubleStream ▸ 生成",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "DoubleSupplier"
+          ]
+        },
+        {
+          "name": "forEachOrdered",
+          "chinese": "DoubleStream ▸ forEachOrdered",
+          "blockText": "DoubleStream ▸ forEachOrdered",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoubleConsumer"
+          ]
+        },
+        {
+          "name": "mapToInt",
+          "chinese": "DoubleStream ▸ 映射为整数",
+          "blockText": "DoubleStream ▸ 映射为整数",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoubleToIntFunction"
+          ]
+        },
+        {
+          "name": "mapToLong",
+          "chinese": "DoubleStream ▸ mapToLong",
+          "blockText": "DoubleStream ▸ mapToLong",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoubleToLongFunction"
+          ]
+        },
+        {
+          "name": "mapMulti",
+          "chinese": "DoubleStream ▸ mapMulti",
+          "blockText": "DoubleStream ▸ mapMulti",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoubleStream$DoubleMapMultiConsumer"
+          ]
+        },
+        {
+          "name": "takeWhile",
+          "chinese": "DoubleStream ▸ takeWhile",
+          "blockText": "DoubleStream ▸ takeWhile",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoublePredicate"
+          ]
+        },
+        {
+          "name": "dropWhile",
+          "chinese": "DoubleStream ▸ dropWhile",
+          "blockText": "DoubleStream ▸ dropWhile",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoublePredicate"
+          ]
+        },
+        {
+          "name": "sequential",
+          "chinese": "DoubleStream ▸ sequential",
+          "blockText": "DoubleStream ▸ sequential",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "boxed",
+          "chinese": "DoubleStream ▸ 装箱",
+          "blockText": "DoubleStream ▸ 装箱",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "average",
+          "chinese": "DoubleStream ▸ average",
+          "blockText": "DoubleStream ▸ average",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "OptionalDouble",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "summaryStatistics",
+          "chinese": "DoubleStream ▸ summaryStatistics",
+          "blockText": "DoubleStream ▸ summaryStatistics",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleSummaryStatistics",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "close",
+          "chinese": "DoubleStream ▸ 关闭",
+          "blockText": "DoubleStream ▸ 关闭",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isParallel",
+          "chinese": "DoubleStream ▸ isParallel",
+          "blockText": "DoubleStream ▸ isParallel",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "unordered",
+          "chinese": "DoubleStream ▸ unordered",
+          "blockText": "DoubleStream ▸ unordered",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BaseStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "onClose",
+          "chinese": "DoubleStream ▸ onClose",
+          "blockText": "DoubleStream ▸ onClose",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BaseStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Runnable"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.stream.Collectors",
+      "chinese": "流收集器",
+      "displayName": "Collectors",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "joining",
+          "chinese": "流收集器 ▸ joining",
+          "blockText": "流收集器 ▸ joining",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "CharSequence",
+            "CharSequence",
+            "CharSequence"
+          ]
+        },
+        {
+          "name": "toList",
+          "chinese": "流收集器 ▸ 转为列表",
+          "blockText": "流收集器 ▸ 转为列表",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toMap",
+          "chinese": "流收集器 ▸ toMap",
+          "blockText": "流收集器 ▸ toMap",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Function",
+            "Function",
+            "BinaryOperator"
+          ]
+        },
+        {
+          "name": "toSet",
+          "chinese": "流收集器 ▸ toSet",
+          "blockText": "流收集器 ▸ toSet",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "maxBy",
+          "chinese": "流收集器 ▸ maxBy",
+          "blockText": "流收集器 ▸ maxBy",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Comparator"
+          ]
+        },
+        {
+          "name": "minBy",
+          "chinese": "流收集器 ▸ minBy",
+          "blockText": "流收集器 ▸ minBy",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Comparator"
+          ]
+        },
+        {
+          "name": "mapping",
+          "chinese": "流收集器 ▸ mapping",
+          "blockText": "流收集器 ▸ mapping",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Function",
+            "Collector"
+          ]
+        },
+        {
+          "name": "groupingBy",
+          "chinese": "流收集器 ▸ groupingBy",
+          "blockText": "流收集器 ▸ groupingBy",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Function"
+          ]
+        },
+        {
+          "name": "toCollection",
+          "chinese": "流收集器 ▸ toCollection",
+          "blockText": "流收集器 ▸ toCollection",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Supplier"
+          ]
+        },
+        {
+          "name": "summingLong",
+          "chinese": "流收集器 ▸ summingLong",
+          "blockText": "流收集器 ▸ summingLong",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "ToLongFunction"
+          ]
+        },
+        {
+          "name": "reducing",
+          "chinese": "流收集器 ▸ reducing",
+          "blockText": "流收集器 ▸ reducing",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "BinaryOperator"
+          ]
+        },
+        {
+          "name": "groupingByConcurrent",
+          "chinese": "流收集器 ▸ groupingByConcurrent",
+          "blockText": "流收集器 ▸ groupingByConcurrent",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Function",
+            "Collector"
+          ]
+        },
+        {
+          "name": "partitioningBy",
+          "chinese": "流收集器 ▸ partitioningBy",
+          "blockText": "流收集器 ▸ partitioningBy",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Predicate"
+          ]
+        },
+        {
+          "name": "collectingAndThen",
+          "chinese": "流收集器 ▸ collectingAndThen",
+          "blockText": "流收集器 ▸ collectingAndThen",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Collector",
+            "Function"
+          ]
+        },
+        {
+          "name": "toConcurrentMap",
+          "chinese": "流收集器 ▸ toConcurrentMap",
+          "blockText": "流收集器 ▸ toConcurrentMap",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Function",
+            "Function"
+          ]
+        },
+        {
+          "name": "toUnmodifiableList",
+          "chinese": "流收集器 ▸ toUnmodifiableList",
+          "blockText": "流收集器 ▸ toUnmodifiableList",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toUnmodifiableSet",
+          "chinese": "流收集器 ▸ toUnmodifiableSet",
+          "blockText": "流收集器 ▸ toUnmodifiableSet",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "flatMapping",
+          "chinese": "流收集器 ▸ flatMapping",
+          "blockText": "流收集器 ▸ flatMapping",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Function",
+            "Collector"
+          ]
+        },
+        {
+          "name": "filtering",
+          "chinese": "流收集器 ▸ filtering",
+          "blockText": "流收集器 ▸ filtering",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Predicate",
+            "Collector"
+          ]
+        },
+        {
+          "name": "counting",
+          "chinese": "流收集器 ▸ counting",
+          "blockText": "流收集器 ▸ counting",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "summingInt",
+          "chinese": "流收集器 ▸ summingInt",
+          "blockText": "流收集器 ▸ summingInt",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "ToIntFunction"
+          ]
+        },
+        {
+          "name": "summingDouble",
+          "chinese": "流收集器 ▸ summingDouble",
+          "blockText": "流收集器 ▸ summingDouble",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "ToDoubleFunction"
+          ]
+        },
+        {
+          "name": "averagingInt",
+          "chinese": "流收集器 ▸ averagingInt",
+          "blockText": "流收集器 ▸ averagingInt",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "ToIntFunction"
+          ]
+        },
+        {
+          "name": "averagingLong",
+          "chinese": "流收集器 ▸ averagingLong",
+          "blockText": "流收集器 ▸ averagingLong",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "ToLongFunction"
+          ]
+        },
+        {
+          "name": "averagingDouble",
+          "chinese": "流收集器 ▸ averagingDouble",
+          "blockText": "流收集器 ▸ averagingDouble",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "ToDoubleFunction"
+          ]
+        },
+        {
+          "name": "toUnmodifiableMap",
+          "chinese": "流收集器 ▸ toUnmodifiableMap",
+          "blockText": "流收集器 ▸ toUnmodifiableMap",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Function",
+            "Function"
+          ]
+        },
+        {
+          "name": "summarizingInt",
+          "chinese": "流收集器 ▸ summarizingInt",
+          "blockText": "流收集器 ▸ summarizingInt",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "ToIntFunction"
+          ]
+        },
+        {
+          "name": "summarizingLong",
+          "chinese": "流收集器 ▸ summarizingLong",
+          "blockText": "流收集器 ▸ summarizingLong",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "ToLongFunction"
+          ]
+        },
+        {
+          "name": "summarizingDouble",
+          "chinese": "流收集器 ▸ summarizingDouble",
+          "blockText": "流收集器 ▸ summarizingDouble",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "ToDoubleFunction"
+          ]
+        },
+        {
+          "name": "teeing",
+          "chinese": "流收集器 ▸ teeing",
+          "blockText": "流收集器 ▸ teeing",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Collector",
+            "Collector",
+            "BiFunction"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "流收集器 ▸ 相等",
+          "blockText": "流收集器 ▸ 相等",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "流收集器 ▸ 转为文本",
+          "blockText": "流收集器 ▸ 转为文本",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "流收集器 ▸ 哈希值",
+          "blockText": "流收集器 ▸ 哈希值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "流收集器 ▸ 取类型",
+          "blockText": "流收集器 ▸ 取类型",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "流收集器 ▸ 通知",
+          "blockText": "流收集器 ▸ 通知",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "流收集器 ▸ 通知全部",
+          "blockText": "流收集器 ▸ 通知全部",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "流收集器 ▸ 等待",
+          "blockText": "流收集器 ▸ 等待",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.stream.StreamSupport",
+      "chinese": "StreamSupport",
+      "displayName": "StreamSupport",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "stream",
+          "chinese": "StreamSupport ▸ 转为流",
+          "blockText": "StreamSupport ▸ 转为流",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Supplier",
+            "int",
+            "boolean"
+          ]
+        },
+        {
+          "name": "intStream",
+          "chinese": "StreamSupport ▸ intStream",
+          "blockText": "StreamSupport ▸ intStream",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Supplier",
+            "int",
+            "boolean"
+          ]
+        },
+        {
+          "name": "longStream",
+          "chinese": "StreamSupport ▸ longStream",
+          "blockText": "StreamSupport ▸ longStream",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Supplier",
+            "int",
+            "boolean"
+          ]
+        },
+        {
+          "name": "doubleStream",
+          "chinese": "StreamSupport ▸ doubleStream",
+          "blockText": "StreamSupport ▸ doubleStream",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Spliterator$OfDouble",
+            "boolean"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "StreamSupport ▸ 相等",
+          "blockText": "StreamSupport ▸ 相等",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "StreamSupport ▸ 转为文本",
+          "blockText": "StreamSupport ▸ 转为文本",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "StreamSupport ▸ 哈希值",
+          "blockText": "StreamSupport ▸ 哈希值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "StreamSupport ▸ 取类型",
+          "blockText": "StreamSupport ▸ 取类型",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "StreamSupport ▸ 通知",
+          "blockText": "StreamSupport ▸ 通知",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "StreamSupport ▸ 通知全部",
+          "blockText": "StreamSupport ▸ 通知全部",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "StreamSupport ▸ 等待",
+          "blockText": "StreamSupport ▸ 等待",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.stream.BaseStream",
+      "chinese": "BaseStream",
+      "displayName": "BaseStream",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "iterator",
+          "chinese": "BaseStream ▸ 取迭代器",
+          "blockText": "BaseStream ▸ 取迭代器",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Iterator",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "spliterator",
+          "chinese": "BaseStream ▸ spliterator",
+          "blockText": "BaseStream ▸ spliterator",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Spliterator",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "close",
+          "chinese": "BaseStream ▸ 关闭",
+          "blockText": "BaseStream ▸ 关闭",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "parallel",
+          "chinese": "BaseStream ▸ parallel",
+          "blockText": "BaseStream ▸ parallel",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BaseStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isParallel",
+          "chinese": "BaseStream ▸ isParallel",
+          "blockText": "BaseStream ▸ isParallel",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "unordered",
+          "chinese": "BaseStream ▸ unordered",
+          "blockText": "BaseStream ▸ unordered",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BaseStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "onClose",
+          "chinese": "BaseStream ▸ onClose",
+          "blockText": "BaseStream ▸ onClose",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BaseStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Runnable"
+          ]
+        },
+        {
+          "name": "sequential",
+          "chinese": "BaseStream ▸ sequential",
+          "blockText": "BaseStream ▸ sequential",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BaseStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.stream.Collector",
+      "chinese": "Collector",
+      "displayName": "Collector",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "of",
+          "chinese": "Collector ▸ of",
+          "blockText": "Collector ▸ of",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Supplier",
+            "BiConsumer",
+            "BinaryOperator",
+            "Function",
+            "Characteristics[]"
+          ]
+        },
+        {
+          "name": "of",
+          "chinese": "Collector ▸ of",
+          "blockText": "Collector ▸ of",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collector",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Supplier",
+            "BiConsumer",
+            "BinaryOperator",
+            "Characteristics[]"
+          ]
+        },
+        {
+          "name": "characteristics",
+          "chinese": "Collector ▸ characteristics",
+          "blockText": "Collector ▸ characteristics",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Set",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "supplier",
+          "chinese": "Collector ▸ supplier",
+          "blockText": "Collector ▸ supplier",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Supplier",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "combiner",
+          "chinese": "Collector ▸ combiner",
+          "blockText": "Collector ▸ combiner",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BinaryOperator",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "accumulator",
+          "chinese": "Collector ▸ accumulator",
+          "blockText": "Collector ▸ accumulator",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BiConsumer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "finisher",
+          "chinese": "Collector ▸ finisher",
+          "blockText": "Collector ▸ finisher",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Function",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.stream.Gatherer",
+      "chinese": "Gatherer",
+      "displayName": "Gatherer",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "of",
+          "chinese": "Gatherer ▸ of",
+          "blockText": "Gatherer ▸ of",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Gatherer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Integrator"
+          ]
+        },
+        {
+          "name": "of",
+          "chinese": "Gatherer ▸ of",
+          "blockText": "Gatherer ▸ of",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Gatherer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Integrator",
+            "BiConsumer"
+          ]
+        },
+        {
+          "name": "of",
+          "chinese": "Gatherer ▸ of",
+          "blockText": "Gatherer ▸ of",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Gatherer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Supplier",
+            "Integrator",
+            "BinaryOperator",
+            "BiConsumer"
+          ]
+        },
+        {
+          "name": "andThen",
+          "chinese": "Gatherer ▸ andThen",
+          "blockText": "Gatherer ▸ andThen",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Gatherer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Gatherer"
+          ]
+        },
+        {
+          "name": "combiner",
+          "chinese": "Gatherer ▸ combiner",
+          "blockText": "Gatherer ▸ combiner",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BinaryOperator",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "finisher",
+          "chinese": "Gatherer ▸ finisher",
+          "blockText": "Gatherer ▸ finisher",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BiConsumer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "defaultInitializer",
+          "chinese": "Gatherer ▸ defaultInitializer",
+          "blockText": "Gatherer ▸ defaultInitializer",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Supplier",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "defaultCombiner",
+          "chinese": "Gatherer ▸ defaultCombiner",
+          "blockText": "Gatherer ▸ defaultCombiner",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BinaryOperator",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "defaultFinisher",
+          "chinese": "Gatherer ▸ defaultFinisher",
+          "blockText": "Gatherer ▸ defaultFinisher",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BiConsumer",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initializer",
+          "chinese": "Gatherer ▸ initializer",
+          "blockText": "Gatherer ▸ initializer",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Supplier",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "integrator",
+          "chinese": "Gatherer ▸ integrator",
+          "blockText": "Gatherer ▸ integrator",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Integrator",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "ofSequential",
+          "chinese": "Gatherer ▸ ofSequential",
+          "blockText": "Gatherer ▸ ofSequential",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Gatherer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Integrator"
+          ]
+        },
+        {
+          "name": "ofSequential",
+          "chinese": "Gatherer ▸ ofSequential",
+          "blockText": "Gatherer ▸ ofSequential",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Gatherer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Supplier",
+            "Integrator",
+            "BiConsumer"
+          ]
+        },
+        {
+          "name": "ofSequential",
+          "chinese": "Gatherer ▸ ofSequential",
+          "blockText": "Gatherer ▸ ofSequential",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Gatherer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Supplier",
+            "Integrator"
+          ]
+        },
+        {
+          "name": "ofSequential",
+          "chinese": "Gatherer ▸ ofSequential",
+          "blockText": "Gatherer ▸ ofSequential",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Gatherer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Integrator",
+            "BiConsumer"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.stream.Gatherers",
+      "chinese": "Gatherers",
+      "displayName": "Gatherers",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "scan",
+          "chinese": "Gatherers ▸ scan",
+          "blockText": "Gatherers ▸ scan",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Gatherer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Supplier",
+            "BiFunction"
+          ]
+        },
+        {
+          "name": "windowFixed",
+          "chinese": "Gatherers ▸ windowFixed",
+          "blockText": "Gatherers ▸ windowFixed",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Gatherer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "windowSliding",
+          "chinese": "Gatherers ▸ windowSliding",
+          "blockText": "Gatherers ▸ windowSliding",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Gatherer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "fold",
+          "chinese": "Gatherers ▸ fold",
+          "blockText": "Gatherers ▸ fold",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Gatherer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Supplier",
+            "BiFunction"
+          ]
+        },
+        {
+          "name": "mapConcurrent",
+          "chinese": "Gatherers ▸ mapConcurrent",
+          "blockText": "Gatherers ▸ mapConcurrent",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Gatherer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int",
+            "Function"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "Gatherers ▸ equals",
+          "blockText": "Gatherers ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "Gatherers ▸ toString",
+          "blockText": "Gatherers ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "Gatherers ▸ hashCode",
+          "blockText": "Gatherers ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "Gatherers ▸ getClass",
+          "blockText": "Gatherers ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "Gatherers ▸ notify",
+          "blockText": "Gatherers ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "Gatherers ▸ notifyAll",
+          "blockText": "Gatherers ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "Gatherers ▸ wait",
+          "blockText": "Gatherers ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "Gatherers ▸ wait",
+          "blockText": "Gatherers ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "Gatherers ▸ wait",
+          "blockText": "Gatherers ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "_comment": "CLBC 自动生成的 JDK 库语言文件。一个库一个文件；java1~java27 共 27 个版本共用本文件。chinese/blockText 用代码名（积木语言与代码相同），不逐条中文化。",
+  "library": "java.util.random",
+  "libraryChinese": "random",
+  "minVersion": 1,
+  "maxVersion": 27,
+  "versionRange": "java1~java27",
+  "javaVersions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "classes": [
+    {
+      "fqn": "java.util.random.RandomGenerator",
+      "chinese": "RandomGenerator",
+      "displayName": "RandomGenerator",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "of",
+          "chinese": "RandomGenerator ▸ of",
+          "blockText": "RandomGenerator ▸ of",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "RandomGenerator",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "getDefault",
+          "chinese": "RandomGenerator ▸ getDefault",
+          "blockText": "RandomGenerator ▸ getDefault",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "RandomGenerator",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "nextDouble",
+          "chinese": "RandomGenerator ▸ nextDouble",
+          "blockText": "RandomGenerator ▸ nextDouble",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "double"
+          ]
+        },
+        {
+          "name": "nextDouble",
+          "chinese": "RandomGenerator ▸ nextDouble",
+          "blockText": "RandomGenerator ▸ nextDouble",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "nextDouble",
+          "chinese": "RandomGenerator ▸ nextDouble",
+          "blockText": "RandomGenerator ▸ nextDouble",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "double",
+            "double"
+          ]
+        },
+        {
+          "name": "nextInt",
+          "chinese": "RandomGenerator ▸ nextInt",
+          "blockText": "RandomGenerator ▸ nextInt",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "nextInt",
+          "chinese": "RandomGenerator ▸ nextInt",
+          "blockText": "RandomGenerator ▸ nextInt",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "nextInt",
+          "chinese": "RandomGenerator ▸ nextInt",
+          "blockText": "RandomGenerator ▸ nextInt",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "nextBytes",
+          "chinese": "RandomGenerator ▸ nextBytes",
+          "blockText": "RandomGenerator ▸ nextBytes",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "byte[]"
+          ]
+        },
+        {
+          "name": "longs",
+          "chinese": "RandomGenerator ▸ longs",
+          "blockText": "RandomGenerator ▸ longs",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "longs",
+          "chinese": "RandomGenerator ▸ longs",
+          "blockText": "RandomGenerator ▸ longs",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "longs",
+          "chinese": "RandomGenerator ▸ longs",
+          "blockText": "RandomGenerator ▸ longs",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "longs",
+          "chinese": "RandomGenerator ▸ longs",
+          "blockText": "RandomGenerator ▸ longs",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "ints",
+          "chinese": "RandomGenerator ▸ ints",
+          "blockText": "RandomGenerator ▸ ints",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "ints",
+          "chinese": "RandomGenerator ▸ ints",
+          "blockText": "RandomGenerator ▸ ints",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "ints",
+          "chinese": "RandomGenerator ▸ ints",
+          "blockText": "RandomGenerator ▸ ints",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "ints",
+          "chinese": "RandomGenerator ▸ ints",
+          "blockText": "RandomGenerator ▸ ints",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "doubles",
+          "chinese": "RandomGenerator ▸ doubles",
+          "blockText": "RandomGenerator ▸ doubles",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "doubles",
+          "chinese": "RandomGenerator ▸ doubles",
+          "blockText": "RandomGenerator ▸ doubles",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "doubles",
+          "chinese": "RandomGenerator ▸ doubles",
+          "blockText": "RandomGenerator ▸ doubles",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "double",
+            "double"
+          ]
+        },
+        {
+          "name": "doubles",
+          "chinese": "RandomGenerator ▸ doubles",
+          "blockText": "RandomGenerator ▸ doubles",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "double",
+            "double"
+          ]
+        },
+        {
+          "name": "nextLong",
+          "chinese": "RandomGenerator ▸ nextLong",
+          "blockText": "RandomGenerator ▸ nextLong",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "nextLong",
+          "chinese": "RandomGenerator ▸ nextLong",
+          "blockText": "RandomGenerator ▸ nextLong",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "nextLong",
+          "chinese": "RandomGenerator ▸ nextLong",
+          "blockText": "RandomGenerator ▸ nextLong",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "nextBoolean",
+          "chinese": "RandomGenerator ▸ nextBoolean",
+          "blockText": "RandomGenerator ▸ nextBoolean",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "nextFloat",
+          "chinese": "RandomGenerator ▸ nextFloat",
+          "blockText": "RandomGenerator ▸ nextFloat",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "float",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "nextFloat",
+          "chinese": "RandomGenerator ▸ nextFloat",
+          "blockText": "RandomGenerator ▸ nextFloat",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "float",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "float"
+          ]
+        },
+        {
+          "name": "nextFloat",
+          "chinese": "RandomGenerator ▸ nextFloat",
+          "blockText": "RandomGenerator ▸ nextFloat",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "float",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "float",
+            "float"
+          ]
+        },
+        {
+          "name": "nextGaussian",
+          "chinese": "RandomGenerator ▸ nextGaussian",
+          "blockText": "RandomGenerator ▸ nextGaussian",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "double",
+            "double"
+          ]
+        },
+        {
+          "name": "nextGaussian",
+          "chinese": "RandomGenerator ▸ nextGaussian",
+          "blockText": "RandomGenerator ▸ nextGaussian",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isDeprecated",
+          "chinese": "RandomGenerator ▸ isDeprecated",
+          "blockText": "RandomGenerator ▸ isDeprecated",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equiDoubles",
+          "chinese": "RandomGenerator ▸ equiDoubles",
+          "blockText": "RandomGenerator ▸ equiDoubles",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "double",
+            "double",
+            "boolean",
+            "boolean"
+          ]
+        },
+        {
+          "name": "nextExponential",
+          "chinese": "RandomGenerator ▸ nextExponential",
+          "blockText": "RandomGenerator ▸ nextExponential",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    }
+  ]
+}

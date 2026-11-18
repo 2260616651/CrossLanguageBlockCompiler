@@ -1,0 +1,3531 @@
+{
+  "_comment": "CLBC 自动生成的 JDK 库语言文件。一个库一个文件；java1~java27 共 27 个版本共用本文件，不按版本拆分。since=起始版本，until=移除版本(27 表示仍可用)。方法改名时旧名与新名各写一条，chinese 相同。",
+  "library": "java.time.temporal",
+  "libraryChinese": "时间单位",
+  "minVersion": 1,
+  "maxVersion": 27,
+  "versionRange": "java1~java27",
+  "javaVersions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "classes": [
+    {
+      "fqn": "java.time.temporal.ChronoUnit",
+      "chinese": "ChronoUnit",
+      "displayName": "ChronoUnit",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "toString",
+          "chinese": "ChronoUnit ▸ 转为文本",
+          "blockText": "ChronoUnit ▸ 转为文本",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "values",
+          "chinese": "ChronoUnit ▸ 取所有值",
+          "blockText": "ChronoUnit ▸ 取所有值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoUnit[]",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "valueOf",
+          "chinese": "ChronoUnit ▸ 转为",
+          "blockText": "ChronoUnit ▸ 转为",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoUnit",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "between",
+          "chinese": "ChronoUnit ▸ between",
+          "blockText": "ChronoUnit ▸ between",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Temporal",
+            "Temporal"
+          ]
+        },
+        {
+          "name": "isDurationEstimated",
+          "chinese": "ChronoUnit ▸ isDurationEstimated",
+          "blockText": "ChronoUnit ▸ isDurationEstimated",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getDuration",
+          "chinese": "ChronoUnit ▸ getDuration",
+          "blockText": "ChronoUnit ▸ getDuration",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Duration",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "addTo",
+          "chinese": "ChronoUnit ▸ addTo",
+          "blockText": "ChronoUnit ▸ addTo",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Temporal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Temporal",
+            "long"
+          ]
+        },
+        {
+          "name": "isSupportedBy",
+          "chinese": "ChronoUnit ▸ isSupportedBy",
+          "blockText": "ChronoUnit ▸ isSupportedBy",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Temporal"
+          ]
+        },
+        {
+          "name": "isTimeBased",
+          "chinese": "ChronoUnit ▸ isTimeBased",
+          "blockText": "ChronoUnit ▸ isTimeBased",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isDateBased",
+          "chinese": "ChronoUnit ▸ isDateBased",
+          "blockText": "ChronoUnit ▸ isDateBased",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "name",
+          "chinese": "ChronoUnit ▸ name",
+          "blockText": "ChronoUnit ▸ name",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "ChronoUnit ▸ 相等",
+          "blockText": "ChronoUnit ▸ 相等",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "ChronoUnit ▸ 哈希值",
+          "blockText": "ChronoUnit ▸ 哈希值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "chinese": "ChronoUnit ▸ 比较",
+          "blockText": "ChronoUnit ▸ 比较",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Enum"
+          ]
+        },
+        {
+          "name": "describeConstable",
+          "chinese": "ChronoUnit ▸ 描述常量",
+          "blockText": "ChronoUnit ▸ 描述常量",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getDeclaringClass",
+          "chinese": "ChronoUnit ▸ getDeclaringClass",
+          "blockText": "ChronoUnit ▸ getDeclaringClass",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "ordinal",
+          "chinese": "ChronoUnit ▸ ordinal",
+          "blockText": "ChronoUnit ▸ ordinal",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "ChronoUnit ▸ 取类型",
+          "blockText": "ChronoUnit ▸ 取类型",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "ChronoUnit ▸ 通知",
+          "blockText": "ChronoUnit ▸ 通知",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "ChronoUnit ▸ 通知全部",
+          "blockText": "ChronoUnit ▸ 通知全部",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "ChronoUnit ▸ 等待",
+          "blockText": "ChronoUnit ▸ 等待",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "NANOS",
+          "chinese": "ChronoUnit ▸ NANOS",
+          "blockText": "ChronoUnit ▸ NANOS",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoUnit",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "MICROS",
+          "chinese": "ChronoUnit ▸ MICROS",
+          "blockText": "ChronoUnit ▸ MICROS",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoUnit",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "MILLIS",
+          "chinese": "ChronoUnit ▸ MILLIS",
+          "blockText": "ChronoUnit ▸ MILLIS",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoUnit",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "SECONDS",
+          "chinese": "ChronoUnit ▸ SECONDS",
+          "blockText": "ChronoUnit ▸ SECONDS",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoUnit",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "MINUTES",
+          "chinese": "ChronoUnit ▸ MINUTES",
+          "blockText": "ChronoUnit ▸ MINUTES",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoUnit",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "HOURS",
+          "chinese": "ChronoUnit ▸ HOURS",
+          "blockText": "ChronoUnit ▸ HOURS",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoUnit",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "HALF_DAYS",
+          "chinese": "ChronoUnit ▸ HALF_DAYS",
+          "blockText": "ChronoUnit ▸ HALF_DAYS",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoUnit",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "DAYS",
+          "chinese": "ChronoUnit ▸ DAYS",
+          "blockText": "ChronoUnit ▸ DAYS",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoUnit",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "WEEKS",
+          "chinese": "ChronoUnit ▸ WEEKS",
+          "blockText": "ChronoUnit ▸ WEEKS",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoUnit",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "MONTHS",
+          "chinese": "ChronoUnit ▸ MONTHS",
+          "blockText": "ChronoUnit ▸ MONTHS",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoUnit",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "YEARS",
+          "chinese": "ChronoUnit ▸ YEARS",
+          "blockText": "ChronoUnit ▸ YEARS",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoUnit",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "DECADES",
+          "chinese": "ChronoUnit ▸ DECADES",
+          "blockText": "ChronoUnit ▸ DECADES",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoUnit",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENTURIES",
+          "chinese": "ChronoUnit ▸ CENTURIES",
+          "blockText": "ChronoUnit ▸ CENTURIES",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoUnit",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "MILLENNIA",
+          "chinese": "ChronoUnit ▸ MILLENNIA",
+          "blockText": "ChronoUnit ▸ MILLENNIA",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoUnit",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ERAS",
+          "chinese": "ChronoUnit ▸ ERAS",
+          "blockText": "ChronoUnit ▸ ERAS",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoUnit",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "FOREVER",
+          "chinese": "ChronoUnit ▸ FOREVER",
+          "blockText": "ChronoUnit ▸ FOREVER",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoUnit",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.temporal.Temporal",
+      "chinese": "Temporal",
+      "displayName": "Temporal",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "isSupported",
+          "chinese": "Temporal ▸ isSupported",
+          "blockText": "Temporal ▸ isSupported",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalUnit"
+          ]
+        },
+        {
+          "name": "with",
+          "chinese": "Temporal ▸ 调整字段",
+          "blockText": "Temporal ▸ 调整字段",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Temporal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalField",
+            "long"
+          ]
+        },
+        {
+          "name": "minus",
+          "chinese": "Temporal ▸ 减",
+          "blockText": "Temporal ▸ 减",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Temporal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "TemporalUnit"
+          ]
+        },
+        {
+          "name": "plus",
+          "chinese": "Temporal ▸ 加",
+          "blockText": "Temporal ▸ 加",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Temporal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "TemporalUnit"
+          ]
+        },
+        {
+          "name": "until",
+          "chinese": "Temporal ▸ until",
+          "blockText": "Temporal ▸ until",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Temporal",
+            "TemporalUnit"
+          ]
+        },
+        {
+          "name": "get",
+          "chinese": "Temporal ▸ 取值",
+          "blockText": "Temporal ▸ 取值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalField"
+          ]
+        },
+        {
+          "name": "getLong",
+          "chinese": "Temporal ▸ getLong",
+          "blockText": "Temporal ▸ getLong",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalField"
+          ]
+        },
+        {
+          "name": "query",
+          "chinese": "Temporal ▸ query",
+          "blockText": "Temporal ▸ query",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalQuery"
+          ]
+        },
+        {
+          "name": "range",
+          "chinese": "Temporal ▸ range",
+          "blockText": "Temporal ▸ range",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ValueRange",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalField"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.temporal.TemporalAmount",
+      "chinese": "TemporalAmount",
+      "displayName": "TemporalAmount",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "get",
+          "chinese": "TemporalAmount ▸ 取值",
+          "blockText": "TemporalAmount ▸ 取值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalUnit"
+          ]
+        },
+        {
+          "name": "getUnits",
+          "chinese": "TemporalAmount ▸ getUnits",
+          "blockText": "TemporalAmount ▸ getUnits",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "List",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "addTo",
+          "chinese": "TemporalAmount ▸ addTo",
+          "blockText": "TemporalAmount ▸ addTo",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Temporal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Temporal"
+          ]
+        },
+        {
+          "name": "subtractFrom",
+          "chinese": "TemporalAmount ▸ subtractFrom",
+          "blockText": "TemporalAmount ▸ subtractFrom",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Temporal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Temporal"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.temporal.TemporalAccessor",
+      "chinese": "TemporalAccessor",
+      "displayName": "TemporalAccessor",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "get",
+          "chinese": "TemporalAccessor ▸ 取值",
+          "blockText": "TemporalAccessor ▸ 取值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalField"
+          ]
+        },
+        {
+          "name": "getLong",
+          "chinese": "TemporalAccessor ▸ getLong",
+          "blockText": "TemporalAccessor ▸ getLong",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalField"
+          ]
+        },
+        {
+          "name": "isSupported",
+          "chinese": "TemporalAccessor ▸ isSupported",
+          "blockText": "TemporalAccessor ▸ isSupported",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalField"
+          ]
+        },
+        {
+          "name": "query",
+          "chinese": "TemporalAccessor ▸ query",
+          "blockText": "TemporalAccessor ▸ query",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalQuery"
+          ]
+        },
+        {
+          "name": "range",
+          "chinese": "TemporalAccessor ▸ range",
+          "blockText": "TemporalAccessor ▸ range",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ValueRange",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalField"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.temporal.TemporalUnit",
+      "chinese": "TemporalUnit",
+      "displayName": "TemporalUnit",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "toString",
+          "chinese": "TemporalUnit ▸ 转为文本",
+          "blockText": "TemporalUnit ▸ 转为文本",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "between",
+          "chinese": "TemporalUnit ▸ between",
+          "blockText": "TemporalUnit ▸ between",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Temporal",
+            "Temporal"
+          ]
+        },
+        {
+          "name": "isDurationEstimated",
+          "chinese": "TemporalUnit ▸ isDurationEstimated",
+          "blockText": "TemporalUnit ▸ isDurationEstimated",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getDuration",
+          "chinese": "TemporalUnit ▸ getDuration",
+          "blockText": "TemporalUnit ▸ getDuration",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Duration",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "addTo",
+          "chinese": "TemporalUnit ▸ addTo",
+          "blockText": "TemporalUnit ▸ addTo",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Temporal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Temporal",
+            "long"
+          ]
+        },
+        {
+          "name": "isSupportedBy",
+          "chinese": "TemporalUnit ▸ isSupportedBy",
+          "blockText": "TemporalUnit ▸ isSupportedBy",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Temporal"
+          ]
+        },
+        {
+          "name": "isTimeBased",
+          "chinese": "TemporalUnit ▸ isTimeBased",
+          "blockText": "TemporalUnit ▸ isTimeBased",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isDateBased",
+          "chinese": "TemporalUnit ▸ isDateBased",
+          "blockText": "TemporalUnit ▸ isDateBased",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.temporal.TemporalField",
+      "chinese": "TemporalField",
+      "displayName": "TemporalField",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "toString",
+          "chinese": "TemporalField ▸ 转为文本",
+          "blockText": "TemporalField ▸ 转为文本",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "resolve",
+          "chinese": "TemporalField ▸ resolve",
+          "blockText": "TemporalField ▸ resolve",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalAccessor",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Map",
+            "TemporalAccessor",
+            "ResolverStyle"
+          ]
+        },
+        {
+          "name": "range",
+          "chinese": "TemporalField ▸ range",
+          "blockText": "TemporalField ▸ range",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ValueRange",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getDisplayName",
+          "chinese": "TemporalField ▸ getDisplayName",
+          "blockText": "TemporalField ▸ getDisplayName",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Locale"
+          ]
+        },
+        {
+          "name": "isSupportedBy",
+          "chinese": "TemporalField ▸ isSupportedBy",
+          "blockText": "TemporalField ▸ isSupportedBy",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalAccessor"
+          ]
+        },
+        {
+          "name": "isTimeBased",
+          "chinese": "TemporalField ▸ isTimeBased",
+          "blockText": "TemporalField ▸ isTimeBased",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getFrom",
+          "chinese": "TemporalField ▸ getFrom",
+          "blockText": "TemporalField ▸ getFrom",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalAccessor"
+          ]
+        },
+        {
+          "name": "adjustInto",
+          "chinese": "TemporalField ▸ adjustInto",
+          "blockText": "TemporalField ▸ adjustInto",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Temporal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Temporal",
+            "long"
+          ]
+        },
+        {
+          "name": "rangeRefinedBy",
+          "chinese": "TemporalField ▸ rangeRefinedBy",
+          "blockText": "TemporalField ▸ rangeRefinedBy",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ValueRange",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalAccessor"
+          ]
+        },
+        {
+          "name": "isDateBased",
+          "chinese": "TemporalField ▸ isDateBased",
+          "blockText": "TemporalField ▸ isDateBased",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getBaseUnit",
+          "chinese": "TemporalField ▸ getBaseUnit",
+          "blockText": "TemporalField ▸ getBaseUnit",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalUnit",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getRangeUnit",
+          "chinese": "TemporalField ▸ getRangeUnit",
+          "blockText": "TemporalField ▸ getRangeUnit",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalUnit",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.temporal.WeekFields",
+      "chinese": "WeekFields",
+      "displayName": "WeekFields",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "equals",
+          "chinese": "WeekFields ▸ 相等",
+          "blockText": "WeekFields ▸ 相等",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "WeekFields ▸ 转为文本",
+          "blockText": "WeekFields ▸ 转为文本",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "WeekFields ▸ 哈希值",
+          "blockText": "WeekFields ▸ 哈希值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "of",
+          "chinese": "WeekFields ▸ 创建",
+          "blockText": "WeekFields ▸ 创建",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "WeekFields",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Locale"
+          ]
+        },
+        {
+          "name": "getFirstDayOfWeek",
+          "chinese": "WeekFields ▸ getFirstDayOfWeek",
+          "blockText": "WeekFields ▸ getFirstDayOfWeek",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DayOfWeek",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getMinimalDaysInFirstWeek",
+          "chinese": "WeekFields ▸ getMinimalDaysInFirstWeek",
+          "blockText": "WeekFields ▸ getMinimalDaysInFirstWeek",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "dayOfWeek",
+          "chinese": "WeekFields ▸ dayOfWeek",
+          "blockText": "WeekFields ▸ dayOfWeek",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalField",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "weekOfYear",
+          "chinese": "WeekFields ▸ weekOfYear",
+          "blockText": "WeekFields ▸ weekOfYear",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalField",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "weekOfMonth",
+          "chinese": "WeekFields ▸ weekOfMonth",
+          "blockText": "WeekFields ▸ weekOfMonth",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalField",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "weekOfWeekBasedYear",
+          "chinese": "WeekFields ▸ weekOfWeekBasedYear",
+          "blockText": "WeekFields ▸ weekOfWeekBasedYear",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalField",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "weekBasedYear",
+          "chinese": "WeekFields ▸ weekBasedYear",
+          "blockText": "WeekFields ▸ weekBasedYear",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalField",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "WeekFields ▸ 取类型",
+          "blockText": "WeekFields ▸ 取类型",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "WeekFields ▸ 通知",
+          "blockText": "WeekFields ▸ 通知",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "WeekFields ▸ 通知全部",
+          "blockText": "WeekFields ▸ 通知全部",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "WeekFields ▸ 等待",
+          "blockText": "WeekFields ▸ 等待",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "ISO",
+          "chinese": "WeekFields ▸ ISO",
+          "blockText": "WeekFields ▸ ISO",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "WeekFields",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "SUNDAY_START",
+          "chinese": "WeekFields ▸ SUNDAY_START",
+          "blockText": "WeekFields ▸ SUNDAY_START",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "WeekFields",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "WEEK_BASED_YEARS",
+          "chinese": "WeekFields ▸ WEEK_BASED_YEARS",
+          "blockText": "WeekFields ▸ WEEK_BASED_YEARS",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalUnit",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.temporal.ValueRange",
+      "chinese": "ValueRange",
+      "displayName": "ValueRange",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "equals",
+          "chinese": "ValueRange ▸ 相等",
+          "blockText": "ValueRange ▸ 相等",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "ValueRange ▸ 转为文本",
+          "blockText": "ValueRange ▸ 转为文本",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "ValueRange ▸ 哈希值",
+          "blockText": "ValueRange ▸ 哈希值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "of",
+          "chinese": "ValueRange ▸ 创建",
+          "blockText": "ValueRange ▸ 创建",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ValueRange",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "long",
+            "long"
+          ]
+        },
+        {
+          "name": "getMaximum",
+          "chinese": "ValueRange ▸ getMaximum",
+          "blockText": "ValueRange ▸ getMaximum",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "checkValidIntValue",
+          "chinese": "ValueRange ▸ checkValidIntValue",
+          "blockText": "ValueRange ▸ checkValidIntValue",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "TemporalField"
+          ]
+        },
+        {
+          "name": "checkValidValue",
+          "chinese": "ValueRange ▸ checkValidValue",
+          "blockText": "ValueRange ▸ checkValidValue",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "TemporalField"
+          ]
+        },
+        {
+          "name": "isIntValue",
+          "chinese": "ValueRange ▸ isIntValue",
+          "blockText": "ValueRange ▸ isIntValue",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isValidValue",
+          "chinese": "ValueRange ▸ isValidValue",
+          "blockText": "ValueRange ▸ isValidValue",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "getMinimum",
+          "chinese": "ValueRange ▸ getMinimum",
+          "blockText": "ValueRange ▸ getMinimum",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isValidIntValue",
+          "chinese": "ValueRange ▸ isValidIntValue",
+          "blockText": "ValueRange ▸ isValidIntValue",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "isFixed",
+          "chinese": "ValueRange ▸ isFixed",
+          "blockText": "ValueRange ▸ isFixed",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLargestMinimum",
+          "chinese": "ValueRange ▸ getLargestMinimum",
+          "blockText": "ValueRange ▸ getLargestMinimum",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSmallestMaximum",
+          "chinese": "ValueRange ▸ getSmallestMaximum",
+          "blockText": "ValueRange ▸ getSmallestMaximum",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "ValueRange ▸ 取类型",
+          "blockText": "ValueRange ▸ 取类型",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "ValueRange ▸ 通知",
+          "blockText": "ValueRange ▸ 通知",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "ValueRange ▸ 通知全部",
+          "blockText": "ValueRange ▸ 通知全部",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "ValueRange ▸ 等待",
+          "blockText": "ValueRange ▸ 等待",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.temporal.TemporalAdjuster",
+      "chinese": "TemporalAdjuster",
+      "displayName": "TemporalAdjuster",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "adjustInto",
+          "chinese": "TemporalAdjuster ▸ adjustInto",
+          "blockText": "TemporalAdjuster ▸ adjustInto",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Temporal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Temporal"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.temporal.TemporalQuery",
+      "chinese": "TemporalQuery",
+      "displayName": "TemporalQuery",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "queryFrom",
+          "chinese": "TemporalQuery ▸ queryFrom",
+          "blockText": "TemporalQuery ▸ queryFrom",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalAccessor"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.temporal.ChronoField",
+      "chinese": "ChronoField",
+      "displayName": "ChronoField",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "toString",
+          "chinese": "ChronoField ▸ toString",
+          "blockText": "ChronoField ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "values",
+          "chinese": "ChronoField ▸ values",
+          "blockText": "ChronoField ▸ values",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField[]",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "valueOf",
+          "chinese": "ChronoField ▸ valueOf",
+          "blockText": "ChronoField ▸ valueOf",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "range",
+          "chinese": "ChronoField ▸ range",
+          "blockText": "ChronoField ▸ range",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ValueRange",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getDisplayName",
+          "chinese": "ChronoField ▸ getDisplayName",
+          "blockText": "ChronoField ▸ getDisplayName",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Locale"
+          ]
+        },
+        {
+          "name": "checkValidIntValue",
+          "chinese": "ChronoField ▸ checkValidIntValue",
+          "blockText": "ChronoField ▸ checkValidIntValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "isSupportedBy",
+          "chinese": "ChronoField ▸ isSupportedBy",
+          "blockText": "ChronoField ▸ isSupportedBy",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalAccessor"
+          ]
+        },
+        {
+          "name": "isTimeBased",
+          "chinese": "ChronoField ▸ isTimeBased",
+          "blockText": "ChronoField ▸ isTimeBased",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getFrom",
+          "chinese": "ChronoField ▸ getFrom",
+          "blockText": "ChronoField ▸ getFrom",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalAccessor"
+          ]
+        },
+        {
+          "name": "adjustInto",
+          "chinese": "ChronoField ▸ adjustInto",
+          "blockText": "ChronoField ▸ adjustInto",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Temporal",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Temporal",
+            "long"
+          ]
+        },
+        {
+          "name": "checkValidValue",
+          "chinese": "ChronoField ▸ checkValidValue",
+          "blockText": "ChronoField ▸ checkValidValue",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "rangeRefinedBy",
+          "chinese": "ChronoField ▸ rangeRefinedBy",
+          "blockText": "ChronoField ▸ rangeRefinedBy",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ValueRange",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "TemporalAccessor"
+          ]
+        },
+        {
+          "name": "isDateBased",
+          "chinese": "ChronoField ▸ isDateBased",
+          "blockText": "ChronoField ▸ isDateBased",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getBaseUnit",
+          "chinese": "ChronoField ▸ getBaseUnit",
+          "blockText": "ChronoField ▸ getBaseUnit",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalUnit",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getRangeUnit",
+          "chinese": "ChronoField ▸ getRangeUnit",
+          "blockText": "ChronoField ▸ getRangeUnit",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalUnit",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "name",
+          "chinese": "ChronoField ▸ name",
+          "blockText": "ChronoField ▸ name",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "ChronoField ▸ equals",
+          "blockText": "ChronoField ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "ChronoField ▸ hashCode",
+          "blockText": "ChronoField ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "chinese": "ChronoField ▸ compareTo",
+          "blockText": "ChronoField ▸ compareTo",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Enum"
+          ]
+        },
+        {
+          "name": "valueOf",
+          "chinese": "ChronoField ▸ valueOf",
+          "blockText": "ChronoField ▸ valueOf",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Enum",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Class",
+            "String"
+          ]
+        },
+        {
+          "name": "describeConstable",
+          "chinese": "ChronoField ▸ describeConstable",
+          "blockText": "ChronoField ▸ describeConstable",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getDeclaringClass",
+          "chinese": "ChronoField ▸ getDeclaringClass",
+          "blockText": "ChronoField ▸ getDeclaringClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "ordinal",
+          "chinese": "ChronoField ▸ ordinal",
+          "blockText": "ChronoField ▸ ordinal",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "ChronoField ▸ getClass",
+          "blockText": "ChronoField ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "ChronoField ▸ notify",
+          "blockText": "ChronoField ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "ChronoField ▸ notifyAll",
+          "blockText": "ChronoField ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "ChronoField ▸ wait",
+          "blockText": "ChronoField ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ChronoField ▸ wait",
+          "blockText": "ChronoField ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ChronoField ▸ wait",
+          "blockText": "ChronoField ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "resolve",
+          "chinese": "ChronoField ▸ resolve",
+          "blockText": "ChronoField ▸ resolve",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalAccessor",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Map",
+            "TemporalAccessor",
+            "ResolverStyle"
+          ]
+        },
+        {
+          "name": "NANO_OF_SECOND",
+          "chinese": "ChronoField ▸ NANO_OF_SECOND",
+          "blockText": "ChronoField ▸ NANO_OF_SECOND",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "NANO_OF_DAY",
+          "chinese": "ChronoField ▸ NANO_OF_DAY",
+          "blockText": "ChronoField ▸ NANO_OF_DAY",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "MICRO_OF_SECOND",
+          "chinese": "ChronoField ▸ MICRO_OF_SECOND",
+          "blockText": "ChronoField ▸ MICRO_OF_SECOND",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "MICRO_OF_DAY",
+          "chinese": "ChronoField ▸ MICRO_OF_DAY",
+          "blockText": "ChronoField ▸ MICRO_OF_DAY",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "MILLI_OF_SECOND",
+          "chinese": "ChronoField ▸ MILLI_OF_SECOND",
+          "blockText": "ChronoField ▸ MILLI_OF_SECOND",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "MILLI_OF_DAY",
+          "chinese": "ChronoField ▸ MILLI_OF_DAY",
+          "blockText": "ChronoField ▸ MILLI_OF_DAY",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "SECOND_OF_MINUTE",
+          "chinese": "ChronoField ▸ SECOND_OF_MINUTE",
+          "blockText": "ChronoField ▸ SECOND_OF_MINUTE",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "SECOND_OF_DAY",
+          "chinese": "ChronoField ▸ SECOND_OF_DAY",
+          "blockText": "ChronoField ▸ SECOND_OF_DAY",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "MINUTE_OF_HOUR",
+          "chinese": "ChronoField ▸ MINUTE_OF_HOUR",
+          "blockText": "ChronoField ▸ MINUTE_OF_HOUR",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "MINUTE_OF_DAY",
+          "chinese": "ChronoField ▸ MINUTE_OF_DAY",
+          "blockText": "ChronoField ▸ MINUTE_OF_DAY",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "HOUR_OF_AMPM",
+          "chinese": "ChronoField ▸ HOUR_OF_AMPM",
+          "blockText": "ChronoField ▸ HOUR_OF_AMPM",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CLOCK_HOUR_OF_AMPM",
+          "chinese": "ChronoField ▸ CLOCK_HOUR_OF_AMPM",
+          "blockText": "ChronoField ▸ CLOCK_HOUR_OF_AMPM",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "HOUR_OF_DAY",
+          "chinese": "ChronoField ▸ HOUR_OF_DAY",
+          "blockText": "ChronoField ▸ HOUR_OF_DAY",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CLOCK_HOUR_OF_DAY",
+          "chinese": "ChronoField ▸ CLOCK_HOUR_OF_DAY",
+          "blockText": "ChronoField ▸ CLOCK_HOUR_OF_DAY",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "AMPM_OF_DAY",
+          "chinese": "ChronoField ▸ AMPM_OF_DAY",
+          "blockText": "ChronoField ▸ AMPM_OF_DAY",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "DAY_OF_WEEK",
+          "chinese": "ChronoField ▸ DAY_OF_WEEK",
+          "blockText": "ChronoField ▸ DAY_OF_WEEK",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ALIGNED_DAY_OF_WEEK_IN_MONTH",
+          "chinese": "ChronoField ▸ ALIGNED_DAY_OF_WEEK_IN_MONTH",
+          "blockText": "ChronoField ▸ ALIGNED_DAY_OF_WEEK_IN_MONTH",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ALIGNED_DAY_OF_WEEK_IN_YEAR",
+          "chinese": "ChronoField ▸ ALIGNED_DAY_OF_WEEK_IN_YEAR",
+          "blockText": "ChronoField ▸ ALIGNED_DAY_OF_WEEK_IN_YEAR",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "DAY_OF_MONTH",
+          "chinese": "ChronoField ▸ DAY_OF_MONTH",
+          "blockText": "ChronoField ▸ DAY_OF_MONTH",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "DAY_OF_YEAR",
+          "chinese": "ChronoField ▸ DAY_OF_YEAR",
+          "blockText": "ChronoField ▸ DAY_OF_YEAR",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EPOCH_DAY",
+          "chinese": "ChronoField ▸ EPOCH_DAY",
+          "blockText": "ChronoField ▸ EPOCH_DAY",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ALIGNED_WEEK_OF_MONTH",
+          "chinese": "ChronoField ▸ ALIGNED_WEEK_OF_MONTH",
+          "blockText": "ChronoField ▸ ALIGNED_WEEK_OF_MONTH",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ALIGNED_WEEK_OF_YEAR",
+          "chinese": "ChronoField ▸ ALIGNED_WEEK_OF_YEAR",
+          "blockText": "ChronoField ▸ ALIGNED_WEEK_OF_YEAR",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "MONTH_OF_YEAR",
+          "chinese": "ChronoField ▸ MONTH_OF_YEAR",
+          "blockText": "ChronoField ▸ MONTH_OF_YEAR",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "PROLEPTIC_MONTH",
+          "chinese": "ChronoField ▸ PROLEPTIC_MONTH",
+          "blockText": "ChronoField ▸ PROLEPTIC_MONTH",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "YEAR_OF_ERA",
+          "chinese": "ChronoField ▸ YEAR_OF_ERA",
+          "blockText": "ChronoField ▸ YEAR_OF_ERA",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "YEAR",
+          "chinese": "ChronoField ▸ YEAR",
+          "blockText": "ChronoField ▸ YEAR",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ERA",
+          "chinese": "ChronoField ▸ ERA",
+          "blockText": "ChronoField ▸ ERA",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "INSTANT_SECONDS",
+          "chinese": "ChronoField ▸ INSTANT_SECONDS",
+          "blockText": "ChronoField ▸ INSTANT_SECONDS",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "OFFSET_SECONDS",
+          "chinese": "ChronoField ▸ OFFSET_SECONDS",
+          "blockText": "ChronoField ▸ OFFSET_SECONDS",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ChronoField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.temporal.IsoFields",
+      "chinese": "IsoFields",
+      "displayName": "IsoFields",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "equals",
+          "chinese": "IsoFields ▸ equals",
+          "blockText": "IsoFields ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "IsoFields ▸ toString",
+          "blockText": "IsoFields ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "IsoFields ▸ hashCode",
+          "blockText": "IsoFields ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "IsoFields ▸ getClass",
+          "blockText": "IsoFields ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "IsoFields ▸ notify",
+          "blockText": "IsoFields ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "IsoFields ▸ notifyAll",
+          "blockText": "IsoFields ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "IsoFields ▸ wait",
+          "blockText": "IsoFields ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "IsoFields ▸ wait",
+          "blockText": "IsoFields ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "IsoFields ▸ wait",
+          "blockText": "IsoFields ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "DAY_OF_QUARTER",
+          "chinese": "IsoFields ▸ DAY_OF_QUARTER",
+          "blockText": "IsoFields ▸ DAY_OF_QUARTER",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "QUARTER_OF_YEAR",
+          "chinese": "IsoFields ▸ QUARTER_OF_YEAR",
+          "blockText": "IsoFields ▸ QUARTER_OF_YEAR",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "WEEK_OF_WEEK_BASED_YEAR",
+          "chinese": "IsoFields ▸ WEEK_OF_WEEK_BASED_YEAR",
+          "blockText": "IsoFields ▸ WEEK_OF_WEEK_BASED_YEAR",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "WEEK_BASED_YEAR",
+          "chinese": "IsoFields ▸ WEEK_BASED_YEAR",
+          "blockText": "IsoFields ▸ WEEK_BASED_YEAR",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "WEEK_BASED_YEARS",
+          "chinese": "IsoFields ▸ WEEK_BASED_YEARS",
+          "blockText": "IsoFields ▸ WEEK_BASED_YEARS",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalUnit",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "QUARTER_YEARS",
+          "chinese": "IsoFields ▸ QUARTER_YEARS",
+          "blockText": "IsoFields ▸ QUARTER_YEARS",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalUnit",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.temporal.JulianFields",
+      "chinese": "JulianFields",
+      "displayName": "JulianFields",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "equals",
+          "chinese": "JulianFields ▸ equals",
+          "blockText": "JulianFields ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "JulianFields ▸ toString",
+          "blockText": "JulianFields ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "JulianFields ▸ hashCode",
+          "blockText": "JulianFields ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "JulianFields ▸ getClass",
+          "blockText": "JulianFields ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "JulianFields ▸ notify",
+          "blockText": "JulianFields ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "JulianFields ▸ notifyAll",
+          "blockText": "JulianFields ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "JulianFields ▸ wait",
+          "blockText": "JulianFields ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "JulianFields ▸ wait",
+          "blockText": "JulianFields ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "JulianFields ▸ wait",
+          "blockText": "JulianFields ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "JULIAN_DAY",
+          "chinese": "JulianFields ▸ JULIAN_DAY",
+          "blockText": "JulianFields ▸ JULIAN_DAY",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "MODIFIED_JULIAN_DAY",
+          "chinese": "JulianFields ▸ MODIFIED_JULIAN_DAY",
+          "blockText": "JulianFields ▸ MODIFIED_JULIAN_DAY",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "RATA_DIE",
+          "chinese": "JulianFields ▸ RATA_DIE",
+          "blockText": "JulianFields ▸ RATA_DIE",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalField",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.temporal.TemporalAdjusters",
+      "chinese": "TemporalAdjusters",
+      "displayName": "TemporalAdjusters",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "next",
+          "chinese": "TemporalAdjusters ▸ next",
+          "blockText": "TemporalAdjusters ▸ next",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalAdjuster",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "DayOfWeek"
+          ]
+        },
+        {
+          "name": "previous",
+          "chinese": "TemporalAdjusters ▸ previous",
+          "blockText": "TemporalAdjusters ▸ previous",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalAdjuster",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "DayOfWeek"
+          ]
+        },
+        {
+          "name": "firstDayOfYear",
+          "chinese": "TemporalAdjusters ▸ firstDayOfYear",
+          "blockText": "TemporalAdjusters ▸ firstDayOfYear",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalAdjuster",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "lastDayOfMonth",
+          "chinese": "TemporalAdjusters ▸ lastDayOfMonth",
+          "blockText": "TemporalAdjusters ▸ lastDayOfMonth",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalAdjuster",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "nextOrSame",
+          "chinese": "TemporalAdjusters ▸ nextOrSame",
+          "blockText": "TemporalAdjusters ▸ nextOrSame",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalAdjuster",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "DayOfWeek"
+          ]
+        },
+        {
+          "name": "previousOrSame",
+          "chinese": "TemporalAdjusters ▸ previousOrSame",
+          "blockText": "TemporalAdjusters ▸ previousOrSame",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalAdjuster",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "DayOfWeek"
+          ]
+        },
+        {
+          "name": "firstDayOfMonth",
+          "chinese": "TemporalAdjusters ▸ firstDayOfMonth",
+          "blockText": "TemporalAdjusters ▸ firstDayOfMonth",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalAdjuster",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "dayOfWeekInMonth",
+          "chinese": "TemporalAdjusters ▸ dayOfWeekInMonth",
+          "blockText": "TemporalAdjusters ▸ dayOfWeekInMonth",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalAdjuster",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int",
+            "DayOfWeek"
+          ]
+        },
+        {
+          "name": "ofDateAdjuster",
+          "chinese": "TemporalAdjusters ▸ ofDateAdjuster",
+          "blockText": "TemporalAdjusters ▸ ofDateAdjuster",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalAdjuster",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "UnaryOperator"
+          ]
+        },
+        {
+          "name": "firstDayOfNextMonth",
+          "chinese": "TemporalAdjusters ▸ firstDayOfNextMonth",
+          "blockText": "TemporalAdjusters ▸ firstDayOfNextMonth",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalAdjuster",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "lastDayOfYear",
+          "chinese": "TemporalAdjusters ▸ lastDayOfYear",
+          "blockText": "TemporalAdjusters ▸ lastDayOfYear",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalAdjuster",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "firstDayOfNextYear",
+          "chinese": "TemporalAdjusters ▸ firstDayOfNextYear",
+          "blockText": "TemporalAdjusters ▸ firstDayOfNextYear",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalAdjuster",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "firstInMonth",
+          "chinese": "TemporalAdjusters ▸ firstInMonth",
+          "blockText": "TemporalAdjusters ▸ firstInMonth",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalAdjuster",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "DayOfWeek"
+          ]
+        },
+        {
+          "name": "lastInMonth",
+          "chinese": "TemporalAdjusters ▸ lastInMonth",
+          "blockText": "TemporalAdjusters ▸ lastInMonth",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalAdjuster",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "DayOfWeek"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "TemporalAdjusters ▸ equals",
+          "blockText": "TemporalAdjusters ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "TemporalAdjusters ▸ toString",
+          "blockText": "TemporalAdjusters ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "TemporalAdjusters ▸ hashCode",
+          "blockText": "TemporalAdjusters ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "TemporalAdjusters ▸ getClass",
+          "blockText": "TemporalAdjusters ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "TemporalAdjusters ▸ notify",
+          "blockText": "TemporalAdjusters ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "TemporalAdjusters ▸ notifyAll",
+          "blockText": "TemporalAdjusters ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "TemporalAdjusters ▸ wait",
+          "blockText": "TemporalAdjusters ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "TemporalAdjusters ▸ wait",
+          "blockText": "TemporalAdjusters ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "TemporalAdjusters ▸ wait",
+          "blockText": "TemporalAdjusters ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.temporal.TemporalQueries",
+      "chinese": "TemporalQueries",
+      "displayName": "TemporalQueries",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "offset",
+          "chinese": "TemporalQueries ▸ offset",
+          "blockText": "TemporalQueries ▸ offset",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalQuery",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "zone",
+          "chinese": "TemporalQueries ▸ zone",
+          "blockText": "TemporalQueries ▸ zone",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalQuery",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "precision",
+          "chinese": "TemporalQueries ▸ precision",
+          "blockText": "TemporalQueries ▸ precision",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalQuery",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "chronology",
+          "chinese": "TemporalQueries ▸ chronology",
+          "blockText": "TemporalQueries ▸ chronology",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalQuery",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "zoneId",
+          "chinese": "TemporalQueries ▸ zoneId",
+          "blockText": "TemporalQueries ▸ zoneId",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalQuery",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "localDate",
+          "chinese": "TemporalQueries ▸ localDate",
+          "blockText": "TemporalQueries ▸ localDate",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalQuery",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "localTime",
+          "chinese": "TemporalQueries ▸ localTime",
+          "blockText": "TemporalQueries ▸ localTime",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TemporalQuery",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "TemporalQueries ▸ equals",
+          "blockText": "TemporalQueries ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "TemporalQueries ▸ toString",
+          "blockText": "TemporalQueries ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "TemporalQueries ▸ hashCode",
+          "blockText": "TemporalQueries ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "TemporalQueries ▸ getClass",
+          "blockText": "TemporalQueries ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "TemporalQueries ▸ notify",
+          "blockText": "TemporalQueries ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "TemporalQueries ▸ notifyAll",
+          "blockText": "TemporalQueries ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "TemporalQueries ▸ wait",
+          "blockText": "TemporalQueries ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "TemporalQueries ▸ wait",
+          "blockText": "TemporalQueries ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "TemporalQueries ▸ wait",
+          "blockText": "TemporalQueries ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.temporal.UnsupportedTemporalTypeException",
+      "chinese": "UnsupportedTemporalTypeException",
+      "displayName": "UnsupportedTemporalTypeException",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "UnsupportedTemporalTypeException ▸ <init>",
+          "blockText": "UnsupportedTemporalTypeException ▸ <init>",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "UnsupportedTemporalTypeException ▸ <init>",
+          "blockText": "UnsupportedTemporalTypeException ▸ <init>",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "Throwable"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "UnsupportedTemporalTypeException ▸ printStackTrace",
+          "blockText": "UnsupportedTemporalTypeException ▸ printStackTrace",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "UnsupportedTemporalTypeException ▸ printStackTrace",
+          "blockText": "UnsupportedTemporalTypeException ▸ printStackTrace",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "UnsupportedTemporalTypeException ▸ printStackTrace",
+          "blockText": "UnsupportedTemporalTypeException ▸ printStackTrace",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "UnsupportedTemporalTypeException ▸ getStackTrace",
+          "blockText": "UnsupportedTemporalTypeException ▸ getStackTrace",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "UnsupportedTemporalTypeException ▸ fillInStackTrace",
+          "blockText": "UnsupportedTemporalTypeException ▸ fillInStackTrace",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "UnsupportedTemporalTypeException ▸ getCause",
+          "blockText": "UnsupportedTemporalTypeException ▸ getCause",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initCause",
+          "chinese": "UnsupportedTemporalTypeException ▸ initCause",
+          "blockText": "UnsupportedTemporalTypeException ▸ initCause",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "UnsupportedTemporalTypeException ▸ toString",
+          "blockText": "UnsupportedTemporalTypeException ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getMessage",
+          "chinese": "UnsupportedTemporalTypeException ▸ getMessage",
+          "blockText": "UnsupportedTemporalTypeException ▸ getMessage",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "UnsupportedTemporalTypeException ▸ getSuppressed",
+          "blockText": "UnsupportedTemporalTypeException ▸ getSuppressed",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "UnsupportedTemporalTypeException ▸ getLocalizedMessage",
+          "blockText": "UnsupportedTemporalTypeException ▸ getLocalizedMessage",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "UnsupportedTemporalTypeException ▸ setStackTrace",
+          "blockText": "UnsupportedTemporalTypeException ▸ setStackTrace",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "UnsupportedTemporalTypeException ▸ addSuppressed",
+          "blockText": "UnsupportedTemporalTypeException ▸ addSuppressed",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "UnsupportedTemporalTypeException ▸ equals",
+          "blockText": "UnsupportedTemporalTypeException ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "UnsupportedTemporalTypeException ▸ hashCode",
+          "blockText": "UnsupportedTemporalTypeException ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "UnsupportedTemporalTypeException ▸ getClass",
+          "blockText": "UnsupportedTemporalTypeException ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "UnsupportedTemporalTypeException ▸ notify",
+          "blockText": "UnsupportedTemporalTypeException ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "UnsupportedTemporalTypeException ▸ notifyAll",
+          "blockText": "UnsupportedTemporalTypeException ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "UnsupportedTemporalTypeException ▸ wait",
+          "blockText": "UnsupportedTemporalTypeException ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "UnsupportedTemporalTypeException ▸ wait",
+          "blockText": "UnsupportedTemporalTypeException ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "UnsupportedTemporalTypeException ▸ wait",
+          "blockText": "UnsupportedTemporalTypeException ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    }
+  ]
+}

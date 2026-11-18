@@ -1,0 +1,4793 @@
+{
+  "_comment": "CLBC 自动生成的 JDK 库语言文件。一个库一个文件；java1~java27 共 27 个版本共用本文件，不按版本拆分。since=起始版本，until=移除版本(27 表示仍可用)。方法改名时旧名与新名各写一条，chinese 相同。",
+  "library": "java.util.jar",
+  "libraryChinese": "JAR 包",
+  "minVersion": 1,
+  "maxVersion": 27,
+  "versionRange": "java1~java27",
+  "javaVersions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "classes": [
+    {
+      "fqn": "java.util.jar.JarFile",
+      "chinese": "JarFile",
+      "displayName": "JarFile",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "JarFile ▸ <init>",
+          "blockText": "JarFile ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "File",
+            "boolean",
+            "int"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "JarFile ▸ <init>",
+          "blockText": "JarFile ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "File"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "JarFile ▸ <init>",
+          "blockText": "JarFile ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "boolean"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "JarFile ▸ <init>",
+          "blockText": "JarFile ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "JarFile ▸ <init>",
+          "blockText": "JarFile ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "File",
+            "boolean",
+            "int",
+            "Version"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "JarFile ▸ <init>",
+          "blockText": "JarFile ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "File",
+            "boolean"
+          ]
+        },
+        {
+          "name": "stream",
+          "chinese": "JarFile ▸ stream",
+          "blockText": "JarFile ▸ stream",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "entries",
+          "chinese": "JarFile ▸ entries",
+          "blockText": "JarFile ▸ entries",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Enumeration",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getInputStream",
+          "chinese": "JarFile ▸ getInputStream",
+          "blockText": "JarFile ▸ getInputStream",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "InputStream",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ZipEntry"
+          ]
+        },
+        {
+          "name": "getManifest",
+          "chinese": "JarFile ▸ getManifest",
+          "blockText": "JarFile ▸ getManifest",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Manifest",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "runtimeVersion",
+          "chinese": "JarFile ▸ runtimeVersion",
+          "blockText": "JarFile ▸ runtimeVersion",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Version",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getEntry",
+          "chinese": "JarFile ▸ getEntry",
+          "blockText": "JarFile ▸ getEntry",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZipEntry",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "getJarEntry",
+          "chinese": "JarFile ▸ getJarEntry",
+          "blockText": "JarFile ▸ getJarEntry",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "JarEntry",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "isMultiRelease",
+          "chinese": "JarFile ▸ isMultiRelease",
+          "blockText": "JarFile ▸ isMultiRelease",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "baseVersion",
+          "chinese": "JarFile ▸ baseVersion",
+          "blockText": "JarFile ▸ baseVersion",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Version",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getVersion",
+          "chinese": "JarFile ▸ getVersion",
+          "blockText": "JarFile ▸ getVersion",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Version",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "versionedStream",
+          "chinese": "JarFile ▸ versionedStream",
+          "blockText": "JarFile ▸ versionedStream",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Stream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getName",
+          "chinese": "JarFile ▸ getName",
+          "blockText": "JarFile ▸ getName",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "size",
+          "chinese": "JarFile ▸ size",
+          "blockText": "JarFile ▸ size",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "JarFile ▸ toString",
+          "blockText": "JarFile ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "close",
+          "chinese": "JarFile ▸ close",
+          "blockText": "JarFile ▸ close",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getComment",
+          "chinese": "JarFile ▸ getComment",
+          "blockText": "JarFile ▸ getComment",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "JarFile ▸ equals",
+          "blockText": "JarFile ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "JarFile ▸ hashCode",
+          "blockText": "JarFile ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "JarFile ▸ getClass",
+          "blockText": "JarFile ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "JarFile ▸ notify",
+          "blockText": "JarFile ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "JarFile ▸ notifyAll",
+          "blockText": "JarFile ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "JarFile ▸ wait",
+          "blockText": "JarFile ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "JarFile ▸ wait",
+          "blockText": "JarFile ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "JarFile ▸ wait",
+          "blockText": "JarFile ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "MANIFEST_NAME",
+          "chinese": "JarFile ▸ MANIFEST_NAME",
+          "blockText": "JarFile ▸ MANIFEST_NAME",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "OPEN_READ",
+          "chinese": "JarFile ▸ OPEN_READ",
+          "blockText": "JarFile ▸ OPEN_READ",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "OPEN_DELETE",
+          "chinese": "JarFile ▸ OPEN_DELETE",
+          "blockText": "JarFile ▸ OPEN_DELETE",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCSIG",
+          "chinese": "JarFile ▸ LOCSIG",
+          "blockText": "JarFile ▸ LOCSIG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXTSIG",
+          "chinese": "JarFile ▸ EXTSIG",
+          "blockText": "JarFile ▸ EXTSIG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENSIG",
+          "chinese": "JarFile ▸ CENSIG",
+          "blockText": "JarFile ▸ CENSIG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDSIG",
+          "chinese": "JarFile ▸ ENDSIG",
+          "blockText": "JarFile ▸ ENDSIG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCHDR",
+          "chinese": "JarFile ▸ LOCHDR",
+          "blockText": "JarFile ▸ LOCHDR",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXTHDR",
+          "chinese": "JarFile ▸ EXTHDR",
+          "blockText": "JarFile ▸ EXTHDR",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENHDR",
+          "chinese": "JarFile ▸ CENHDR",
+          "blockText": "JarFile ▸ CENHDR",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDHDR",
+          "chinese": "JarFile ▸ ENDHDR",
+          "blockText": "JarFile ▸ ENDHDR",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCVER",
+          "chinese": "JarFile ▸ LOCVER",
+          "blockText": "JarFile ▸ LOCVER",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCFLG",
+          "chinese": "JarFile ▸ LOCFLG",
+          "blockText": "JarFile ▸ LOCFLG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCHOW",
+          "chinese": "JarFile ▸ LOCHOW",
+          "blockText": "JarFile ▸ LOCHOW",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCTIM",
+          "chinese": "JarFile ▸ LOCTIM",
+          "blockText": "JarFile ▸ LOCTIM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCCRC",
+          "chinese": "JarFile ▸ LOCCRC",
+          "blockText": "JarFile ▸ LOCCRC",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCSIZ",
+          "chinese": "JarFile ▸ LOCSIZ",
+          "blockText": "JarFile ▸ LOCSIZ",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCLEN",
+          "chinese": "JarFile ▸ LOCLEN",
+          "blockText": "JarFile ▸ LOCLEN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCNAM",
+          "chinese": "JarFile ▸ LOCNAM",
+          "blockText": "JarFile ▸ LOCNAM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCEXT",
+          "chinese": "JarFile ▸ LOCEXT",
+          "blockText": "JarFile ▸ LOCEXT",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXTCRC",
+          "chinese": "JarFile ▸ EXTCRC",
+          "blockText": "JarFile ▸ EXTCRC",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXTSIZ",
+          "chinese": "JarFile ▸ EXTSIZ",
+          "blockText": "JarFile ▸ EXTSIZ",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXTLEN",
+          "chinese": "JarFile ▸ EXTLEN",
+          "blockText": "JarFile ▸ EXTLEN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENVEM",
+          "chinese": "JarFile ▸ CENVEM",
+          "blockText": "JarFile ▸ CENVEM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENVER",
+          "chinese": "JarFile ▸ CENVER",
+          "blockText": "JarFile ▸ CENVER",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENFLG",
+          "chinese": "JarFile ▸ CENFLG",
+          "blockText": "JarFile ▸ CENFLG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENHOW",
+          "chinese": "JarFile ▸ CENHOW",
+          "blockText": "JarFile ▸ CENHOW",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENTIM",
+          "chinese": "JarFile ▸ CENTIM",
+          "blockText": "JarFile ▸ CENTIM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENCRC",
+          "chinese": "JarFile ▸ CENCRC",
+          "blockText": "JarFile ▸ CENCRC",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENSIZ",
+          "chinese": "JarFile ▸ CENSIZ",
+          "blockText": "JarFile ▸ CENSIZ",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENLEN",
+          "chinese": "JarFile ▸ CENLEN",
+          "blockText": "JarFile ▸ CENLEN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENNAM",
+          "chinese": "JarFile ▸ CENNAM",
+          "blockText": "JarFile ▸ CENNAM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENEXT",
+          "chinese": "JarFile ▸ CENEXT",
+          "blockText": "JarFile ▸ CENEXT",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENCOM",
+          "chinese": "JarFile ▸ CENCOM",
+          "blockText": "JarFile ▸ CENCOM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENDSK",
+          "chinese": "JarFile ▸ CENDSK",
+          "blockText": "JarFile ▸ CENDSK",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENATT",
+          "chinese": "JarFile ▸ CENATT",
+          "blockText": "JarFile ▸ CENATT",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENATX",
+          "chinese": "JarFile ▸ CENATX",
+          "blockText": "JarFile ▸ CENATX",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENOFF",
+          "chinese": "JarFile ▸ CENOFF",
+          "blockText": "JarFile ▸ CENOFF",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDSUB",
+          "chinese": "JarFile ▸ ENDSUB",
+          "blockText": "JarFile ▸ ENDSUB",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDTOT",
+          "chinese": "JarFile ▸ ENDTOT",
+          "blockText": "JarFile ▸ ENDTOT",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDSIZ",
+          "chinese": "JarFile ▸ ENDSIZ",
+          "blockText": "JarFile ▸ ENDSIZ",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDOFF",
+          "chinese": "JarFile ▸ ENDOFF",
+          "blockText": "JarFile ▸ ENDOFF",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDCOM",
+          "chinese": "JarFile ▸ ENDCOM",
+          "blockText": "JarFile ▸ ENDCOM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.jar.Attributes",
+      "chinese": "Attributes",
+      "displayName": "Attributes",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "Attributes ▸ <init>",
+          "blockText": "Attributes ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Attributes"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "Attributes ▸ <init>",
+          "blockText": "Attributes ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "Attributes ▸ <init>",
+          "blockText": "Attributes ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "remove",
+          "chinese": "Attributes ▸ remove",
+          "blockText": "Attributes ▸ remove",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "size",
+          "chinese": "Attributes ▸ size",
+          "blockText": "Attributes ▸ size",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "get",
+          "chinese": "Attributes ▸ get",
+          "blockText": "Attributes ▸ get",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "put",
+          "chinese": "Attributes ▸ put",
+          "blockText": "Attributes ▸ put",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "Attributes ▸ equals",
+          "blockText": "Attributes ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "values",
+          "chinese": "Attributes ▸ values",
+          "blockText": "Attributes ▸ values",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Collection",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "Attributes ▸ hashCode",
+          "blockText": "Attributes ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "clone",
+          "chinese": "Attributes ▸ clone",
+          "blockText": "Attributes ▸ clone",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "clear",
+          "chinese": "Attributes ▸ clear",
+          "blockText": "Attributes ▸ clear",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getValue",
+          "chinese": "Attributes ▸ getValue",
+          "blockText": "Attributes ▸ getValue",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "getValue",
+          "chinese": "Attributes ▸ getValue",
+          "blockText": "Attributes ▸ getValue",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Name"
+          ]
+        },
+        {
+          "name": "isEmpty",
+          "chinese": "Attributes ▸ isEmpty",
+          "blockText": "Attributes ▸ isEmpty",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "entrySet",
+          "chinese": "Attributes ▸ entrySet",
+          "blockText": "Attributes ▸ entrySet",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Set",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "putAll",
+          "chinese": "Attributes ▸ putAll",
+          "blockText": "Attributes ▸ putAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Map"
+          ]
+        },
+        {
+          "name": "keySet",
+          "chinese": "Attributes ▸ keySet",
+          "blockText": "Attributes ▸ keySet",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Set",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "containsValue",
+          "chinese": "Attributes ▸ containsValue",
+          "blockText": "Attributes ▸ containsValue",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "containsKey",
+          "chinese": "Attributes ▸ containsKey",
+          "blockText": "Attributes ▸ containsKey",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "putValue",
+          "chinese": "Attributes ▸ putValue",
+          "blockText": "Attributes ▸ putValue",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "String"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "Attributes ▸ toString",
+          "blockText": "Attributes ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "Attributes ▸ getClass",
+          "blockText": "Attributes ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "Attributes ▸ notify",
+          "blockText": "Attributes ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "Attributes ▸ notifyAll",
+          "blockText": "Attributes ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "Attributes ▸ wait",
+          "blockText": "Attributes ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "Attributes ▸ wait",
+          "blockText": "Attributes ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "Attributes ▸ wait",
+          "blockText": "Attributes ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "remove",
+          "chinese": "Attributes ▸ remove",
+          "blockText": "Attributes ▸ remove",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "replace",
+          "chinese": "Attributes ▸ replace",
+          "blockText": "Attributes ▸ replace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "replace",
+          "chinese": "Attributes ▸ replace",
+          "blockText": "Attributes ▸ replace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "replaceAll",
+          "chinese": "Attributes ▸ replaceAll",
+          "blockText": "Attributes ▸ replaceAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BiFunction"
+          ]
+        },
+        {
+          "name": "merge",
+          "chinese": "Attributes ▸ merge",
+          "blockText": "Attributes ▸ merge",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object",
+            "BiFunction"
+          ]
+        },
+        {
+          "name": "putIfAbsent",
+          "chinese": "Attributes ▸ putIfAbsent",
+          "blockText": "Attributes ▸ putIfAbsent",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "compute",
+          "chinese": "Attributes ▸ compute",
+          "blockText": "Attributes ▸ compute",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "BiFunction"
+          ]
+        },
+        {
+          "name": "computeIfAbsent",
+          "chinese": "Attributes ▸ computeIfAbsent",
+          "blockText": "Attributes ▸ computeIfAbsent",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Function"
+          ]
+        },
+        {
+          "name": "forEach",
+          "chinese": "Attributes ▸ forEach",
+          "blockText": "Attributes ▸ forEach",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BiConsumer"
+          ]
+        },
+        {
+          "name": "getOrDefault",
+          "chinese": "Attributes ▸ getOrDefault",
+          "blockText": "Attributes ▸ getOrDefault",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "computeIfPresent",
+          "chinese": "Attributes ▸ computeIfPresent",
+          "blockText": "Attributes ▸ computeIfPresent",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "BiFunction"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.jar.JarEntry",
+      "chinese": "JarEntry",
+      "displayName": "JarEntry",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "JarEntry ▸ <init>",
+          "blockText": "JarEntry ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "JarEntry"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "JarEntry ▸ <init>",
+          "blockText": "JarEntry ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ZipEntry"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "JarEntry ▸ <init>",
+          "blockText": "JarEntry ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "getCertificates",
+          "chinese": "JarEntry ▸ getCertificates",
+          "blockText": "JarEntry ▸ getCertificates",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Certificate[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getRealName",
+          "chinese": "JarEntry ▸ getRealName",
+          "blockText": "JarEntry ▸ getRealName",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getAttributes",
+          "chinese": "JarEntry ▸ getAttributes",
+          "blockText": "JarEntry ▸ getAttributes",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Attributes",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCodeSigners",
+          "chinese": "JarEntry ▸ getCodeSigners",
+          "blockText": "JarEntry ▸ getCodeSigners",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CodeSigner[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getName",
+          "chinese": "JarEntry ▸ getName",
+          "blockText": "JarEntry ▸ getName",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "JarEntry ▸ toString",
+          "blockText": "JarEntry ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "JarEntry ▸ hashCode",
+          "blockText": "JarEntry ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "clone",
+          "chinese": "JarEntry ▸ clone",
+          "blockText": "JarEntry ▸ clone",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getMethod",
+          "chinese": "JarEntry ▸ getMethod",
+          "blockText": "JarEntry ▸ getMethod",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSize",
+          "chinese": "JarEntry ▸ getSize",
+          "blockText": "JarEntry ▸ getSize",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isDirectory",
+          "chinese": "JarEntry ▸ isDirectory",
+          "blockText": "JarEntry ▸ isDirectory",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLastModifiedTime",
+          "chinese": "JarEntry ▸ getLastModifiedTime",
+          "blockText": "JarEntry ▸ getLastModifiedTime",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FileTime",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setLastModifiedTime",
+          "chinese": "JarEntry ▸ setLastModifiedTime",
+          "blockText": "JarEntry ▸ setLastModifiedTime",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZipEntry",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "FileTime"
+          ]
+        },
+        {
+          "name": "getTime",
+          "chinese": "JarEntry ▸ getTime",
+          "blockText": "JarEntry ▸ getTime",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setTime",
+          "chinese": "JarEntry ▸ setTime",
+          "blockText": "JarEntry ▸ setTime",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "setTimeLocal",
+          "chinese": "JarEntry ▸ setTimeLocal",
+          "blockText": "JarEntry ▸ setTimeLocal",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LocalDateTime"
+          ]
+        },
+        {
+          "name": "getTimeLocal",
+          "chinese": "JarEntry ▸ getTimeLocal",
+          "blockText": "JarEntry ▸ getTimeLocal",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LocalDateTime",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setLastAccessTime",
+          "chinese": "JarEntry ▸ setLastAccessTime",
+          "blockText": "JarEntry ▸ setLastAccessTime",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZipEntry",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "FileTime"
+          ]
+        },
+        {
+          "name": "getLastAccessTime",
+          "chinese": "JarEntry ▸ getLastAccessTime",
+          "blockText": "JarEntry ▸ getLastAccessTime",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FileTime",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setCreationTime",
+          "chinese": "JarEntry ▸ setCreationTime",
+          "blockText": "JarEntry ▸ setCreationTime",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZipEntry",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "FileTime"
+          ]
+        },
+        {
+          "name": "getCreationTime",
+          "chinese": "JarEntry ▸ getCreationTime",
+          "blockText": "JarEntry ▸ getCreationTime",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FileTime",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setSize",
+          "chinese": "JarEntry ▸ setSize",
+          "blockText": "JarEntry ▸ setSize",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "getCompressedSize",
+          "chinese": "JarEntry ▸ getCompressedSize",
+          "blockText": "JarEntry ▸ getCompressedSize",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setCompressedSize",
+          "chinese": "JarEntry ▸ setCompressedSize",
+          "blockText": "JarEntry ▸ setCompressedSize",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "setCrc",
+          "chinese": "JarEntry ▸ setCrc",
+          "blockText": "JarEntry ▸ setCrc",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "getCrc",
+          "chinese": "JarEntry ▸ getCrc",
+          "blockText": "JarEntry ▸ getCrc",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setMethod",
+          "chinese": "JarEntry ▸ setMethod",
+          "blockText": "JarEntry ▸ setMethod",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "setExtra",
+          "chinese": "JarEntry ▸ setExtra",
+          "blockText": "JarEntry ▸ setExtra",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "byte[]"
+          ]
+        },
+        {
+          "name": "getExtra",
+          "chinese": "JarEntry ▸ getExtra",
+          "blockText": "JarEntry ▸ getExtra",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "byte[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setComment",
+          "chinese": "JarEntry ▸ setComment",
+          "blockText": "JarEntry ▸ setComment",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "getComment",
+          "chinese": "JarEntry ▸ getComment",
+          "blockText": "JarEntry ▸ getComment",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "JarEntry ▸ equals",
+          "blockText": "JarEntry ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "getClass",
+          "chinese": "JarEntry ▸ getClass",
+          "blockText": "JarEntry ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "JarEntry ▸ notify",
+          "blockText": "JarEntry ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "JarEntry ▸ notifyAll",
+          "blockText": "JarEntry ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "JarEntry ▸ wait",
+          "blockText": "JarEntry ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "JarEntry ▸ wait",
+          "blockText": "JarEntry ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "JarEntry ▸ wait",
+          "blockText": "JarEntry ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "STORED",
+          "chinese": "JarEntry ▸ STORED",
+          "blockText": "JarEntry ▸ STORED",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "DEFLATED",
+          "chinese": "JarEntry ▸ DEFLATED",
+          "blockText": "JarEntry ▸ DEFLATED",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCSIG",
+          "chinese": "JarEntry ▸ LOCSIG",
+          "blockText": "JarEntry ▸ LOCSIG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXTSIG",
+          "chinese": "JarEntry ▸ EXTSIG",
+          "blockText": "JarEntry ▸ EXTSIG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENSIG",
+          "chinese": "JarEntry ▸ CENSIG",
+          "blockText": "JarEntry ▸ CENSIG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDSIG",
+          "chinese": "JarEntry ▸ ENDSIG",
+          "blockText": "JarEntry ▸ ENDSIG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCHDR",
+          "chinese": "JarEntry ▸ LOCHDR",
+          "blockText": "JarEntry ▸ LOCHDR",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXTHDR",
+          "chinese": "JarEntry ▸ EXTHDR",
+          "blockText": "JarEntry ▸ EXTHDR",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENHDR",
+          "chinese": "JarEntry ▸ CENHDR",
+          "blockText": "JarEntry ▸ CENHDR",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDHDR",
+          "chinese": "JarEntry ▸ ENDHDR",
+          "blockText": "JarEntry ▸ ENDHDR",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCVER",
+          "chinese": "JarEntry ▸ LOCVER",
+          "blockText": "JarEntry ▸ LOCVER",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCFLG",
+          "chinese": "JarEntry ▸ LOCFLG",
+          "blockText": "JarEntry ▸ LOCFLG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCHOW",
+          "chinese": "JarEntry ▸ LOCHOW",
+          "blockText": "JarEntry ▸ LOCHOW",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCTIM",
+          "chinese": "JarEntry ▸ LOCTIM",
+          "blockText": "JarEntry ▸ LOCTIM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCCRC",
+          "chinese": "JarEntry ▸ LOCCRC",
+          "blockText": "JarEntry ▸ LOCCRC",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCSIZ",
+          "chinese": "JarEntry ▸ LOCSIZ",
+          "blockText": "JarEntry ▸ LOCSIZ",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCLEN",
+          "chinese": "JarEntry ▸ LOCLEN",
+          "blockText": "JarEntry ▸ LOCLEN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCNAM",
+          "chinese": "JarEntry ▸ LOCNAM",
+          "blockText": "JarEntry ▸ LOCNAM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCEXT",
+          "chinese": "JarEntry ▸ LOCEXT",
+          "blockText": "JarEntry ▸ LOCEXT",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXTCRC",
+          "chinese": "JarEntry ▸ EXTCRC",
+          "blockText": "JarEntry ▸ EXTCRC",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXTSIZ",
+          "chinese": "JarEntry ▸ EXTSIZ",
+          "blockText": "JarEntry ▸ EXTSIZ",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXTLEN",
+          "chinese": "JarEntry ▸ EXTLEN",
+          "blockText": "JarEntry ▸ EXTLEN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENVEM",
+          "chinese": "JarEntry ▸ CENVEM",
+          "blockText": "JarEntry ▸ CENVEM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENVER",
+          "chinese": "JarEntry ▸ CENVER",
+          "blockText": "JarEntry ▸ CENVER",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENFLG",
+          "chinese": "JarEntry ▸ CENFLG",
+          "blockText": "JarEntry ▸ CENFLG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENHOW",
+          "chinese": "JarEntry ▸ CENHOW",
+          "blockText": "JarEntry ▸ CENHOW",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENTIM",
+          "chinese": "JarEntry ▸ CENTIM",
+          "blockText": "JarEntry ▸ CENTIM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENCRC",
+          "chinese": "JarEntry ▸ CENCRC",
+          "blockText": "JarEntry ▸ CENCRC",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENSIZ",
+          "chinese": "JarEntry ▸ CENSIZ",
+          "blockText": "JarEntry ▸ CENSIZ",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENLEN",
+          "chinese": "JarEntry ▸ CENLEN",
+          "blockText": "JarEntry ▸ CENLEN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENNAM",
+          "chinese": "JarEntry ▸ CENNAM",
+          "blockText": "JarEntry ▸ CENNAM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENEXT",
+          "chinese": "JarEntry ▸ CENEXT",
+          "blockText": "JarEntry ▸ CENEXT",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENCOM",
+          "chinese": "JarEntry ▸ CENCOM",
+          "blockText": "JarEntry ▸ CENCOM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENDSK",
+          "chinese": "JarEntry ▸ CENDSK",
+          "blockText": "JarEntry ▸ CENDSK",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENATT",
+          "chinese": "JarEntry ▸ CENATT",
+          "blockText": "JarEntry ▸ CENATT",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENATX",
+          "chinese": "JarEntry ▸ CENATX",
+          "blockText": "JarEntry ▸ CENATX",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENOFF",
+          "chinese": "JarEntry ▸ CENOFF",
+          "blockText": "JarEntry ▸ CENOFF",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDSUB",
+          "chinese": "JarEntry ▸ ENDSUB",
+          "blockText": "JarEntry ▸ ENDSUB",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDTOT",
+          "chinese": "JarEntry ▸ ENDTOT",
+          "blockText": "JarEntry ▸ ENDTOT",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDSIZ",
+          "chinese": "JarEntry ▸ ENDSIZ",
+          "blockText": "JarEntry ▸ ENDSIZ",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDOFF",
+          "chinese": "JarEntry ▸ ENDOFF",
+          "blockText": "JarEntry ▸ ENDOFF",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDCOM",
+          "chinese": "JarEntry ▸ ENDCOM",
+          "blockText": "JarEntry ▸ ENDCOM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.jar.JarException",
+      "chinese": "JarException",
+      "displayName": "JarException",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "JarException ▸ <init>",
+          "blockText": "JarException ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "<init>",
+          "chinese": "JarException ▸ <init>",
+          "blockText": "JarException ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "JarException ▸ printStackTrace",
+          "blockText": "JarException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "JarException ▸ printStackTrace",
+          "blockText": "JarException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "JarException ▸ printStackTrace",
+          "blockText": "JarException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "JarException ▸ getStackTrace",
+          "blockText": "JarException ▸ getStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "JarException ▸ fillInStackTrace",
+          "blockText": "JarException ▸ fillInStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "JarException ▸ getCause",
+          "blockText": "JarException ▸ getCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initCause",
+          "chinese": "JarException ▸ initCause",
+          "blockText": "JarException ▸ initCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "JarException ▸ toString",
+          "blockText": "JarException ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getMessage",
+          "chinese": "JarException ▸ getMessage",
+          "blockText": "JarException ▸ getMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "JarException ▸ getSuppressed",
+          "blockText": "JarException ▸ getSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "JarException ▸ getLocalizedMessage",
+          "blockText": "JarException ▸ getLocalizedMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "JarException ▸ setStackTrace",
+          "blockText": "JarException ▸ setStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "JarException ▸ addSuppressed",
+          "blockText": "JarException ▸ addSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "JarException ▸ equals",
+          "blockText": "JarException ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "JarException ▸ hashCode",
+          "blockText": "JarException ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "JarException ▸ getClass",
+          "blockText": "JarException ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "JarException ▸ notify",
+          "blockText": "JarException ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "JarException ▸ notifyAll",
+          "blockText": "JarException ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "JarException ▸ wait",
+          "blockText": "JarException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "JarException ▸ wait",
+          "blockText": "JarException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "JarException ▸ wait",
+          "blockText": "JarException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.jar.JarInputStream",
+      "chinese": "JarInputStream",
+      "displayName": "JarInputStream",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "JarInputStream ▸ <init>",
+          "blockText": "JarInputStream ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "InputStream"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "JarInputStream ▸ <init>",
+          "blockText": "JarInputStream ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "InputStream",
+            "boolean"
+          ]
+        },
+        {
+          "name": "read",
+          "chinese": "JarInputStream ▸ read",
+          "blockText": "JarInputStream ▸ read",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "byte[]",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "getManifest",
+          "chinese": "JarInputStream ▸ getManifest",
+          "blockText": "JarInputStream ▸ getManifest",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Manifest",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getNextEntry",
+          "chinese": "JarInputStream ▸ getNextEntry",
+          "blockText": "JarInputStream ▸ getNextEntry",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZipEntry",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getNextJarEntry",
+          "chinese": "JarInputStream ▸ getNextJarEntry",
+          "blockText": "JarInputStream ▸ getNextJarEntry",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "JarEntry",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "readAllBytes",
+          "chinese": "JarInputStream ▸ readAllBytes",
+          "blockText": "JarInputStream ▸ readAllBytes",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "byte[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "close",
+          "chinese": "JarInputStream ▸ close",
+          "blockText": "JarInputStream ▸ close",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "read",
+          "chinese": "JarInputStream ▸ read",
+          "blockText": "JarInputStream ▸ read",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "readNBytes",
+          "chinese": "JarInputStream ▸ readNBytes",
+          "blockText": "JarInputStream ▸ readNBytes",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "byte[]",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "readNBytes",
+          "chinese": "JarInputStream ▸ readNBytes",
+          "blockText": "JarInputStream ▸ readNBytes",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "byte[]",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "transferTo",
+          "chinese": "JarInputStream ▸ transferTo",
+          "blockText": "JarInputStream ▸ transferTo",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "OutputStream"
+          ]
+        },
+        {
+          "name": "skip",
+          "chinese": "JarInputStream ▸ skip",
+          "blockText": "JarInputStream ▸ skip",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "available",
+          "chinese": "JarInputStream ▸ available",
+          "blockText": "JarInputStream ▸ available",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "skipNBytes",
+          "chinese": "JarInputStream ▸ skipNBytes",
+          "blockText": "JarInputStream ▸ skipNBytes",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "closeEntry",
+          "chinese": "JarInputStream ▸ closeEntry",
+          "blockText": "JarInputStream ▸ closeEntry",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "reset",
+          "chinese": "JarInputStream ▸ reset",
+          "blockText": "JarInputStream ▸ reset",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "mark",
+          "chinese": "JarInputStream ▸ mark",
+          "blockText": "JarInputStream ▸ mark",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "markSupported",
+          "chinese": "JarInputStream ▸ markSupported",
+          "blockText": "JarInputStream ▸ markSupported",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "read",
+          "chinese": "JarInputStream ▸ read",
+          "blockText": "JarInputStream ▸ read",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "byte[]"
+          ]
+        },
+        {
+          "name": "nullInputStream",
+          "chinese": "JarInputStream ▸ nullInputStream",
+          "blockText": "JarInputStream ▸ nullInputStream",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "InputStream",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "JarInputStream ▸ equals",
+          "blockText": "JarInputStream ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "JarInputStream ▸ toString",
+          "blockText": "JarInputStream ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "JarInputStream ▸ hashCode",
+          "blockText": "JarInputStream ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "JarInputStream ▸ getClass",
+          "blockText": "JarInputStream ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "JarInputStream ▸ notify",
+          "blockText": "JarInputStream ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "JarInputStream ▸ notifyAll",
+          "blockText": "JarInputStream ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "JarInputStream ▸ wait",
+          "blockText": "JarInputStream ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "JarInputStream ▸ wait",
+          "blockText": "JarInputStream ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "JarInputStream ▸ wait",
+          "blockText": "JarInputStream ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "LOCSIG",
+          "chinese": "JarInputStream ▸ LOCSIG",
+          "blockText": "JarInputStream ▸ LOCSIG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXTSIG",
+          "chinese": "JarInputStream ▸ EXTSIG",
+          "blockText": "JarInputStream ▸ EXTSIG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENSIG",
+          "chinese": "JarInputStream ▸ CENSIG",
+          "blockText": "JarInputStream ▸ CENSIG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDSIG",
+          "chinese": "JarInputStream ▸ ENDSIG",
+          "blockText": "JarInputStream ▸ ENDSIG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCHDR",
+          "chinese": "JarInputStream ▸ LOCHDR",
+          "blockText": "JarInputStream ▸ LOCHDR",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXTHDR",
+          "chinese": "JarInputStream ▸ EXTHDR",
+          "blockText": "JarInputStream ▸ EXTHDR",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENHDR",
+          "chinese": "JarInputStream ▸ CENHDR",
+          "blockText": "JarInputStream ▸ CENHDR",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDHDR",
+          "chinese": "JarInputStream ▸ ENDHDR",
+          "blockText": "JarInputStream ▸ ENDHDR",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCVER",
+          "chinese": "JarInputStream ▸ LOCVER",
+          "blockText": "JarInputStream ▸ LOCVER",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCFLG",
+          "chinese": "JarInputStream ▸ LOCFLG",
+          "blockText": "JarInputStream ▸ LOCFLG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCHOW",
+          "chinese": "JarInputStream ▸ LOCHOW",
+          "blockText": "JarInputStream ▸ LOCHOW",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCTIM",
+          "chinese": "JarInputStream ▸ LOCTIM",
+          "blockText": "JarInputStream ▸ LOCTIM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCCRC",
+          "chinese": "JarInputStream ▸ LOCCRC",
+          "blockText": "JarInputStream ▸ LOCCRC",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCSIZ",
+          "chinese": "JarInputStream ▸ LOCSIZ",
+          "blockText": "JarInputStream ▸ LOCSIZ",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCLEN",
+          "chinese": "JarInputStream ▸ LOCLEN",
+          "blockText": "JarInputStream ▸ LOCLEN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCNAM",
+          "chinese": "JarInputStream ▸ LOCNAM",
+          "blockText": "JarInputStream ▸ LOCNAM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCEXT",
+          "chinese": "JarInputStream ▸ LOCEXT",
+          "blockText": "JarInputStream ▸ LOCEXT",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXTCRC",
+          "chinese": "JarInputStream ▸ EXTCRC",
+          "blockText": "JarInputStream ▸ EXTCRC",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXTSIZ",
+          "chinese": "JarInputStream ▸ EXTSIZ",
+          "blockText": "JarInputStream ▸ EXTSIZ",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXTLEN",
+          "chinese": "JarInputStream ▸ EXTLEN",
+          "blockText": "JarInputStream ▸ EXTLEN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENVEM",
+          "chinese": "JarInputStream ▸ CENVEM",
+          "blockText": "JarInputStream ▸ CENVEM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENVER",
+          "chinese": "JarInputStream ▸ CENVER",
+          "blockText": "JarInputStream ▸ CENVER",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENFLG",
+          "chinese": "JarInputStream ▸ CENFLG",
+          "blockText": "JarInputStream ▸ CENFLG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENHOW",
+          "chinese": "JarInputStream ▸ CENHOW",
+          "blockText": "JarInputStream ▸ CENHOW",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENTIM",
+          "chinese": "JarInputStream ▸ CENTIM",
+          "blockText": "JarInputStream ▸ CENTIM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENCRC",
+          "chinese": "JarInputStream ▸ CENCRC",
+          "blockText": "JarInputStream ▸ CENCRC",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENSIZ",
+          "chinese": "JarInputStream ▸ CENSIZ",
+          "blockText": "JarInputStream ▸ CENSIZ",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENLEN",
+          "chinese": "JarInputStream ▸ CENLEN",
+          "blockText": "JarInputStream ▸ CENLEN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENNAM",
+          "chinese": "JarInputStream ▸ CENNAM",
+          "blockText": "JarInputStream ▸ CENNAM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENEXT",
+          "chinese": "JarInputStream ▸ CENEXT",
+          "blockText": "JarInputStream ▸ CENEXT",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENCOM",
+          "chinese": "JarInputStream ▸ CENCOM",
+          "blockText": "JarInputStream ▸ CENCOM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENDSK",
+          "chinese": "JarInputStream ▸ CENDSK",
+          "blockText": "JarInputStream ▸ CENDSK",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENATT",
+          "chinese": "JarInputStream ▸ CENATT",
+          "blockText": "JarInputStream ▸ CENATT",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENATX",
+          "chinese": "JarInputStream ▸ CENATX",
+          "blockText": "JarInputStream ▸ CENATX",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENOFF",
+          "chinese": "JarInputStream ▸ CENOFF",
+          "blockText": "JarInputStream ▸ CENOFF",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDSUB",
+          "chinese": "JarInputStream ▸ ENDSUB",
+          "blockText": "JarInputStream ▸ ENDSUB",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDTOT",
+          "chinese": "JarInputStream ▸ ENDTOT",
+          "blockText": "JarInputStream ▸ ENDTOT",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDSIZ",
+          "chinese": "JarInputStream ▸ ENDSIZ",
+          "blockText": "JarInputStream ▸ ENDSIZ",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDOFF",
+          "chinese": "JarInputStream ▸ ENDOFF",
+          "blockText": "JarInputStream ▸ ENDOFF",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDCOM",
+          "chinese": "JarInputStream ▸ ENDCOM",
+          "blockText": "JarInputStream ▸ ENDCOM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.jar.JarOutputStream",
+      "chinese": "JarOutputStream",
+      "displayName": "JarOutputStream",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "JarOutputStream ▸ <init>",
+          "blockText": "JarOutputStream ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "OutputStream",
+            "Manifest"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "JarOutputStream ▸ <init>",
+          "blockText": "JarOutputStream ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "OutputStream"
+          ]
+        },
+        {
+          "name": "putNextEntry",
+          "chinese": "JarOutputStream ▸ putNextEntry",
+          "blockText": "JarOutputStream ▸ putNextEntry",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ZipEntry"
+          ]
+        },
+        {
+          "name": "write",
+          "chinese": "JarOutputStream ▸ write",
+          "blockText": "JarOutputStream ▸ write",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "byte[]",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "close",
+          "chinese": "JarOutputStream ▸ close",
+          "blockText": "JarOutputStream ▸ close",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "finish",
+          "chinese": "JarOutputStream ▸ finish",
+          "blockText": "JarOutputStream ▸ finish",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setMethod",
+          "chinese": "JarOutputStream ▸ setMethod",
+          "blockText": "JarOutputStream ▸ setMethod",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "setComment",
+          "chinese": "JarOutputStream ▸ setComment",
+          "blockText": "JarOutputStream ▸ setComment",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "setLevel",
+          "chinese": "JarOutputStream ▸ setLevel",
+          "blockText": "JarOutputStream ▸ setLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "closeEntry",
+          "chinese": "JarOutputStream ▸ closeEntry",
+          "blockText": "JarOutputStream ▸ closeEntry",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "flush",
+          "chinese": "JarOutputStream ▸ flush",
+          "blockText": "JarOutputStream ▸ flush",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "write",
+          "chinese": "JarOutputStream ▸ write",
+          "blockText": "JarOutputStream ▸ write",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "write",
+          "chinese": "JarOutputStream ▸ write",
+          "blockText": "JarOutputStream ▸ write",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "byte[]"
+          ]
+        },
+        {
+          "name": "nullOutputStream",
+          "chinese": "JarOutputStream ▸ nullOutputStream",
+          "blockText": "JarOutputStream ▸ nullOutputStream",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "OutputStream",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "JarOutputStream ▸ equals",
+          "blockText": "JarOutputStream ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "JarOutputStream ▸ toString",
+          "blockText": "JarOutputStream ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "JarOutputStream ▸ hashCode",
+          "blockText": "JarOutputStream ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "JarOutputStream ▸ getClass",
+          "blockText": "JarOutputStream ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "JarOutputStream ▸ notify",
+          "blockText": "JarOutputStream ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "JarOutputStream ▸ notifyAll",
+          "blockText": "JarOutputStream ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "JarOutputStream ▸ wait",
+          "blockText": "JarOutputStream ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "JarOutputStream ▸ wait",
+          "blockText": "JarOutputStream ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "JarOutputStream ▸ wait",
+          "blockText": "JarOutputStream ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "STORED",
+          "chinese": "JarOutputStream ▸ STORED",
+          "blockText": "JarOutputStream ▸ STORED",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "DEFLATED",
+          "chinese": "JarOutputStream ▸ DEFLATED",
+          "blockText": "JarOutputStream ▸ DEFLATED",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCSIG",
+          "chinese": "JarOutputStream ▸ LOCSIG",
+          "blockText": "JarOutputStream ▸ LOCSIG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXTSIG",
+          "chinese": "JarOutputStream ▸ EXTSIG",
+          "blockText": "JarOutputStream ▸ EXTSIG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENSIG",
+          "chinese": "JarOutputStream ▸ CENSIG",
+          "blockText": "JarOutputStream ▸ CENSIG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDSIG",
+          "chinese": "JarOutputStream ▸ ENDSIG",
+          "blockText": "JarOutputStream ▸ ENDSIG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCHDR",
+          "chinese": "JarOutputStream ▸ LOCHDR",
+          "blockText": "JarOutputStream ▸ LOCHDR",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXTHDR",
+          "chinese": "JarOutputStream ▸ EXTHDR",
+          "blockText": "JarOutputStream ▸ EXTHDR",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENHDR",
+          "chinese": "JarOutputStream ▸ CENHDR",
+          "blockText": "JarOutputStream ▸ CENHDR",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDHDR",
+          "chinese": "JarOutputStream ▸ ENDHDR",
+          "blockText": "JarOutputStream ▸ ENDHDR",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCVER",
+          "chinese": "JarOutputStream ▸ LOCVER",
+          "blockText": "JarOutputStream ▸ LOCVER",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCFLG",
+          "chinese": "JarOutputStream ▸ LOCFLG",
+          "blockText": "JarOutputStream ▸ LOCFLG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCHOW",
+          "chinese": "JarOutputStream ▸ LOCHOW",
+          "blockText": "JarOutputStream ▸ LOCHOW",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCTIM",
+          "chinese": "JarOutputStream ▸ LOCTIM",
+          "blockText": "JarOutputStream ▸ LOCTIM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCCRC",
+          "chinese": "JarOutputStream ▸ LOCCRC",
+          "blockText": "JarOutputStream ▸ LOCCRC",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCSIZ",
+          "chinese": "JarOutputStream ▸ LOCSIZ",
+          "blockText": "JarOutputStream ▸ LOCSIZ",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCLEN",
+          "chinese": "JarOutputStream ▸ LOCLEN",
+          "blockText": "JarOutputStream ▸ LOCLEN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCNAM",
+          "chinese": "JarOutputStream ▸ LOCNAM",
+          "blockText": "JarOutputStream ▸ LOCNAM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCEXT",
+          "chinese": "JarOutputStream ▸ LOCEXT",
+          "blockText": "JarOutputStream ▸ LOCEXT",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXTCRC",
+          "chinese": "JarOutputStream ▸ EXTCRC",
+          "blockText": "JarOutputStream ▸ EXTCRC",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXTSIZ",
+          "chinese": "JarOutputStream ▸ EXTSIZ",
+          "blockText": "JarOutputStream ▸ EXTSIZ",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "EXTLEN",
+          "chinese": "JarOutputStream ▸ EXTLEN",
+          "blockText": "JarOutputStream ▸ EXTLEN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENVEM",
+          "chinese": "JarOutputStream ▸ CENVEM",
+          "blockText": "JarOutputStream ▸ CENVEM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENVER",
+          "chinese": "JarOutputStream ▸ CENVER",
+          "blockText": "JarOutputStream ▸ CENVER",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENFLG",
+          "chinese": "JarOutputStream ▸ CENFLG",
+          "blockText": "JarOutputStream ▸ CENFLG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENHOW",
+          "chinese": "JarOutputStream ▸ CENHOW",
+          "blockText": "JarOutputStream ▸ CENHOW",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENTIM",
+          "chinese": "JarOutputStream ▸ CENTIM",
+          "blockText": "JarOutputStream ▸ CENTIM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENCRC",
+          "chinese": "JarOutputStream ▸ CENCRC",
+          "blockText": "JarOutputStream ▸ CENCRC",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENSIZ",
+          "chinese": "JarOutputStream ▸ CENSIZ",
+          "blockText": "JarOutputStream ▸ CENSIZ",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENLEN",
+          "chinese": "JarOutputStream ▸ CENLEN",
+          "blockText": "JarOutputStream ▸ CENLEN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENNAM",
+          "chinese": "JarOutputStream ▸ CENNAM",
+          "blockText": "JarOutputStream ▸ CENNAM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENEXT",
+          "chinese": "JarOutputStream ▸ CENEXT",
+          "blockText": "JarOutputStream ▸ CENEXT",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENCOM",
+          "chinese": "JarOutputStream ▸ CENCOM",
+          "blockText": "JarOutputStream ▸ CENCOM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENDSK",
+          "chinese": "JarOutputStream ▸ CENDSK",
+          "blockText": "JarOutputStream ▸ CENDSK",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENATT",
+          "chinese": "JarOutputStream ▸ CENATT",
+          "blockText": "JarOutputStream ▸ CENATT",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENATX",
+          "chinese": "JarOutputStream ▸ CENATX",
+          "blockText": "JarOutputStream ▸ CENATX",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CENOFF",
+          "chinese": "JarOutputStream ▸ CENOFF",
+          "blockText": "JarOutputStream ▸ CENOFF",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDSUB",
+          "chinese": "JarOutputStream ▸ ENDSUB",
+          "blockText": "JarOutputStream ▸ ENDSUB",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDTOT",
+          "chinese": "JarOutputStream ▸ ENDTOT",
+          "blockText": "JarOutputStream ▸ ENDTOT",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDSIZ",
+          "chinese": "JarOutputStream ▸ ENDSIZ",
+          "blockText": "JarOutputStream ▸ ENDSIZ",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDOFF",
+          "chinese": "JarOutputStream ▸ ENDOFF",
+          "blockText": "JarOutputStream ▸ ENDOFF",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ENDCOM",
+          "chinese": "JarOutputStream ▸ ENDCOM",
+          "blockText": "JarOutputStream ▸ ENDCOM",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.jar.Manifest",
+      "chinese": "Manifest",
+      "displayName": "Manifest",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "Manifest ▸ <init>",
+          "blockText": "Manifest ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Manifest"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "Manifest ▸ <init>",
+          "blockText": "Manifest ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "InputStream"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "Manifest ▸ <init>",
+          "blockText": "Manifest ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "Manifest ▸ equals",
+          "blockText": "Manifest ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "Manifest ▸ hashCode",
+          "blockText": "Manifest ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "clone",
+          "chinese": "Manifest ▸ clone",
+          "blockText": "Manifest ▸ clone",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "clear",
+          "chinese": "Manifest ▸ clear",
+          "blockText": "Manifest ▸ clear",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "write",
+          "chinese": "Manifest ▸ write",
+          "blockText": "Manifest ▸ write",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "OutputStream"
+          ]
+        },
+        {
+          "name": "read",
+          "chinese": "Manifest ▸ read",
+          "blockText": "Manifest ▸ read",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "InputStream"
+          ]
+        },
+        {
+          "name": "getMainAttributes",
+          "chinese": "Manifest ▸ getMainAttributes",
+          "blockText": "Manifest ▸ getMainAttributes",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Attributes",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getEntries",
+          "chinese": "Manifest ▸ getEntries",
+          "blockText": "Manifest ▸ getEntries",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Map",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getAttributes",
+          "chinese": "Manifest ▸ getAttributes",
+          "blockText": "Manifest ▸ getAttributes",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Attributes",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "Manifest ▸ toString",
+          "blockText": "Manifest ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "Manifest ▸ getClass",
+          "blockText": "Manifest ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "Manifest ▸ notify",
+          "blockText": "Manifest ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "Manifest ▸ notifyAll",
+          "blockText": "Manifest ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "Manifest ▸ wait",
+          "blockText": "Manifest ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "Manifest ▸ wait",
+          "blockText": "Manifest ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "Manifest ▸ wait",
+          "blockText": "Manifest ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    }
+  ]
+}

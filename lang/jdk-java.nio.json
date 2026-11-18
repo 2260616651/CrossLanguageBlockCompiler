@@ -1,0 +1,5803 @@
+{
+  "_comment": "CLBC 自动生成的 JDK 库语言文件。一个库一个文件；java1~java27 共 27 个版本共用本文件，不按版本拆分。since=起始版本，until=移除版本(27 表示仍可用)。方法改名时旧名与新名各写一条，chinese 相同。",
+  "library": "java.nio",
+  "libraryChinese": "新 IO",
+  "minVersion": 1,
+  "maxVersion": 27,
+  "versionRange": "java1~java27",
+  "javaVersions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "classes": [
+    {
+      "fqn": "java.nio.ByteBuffer",
+      "chinese": "字节缓冲",
+      "displayName": "ByteBuffer",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "reset",
+          "chinese": "字节缓冲 ▸ 重置",
+          "blockText": "字节缓冲 ▸ 重置",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "get",
+          "chinese": "字节缓冲 ▸ 取值",
+          "blockText": "字节缓冲 ▸ 取值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "byte[]"
+          ]
+        },
+        {
+          "name": "put",
+          "chinese": "字节缓冲 ▸ 放入",
+          "blockText": "字节缓冲 ▸ 放入",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "byte"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "字节缓冲 ▸ 相等",
+          "blockText": "字节缓冲 ▸ 相等",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "字节缓冲 ▸ 转为文本",
+          "blockText": "字节缓冲 ▸ 转为文本",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "字节缓冲 ▸ 哈希值",
+          "blockText": "字节缓冲 ▸ 哈希值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "chinese": "字节缓冲 ▸ 比较",
+          "blockText": "字节缓冲 ▸ 比较",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ByteBuffer"
+          ]
+        },
+        {
+          "name": "getShort",
+          "chinese": "字节缓冲 ▸ getShort",
+          "blockText": "字节缓冲 ▸ getShort",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "short",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "putShort",
+          "chinese": "字节缓冲 ▸ putShort",
+          "blockText": "字节缓冲 ▸ putShort",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "short"
+          ]
+        },
+        {
+          "name": "getChar",
+          "chinese": "字节缓冲 ▸ getChar",
+          "blockText": "字节缓冲 ▸ getChar",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "char",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "putChar",
+          "chinese": "字节缓冲 ▸ putChar",
+          "blockText": "字节缓冲 ▸ putChar",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "char"
+          ]
+        },
+        {
+          "name": "getInt",
+          "chinese": "字节缓冲 ▸ getInt",
+          "blockText": "字节缓冲 ▸ getInt",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "putInt",
+          "chinese": "字节缓冲 ▸ putInt",
+          "blockText": "字节缓冲 ▸ putInt",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "getLong",
+          "chinese": "字节缓冲 ▸ getLong",
+          "blockText": "字节缓冲 ▸ getLong",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "putLong",
+          "chinese": "字节缓冲 ▸ putLong",
+          "blockText": "字节缓冲 ▸ putLong",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "getFloat",
+          "chinese": "字节缓冲 ▸ getFloat",
+          "blockText": "字节缓冲 ▸ getFloat",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "float",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "putFloat",
+          "chinese": "字节缓冲 ▸ putFloat",
+          "blockText": "字节缓冲 ▸ putFloat",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "float"
+          ]
+        },
+        {
+          "name": "getDouble",
+          "chinese": "字节缓冲 ▸ getDouble",
+          "blockText": "字节缓冲 ▸ getDouble",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "putDouble",
+          "chinese": "字节缓冲 ▸ putDouble",
+          "blockText": "字节缓冲 ▸ putDouble",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "double"
+          ]
+        },
+        {
+          "name": "clear",
+          "chinese": "字节缓冲 ▸ 清空",
+          "blockText": "字节缓冲 ▸ 清空",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wrap",
+          "chinese": "字节缓冲 ▸ wrap",
+          "blockText": "字节缓冲 ▸ wrap",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "byte[]",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "position",
+          "chinese": "字节缓冲 ▸ position",
+          "blockText": "字节缓冲 ▸ position",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "mismatch",
+          "chinese": "字节缓冲 ▸ mismatch",
+          "blockText": "字节缓冲 ▸ mismatch",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ByteBuffer"
+          ]
+        },
+        {
+          "name": "limit",
+          "chinese": "字节缓冲 ▸ 限制数量",
+          "blockText": "字节缓冲 ▸ 限制数量",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "isDirect",
+          "chinese": "字节缓冲 ▸ isDirect",
+          "blockText": "字节缓冲 ▸ isDirect",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasArray",
+          "chinese": "字节缓冲 ▸ hasArray",
+          "blockText": "字节缓冲 ▸ hasArray",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "array",
+          "chinese": "字节缓冲 ▸ array",
+          "blockText": "字节缓冲 ▸ array",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "byte[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "arrayOffset",
+          "chinese": "字节缓冲 ▸ arrayOffset",
+          "blockText": "字节缓冲 ▸ arrayOffset",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "mark",
+          "chinese": "字节缓冲 ▸ mark",
+          "blockText": "字节缓冲 ▸ mark",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "flip",
+          "chinese": "字节缓冲 ▸ flip",
+          "blockText": "字节缓冲 ▸ flip",
+          "since": 14,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "rewind",
+          "chinese": "字节缓冲 ▸ rewind",
+          "blockText": "字节缓冲 ▸ rewind",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "slice",
+          "chinese": "字节缓冲 ▸ slice",
+          "blockText": "字节缓冲 ▸ slice",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "duplicate",
+          "chinese": "字节缓冲 ▸ duplicate",
+          "blockText": "字节缓冲 ▸ duplicate",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "allocate",
+          "chinese": "字节缓冲 ▸ allocate",
+          "blockText": "字节缓冲 ▸ allocate",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "alignmentOffset",
+          "chinese": "字节缓冲 ▸ alignmentOffset",
+          "blockText": "字节缓冲 ▸ alignmentOffset",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "allocateDirect",
+          "chinese": "字节缓冲 ▸ allocateDirect",
+          "blockText": "字节缓冲 ▸ allocateDirect",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "asReadOnlyBuffer",
+          "chinese": "字节缓冲 ▸ asReadOnlyBuffer",
+          "blockText": "字节缓冲 ▸ asReadOnlyBuffer",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compact",
+          "chinese": "字节缓冲 ▸ compact",
+          "blockText": "字节缓冲 ▸ compact",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "order",
+          "chinese": "字节缓冲 ▸ order",
+          "blockText": "字节缓冲 ▸ order",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ByteOrder"
+          ]
+        },
+        {
+          "name": "alignedSlice",
+          "chinese": "字节缓冲 ▸ alignedSlice",
+          "blockText": "字节缓冲 ▸ alignedSlice",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "asCharBuffer",
+          "chinese": "字节缓冲 ▸ asCharBuffer",
+          "blockText": "字节缓冲 ▸ asCharBuffer",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "asShortBuffer",
+          "chinese": "字节缓冲 ▸ asShortBuffer",
+          "blockText": "字节缓冲 ▸ asShortBuffer",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ShortBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "asIntBuffer",
+          "chinese": "字节缓冲 ▸ asIntBuffer",
+          "blockText": "字节缓冲 ▸ asIntBuffer",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "asLongBuffer",
+          "chinese": "字节缓冲 ▸ asLongBuffer",
+          "blockText": "字节缓冲 ▸ asLongBuffer",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "asFloatBuffer",
+          "chinese": "字节缓冲 ▸ asFloatBuffer",
+          "blockText": "字节缓冲 ▸ asFloatBuffer",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FloatBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "asDoubleBuffer",
+          "chinese": "字节缓冲 ▸ asDoubleBuffer",
+          "blockText": "字节缓冲 ▸ asDoubleBuffer",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "remaining",
+          "chinese": "字节缓冲 ▸ remaining",
+          "blockText": "字节缓冲 ▸ remaining",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "capacity",
+          "chinese": "字节缓冲 ▸ capacity",
+          "blockText": "字节缓冲 ▸ capacity",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasRemaining",
+          "chinese": "字节缓冲 ▸ hasRemaining",
+          "blockText": "字节缓冲 ▸ hasRemaining",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isReadOnly",
+          "chinese": "字节缓冲 ▸ isReadOnly",
+          "blockText": "字节缓冲 ▸ isReadOnly",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "字节缓冲 ▸ 取类型",
+          "blockText": "字节缓冲 ▸ 取类型",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "字节缓冲 ▸ 通知",
+          "blockText": "字节缓冲 ▸ 通知",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "字节缓冲 ▸ 通知全部",
+          "blockText": "字节缓冲 ▸ 通知全部",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "字节缓冲 ▸ 等待",
+          "blockText": "字节缓冲 ▸ 等待",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.CharBuffer",
+      "chinese": "CharBuffer",
+      "displayName": "CharBuffer",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "reset",
+          "chinese": "CharBuffer ▸ 重置",
+          "blockText": "CharBuffer ▸ 重置",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "get",
+          "chinese": "CharBuffer ▸ 取值",
+          "blockText": "CharBuffer ▸ 取值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "char[]",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "put",
+          "chinese": "CharBuffer ▸ 放入",
+          "blockText": "CharBuffer ▸ 放入",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "char"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "CharBuffer ▸ 相等",
+          "blockText": "CharBuffer ▸ 相等",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "length",
+          "chinese": "CharBuffer ▸ 长度",
+          "blockText": "CharBuffer ▸ 长度",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "CharBuffer ▸ 转为文本",
+          "blockText": "CharBuffer ▸ 转为文本",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "append",
+          "chinese": "CharBuffer ▸ 追加",
+          "blockText": "CharBuffer ▸ 追加",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "CharSequence"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "CharBuffer ▸ 哈希值",
+          "blockText": "CharBuffer ▸ 哈希值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getChars",
+          "chinese": "CharBuffer ▸ 取字符到数组",
+          "blockText": "CharBuffer ▸ 取字符到数组",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int",
+            "char[]",
+            "int"
+          ]
+        },
+        {
+          "name": "compareTo",
+          "chinese": "CharBuffer ▸ 比较",
+          "blockText": "CharBuffer ▸ 比较",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "CharBuffer"
+          ]
+        },
+        {
+          "name": "clear",
+          "chinese": "CharBuffer ▸ 清空",
+          "blockText": "CharBuffer ▸ 清空",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wrap",
+          "chinese": "CharBuffer ▸ wrap",
+          "blockText": "CharBuffer ▸ wrap",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "CharSequence",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "position",
+          "chinese": "CharBuffer ▸ position",
+          "blockText": "CharBuffer ▸ position",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "charAt",
+          "chinese": "CharBuffer ▸ 取字符",
+          "blockText": "CharBuffer ▸ 取字符",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "char",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "mismatch",
+          "chinese": "CharBuffer ▸ mismatch",
+          "blockText": "CharBuffer ▸ mismatch",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "CharBuffer"
+          ]
+        },
+        {
+          "name": "isEmpty",
+          "chinese": "CharBuffer ▸ 为空",
+          "blockText": "CharBuffer ▸ 为空",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "subSequence",
+          "chinese": "CharBuffer ▸ subSequence",
+          "blockText": "CharBuffer ▸ subSequence",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "limit",
+          "chinese": "CharBuffer ▸ 限制数量",
+          "blockText": "CharBuffer ▸ 限制数量",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "chars",
+          "chinese": "CharBuffer ▸ 字符流",
+          "blockText": "CharBuffer ▸ 字符流",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isDirect",
+          "chinese": "CharBuffer ▸ isDirect",
+          "blockText": "CharBuffer ▸ isDirect",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasArray",
+          "chinese": "CharBuffer ▸ hasArray",
+          "blockText": "CharBuffer ▸ hasArray",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "array",
+          "chinese": "CharBuffer ▸ array",
+          "blockText": "CharBuffer ▸ array",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "char[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "arrayOffset",
+          "chinese": "CharBuffer ▸ arrayOffset",
+          "blockText": "CharBuffer ▸ arrayOffset",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "mark",
+          "chinese": "CharBuffer ▸ mark",
+          "blockText": "CharBuffer ▸ mark",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "read",
+          "chinese": "CharBuffer ▸ 读取",
+          "blockText": "CharBuffer ▸ 读取",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "CharBuffer"
+          ]
+        },
+        {
+          "name": "flip",
+          "chinese": "CharBuffer ▸ flip",
+          "blockText": "CharBuffer ▸ flip",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "rewind",
+          "chinese": "CharBuffer ▸ rewind",
+          "blockText": "CharBuffer ▸ rewind",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "slice",
+          "chinese": "CharBuffer ▸ slice",
+          "blockText": "CharBuffer ▸ slice",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "duplicate",
+          "chinese": "CharBuffer ▸ duplicate",
+          "blockText": "CharBuffer ▸ duplicate",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "allocate",
+          "chinese": "CharBuffer ▸ allocate",
+          "blockText": "CharBuffer ▸ allocate",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "asReadOnlyBuffer",
+          "chinese": "CharBuffer ▸ asReadOnlyBuffer",
+          "blockText": "CharBuffer ▸ asReadOnlyBuffer",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compact",
+          "chinese": "CharBuffer ▸ compact",
+          "blockText": "CharBuffer ▸ compact",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "order",
+          "chinese": "CharBuffer ▸ order",
+          "blockText": "CharBuffer ▸ order",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteOrder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "remaining",
+          "chinese": "CharBuffer ▸ remaining",
+          "blockText": "CharBuffer ▸ remaining",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "capacity",
+          "chinese": "CharBuffer ▸ capacity",
+          "blockText": "CharBuffer ▸ capacity",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasRemaining",
+          "chinese": "CharBuffer ▸ hasRemaining",
+          "blockText": "CharBuffer ▸ hasRemaining",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isReadOnly",
+          "chinese": "CharBuffer ▸ isReadOnly",
+          "blockText": "CharBuffer ▸ isReadOnly",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "CharBuffer ▸ 取类型",
+          "blockText": "CharBuffer ▸ 取类型",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "CharBuffer ▸ 通知",
+          "blockText": "CharBuffer ▸ 通知",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "CharBuffer ▸ 通知全部",
+          "blockText": "CharBuffer ▸ 通知全部",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "CharBuffer ▸ 等待",
+          "blockText": "CharBuffer ▸ 等待",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "codePoints",
+          "chinese": "CharBuffer ▸ 码点流",
+          "blockText": "CharBuffer ▸ 码点流",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntStream",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.IntBuffer",
+      "chinese": "IntBuffer",
+      "displayName": "IntBuffer",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "reset",
+          "chinese": "IntBuffer ▸ 重置",
+          "blockText": "IntBuffer ▸ 重置",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "get",
+          "chinese": "IntBuffer ▸ 取值",
+          "blockText": "IntBuffer ▸ 取值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "put",
+          "chinese": "IntBuffer ▸ 放入",
+          "blockText": "IntBuffer ▸ 放入",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntBuffer"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "IntBuffer ▸ 相等",
+          "blockText": "IntBuffer ▸ 相等",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "IntBuffer ▸ 转为文本",
+          "blockText": "IntBuffer ▸ 转为文本",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "IntBuffer ▸ 哈希值",
+          "blockText": "IntBuffer ▸ 哈希值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "chinese": "IntBuffer ▸ 比较",
+          "blockText": "IntBuffer ▸ 比较",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntBuffer"
+          ]
+        },
+        {
+          "name": "clear",
+          "chinese": "IntBuffer ▸ 清空",
+          "blockText": "IntBuffer ▸ 清空",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wrap",
+          "chinese": "IntBuffer ▸ wrap",
+          "blockText": "IntBuffer ▸ wrap",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntBuffer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int[]"
+          ]
+        },
+        {
+          "name": "position",
+          "chinese": "IntBuffer ▸ position",
+          "blockText": "IntBuffer ▸ position",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "mismatch",
+          "chinese": "IntBuffer ▸ mismatch",
+          "blockText": "IntBuffer ▸ mismatch",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntBuffer"
+          ]
+        },
+        {
+          "name": "limit",
+          "chinese": "IntBuffer ▸ 限制数量",
+          "blockText": "IntBuffer ▸ 限制数量",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "isDirect",
+          "chinese": "IntBuffer ▸ isDirect",
+          "blockText": "IntBuffer ▸ isDirect",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasArray",
+          "chinese": "IntBuffer ▸ hasArray",
+          "blockText": "IntBuffer ▸ hasArray",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "array",
+          "chinese": "IntBuffer ▸ array",
+          "blockText": "IntBuffer ▸ array",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "arrayOffset",
+          "chinese": "IntBuffer ▸ arrayOffset",
+          "blockText": "IntBuffer ▸ arrayOffset",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "mark",
+          "chinese": "IntBuffer ▸ mark",
+          "blockText": "IntBuffer ▸ mark",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "flip",
+          "chinese": "IntBuffer ▸ flip",
+          "blockText": "IntBuffer ▸ flip",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "rewind",
+          "chinese": "IntBuffer ▸ rewind",
+          "blockText": "IntBuffer ▸ rewind",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "slice",
+          "chinese": "IntBuffer ▸ slice",
+          "blockText": "IntBuffer ▸ slice",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "duplicate",
+          "chinese": "IntBuffer ▸ duplicate",
+          "blockText": "IntBuffer ▸ duplicate",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "allocate",
+          "chinese": "IntBuffer ▸ allocate",
+          "blockText": "IntBuffer ▸ allocate",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntBuffer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "asReadOnlyBuffer",
+          "chinese": "IntBuffer ▸ asReadOnlyBuffer",
+          "blockText": "IntBuffer ▸ asReadOnlyBuffer",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compact",
+          "chinese": "IntBuffer ▸ compact",
+          "blockText": "IntBuffer ▸ compact",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "order",
+          "chinese": "IntBuffer ▸ order",
+          "blockText": "IntBuffer ▸ order",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteOrder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "remaining",
+          "chinese": "IntBuffer ▸ remaining",
+          "blockText": "IntBuffer ▸ remaining",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "capacity",
+          "chinese": "IntBuffer ▸ capacity",
+          "blockText": "IntBuffer ▸ capacity",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasRemaining",
+          "chinese": "IntBuffer ▸ hasRemaining",
+          "blockText": "IntBuffer ▸ hasRemaining",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isReadOnly",
+          "chinese": "IntBuffer ▸ isReadOnly",
+          "blockText": "IntBuffer ▸ isReadOnly",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "IntBuffer ▸ 取类型",
+          "blockText": "IntBuffer ▸ 取类型",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "IntBuffer ▸ 通知",
+          "blockText": "IntBuffer ▸ 通知",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "IntBuffer ▸ 通知全部",
+          "blockText": "IntBuffer ▸ 通知全部",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "IntBuffer ▸ 等待",
+          "blockText": "IntBuffer ▸ 等待",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.LongBuffer",
+      "chinese": "LongBuffer",
+      "displayName": "LongBuffer",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "reset",
+          "chinese": "LongBuffer ▸ 重置",
+          "blockText": "LongBuffer ▸ 重置",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "get",
+          "chinese": "LongBuffer ▸ 取值",
+          "blockText": "LongBuffer ▸ 取值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "put",
+          "chinese": "LongBuffer ▸ 放入",
+          "blockText": "LongBuffer ▸ 放入",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongBuffer"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "LongBuffer ▸ 相等",
+          "blockText": "LongBuffer ▸ 相等",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "LongBuffer ▸ 转为文本",
+          "blockText": "LongBuffer ▸ 转为文本",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "LongBuffer ▸ 哈希值",
+          "blockText": "LongBuffer ▸ 哈希值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "chinese": "LongBuffer ▸ 比较",
+          "blockText": "LongBuffer ▸ 比较",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongBuffer"
+          ]
+        },
+        {
+          "name": "clear",
+          "chinese": "LongBuffer ▸ 清空",
+          "blockText": "LongBuffer ▸ 清空",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wrap",
+          "chinese": "LongBuffer ▸ wrap",
+          "blockText": "LongBuffer ▸ wrap",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongBuffer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "long[]"
+          ]
+        },
+        {
+          "name": "position",
+          "chinese": "LongBuffer ▸ position",
+          "blockText": "LongBuffer ▸ position",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "mismatch",
+          "chinese": "LongBuffer ▸ mismatch",
+          "blockText": "LongBuffer ▸ mismatch",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongBuffer"
+          ]
+        },
+        {
+          "name": "limit",
+          "chinese": "LongBuffer ▸ 限制数量",
+          "blockText": "LongBuffer ▸ 限制数量",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "isDirect",
+          "chinese": "LongBuffer ▸ isDirect",
+          "blockText": "LongBuffer ▸ isDirect",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasArray",
+          "chinese": "LongBuffer ▸ hasArray",
+          "blockText": "LongBuffer ▸ hasArray",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "array",
+          "chinese": "LongBuffer ▸ array",
+          "blockText": "LongBuffer ▸ array",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "arrayOffset",
+          "chinese": "LongBuffer ▸ arrayOffset",
+          "blockText": "LongBuffer ▸ arrayOffset",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "mark",
+          "chinese": "LongBuffer ▸ mark",
+          "blockText": "LongBuffer ▸ mark",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "flip",
+          "chinese": "LongBuffer ▸ flip",
+          "blockText": "LongBuffer ▸ flip",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "rewind",
+          "chinese": "LongBuffer ▸ rewind",
+          "blockText": "LongBuffer ▸ rewind",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "slice",
+          "chinese": "LongBuffer ▸ slice",
+          "blockText": "LongBuffer ▸ slice",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "duplicate",
+          "chinese": "LongBuffer ▸ duplicate",
+          "blockText": "LongBuffer ▸ duplicate",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "allocate",
+          "chinese": "LongBuffer ▸ allocate",
+          "blockText": "LongBuffer ▸ allocate",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongBuffer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "asReadOnlyBuffer",
+          "chinese": "LongBuffer ▸ asReadOnlyBuffer",
+          "blockText": "LongBuffer ▸ asReadOnlyBuffer",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compact",
+          "chinese": "LongBuffer ▸ compact",
+          "blockText": "LongBuffer ▸ compact",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "order",
+          "chinese": "LongBuffer ▸ order",
+          "blockText": "LongBuffer ▸ order",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteOrder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "remaining",
+          "chinese": "LongBuffer ▸ remaining",
+          "blockText": "LongBuffer ▸ remaining",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "capacity",
+          "chinese": "LongBuffer ▸ capacity",
+          "blockText": "LongBuffer ▸ capacity",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasRemaining",
+          "chinese": "LongBuffer ▸ hasRemaining",
+          "blockText": "LongBuffer ▸ hasRemaining",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isReadOnly",
+          "chinese": "LongBuffer ▸ isReadOnly",
+          "blockText": "LongBuffer ▸ isReadOnly",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "LongBuffer ▸ 取类型",
+          "blockText": "LongBuffer ▸ 取类型",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "LongBuffer ▸ 通知",
+          "blockText": "LongBuffer ▸ 通知",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "LongBuffer ▸ 通知全部",
+          "blockText": "LongBuffer ▸ 通知全部",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "LongBuffer ▸ 等待",
+          "blockText": "LongBuffer ▸ 等待",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.DoubleBuffer",
+      "chinese": "DoubleBuffer",
+      "displayName": "DoubleBuffer",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "reset",
+          "chinese": "DoubleBuffer ▸ 重置",
+          "blockText": "DoubleBuffer ▸ 重置",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "get",
+          "chinese": "DoubleBuffer ▸ 取值",
+          "blockText": "DoubleBuffer ▸ 取值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "put",
+          "chinese": "DoubleBuffer ▸ 放入",
+          "blockText": "DoubleBuffer ▸ 放入",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoubleBuffer"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "DoubleBuffer ▸ 相等",
+          "blockText": "DoubleBuffer ▸ 相等",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "DoubleBuffer ▸ 转为文本",
+          "blockText": "DoubleBuffer ▸ 转为文本",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "DoubleBuffer ▸ 哈希值",
+          "blockText": "DoubleBuffer ▸ 哈希值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "chinese": "DoubleBuffer ▸ 比较",
+          "blockText": "DoubleBuffer ▸ 比较",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoubleBuffer"
+          ]
+        },
+        {
+          "name": "clear",
+          "chinese": "DoubleBuffer ▸ 清空",
+          "blockText": "DoubleBuffer ▸ 清空",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wrap",
+          "chinese": "DoubleBuffer ▸ wrap",
+          "blockText": "DoubleBuffer ▸ wrap",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleBuffer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "double[]"
+          ]
+        },
+        {
+          "name": "position",
+          "chinese": "DoubleBuffer ▸ position",
+          "blockText": "DoubleBuffer ▸ position",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "mismatch",
+          "chinese": "DoubleBuffer ▸ mismatch",
+          "blockText": "DoubleBuffer ▸ mismatch",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoubleBuffer"
+          ]
+        },
+        {
+          "name": "limit",
+          "chinese": "DoubleBuffer ▸ 限制数量",
+          "blockText": "DoubleBuffer ▸ 限制数量",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "isDirect",
+          "chinese": "DoubleBuffer ▸ isDirect",
+          "blockText": "DoubleBuffer ▸ isDirect",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasArray",
+          "chinese": "DoubleBuffer ▸ hasArray",
+          "blockText": "DoubleBuffer ▸ hasArray",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "array",
+          "chinese": "DoubleBuffer ▸ array",
+          "blockText": "DoubleBuffer ▸ array",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "arrayOffset",
+          "chinese": "DoubleBuffer ▸ arrayOffset",
+          "blockText": "DoubleBuffer ▸ arrayOffset",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "mark",
+          "chinese": "DoubleBuffer ▸ mark",
+          "blockText": "DoubleBuffer ▸ mark",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "flip",
+          "chinese": "DoubleBuffer ▸ flip",
+          "blockText": "DoubleBuffer ▸ flip",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "rewind",
+          "chinese": "DoubleBuffer ▸ rewind",
+          "blockText": "DoubleBuffer ▸ rewind",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "slice",
+          "chinese": "DoubleBuffer ▸ slice",
+          "blockText": "DoubleBuffer ▸ slice",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "duplicate",
+          "chinese": "DoubleBuffer ▸ duplicate",
+          "blockText": "DoubleBuffer ▸ duplicate",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "allocate",
+          "chinese": "DoubleBuffer ▸ allocate",
+          "blockText": "DoubleBuffer ▸ allocate",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleBuffer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "asReadOnlyBuffer",
+          "chinese": "DoubleBuffer ▸ asReadOnlyBuffer",
+          "blockText": "DoubleBuffer ▸ asReadOnlyBuffer",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compact",
+          "chinese": "DoubleBuffer ▸ compact",
+          "blockText": "DoubleBuffer ▸ compact",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "order",
+          "chinese": "DoubleBuffer ▸ order",
+          "blockText": "DoubleBuffer ▸ order",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteOrder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "remaining",
+          "chinese": "DoubleBuffer ▸ remaining",
+          "blockText": "DoubleBuffer ▸ remaining",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "capacity",
+          "chinese": "DoubleBuffer ▸ capacity",
+          "blockText": "DoubleBuffer ▸ capacity",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasRemaining",
+          "chinese": "DoubleBuffer ▸ hasRemaining",
+          "blockText": "DoubleBuffer ▸ hasRemaining",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isReadOnly",
+          "chinese": "DoubleBuffer ▸ isReadOnly",
+          "blockText": "DoubleBuffer ▸ isReadOnly",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "DoubleBuffer ▸ 取类型",
+          "blockText": "DoubleBuffer ▸ 取类型",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "DoubleBuffer ▸ 通知",
+          "blockText": "DoubleBuffer ▸ 通知",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "DoubleBuffer ▸ 通知全部",
+          "blockText": "DoubleBuffer ▸ 通知全部",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "DoubleBuffer ▸ 等待",
+          "blockText": "DoubleBuffer ▸ 等待",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.FloatBuffer",
+      "chinese": "FloatBuffer",
+      "displayName": "FloatBuffer",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "reset",
+          "chinese": "FloatBuffer ▸ 重置",
+          "blockText": "FloatBuffer ▸ 重置",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FloatBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "get",
+          "chinese": "FloatBuffer ▸ 取值",
+          "blockText": "FloatBuffer ▸ 取值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "float",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "put",
+          "chinese": "FloatBuffer ▸ 放入",
+          "blockText": "FloatBuffer ▸ 放入",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FloatBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "FloatBuffer"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "FloatBuffer ▸ 相等",
+          "blockText": "FloatBuffer ▸ 相等",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "FloatBuffer ▸ 转为文本",
+          "blockText": "FloatBuffer ▸ 转为文本",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "FloatBuffer ▸ 哈希值",
+          "blockText": "FloatBuffer ▸ 哈希值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "chinese": "FloatBuffer ▸ 比较",
+          "blockText": "FloatBuffer ▸ 比较",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "FloatBuffer"
+          ]
+        },
+        {
+          "name": "clear",
+          "chinese": "FloatBuffer ▸ 清空",
+          "blockText": "FloatBuffer ▸ 清空",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FloatBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wrap",
+          "chinese": "FloatBuffer ▸ wrap",
+          "blockText": "FloatBuffer ▸ wrap",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FloatBuffer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "float[]"
+          ]
+        },
+        {
+          "name": "position",
+          "chinese": "FloatBuffer ▸ position",
+          "blockText": "FloatBuffer ▸ position",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FloatBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "mismatch",
+          "chinese": "FloatBuffer ▸ mismatch",
+          "blockText": "FloatBuffer ▸ mismatch",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "FloatBuffer"
+          ]
+        },
+        {
+          "name": "limit",
+          "chinese": "FloatBuffer ▸ 限制数量",
+          "blockText": "FloatBuffer ▸ 限制数量",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FloatBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "isDirect",
+          "chinese": "FloatBuffer ▸ isDirect",
+          "blockText": "FloatBuffer ▸ isDirect",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasArray",
+          "chinese": "FloatBuffer ▸ hasArray",
+          "blockText": "FloatBuffer ▸ hasArray",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "array",
+          "chinese": "FloatBuffer ▸ array",
+          "blockText": "FloatBuffer ▸ array",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "float[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "arrayOffset",
+          "chinese": "FloatBuffer ▸ arrayOffset",
+          "blockText": "FloatBuffer ▸ arrayOffset",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "mark",
+          "chinese": "FloatBuffer ▸ mark",
+          "blockText": "FloatBuffer ▸ mark",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FloatBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "flip",
+          "chinese": "FloatBuffer ▸ flip",
+          "blockText": "FloatBuffer ▸ flip",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FloatBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "rewind",
+          "chinese": "FloatBuffer ▸ rewind",
+          "blockText": "FloatBuffer ▸ rewind",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FloatBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "slice",
+          "chinese": "FloatBuffer ▸ slice",
+          "blockText": "FloatBuffer ▸ slice",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FloatBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "duplicate",
+          "chinese": "FloatBuffer ▸ duplicate",
+          "blockText": "FloatBuffer ▸ duplicate",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FloatBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "allocate",
+          "chinese": "FloatBuffer ▸ allocate",
+          "blockText": "FloatBuffer ▸ allocate",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FloatBuffer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "asReadOnlyBuffer",
+          "chinese": "FloatBuffer ▸ asReadOnlyBuffer",
+          "blockText": "FloatBuffer ▸ asReadOnlyBuffer",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FloatBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compact",
+          "chinese": "FloatBuffer ▸ compact",
+          "blockText": "FloatBuffer ▸ compact",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FloatBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "order",
+          "chinese": "FloatBuffer ▸ order",
+          "blockText": "FloatBuffer ▸ order",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteOrder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "remaining",
+          "chinese": "FloatBuffer ▸ remaining",
+          "blockText": "FloatBuffer ▸ remaining",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "capacity",
+          "chinese": "FloatBuffer ▸ capacity",
+          "blockText": "FloatBuffer ▸ capacity",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasRemaining",
+          "chinese": "FloatBuffer ▸ hasRemaining",
+          "blockText": "FloatBuffer ▸ hasRemaining",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isReadOnly",
+          "chinese": "FloatBuffer ▸ isReadOnly",
+          "blockText": "FloatBuffer ▸ isReadOnly",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "FloatBuffer ▸ 取类型",
+          "blockText": "FloatBuffer ▸ 取类型",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "FloatBuffer ▸ 通知",
+          "blockText": "FloatBuffer ▸ 通知",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "FloatBuffer ▸ 通知全部",
+          "blockText": "FloatBuffer ▸ 通知全部",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "FloatBuffer ▸ 等待",
+          "blockText": "FloatBuffer ▸ 等待",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.ShortBuffer",
+      "chinese": "ShortBuffer",
+      "displayName": "ShortBuffer",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "reset",
+          "chinese": "ShortBuffer ▸ 重置",
+          "blockText": "ShortBuffer ▸ 重置",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ShortBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "get",
+          "chinese": "ShortBuffer ▸ 取值",
+          "blockText": "ShortBuffer ▸ 取值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "short",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "put",
+          "chinese": "ShortBuffer ▸ 放入",
+          "blockText": "ShortBuffer ▸ 放入",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ShortBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ShortBuffer"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "ShortBuffer ▸ 相等",
+          "blockText": "ShortBuffer ▸ 相等",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "ShortBuffer ▸ 转为文本",
+          "blockText": "ShortBuffer ▸ 转为文本",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "ShortBuffer ▸ 哈希值",
+          "blockText": "ShortBuffer ▸ 哈希值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "chinese": "ShortBuffer ▸ 比较",
+          "blockText": "ShortBuffer ▸ 比较",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ShortBuffer"
+          ]
+        },
+        {
+          "name": "clear",
+          "chinese": "ShortBuffer ▸ 清空",
+          "blockText": "ShortBuffer ▸ 清空",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ShortBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wrap",
+          "chinese": "ShortBuffer ▸ wrap",
+          "blockText": "ShortBuffer ▸ wrap",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ShortBuffer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "short[]"
+          ]
+        },
+        {
+          "name": "position",
+          "chinese": "ShortBuffer ▸ position",
+          "blockText": "ShortBuffer ▸ position",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ShortBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "mismatch",
+          "chinese": "ShortBuffer ▸ mismatch",
+          "blockText": "ShortBuffer ▸ mismatch",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ShortBuffer"
+          ]
+        },
+        {
+          "name": "limit",
+          "chinese": "ShortBuffer ▸ 限制数量",
+          "blockText": "ShortBuffer ▸ 限制数量",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ShortBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "isDirect",
+          "chinese": "ShortBuffer ▸ isDirect",
+          "blockText": "ShortBuffer ▸ isDirect",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasArray",
+          "chinese": "ShortBuffer ▸ hasArray",
+          "blockText": "ShortBuffer ▸ hasArray",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "array",
+          "chinese": "ShortBuffer ▸ array",
+          "blockText": "ShortBuffer ▸ array",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "short[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "arrayOffset",
+          "chinese": "ShortBuffer ▸ arrayOffset",
+          "blockText": "ShortBuffer ▸ arrayOffset",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "mark",
+          "chinese": "ShortBuffer ▸ mark",
+          "blockText": "ShortBuffer ▸ mark",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ShortBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "flip",
+          "chinese": "ShortBuffer ▸ flip",
+          "blockText": "ShortBuffer ▸ flip",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ShortBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "rewind",
+          "chinese": "ShortBuffer ▸ rewind",
+          "blockText": "ShortBuffer ▸ rewind",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ShortBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "slice",
+          "chinese": "ShortBuffer ▸ slice",
+          "blockText": "ShortBuffer ▸ slice",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ShortBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "duplicate",
+          "chinese": "ShortBuffer ▸ duplicate",
+          "blockText": "ShortBuffer ▸ duplicate",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ShortBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "allocate",
+          "chinese": "ShortBuffer ▸ allocate",
+          "blockText": "ShortBuffer ▸ allocate",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ShortBuffer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "asReadOnlyBuffer",
+          "chinese": "ShortBuffer ▸ asReadOnlyBuffer",
+          "blockText": "ShortBuffer ▸ asReadOnlyBuffer",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ShortBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compact",
+          "chinese": "ShortBuffer ▸ compact",
+          "blockText": "ShortBuffer ▸ compact",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ShortBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "order",
+          "chinese": "ShortBuffer ▸ order",
+          "blockText": "ShortBuffer ▸ order",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteOrder",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "remaining",
+          "chinese": "ShortBuffer ▸ remaining",
+          "blockText": "ShortBuffer ▸ remaining",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "capacity",
+          "chinese": "ShortBuffer ▸ capacity",
+          "blockText": "ShortBuffer ▸ capacity",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasRemaining",
+          "chinese": "ShortBuffer ▸ hasRemaining",
+          "blockText": "ShortBuffer ▸ hasRemaining",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isReadOnly",
+          "chinese": "ShortBuffer ▸ isReadOnly",
+          "blockText": "ShortBuffer ▸ isReadOnly",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "ShortBuffer ▸ 取类型",
+          "blockText": "ShortBuffer ▸ 取类型",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "ShortBuffer ▸ 通知",
+          "blockText": "ShortBuffer ▸ 通知",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "ShortBuffer ▸ 通知全部",
+          "blockText": "ShortBuffer ▸ 通知全部",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "ShortBuffer ▸ 等待",
+          "blockText": "ShortBuffer ▸ 等待",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.MappedByteBuffer",
+      "chinese": "MappedByteBuffer",
+      "displayName": "MappedByteBuffer",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "reset",
+          "chinese": "MappedByteBuffer ▸ 重置",
+          "blockText": "MappedByteBuffer ▸ 重置",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "MappedByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "load",
+          "chinese": "MappedByteBuffer ▸ load",
+          "blockText": "MappedByteBuffer ▸ load",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "MappedByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "clear",
+          "chinese": "MappedByteBuffer ▸ 清空",
+          "blockText": "MappedByteBuffer ▸ 清空",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "MappedByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "position",
+          "chinese": "MappedByteBuffer ▸ position",
+          "blockText": "MappedByteBuffer ▸ position",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "MappedByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "limit",
+          "chinese": "MappedByteBuffer ▸ 限制数量",
+          "blockText": "MappedByteBuffer ▸ 限制数量",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "MappedByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "mark",
+          "chinese": "MappedByteBuffer ▸ mark",
+          "blockText": "MappedByteBuffer ▸ mark",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "MappedByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "flip",
+          "chinese": "MappedByteBuffer ▸ flip",
+          "blockText": "MappedByteBuffer ▸ flip",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "MappedByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "rewind",
+          "chinese": "MappedByteBuffer ▸ rewind",
+          "blockText": "MappedByteBuffer ▸ rewind",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "MappedByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "slice",
+          "chinese": "MappedByteBuffer ▸ slice",
+          "blockText": "MappedByteBuffer ▸ slice",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "MappedByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "duplicate",
+          "chinese": "MappedByteBuffer ▸ duplicate",
+          "blockText": "MappedByteBuffer ▸ duplicate",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "MappedByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compact",
+          "chinese": "MappedByteBuffer ▸ compact",
+          "blockText": "MappedByteBuffer ▸ compact",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "MappedByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isLoaded",
+          "chinese": "MappedByteBuffer ▸ isLoaded",
+          "blockText": "MappedByteBuffer ▸ isLoaded",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "force",
+          "chinese": "MappedByteBuffer ▸ force",
+          "blockText": "MappedByteBuffer ▸ force",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "MappedByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "get",
+          "chinese": "MappedByteBuffer ▸ 取值",
+          "blockText": "MappedByteBuffer ▸ 取值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "byte[]"
+          ]
+        },
+        {
+          "name": "put",
+          "chinese": "MappedByteBuffer ▸ 放入",
+          "blockText": "MappedByteBuffer ▸ 放入",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "byte"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "MappedByteBuffer ▸ 相等",
+          "blockText": "MappedByteBuffer ▸ 相等",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "MappedByteBuffer ▸ 转为文本",
+          "blockText": "MappedByteBuffer ▸ 转为文本",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "MappedByteBuffer ▸ 哈希值",
+          "blockText": "MappedByteBuffer ▸ 哈希值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "chinese": "MappedByteBuffer ▸ 比较",
+          "blockText": "MappedByteBuffer ▸ 比较",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ByteBuffer"
+          ]
+        },
+        {
+          "name": "getShort",
+          "chinese": "MappedByteBuffer ▸ getShort",
+          "blockText": "MappedByteBuffer ▸ getShort",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "short",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "putShort",
+          "chinese": "MappedByteBuffer ▸ putShort",
+          "blockText": "MappedByteBuffer ▸ putShort",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "short"
+          ]
+        },
+        {
+          "name": "getChar",
+          "chinese": "MappedByteBuffer ▸ getChar",
+          "blockText": "MappedByteBuffer ▸ getChar",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "char",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "putChar",
+          "chinese": "MappedByteBuffer ▸ putChar",
+          "blockText": "MappedByteBuffer ▸ putChar",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "char"
+          ]
+        },
+        {
+          "name": "getInt",
+          "chinese": "MappedByteBuffer ▸ getInt",
+          "blockText": "MappedByteBuffer ▸ getInt",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "putInt",
+          "chinese": "MappedByteBuffer ▸ putInt",
+          "blockText": "MappedByteBuffer ▸ putInt",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "getLong",
+          "chinese": "MappedByteBuffer ▸ getLong",
+          "blockText": "MappedByteBuffer ▸ getLong",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "putLong",
+          "chinese": "MappedByteBuffer ▸ putLong",
+          "blockText": "MappedByteBuffer ▸ putLong",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "getFloat",
+          "chinese": "MappedByteBuffer ▸ getFloat",
+          "blockText": "MappedByteBuffer ▸ getFloat",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "float",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "putFloat",
+          "chinese": "MappedByteBuffer ▸ putFloat",
+          "blockText": "MappedByteBuffer ▸ putFloat",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "float"
+          ]
+        },
+        {
+          "name": "getDouble",
+          "chinese": "MappedByteBuffer ▸ getDouble",
+          "blockText": "MappedByteBuffer ▸ getDouble",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "putDouble",
+          "chinese": "MappedByteBuffer ▸ putDouble",
+          "blockText": "MappedByteBuffer ▸ putDouble",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "double"
+          ]
+        },
+        {
+          "name": "wrap",
+          "chinese": "MappedByteBuffer ▸ wrap",
+          "blockText": "MappedByteBuffer ▸ wrap",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "byte[]",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "mismatch",
+          "chinese": "MappedByteBuffer ▸ mismatch",
+          "blockText": "MappedByteBuffer ▸ mismatch",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ByteBuffer"
+          ]
+        },
+        {
+          "name": "isDirect",
+          "chinese": "MappedByteBuffer ▸ isDirect",
+          "blockText": "MappedByteBuffer ▸ isDirect",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasArray",
+          "chinese": "MappedByteBuffer ▸ hasArray",
+          "blockText": "MappedByteBuffer ▸ hasArray",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "array",
+          "chinese": "MappedByteBuffer ▸ array",
+          "blockText": "MappedByteBuffer ▸ array",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "byte[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "arrayOffset",
+          "chinese": "MappedByteBuffer ▸ arrayOffset",
+          "blockText": "MappedByteBuffer ▸ arrayOffset",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "allocate",
+          "chinese": "MappedByteBuffer ▸ allocate",
+          "blockText": "MappedByteBuffer ▸ allocate",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "alignmentOffset",
+          "chinese": "MappedByteBuffer ▸ alignmentOffset",
+          "blockText": "MappedByteBuffer ▸ alignmentOffset",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "allocateDirect",
+          "chinese": "MappedByteBuffer ▸ allocateDirect",
+          "blockText": "MappedByteBuffer ▸ allocateDirect",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "asReadOnlyBuffer",
+          "chinese": "MappedByteBuffer ▸ asReadOnlyBuffer",
+          "blockText": "MappedByteBuffer ▸ asReadOnlyBuffer",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "order",
+          "chinese": "MappedByteBuffer ▸ order",
+          "blockText": "MappedByteBuffer ▸ order",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ByteOrder"
+          ]
+        },
+        {
+          "name": "alignedSlice",
+          "chinese": "MappedByteBuffer ▸ alignedSlice",
+          "blockText": "MappedByteBuffer ▸ alignedSlice",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "asCharBuffer",
+          "chinese": "MappedByteBuffer ▸ asCharBuffer",
+          "blockText": "MappedByteBuffer ▸ asCharBuffer",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "CharBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "asShortBuffer",
+          "chinese": "MappedByteBuffer ▸ asShortBuffer",
+          "blockText": "MappedByteBuffer ▸ asShortBuffer",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ShortBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "asIntBuffer",
+          "chinese": "MappedByteBuffer ▸ asIntBuffer",
+          "blockText": "MappedByteBuffer ▸ asIntBuffer",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "asLongBuffer",
+          "chinese": "MappedByteBuffer ▸ asLongBuffer",
+          "blockText": "MappedByteBuffer ▸ asLongBuffer",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "asFloatBuffer",
+          "chinese": "MappedByteBuffer ▸ asFloatBuffer",
+          "blockText": "MappedByteBuffer ▸ asFloatBuffer",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "FloatBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "asDoubleBuffer",
+          "chinese": "MappedByteBuffer ▸ asDoubleBuffer",
+          "blockText": "MappedByteBuffer ▸ asDoubleBuffer",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleBuffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "remaining",
+          "chinese": "MappedByteBuffer ▸ remaining",
+          "blockText": "MappedByteBuffer ▸ remaining",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "capacity",
+          "chinese": "MappedByteBuffer ▸ capacity",
+          "blockText": "MappedByteBuffer ▸ capacity",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasRemaining",
+          "chinese": "MappedByteBuffer ▸ hasRemaining",
+          "blockText": "MappedByteBuffer ▸ hasRemaining",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isReadOnly",
+          "chinese": "MappedByteBuffer ▸ isReadOnly",
+          "blockText": "MappedByteBuffer ▸ isReadOnly",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "MappedByteBuffer ▸ 取类型",
+          "blockText": "MappedByteBuffer ▸ 取类型",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "MappedByteBuffer ▸ 通知",
+          "blockText": "MappedByteBuffer ▸ 通知",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "MappedByteBuffer ▸ 通知全部",
+          "blockText": "MappedByteBuffer ▸ 通知全部",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "MappedByteBuffer ▸ 等待",
+          "blockText": "MappedByteBuffer ▸ 等待",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.Buffer",
+      "chinese": "Buffer",
+      "displayName": "Buffer",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "reset",
+          "chinese": "Buffer ▸ 重置",
+          "blockText": "Buffer ▸ 重置",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Buffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "clear",
+          "chinese": "Buffer ▸ 清空",
+          "blockText": "Buffer ▸ 清空",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Buffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "position",
+          "chinese": "Buffer ▸ position",
+          "blockText": "Buffer ▸ position",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Buffer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "limit",
+          "chinese": "Buffer ▸ 限制数量",
+          "blockText": "Buffer ▸ 限制数量",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "remaining",
+          "chinese": "Buffer ▸ remaining",
+          "blockText": "Buffer ▸ remaining",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isDirect",
+          "chinese": "Buffer ▸ isDirect",
+          "blockText": "Buffer ▸ isDirect",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasArray",
+          "chinese": "Buffer ▸ hasArray",
+          "blockText": "Buffer ▸ hasArray",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "array",
+          "chinese": "Buffer ▸ array",
+          "blockText": "Buffer ▸ array",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "arrayOffset",
+          "chinese": "Buffer ▸ arrayOffset",
+          "blockText": "Buffer ▸ arrayOffset",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "capacity",
+          "chinese": "Buffer ▸ capacity",
+          "blockText": "Buffer ▸ capacity",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "mark",
+          "chinese": "Buffer ▸ mark",
+          "blockText": "Buffer ▸ mark",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Buffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "flip",
+          "chinese": "Buffer ▸ flip",
+          "blockText": "Buffer ▸ flip",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Buffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "rewind",
+          "chinese": "Buffer ▸ rewind",
+          "blockText": "Buffer ▸ rewind",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Buffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hasRemaining",
+          "chinese": "Buffer ▸ hasRemaining",
+          "blockText": "Buffer ▸ hasRemaining",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isReadOnly",
+          "chinese": "Buffer ▸ isReadOnly",
+          "blockText": "Buffer ▸ isReadOnly",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "slice",
+          "chinese": "Buffer ▸ slice",
+          "blockText": "Buffer ▸ slice",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Buffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "duplicate",
+          "chinese": "Buffer ▸ duplicate",
+          "blockText": "Buffer ▸ duplicate",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Buffer",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "Buffer ▸ 相等",
+          "blockText": "Buffer ▸ 相等",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "Buffer ▸ 转为文本",
+          "blockText": "Buffer ▸ 转为文本",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "Buffer ▸ 哈希值",
+          "blockText": "Buffer ▸ 哈希值",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "Buffer ▸ 取类型",
+          "blockText": "Buffer ▸ 取类型",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "Buffer ▸ 通知",
+          "blockText": "Buffer ▸ 通知",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "Buffer ▸ 通知全部",
+          "blockText": "Buffer ▸ 通知全部",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "Buffer ▸ 等待",
+          "blockText": "Buffer ▸ 等待",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.channels",
+      "chinese": "channels",
+      "displayName": "channels",
+      "since": 5,
+      "until": 27,
+      "methods": []
+    },
+    {
+      "fqn": "java.nio.BufferOverflowException",
+      "chinese": "BufferOverflowException",
+      "displayName": "BufferOverflowException",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "BufferOverflowException ▸ <init>",
+          "blockText": "BufferOverflowException ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "BufferOverflowException ▸ printStackTrace",
+          "blockText": "BufferOverflowException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "BufferOverflowException ▸ printStackTrace",
+          "blockText": "BufferOverflowException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "BufferOverflowException ▸ printStackTrace",
+          "blockText": "BufferOverflowException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "BufferOverflowException ▸ getStackTrace",
+          "blockText": "BufferOverflowException ▸ getStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "BufferOverflowException ▸ fillInStackTrace",
+          "blockText": "BufferOverflowException ▸ fillInStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "BufferOverflowException ▸ getCause",
+          "blockText": "BufferOverflowException ▸ getCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initCause",
+          "chinese": "BufferOverflowException ▸ initCause",
+          "blockText": "BufferOverflowException ▸ initCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "BufferOverflowException ▸ toString",
+          "blockText": "BufferOverflowException ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getMessage",
+          "chinese": "BufferOverflowException ▸ getMessage",
+          "blockText": "BufferOverflowException ▸ getMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "BufferOverflowException ▸ getSuppressed",
+          "blockText": "BufferOverflowException ▸ getSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "BufferOverflowException ▸ getLocalizedMessage",
+          "blockText": "BufferOverflowException ▸ getLocalizedMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "BufferOverflowException ▸ setStackTrace",
+          "blockText": "BufferOverflowException ▸ setStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "BufferOverflowException ▸ addSuppressed",
+          "blockText": "BufferOverflowException ▸ addSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "BufferOverflowException ▸ equals",
+          "blockText": "BufferOverflowException ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "BufferOverflowException ▸ hashCode",
+          "blockText": "BufferOverflowException ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "BufferOverflowException ▸ getClass",
+          "blockText": "BufferOverflowException ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "BufferOverflowException ▸ notify",
+          "blockText": "BufferOverflowException ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "BufferOverflowException ▸ notifyAll",
+          "blockText": "BufferOverflowException ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "BufferOverflowException ▸ wait",
+          "blockText": "BufferOverflowException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "BufferOverflowException ▸ wait",
+          "blockText": "BufferOverflowException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "BufferOverflowException ▸ wait",
+          "blockText": "BufferOverflowException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.BufferUnderflowException",
+      "chinese": "BufferUnderflowException",
+      "displayName": "BufferUnderflowException",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "BufferUnderflowException ▸ <init>",
+          "blockText": "BufferUnderflowException ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "BufferUnderflowException ▸ printStackTrace",
+          "blockText": "BufferUnderflowException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "BufferUnderflowException ▸ printStackTrace",
+          "blockText": "BufferUnderflowException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "BufferUnderflowException ▸ printStackTrace",
+          "blockText": "BufferUnderflowException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "BufferUnderflowException ▸ getStackTrace",
+          "blockText": "BufferUnderflowException ▸ getStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "BufferUnderflowException ▸ fillInStackTrace",
+          "blockText": "BufferUnderflowException ▸ fillInStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "BufferUnderflowException ▸ getCause",
+          "blockText": "BufferUnderflowException ▸ getCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initCause",
+          "chinese": "BufferUnderflowException ▸ initCause",
+          "blockText": "BufferUnderflowException ▸ initCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "BufferUnderflowException ▸ toString",
+          "blockText": "BufferUnderflowException ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getMessage",
+          "chinese": "BufferUnderflowException ▸ getMessage",
+          "blockText": "BufferUnderflowException ▸ getMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "BufferUnderflowException ▸ getSuppressed",
+          "blockText": "BufferUnderflowException ▸ getSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "BufferUnderflowException ▸ getLocalizedMessage",
+          "blockText": "BufferUnderflowException ▸ getLocalizedMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "BufferUnderflowException ▸ setStackTrace",
+          "blockText": "BufferUnderflowException ▸ setStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "BufferUnderflowException ▸ addSuppressed",
+          "blockText": "BufferUnderflowException ▸ addSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "BufferUnderflowException ▸ equals",
+          "blockText": "BufferUnderflowException ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "BufferUnderflowException ▸ hashCode",
+          "blockText": "BufferUnderflowException ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "BufferUnderflowException ▸ getClass",
+          "blockText": "BufferUnderflowException ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "BufferUnderflowException ▸ notify",
+          "blockText": "BufferUnderflowException ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "BufferUnderflowException ▸ notifyAll",
+          "blockText": "BufferUnderflowException ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "BufferUnderflowException ▸ wait",
+          "blockText": "BufferUnderflowException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "BufferUnderflowException ▸ wait",
+          "blockText": "BufferUnderflowException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "BufferUnderflowException ▸ wait",
+          "blockText": "BufferUnderflowException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.ByteOrder",
+      "chinese": "ByteOrder",
+      "displayName": "ByteOrder",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "toString",
+          "chinese": "ByteOrder ▸ toString",
+          "blockText": "ByteOrder ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "nativeOrder",
+          "chinese": "ByteOrder ▸ nativeOrder",
+          "blockText": "ByteOrder ▸ nativeOrder",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteOrder",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "ByteOrder ▸ equals",
+          "blockText": "ByteOrder ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "ByteOrder ▸ hashCode",
+          "blockText": "ByteOrder ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "ByteOrder ▸ getClass",
+          "blockText": "ByteOrder ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "ByteOrder ▸ notify",
+          "blockText": "ByteOrder ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "ByteOrder ▸ notifyAll",
+          "blockText": "ByteOrder ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "ByteOrder ▸ wait",
+          "blockText": "ByteOrder ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ByteOrder ▸ wait",
+          "blockText": "ByteOrder ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ByteOrder ▸ wait",
+          "blockText": "ByteOrder ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "BIG_ENDIAN",
+          "chinese": "ByteOrder ▸ BIG_ENDIAN",
+          "blockText": "ByteOrder ▸ BIG_ENDIAN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteOrder",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LITTLE_ENDIAN",
+          "chinese": "ByteOrder ▸ LITTLE_ENDIAN",
+          "blockText": "ByteOrder ▸ LITTLE_ENDIAN",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ByteOrder",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.InvalidMarkException",
+      "chinese": "InvalidMarkException",
+      "displayName": "InvalidMarkException",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "InvalidMarkException ▸ <init>",
+          "blockText": "InvalidMarkException ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "InvalidMarkException ▸ printStackTrace",
+          "blockText": "InvalidMarkException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "InvalidMarkException ▸ printStackTrace",
+          "blockText": "InvalidMarkException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "InvalidMarkException ▸ printStackTrace",
+          "blockText": "InvalidMarkException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "InvalidMarkException ▸ getStackTrace",
+          "blockText": "InvalidMarkException ▸ getStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "InvalidMarkException ▸ fillInStackTrace",
+          "blockText": "InvalidMarkException ▸ fillInStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "InvalidMarkException ▸ getCause",
+          "blockText": "InvalidMarkException ▸ getCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initCause",
+          "chinese": "InvalidMarkException ▸ initCause",
+          "blockText": "InvalidMarkException ▸ initCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "InvalidMarkException ▸ toString",
+          "blockText": "InvalidMarkException ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getMessage",
+          "chinese": "InvalidMarkException ▸ getMessage",
+          "blockText": "InvalidMarkException ▸ getMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "InvalidMarkException ▸ getSuppressed",
+          "blockText": "InvalidMarkException ▸ getSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "InvalidMarkException ▸ getLocalizedMessage",
+          "blockText": "InvalidMarkException ▸ getLocalizedMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "InvalidMarkException ▸ setStackTrace",
+          "blockText": "InvalidMarkException ▸ setStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "InvalidMarkException ▸ addSuppressed",
+          "blockText": "InvalidMarkException ▸ addSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "InvalidMarkException ▸ equals",
+          "blockText": "InvalidMarkException ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "InvalidMarkException ▸ hashCode",
+          "blockText": "InvalidMarkException ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "InvalidMarkException ▸ getClass",
+          "blockText": "InvalidMarkException ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "InvalidMarkException ▸ notify",
+          "blockText": "InvalidMarkException ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "InvalidMarkException ▸ notifyAll",
+          "blockText": "InvalidMarkException ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "InvalidMarkException ▸ wait",
+          "blockText": "InvalidMarkException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "InvalidMarkException ▸ wait",
+          "blockText": "InvalidMarkException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "InvalidMarkException ▸ wait",
+          "blockText": "InvalidMarkException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.nio.ReadOnlyBufferException",
+      "chinese": "ReadOnlyBufferException",
+      "displayName": "ReadOnlyBufferException",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "ReadOnlyBufferException ▸ <init>",
+          "blockText": "ReadOnlyBufferException ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "ReadOnlyBufferException ▸ printStackTrace",
+          "blockText": "ReadOnlyBufferException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "ReadOnlyBufferException ▸ printStackTrace",
+          "blockText": "ReadOnlyBufferException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "ReadOnlyBufferException ▸ printStackTrace",
+          "blockText": "ReadOnlyBufferException ▸ printStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "ReadOnlyBufferException ▸ getStackTrace",
+          "blockText": "ReadOnlyBufferException ▸ getStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "ReadOnlyBufferException ▸ fillInStackTrace",
+          "blockText": "ReadOnlyBufferException ▸ fillInStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "ReadOnlyBufferException ▸ getCause",
+          "blockText": "ReadOnlyBufferException ▸ getCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initCause",
+          "chinese": "ReadOnlyBufferException ▸ initCause",
+          "blockText": "ReadOnlyBufferException ▸ initCause",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "ReadOnlyBufferException ▸ toString",
+          "blockText": "ReadOnlyBufferException ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getMessage",
+          "chinese": "ReadOnlyBufferException ▸ getMessage",
+          "blockText": "ReadOnlyBufferException ▸ getMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "ReadOnlyBufferException ▸ getSuppressed",
+          "blockText": "ReadOnlyBufferException ▸ getSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "ReadOnlyBufferException ▸ getLocalizedMessage",
+          "blockText": "ReadOnlyBufferException ▸ getLocalizedMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "ReadOnlyBufferException ▸ setStackTrace",
+          "blockText": "ReadOnlyBufferException ▸ setStackTrace",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "ReadOnlyBufferException ▸ addSuppressed",
+          "blockText": "ReadOnlyBufferException ▸ addSuppressed",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "ReadOnlyBufferException ▸ equals",
+          "blockText": "ReadOnlyBufferException ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "ReadOnlyBufferException ▸ hashCode",
+          "blockText": "ReadOnlyBufferException ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "ReadOnlyBufferException ▸ getClass",
+          "blockText": "ReadOnlyBufferException ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "ReadOnlyBufferException ▸ notify",
+          "blockText": "ReadOnlyBufferException ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "ReadOnlyBufferException ▸ notifyAll",
+          "blockText": "ReadOnlyBufferException ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "ReadOnlyBufferException ▸ wait",
+          "blockText": "ReadOnlyBufferException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ReadOnlyBufferException ▸ wait",
+          "blockText": "ReadOnlyBufferException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ReadOnlyBufferException ▸ wait",
+          "blockText": "ReadOnlyBufferException ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    }
+  ]
+}

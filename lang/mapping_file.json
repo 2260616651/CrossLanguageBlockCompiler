@@ -1,0 +1,6 @@
+{
+  "_comment": "CLBC 用户映射表。运行时修改积木名称会自动写入本文件。本文件优先级高于 lang/ 下所有其它 .json（含内置 jdk-*.json 与用户导入文件）。删除某条 key 即恢复默认名称。",
+  "_priority": "highest",
+  "mappings": {
+  }
+}

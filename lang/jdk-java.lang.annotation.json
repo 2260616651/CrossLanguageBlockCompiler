@@ -1,0 +1,2077 @@
+{
+  "_comment": "CLBC 自动生成的 JDK 库语言文件。一个库一个文件；java1~java27 共 27 个版本共用本文件。chinese/blockText 用代码名（积木语言与代码相同），不逐条中文化。",
+  "library": "java.lang.annotation",
+  "libraryChinese": "annotation",
+  "minVersion": 1,
+  "maxVersion": 27,
+  "versionRange": "java1~java27",
+  "javaVersions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "classes": [
+    {
+      "fqn": "java.lang.annotation.Annotation",
+      "chinese": "Annotation",
+      "displayName": "Annotation",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "equals",
+          "chinese": "Annotation ▸ equals",
+          "blockText": "Annotation ▸ equals",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "Annotation ▸ toString",
+          "blockText": "Annotation ▸ toString",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "Annotation ▸ hashCode",
+          "blockText": "Annotation ▸ hashCode",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "annotationType",
+          "chinese": "Annotation ▸ annotationType",
+          "blockText": "Annotation ▸ annotationType",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.lang.annotation.AnnotationFormatError",
+      "chinese": "AnnotationFormatError",
+      "displayName": "AnnotationFormatError",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "AnnotationFormatError ▸ <init>",
+          "blockText": "AnnotationFormatError ▸ <init>",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "AnnotationFormatError ▸ <init>",
+          "blockText": "AnnotationFormatError ▸ <init>",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "Throwable"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "AnnotationFormatError ▸ <init>",
+          "blockText": "AnnotationFormatError ▸ <init>",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "AnnotationFormatError ▸ printStackTrace",
+          "blockText": "AnnotationFormatError ▸ printStackTrace",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "AnnotationFormatError ▸ printStackTrace",
+          "blockText": "AnnotationFormatError ▸ printStackTrace",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "AnnotationFormatError ▸ printStackTrace",
+          "blockText": "AnnotationFormatError ▸ printStackTrace",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "AnnotationFormatError ▸ getStackTrace",
+          "blockText": "AnnotationFormatError ▸ getStackTrace",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "AnnotationFormatError ▸ fillInStackTrace",
+          "blockText": "AnnotationFormatError ▸ fillInStackTrace",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "AnnotationFormatError ▸ getCause",
+          "blockText": "AnnotationFormatError ▸ getCause",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initCause",
+          "chinese": "AnnotationFormatError ▸ initCause",
+          "blockText": "AnnotationFormatError ▸ initCause",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "AnnotationFormatError ▸ toString",
+          "blockText": "AnnotationFormatError ▸ toString",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getMessage",
+          "chinese": "AnnotationFormatError ▸ getMessage",
+          "blockText": "AnnotationFormatError ▸ getMessage",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "AnnotationFormatError ▸ getSuppressed",
+          "blockText": "AnnotationFormatError ▸ getSuppressed",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "AnnotationFormatError ▸ getLocalizedMessage",
+          "blockText": "AnnotationFormatError ▸ getLocalizedMessage",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "AnnotationFormatError ▸ setStackTrace",
+          "blockText": "AnnotationFormatError ▸ setStackTrace",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "AnnotationFormatError ▸ addSuppressed",
+          "blockText": "AnnotationFormatError ▸ addSuppressed",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "AnnotationFormatError ▸ equals",
+          "blockText": "AnnotationFormatError ▸ equals",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "AnnotationFormatError ▸ hashCode",
+          "blockText": "AnnotationFormatError ▸ hashCode",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "AnnotationFormatError ▸ getClass",
+          "blockText": "AnnotationFormatError ▸ getClass",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "AnnotationFormatError ▸ notify",
+          "blockText": "AnnotationFormatError ▸ notify",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "AnnotationFormatError ▸ notifyAll",
+          "blockText": "AnnotationFormatError ▸ notifyAll",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "AnnotationFormatError ▸ wait",
+          "blockText": "AnnotationFormatError ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AnnotationFormatError ▸ wait",
+          "blockText": "AnnotationFormatError ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AnnotationFormatError ▸ wait",
+          "blockText": "AnnotationFormatError ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.lang.annotation.AnnotationTypeMismatchException",
+      "chinese": "AnnotationTypeMismatchException",
+      "displayName": "AnnotationTypeMismatchException",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "AnnotationTypeMismatchException ▸ <init>",
+          "blockText": "AnnotationTypeMismatchException ▸ <init>",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Method",
+            "String"
+          ]
+        },
+        {
+          "name": "element",
+          "chinese": "AnnotationTypeMismatchException ▸ element",
+          "blockText": "AnnotationTypeMismatchException ▸ element",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Method",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "foundType",
+          "chinese": "AnnotationTypeMismatchException ▸ foundType",
+          "blockText": "AnnotationTypeMismatchException ▸ foundType",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "AnnotationTypeMismatchException ▸ printStackTrace",
+          "blockText": "AnnotationTypeMismatchException ▸ printStackTrace",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "AnnotationTypeMismatchException ▸ printStackTrace",
+          "blockText": "AnnotationTypeMismatchException ▸ printStackTrace",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "AnnotationTypeMismatchException ▸ printStackTrace",
+          "blockText": "AnnotationTypeMismatchException ▸ printStackTrace",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "AnnotationTypeMismatchException ▸ getStackTrace",
+          "blockText": "AnnotationTypeMismatchException ▸ getStackTrace",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "AnnotationTypeMismatchException ▸ fillInStackTrace",
+          "blockText": "AnnotationTypeMismatchException ▸ fillInStackTrace",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "AnnotationTypeMismatchException ▸ getCause",
+          "blockText": "AnnotationTypeMismatchException ▸ getCause",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initCause",
+          "chinese": "AnnotationTypeMismatchException ▸ initCause",
+          "blockText": "AnnotationTypeMismatchException ▸ initCause",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "AnnotationTypeMismatchException ▸ toString",
+          "blockText": "AnnotationTypeMismatchException ▸ toString",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getMessage",
+          "chinese": "AnnotationTypeMismatchException ▸ getMessage",
+          "blockText": "AnnotationTypeMismatchException ▸ getMessage",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "AnnotationTypeMismatchException ▸ getSuppressed",
+          "blockText": "AnnotationTypeMismatchException ▸ getSuppressed",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "AnnotationTypeMismatchException ▸ getLocalizedMessage",
+          "blockText": "AnnotationTypeMismatchException ▸ getLocalizedMessage",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "AnnotationTypeMismatchException ▸ setStackTrace",
+          "blockText": "AnnotationTypeMismatchException ▸ setStackTrace",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "AnnotationTypeMismatchException ▸ addSuppressed",
+          "blockText": "AnnotationTypeMismatchException ▸ addSuppressed",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "AnnotationTypeMismatchException ▸ equals",
+          "blockText": "AnnotationTypeMismatchException ▸ equals",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "AnnotationTypeMismatchException ▸ hashCode",
+          "blockText": "AnnotationTypeMismatchException ▸ hashCode",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "AnnotationTypeMismatchException ▸ getClass",
+          "blockText": "AnnotationTypeMismatchException ▸ getClass",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "AnnotationTypeMismatchException ▸ notify",
+          "blockText": "AnnotationTypeMismatchException ▸ notify",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "AnnotationTypeMismatchException ▸ notifyAll",
+          "blockText": "AnnotationTypeMismatchException ▸ notifyAll",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "AnnotationTypeMismatchException ▸ wait",
+          "blockText": "AnnotationTypeMismatchException ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AnnotationTypeMismatchException ▸ wait",
+          "blockText": "AnnotationTypeMismatchException ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "AnnotationTypeMismatchException ▸ wait",
+          "blockText": "AnnotationTypeMismatchException ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.lang.annotation.Documented",
+      "chinese": "Documented",
+      "displayName": "Documented",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "equals",
+          "chinese": "Documented ▸ equals",
+          "blockText": "Documented ▸ equals",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "Documented ▸ toString",
+          "blockText": "Documented ▸ toString",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "Documented ▸ hashCode",
+          "blockText": "Documented ▸ hashCode",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "annotationType",
+          "chinese": "Documented ▸ annotationType",
+          "blockText": "Documented ▸ annotationType",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.lang.annotation.ElementType",
+      "chinese": "ElementType",
+      "displayName": "ElementType",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "values",
+          "chinese": "ElementType ▸ values",
+          "blockText": "ElementType ▸ values",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ElementType[]",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "valueOf",
+          "chinese": "ElementType ▸ valueOf",
+          "blockText": "ElementType ▸ valueOf",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ElementType",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "name",
+          "chinese": "ElementType ▸ name",
+          "blockText": "ElementType ▸ name",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "ElementType ▸ equals",
+          "blockText": "ElementType ▸ equals",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "ElementType ▸ toString",
+          "blockText": "ElementType ▸ toString",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "ElementType ▸ hashCode",
+          "blockText": "ElementType ▸ hashCode",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "chinese": "ElementType ▸ compareTo",
+          "blockText": "ElementType ▸ compareTo",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Enum"
+          ]
+        },
+        {
+          "name": "valueOf",
+          "chinese": "ElementType ▸ valueOf",
+          "blockText": "ElementType ▸ valueOf",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Enum",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Class",
+            "String"
+          ]
+        },
+        {
+          "name": "describeConstable",
+          "chinese": "ElementType ▸ describeConstable",
+          "blockText": "ElementType ▸ describeConstable",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getDeclaringClass",
+          "chinese": "ElementType ▸ getDeclaringClass",
+          "blockText": "ElementType ▸ getDeclaringClass",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "ordinal",
+          "chinese": "ElementType ▸ ordinal",
+          "blockText": "ElementType ▸ ordinal",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "ElementType ▸ getClass",
+          "blockText": "ElementType ▸ getClass",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "ElementType ▸ notify",
+          "blockText": "ElementType ▸ notify",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "ElementType ▸ notifyAll",
+          "blockText": "ElementType ▸ notifyAll",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "ElementType ▸ wait",
+          "blockText": "ElementType ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ElementType ▸ wait",
+          "blockText": "ElementType ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ElementType ▸ wait",
+          "blockText": "ElementType ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "TYPE",
+          "chinese": "ElementType ▸ TYPE",
+          "blockText": "ElementType ▸ TYPE",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ElementType",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "FIELD",
+          "chinese": "ElementType ▸ FIELD",
+          "blockText": "ElementType ▸ FIELD",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ElementType",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "METHOD",
+          "chinese": "ElementType ▸ METHOD",
+          "blockText": "ElementType ▸ METHOD",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ElementType",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "PARAMETER",
+          "chinese": "ElementType ▸ PARAMETER",
+          "blockText": "ElementType ▸ PARAMETER",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ElementType",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CONSTRUCTOR",
+          "chinese": "ElementType ▸ CONSTRUCTOR",
+          "blockText": "ElementType ▸ CONSTRUCTOR",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ElementType",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "LOCAL_VARIABLE",
+          "chinese": "ElementType ▸ LOCAL_VARIABLE",
+          "blockText": "ElementType ▸ LOCAL_VARIABLE",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ElementType",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ANNOTATION_TYPE",
+          "chinese": "ElementType ▸ ANNOTATION_TYPE",
+          "blockText": "ElementType ▸ ANNOTATION_TYPE",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ElementType",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "PACKAGE",
+          "chinese": "ElementType ▸ PACKAGE",
+          "blockText": "ElementType ▸ PACKAGE",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ElementType",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "TYPE_PARAMETER",
+          "chinese": "ElementType ▸ TYPE_PARAMETER",
+          "blockText": "ElementType ▸ TYPE_PARAMETER",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ElementType",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "TYPE_USE",
+          "chinese": "ElementType ▸ TYPE_USE",
+          "blockText": "ElementType ▸ TYPE_USE",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ElementType",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "MODULE",
+          "chinese": "ElementType ▸ MODULE",
+          "blockText": "ElementType ▸ MODULE",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ElementType",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "RECORD_COMPONENT",
+          "chinese": "ElementType ▸ RECORD_COMPONENT",
+          "blockText": "ElementType ▸ RECORD_COMPONENT",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ElementType",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.lang.annotation.IncompleteAnnotationException",
+      "chinese": "IncompleteAnnotationException",
+      "displayName": "IncompleteAnnotationException",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "IncompleteAnnotationException ▸ <init>",
+          "blockText": "IncompleteAnnotationException ▸ <init>",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Class",
+            "String"
+          ]
+        },
+        {
+          "name": "annotationType",
+          "chinese": "IncompleteAnnotationException ▸ annotationType",
+          "blockText": "IncompleteAnnotationException ▸ annotationType",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "elementName",
+          "chinese": "IncompleteAnnotationException ▸ elementName",
+          "blockText": "IncompleteAnnotationException ▸ elementName",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "IncompleteAnnotationException ▸ printStackTrace",
+          "blockText": "IncompleteAnnotationException ▸ printStackTrace",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "IncompleteAnnotationException ▸ printStackTrace",
+          "blockText": "IncompleteAnnotationException ▸ printStackTrace",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "IncompleteAnnotationException ▸ printStackTrace",
+          "blockText": "IncompleteAnnotationException ▸ printStackTrace",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "IncompleteAnnotationException ▸ getStackTrace",
+          "blockText": "IncompleteAnnotationException ▸ getStackTrace",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "IncompleteAnnotationException ▸ fillInStackTrace",
+          "blockText": "IncompleteAnnotationException ▸ fillInStackTrace",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "IncompleteAnnotationException ▸ getCause",
+          "blockText": "IncompleteAnnotationException ▸ getCause",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initCause",
+          "chinese": "IncompleteAnnotationException ▸ initCause",
+          "blockText": "IncompleteAnnotationException ▸ initCause",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "IncompleteAnnotationException ▸ toString",
+          "blockText": "IncompleteAnnotationException ▸ toString",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getMessage",
+          "chinese": "IncompleteAnnotationException ▸ getMessage",
+          "blockText": "IncompleteAnnotationException ▸ getMessage",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "IncompleteAnnotationException ▸ getSuppressed",
+          "blockText": "IncompleteAnnotationException ▸ getSuppressed",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "IncompleteAnnotationException ▸ getLocalizedMessage",
+          "blockText": "IncompleteAnnotationException ▸ getLocalizedMessage",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "IncompleteAnnotationException ▸ setStackTrace",
+          "blockText": "IncompleteAnnotationException ▸ setStackTrace",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "IncompleteAnnotationException ▸ addSuppressed",
+          "blockText": "IncompleteAnnotationException ▸ addSuppressed",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "IncompleteAnnotationException ▸ equals",
+          "blockText": "IncompleteAnnotationException ▸ equals",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "IncompleteAnnotationException ▸ hashCode",
+          "blockText": "IncompleteAnnotationException ▸ hashCode",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "IncompleteAnnotationException ▸ getClass",
+          "blockText": "IncompleteAnnotationException ▸ getClass",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "IncompleteAnnotationException ▸ notify",
+          "blockText": "IncompleteAnnotationException ▸ notify",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "IncompleteAnnotationException ▸ notifyAll",
+          "blockText": "IncompleteAnnotationException ▸ notifyAll",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "IncompleteAnnotationException ▸ wait",
+          "blockText": "IncompleteAnnotationException ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "IncompleteAnnotationException ▸ wait",
+          "blockText": "IncompleteAnnotationException ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "IncompleteAnnotationException ▸ wait",
+          "blockText": "IncompleteAnnotationException ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.lang.annotation.Inherited",
+      "chinese": "Inherited",
+      "displayName": "Inherited",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "equals",
+          "chinese": "Inherited ▸ equals",
+          "blockText": "Inherited ▸ equals",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "Inherited ▸ toString",
+          "blockText": "Inherited ▸ toString",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "Inherited ▸ hashCode",
+          "blockText": "Inherited ▸ hashCode",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "annotationType",
+          "chinese": "Inherited ▸ annotationType",
+          "blockText": "Inherited ▸ annotationType",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.lang.annotation.Native",
+      "chinese": "Native",
+      "displayName": "Native",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "equals",
+          "chinese": "Native ▸ equals",
+          "blockText": "Native ▸ equals",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "Native ▸ toString",
+          "blockText": "Native ▸ toString",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "Native ▸ hashCode",
+          "blockText": "Native ▸ hashCode",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "annotationType",
+          "chinese": "Native ▸ annotationType",
+          "blockText": "Native ▸ annotationType",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.lang.annotation.Repeatable",
+      "chinese": "Repeatable",
+      "displayName": "Repeatable",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "value",
+          "chinese": "Repeatable ▸ value",
+          "blockText": "Repeatable ▸ value",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "Repeatable ▸ equals",
+          "blockText": "Repeatable ▸ equals",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "Repeatable ▸ toString",
+          "blockText": "Repeatable ▸ toString",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "Repeatable ▸ hashCode",
+          "blockText": "Repeatable ▸ hashCode",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "annotationType",
+          "chinese": "Repeatable ▸ annotationType",
+          "blockText": "Repeatable ▸ annotationType",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.lang.annotation.Retention",
+      "chinese": "Retention",
+      "displayName": "Retention",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "value",
+          "chinese": "Retention ▸ value",
+          "blockText": "Retention ▸ value",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "RetentionPolicy",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "Retention ▸ equals",
+          "blockText": "Retention ▸ equals",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "Retention ▸ toString",
+          "blockText": "Retention ▸ toString",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "Retention ▸ hashCode",
+          "blockText": "Retention ▸ hashCode",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "annotationType",
+          "chinese": "Retention ▸ annotationType",
+          "blockText": "Retention ▸ annotationType",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.lang.annotation.RetentionPolicy",
+      "chinese": "RetentionPolicy",
+      "displayName": "RetentionPolicy",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "values",
+          "chinese": "RetentionPolicy ▸ values",
+          "blockText": "RetentionPolicy ▸ values",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "RetentionPolicy[]",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "valueOf",
+          "chinese": "RetentionPolicy ▸ valueOf",
+          "blockText": "RetentionPolicy ▸ valueOf",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "RetentionPolicy",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "name",
+          "chinese": "RetentionPolicy ▸ name",
+          "blockText": "RetentionPolicy ▸ name",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "RetentionPolicy ▸ equals",
+          "blockText": "RetentionPolicy ▸ equals",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "RetentionPolicy ▸ toString",
+          "blockText": "RetentionPolicy ▸ toString",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "RetentionPolicy ▸ hashCode",
+          "blockText": "RetentionPolicy ▸ hashCode",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "chinese": "RetentionPolicy ▸ compareTo",
+          "blockText": "RetentionPolicy ▸ compareTo",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Enum"
+          ]
+        },
+        {
+          "name": "valueOf",
+          "chinese": "RetentionPolicy ▸ valueOf",
+          "blockText": "RetentionPolicy ▸ valueOf",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Enum",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Class",
+            "String"
+          ]
+        },
+        {
+          "name": "describeConstable",
+          "chinese": "RetentionPolicy ▸ describeConstable",
+          "blockText": "RetentionPolicy ▸ describeConstable",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Optional",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getDeclaringClass",
+          "chinese": "RetentionPolicy ▸ getDeclaringClass",
+          "blockText": "RetentionPolicy ▸ getDeclaringClass",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "ordinal",
+          "chinese": "RetentionPolicy ▸ ordinal",
+          "blockText": "RetentionPolicy ▸ ordinal",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "RetentionPolicy ▸ getClass",
+          "blockText": "RetentionPolicy ▸ getClass",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "RetentionPolicy ▸ notify",
+          "blockText": "RetentionPolicy ▸ notify",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "RetentionPolicy ▸ notifyAll",
+          "blockText": "RetentionPolicy ▸ notifyAll",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "RetentionPolicy ▸ wait",
+          "blockText": "RetentionPolicy ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "RetentionPolicy ▸ wait",
+          "blockText": "RetentionPolicy ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "RetentionPolicy ▸ wait",
+          "blockText": "RetentionPolicy ▸ wait",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "SOURCE",
+          "chinese": "RetentionPolicy ▸ SOURCE",
+          "blockText": "RetentionPolicy ▸ SOURCE",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "RetentionPolicy",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CLASS",
+          "chinese": "RetentionPolicy ▸ CLASS",
+          "blockText": "RetentionPolicy ▸ CLASS",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "RetentionPolicy",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "RUNTIME",
+          "chinese": "RetentionPolicy ▸ RUNTIME",
+          "blockText": "RetentionPolicy ▸ RUNTIME",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "RetentionPolicy",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.lang.annotation.Target",
+      "chinese": "Target",
+      "displayName": "Target",
+      "since": 5,
+      "until": 27,
+      "methods": [
+        {
+          "name": "value",
+          "chinese": "Target ▸ value",
+          "blockText": "Target ▸ value",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ElementType[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "Target ▸ equals",
+          "blockText": "Target ▸ equals",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "Target ▸ toString",
+          "blockText": "Target ▸ toString",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "Target ▸ hashCode",
+          "blockText": "Target ▸ hashCode",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "annotationType",
+          "chinese": "Target ▸ annotationType",
+          "blockText": "Target ▸ annotationType",
+          "since": 5,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    }
+  ]
+}

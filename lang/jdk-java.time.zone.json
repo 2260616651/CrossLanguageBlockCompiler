@@ -1,0 +1,1414 @@
+{
+  "_comment": "CLBC 自动生成的 JDK 库语言文件。一个库一个文件；java1~java27 共 27 个版本共用本文件。chinese/blockText 用代码名（积木语言与代码相同），不逐条中文化。",
+  "library": "java.time.zone",
+  "libraryChinese": "zone",
+  "minVersion": 1,
+  "maxVersion": 27,
+  "versionRange": "java1~java27",
+  "javaVersions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "classes": [
+    {
+      "fqn": "java.time.zone.ZoneOffsetTransition",
+      "chinese": "ZoneOffsetTransition",
+      "displayName": "ZoneOffsetTransition",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "equals",
+          "chinese": "ZoneOffsetTransition ▸ equals",
+          "blockText": "ZoneOffsetTransition ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "ZoneOffsetTransition ▸ toString",
+          "blockText": "ZoneOffsetTransition ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "ZoneOffsetTransition ▸ hashCode",
+          "blockText": "ZoneOffsetTransition ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "chinese": "ZoneOffsetTransition ▸ compareTo",
+          "blockText": "ZoneOffsetTransition ▸ compareTo",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ZoneOffsetTransition"
+          ]
+        },
+        {
+          "name": "of",
+          "chinese": "ZoneOffsetTransition ▸ of",
+          "blockText": "ZoneOffsetTransition ▸ of",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZoneOffsetTransition",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "LocalDateTime",
+            "ZoneOffset",
+            "ZoneOffset"
+          ]
+        },
+        {
+          "name": "getDuration",
+          "chinese": "ZoneOffsetTransition ▸ getDuration",
+          "blockText": "ZoneOffsetTransition ▸ getDuration",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Duration",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isGap",
+          "chinese": "ZoneOffsetTransition ▸ isGap",
+          "blockText": "ZoneOffsetTransition ▸ isGap",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getDateTimeAfter",
+          "chinese": "ZoneOffsetTransition ▸ getDateTimeAfter",
+          "blockText": "ZoneOffsetTransition ▸ getDateTimeAfter",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LocalDateTime",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toEpochSecond",
+          "chinese": "ZoneOffsetTransition ▸ toEpochSecond",
+          "blockText": "ZoneOffsetTransition ▸ toEpochSecond",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getOffsetBefore",
+          "chinese": "ZoneOffsetTransition ▸ getOffsetBefore",
+          "blockText": "ZoneOffsetTransition ▸ getOffsetBefore",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZoneOffset",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getOffsetAfter",
+          "chinese": "ZoneOffsetTransition ▸ getOffsetAfter",
+          "blockText": "ZoneOffsetTransition ▸ getOffsetAfter",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZoneOffset",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getDateTimeBefore",
+          "chinese": "ZoneOffsetTransition ▸ getDateTimeBefore",
+          "blockText": "ZoneOffsetTransition ▸ getDateTimeBefore",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LocalDateTime",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isValidOffset",
+          "chinese": "ZoneOffsetTransition ▸ isValidOffset",
+          "blockText": "ZoneOffsetTransition ▸ isValidOffset",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ZoneOffset"
+          ]
+        },
+        {
+          "name": "isOverlap",
+          "chinese": "ZoneOffsetTransition ▸ isOverlap",
+          "blockText": "ZoneOffsetTransition ▸ isOverlap",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getInstant",
+          "chinese": "ZoneOffsetTransition ▸ getInstant",
+          "blockText": "ZoneOffsetTransition ▸ getInstant",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Instant",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "ZoneOffsetTransition ▸ getClass",
+          "blockText": "ZoneOffsetTransition ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "ZoneOffsetTransition ▸ notify",
+          "blockText": "ZoneOffsetTransition ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "ZoneOffsetTransition ▸ notifyAll",
+          "blockText": "ZoneOffsetTransition ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "ZoneOffsetTransition ▸ wait",
+          "blockText": "ZoneOffsetTransition ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ZoneOffsetTransition ▸ wait",
+          "blockText": "ZoneOffsetTransition ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ZoneOffsetTransition ▸ wait",
+          "blockText": "ZoneOffsetTransition ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.zone.ZoneOffsetTransitionRule",
+      "chinese": "ZoneOffsetTransitionRule",
+      "displayName": "ZoneOffsetTransitionRule",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "equals",
+          "chinese": "ZoneOffsetTransitionRule ▸ equals",
+          "blockText": "ZoneOffsetTransitionRule ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "ZoneOffsetTransitionRule ▸ toString",
+          "blockText": "ZoneOffsetTransitionRule ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "ZoneOffsetTransitionRule ▸ hashCode",
+          "blockText": "ZoneOffsetTransitionRule ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "of",
+          "chinese": "ZoneOffsetTransitionRule ▸ of",
+          "blockText": "ZoneOffsetTransitionRule ▸ of",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZoneOffsetTransitionRule",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Month",
+            "int",
+            "DayOfWeek",
+            "LocalTime",
+            "boolean",
+            "TimeDefinition",
+            "ZoneOffset",
+            "ZoneOffset",
+            "ZoneOffset"
+          ]
+        },
+        {
+          "name": "getMonth",
+          "chinese": "ZoneOffsetTransitionRule ▸ getMonth",
+          "blockText": "ZoneOffsetTransitionRule ▸ getMonth",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Month",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getDayOfWeek",
+          "chinese": "ZoneOffsetTransitionRule ▸ getDayOfWeek",
+          "blockText": "ZoneOffsetTransitionRule ▸ getDayOfWeek",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DayOfWeek",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getDayOfMonthIndicator",
+          "chinese": "ZoneOffsetTransitionRule ▸ getDayOfMonthIndicator",
+          "blockText": "ZoneOffsetTransitionRule ▸ getDayOfMonthIndicator",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalTime",
+          "chinese": "ZoneOffsetTransitionRule ▸ getLocalTime",
+          "blockText": "ZoneOffsetTransitionRule ▸ getLocalTime",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LocalTime",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isMidnightEndOfDay",
+          "chinese": "ZoneOffsetTransitionRule ▸ isMidnightEndOfDay",
+          "blockText": "ZoneOffsetTransitionRule ▸ isMidnightEndOfDay",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getTimeDefinition",
+          "chinese": "ZoneOffsetTransitionRule ▸ getTimeDefinition",
+          "blockText": "ZoneOffsetTransitionRule ▸ getTimeDefinition",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "TimeDefinition",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getStandardOffset",
+          "chinese": "ZoneOffsetTransitionRule ▸ getStandardOffset",
+          "blockText": "ZoneOffsetTransitionRule ▸ getStandardOffset",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZoneOffset",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getOffsetBefore",
+          "chinese": "ZoneOffsetTransitionRule ▸ getOffsetBefore",
+          "blockText": "ZoneOffsetTransitionRule ▸ getOffsetBefore",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZoneOffset",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getOffsetAfter",
+          "chinese": "ZoneOffsetTransitionRule ▸ getOffsetAfter",
+          "blockText": "ZoneOffsetTransitionRule ▸ getOffsetAfter",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZoneOffset",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "createTransition",
+          "chinese": "ZoneOffsetTransitionRule ▸ createTransition",
+          "blockText": "ZoneOffsetTransitionRule ▸ createTransition",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZoneOffsetTransition",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "getClass",
+          "chinese": "ZoneOffsetTransitionRule ▸ getClass",
+          "blockText": "ZoneOffsetTransitionRule ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "ZoneOffsetTransitionRule ▸ notify",
+          "blockText": "ZoneOffsetTransitionRule ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "ZoneOffsetTransitionRule ▸ notifyAll",
+          "blockText": "ZoneOffsetTransitionRule ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "ZoneOffsetTransitionRule ▸ wait",
+          "blockText": "ZoneOffsetTransitionRule ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ZoneOffsetTransitionRule ▸ wait",
+          "blockText": "ZoneOffsetTransitionRule ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ZoneOffsetTransitionRule ▸ wait",
+          "blockText": "ZoneOffsetTransitionRule ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.zone.ZoneRules",
+      "chinese": "ZoneRules",
+      "displayName": "ZoneRules",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "equals",
+          "chinese": "ZoneRules ▸ equals",
+          "blockText": "ZoneRules ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "ZoneRules ▸ toString",
+          "blockText": "ZoneRules ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "ZoneRules ▸ hashCode",
+          "blockText": "ZoneRules ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "of",
+          "chinese": "ZoneRules ▸ of",
+          "blockText": "ZoneRules ▸ of",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZoneRules",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "ZoneOffset",
+            "ZoneOffset",
+            "List",
+            "List",
+            "List"
+          ]
+        },
+        {
+          "name": "of",
+          "chinese": "ZoneRules ▸ of",
+          "blockText": "ZoneRules ▸ of",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZoneRules",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "ZoneOffset"
+          ]
+        },
+        {
+          "name": "getOffset",
+          "chinese": "ZoneRules ▸ getOffset",
+          "blockText": "ZoneRules ▸ getOffset",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZoneOffset",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LocalDateTime"
+          ]
+        },
+        {
+          "name": "getOffset",
+          "chinese": "ZoneRules ▸ getOffset",
+          "blockText": "ZoneRules ▸ getOffset",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZoneOffset",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Instant"
+          ]
+        },
+        {
+          "name": "getTransition",
+          "chinese": "ZoneRules ▸ getTransition",
+          "blockText": "ZoneRules ▸ getTransition",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZoneOffsetTransition",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LocalDateTime"
+          ]
+        },
+        {
+          "name": "isFixedOffset",
+          "chinese": "ZoneRules ▸ isFixedOffset",
+          "blockText": "ZoneRules ▸ isFixedOffset",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getStandardOffset",
+          "chinese": "ZoneRules ▸ getStandardOffset",
+          "blockText": "ZoneRules ▸ getStandardOffset",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZoneOffset",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Instant"
+          ]
+        },
+        {
+          "name": "getValidOffsets",
+          "chinese": "ZoneRules ▸ getValidOffsets",
+          "blockText": "ZoneRules ▸ getValidOffsets",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "List",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LocalDateTime"
+          ]
+        },
+        {
+          "name": "getDaylightSavings",
+          "chinese": "ZoneRules ▸ getDaylightSavings",
+          "blockText": "ZoneRules ▸ getDaylightSavings",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Duration",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Instant"
+          ]
+        },
+        {
+          "name": "isDaylightSavings",
+          "chinese": "ZoneRules ▸ isDaylightSavings",
+          "blockText": "ZoneRules ▸ isDaylightSavings",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Instant"
+          ]
+        },
+        {
+          "name": "isValidOffset",
+          "chinese": "ZoneRules ▸ isValidOffset",
+          "blockText": "ZoneRules ▸ isValidOffset",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LocalDateTime",
+            "ZoneOffset"
+          ]
+        },
+        {
+          "name": "nextTransition",
+          "chinese": "ZoneRules ▸ nextTransition",
+          "blockText": "ZoneRules ▸ nextTransition",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZoneOffsetTransition",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Instant"
+          ]
+        },
+        {
+          "name": "previousTransition",
+          "chinese": "ZoneRules ▸ previousTransition",
+          "blockText": "ZoneRules ▸ previousTransition",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZoneOffsetTransition",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Instant"
+          ]
+        },
+        {
+          "name": "getTransitions",
+          "chinese": "ZoneRules ▸ getTransitions",
+          "blockText": "ZoneRules ▸ getTransitions",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "List",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getTransitionRules",
+          "chinese": "ZoneRules ▸ getTransitionRules",
+          "blockText": "ZoneRules ▸ getTransitionRules",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "List",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "ZoneRules ▸ getClass",
+          "blockText": "ZoneRules ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "ZoneRules ▸ notify",
+          "blockText": "ZoneRules ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "ZoneRules ▸ notifyAll",
+          "blockText": "ZoneRules ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "ZoneRules ▸ wait",
+          "blockText": "ZoneRules ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ZoneRules ▸ wait",
+          "blockText": "ZoneRules ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ZoneRules ▸ wait",
+          "blockText": "ZoneRules ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.zone.ZoneRulesException",
+      "chinese": "ZoneRulesException",
+      "displayName": "ZoneRulesException",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "ZoneRulesException ▸ <init>",
+          "blockText": "ZoneRulesException ▸ <init>",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "ZoneRulesException ▸ <init>",
+          "blockText": "ZoneRulesException ▸ <init>",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "Throwable"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "ZoneRulesException ▸ printStackTrace",
+          "blockText": "ZoneRulesException ▸ printStackTrace",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "ZoneRulesException ▸ printStackTrace",
+          "blockText": "ZoneRulesException ▸ printStackTrace",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintWriter"
+          ]
+        },
+        {
+          "name": "printStackTrace",
+          "chinese": "ZoneRulesException ▸ printStackTrace",
+          "blockText": "ZoneRulesException ▸ printStackTrace",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "PrintStream"
+          ]
+        },
+        {
+          "name": "getStackTrace",
+          "chinese": "ZoneRulesException ▸ getStackTrace",
+          "blockText": "ZoneRulesException ▸ getStackTrace",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "StackTraceElement[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "fillInStackTrace",
+          "chinese": "ZoneRulesException ▸ fillInStackTrace",
+          "blockText": "ZoneRulesException ▸ fillInStackTrace",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getCause",
+          "chinese": "ZoneRulesException ▸ getCause",
+          "blockText": "ZoneRulesException ▸ getCause",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "initCause",
+          "chinese": "ZoneRulesException ▸ initCause",
+          "blockText": "ZoneRulesException ▸ initCause",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "ZoneRulesException ▸ toString",
+          "blockText": "ZoneRulesException ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getMessage",
+          "chinese": "ZoneRulesException ▸ getMessage",
+          "blockText": "ZoneRulesException ▸ getMessage",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSuppressed",
+          "chinese": "ZoneRulesException ▸ getSuppressed",
+          "blockText": "ZoneRulesException ▸ getSuppressed",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedMessage",
+          "chinese": "ZoneRulesException ▸ getLocalizedMessage",
+          "blockText": "ZoneRulesException ▸ getLocalizedMessage",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setStackTrace",
+          "chinese": "ZoneRulesException ▸ setStackTrace",
+          "blockText": "ZoneRulesException ▸ setStackTrace",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "StackTraceElement[]"
+          ]
+        },
+        {
+          "name": "addSuppressed",
+          "chinese": "ZoneRulesException ▸ addSuppressed",
+          "blockText": "ZoneRulesException ▸ addSuppressed",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "ZoneRulesException ▸ equals",
+          "blockText": "ZoneRulesException ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "ZoneRulesException ▸ hashCode",
+          "blockText": "ZoneRulesException ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "ZoneRulesException ▸ getClass",
+          "blockText": "ZoneRulesException ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "ZoneRulesException ▸ notify",
+          "blockText": "ZoneRulesException ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "ZoneRulesException ▸ notifyAll",
+          "blockText": "ZoneRulesException ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "ZoneRulesException ▸ wait",
+          "blockText": "ZoneRulesException ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ZoneRulesException ▸ wait",
+          "blockText": "ZoneRulesException ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ZoneRulesException ▸ wait",
+          "blockText": "ZoneRulesException ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.time.zone.ZoneRulesProvider",
+      "chinese": "ZoneRulesProvider",
+      "displayName": "ZoneRulesProvider",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "getRules",
+          "chinese": "ZoneRulesProvider ▸ getRules",
+          "blockText": "ZoneRulesProvider ▸ getRules",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ZoneRules",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String",
+            "boolean"
+          ]
+        },
+        {
+          "name": "getAvailableZoneIds",
+          "chinese": "ZoneRulesProvider ▸ getAvailableZoneIds",
+          "blockText": "ZoneRulesProvider ▸ getAvailableZoneIds",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Set",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "registerProvider",
+          "chinese": "ZoneRulesProvider ▸ registerProvider",
+          "blockText": "ZoneRulesProvider ▸ registerProvider",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "ZoneRulesProvider"
+          ]
+        },
+        {
+          "name": "getVersions",
+          "chinese": "ZoneRulesProvider ▸ getVersions",
+          "blockText": "ZoneRulesProvider ▸ getVersions",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "NavigableMap",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "refresh",
+          "chinese": "ZoneRulesProvider ▸ refresh",
+          "blockText": "ZoneRulesProvider ▸ refresh",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "ZoneRulesProvider ▸ equals",
+          "blockText": "ZoneRulesProvider ▸ equals",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "ZoneRulesProvider ▸ toString",
+          "blockText": "ZoneRulesProvider ▸ toString",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "ZoneRulesProvider ▸ hashCode",
+          "blockText": "ZoneRulesProvider ▸ hashCode",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "ZoneRulesProvider ▸ getClass",
+          "blockText": "ZoneRulesProvider ▸ getClass",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "ZoneRulesProvider ▸ notify",
+          "blockText": "ZoneRulesProvider ▸ notify",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "ZoneRulesProvider ▸ notifyAll",
+          "blockText": "ZoneRulesProvider ▸ notifyAll",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "ZoneRulesProvider ▸ wait",
+          "blockText": "ZoneRulesProvider ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ZoneRulesProvider ▸ wait",
+          "blockText": "ZoneRulesProvider ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ZoneRulesProvider ▸ wait",
+          "blockText": "ZoneRulesProvider ▸ wait",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    }
+  ]
+}

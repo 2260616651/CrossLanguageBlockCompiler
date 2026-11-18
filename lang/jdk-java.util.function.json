@@ -1,0 +1,1585 @@
+{
+  "_comment": "CLBC 自动生成的 JDK 库语言文件。一个库一个文件；java1~java27 共 27 个版本共用本文件，不按版本拆分。since=起始版本，until=移除版本(27 表示仍可用)。方法改名时旧名与新名各写一条，chinese 相同。",
+  "library": "java.util.function",
+  "libraryChinese": "函数式接口",
+  "minVersion": 1,
+  "maxVersion": 27,
+  "versionRange": "java1~java27",
+  "javaVersions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "classes": [
+    {
+      "fqn": "java.util.function.Function",
+      "chinese": "函数",
+      "displayName": "Function",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "apply",
+          "chinese": "函数 ▸ 应用",
+          "blockText": "函数 ▸ 应用",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "identity",
+          "chinese": "函数 ▸ identity",
+          "blockText": "函数 ▸ identity",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Function",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "compose",
+          "chinese": "函数 ▸ 先执行",
+          "blockText": "函数 ▸ 先执行",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Function",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Function"
+          ]
+        },
+        {
+          "name": "andThen",
+          "chinese": "函数 ▸ 接着执行",
+          "blockText": "函数 ▸ 接着执行",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Function",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Function"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.Consumer",
+      "chinese": "消费者",
+      "displayName": "Consumer",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "accept",
+          "chinese": "消费者 ▸ 接受",
+          "blockText": "消费者 ▸ 接受",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "andThen",
+          "chinese": "消费者 ▸ 接着执行",
+          "blockText": "消费者 ▸ 接着执行",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Consumer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Consumer"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.Supplier",
+      "chinese": "供给者",
+      "displayName": "Supplier",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "get",
+          "chinese": "供给者 ▸ 取值",
+          "blockText": "供给者 ▸ 取值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.Predicate",
+      "chinese": "判定",
+      "displayName": "Predicate",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "test",
+          "chinese": "判定 ▸ 测试",
+          "blockText": "判定 ▸ 测试",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "or",
+          "chinese": "判定 ▸ 或者",
+          "blockText": "判定 ▸ 或者",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Predicate",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Predicate"
+          ]
+        },
+        {
+          "name": "negate",
+          "chinese": "判定 ▸ 取反",
+          "blockText": "判定 ▸ 取反",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Predicate",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "and",
+          "chinese": "判定 ▸ 并且",
+          "blockText": "判定 ▸ 并且",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Predicate",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Predicate"
+          ]
+        },
+        {
+          "name": "isEqual",
+          "chinese": "判定 ▸ isEqual",
+          "blockText": "判定 ▸ isEqual",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Predicate",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "not",
+          "chinese": "判定 ▸ 按位取反",
+          "blockText": "判定 ▸ 按位取反",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Predicate",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Predicate"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.BiFunction",
+      "chinese": "二元函数",
+      "displayName": "BiFunction",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "apply",
+          "chinese": "二元函数 ▸ 应用",
+          "blockText": "二元函数 ▸ 应用",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "andThen",
+          "chinese": "二元函数 ▸ 接着执行",
+          "blockText": "二元函数 ▸ 接着执行",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BiFunction",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Function"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.BiConsumer",
+      "chinese": "BiConsumer",
+      "displayName": "BiConsumer",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "accept",
+          "chinese": "BiConsumer ▸ 接受",
+          "blockText": "BiConsumer ▸ 接受",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "andThen",
+          "chinese": "BiConsumer ▸ 接着执行",
+          "blockText": "BiConsumer ▸ 接着执行",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BiConsumer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BiConsumer"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.BiPredicate",
+      "chinese": "BiPredicate",
+      "displayName": "BiPredicate",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "test",
+          "chinese": "BiPredicate ▸ 测试",
+          "blockText": "BiPredicate ▸ 测试",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "or",
+          "chinese": "BiPredicate ▸ 或者",
+          "blockText": "BiPredicate ▸ 或者",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BiPredicate",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BiPredicate"
+          ]
+        },
+        {
+          "name": "negate",
+          "chinese": "BiPredicate ▸ 取反",
+          "blockText": "BiPredicate ▸ 取反",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BiPredicate",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "and",
+          "chinese": "BiPredicate ▸ 并且",
+          "blockText": "BiPredicate ▸ 并且",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BiPredicate",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "BiPredicate"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.UnaryOperator",
+      "chinese": "UnaryOperator",
+      "displayName": "UnaryOperator",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "identity",
+          "chinese": "UnaryOperator ▸ identity",
+          "blockText": "UnaryOperator ▸ identity",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "UnaryOperator",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "apply",
+          "chinese": "UnaryOperator ▸ 应用",
+          "blockText": "UnaryOperator ▸ 应用",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "compose",
+          "chinese": "UnaryOperator ▸ 先执行",
+          "blockText": "UnaryOperator ▸ 先执行",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Function",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Function"
+          ]
+        },
+        {
+          "name": "andThen",
+          "chinese": "UnaryOperator ▸ 接着执行",
+          "blockText": "UnaryOperator ▸ 接着执行",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Function",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Function"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.BinaryOperator",
+      "chinese": "BinaryOperator",
+      "displayName": "BinaryOperator",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "maxBy",
+          "chinese": "BinaryOperator ▸ maxBy",
+          "blockText": "BinaryOperator ▸ maxBy",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BinaryOperator",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Comparator"
+          ]
+        },
+        {
+          "name": "minBy",
+          "chinese": "BinaryOperator ▸ minBy",
+          "blockText": "BinaryOperator ▸ minBy",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BinaryOperator",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Comparator"
+          ]
+        },
+        {
+          "name": "apply",
+          "chinese": "BinaryOperator ▸ 应用",
+          "blockText": "BinaryOperator ▸ 应用",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        },
+        {
+          "name": "andThen",
+          "chinese": "BinaryOperator ▸ 接着执行",
+          "blockText": "BinaryOperator ▸ 接着执行",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "BiFunction",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Function"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.IntFunction",
+      "chinese": "IntFunction",
+      "displayName": "IntFunction",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "apply",
+          "chinese": "IntFunction ▸ 应用",
+          "blockText": "IntFunction ▸ 应用",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.IntConsumer",
+      "chinese": "IntConsumer",
+      "displayName": "IntConsumer",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "accept",
+          "chinese": "IntConsumer ▸ 接受",
+          "blockText": "IntConsumer ▸ 接受",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "andThen",
+          "chinese": "IntConsumer ▸ 接着执行",
+          "blockText": "IntConsumer ▸ 接着执行",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntConsumer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntConsumer"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.IntSupplier",
+      "chinese": "IntSupplier",
+      "displayName": "IntSupplier",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "getAsInt",
+          "chinese": "IntSupplier ▸ 取整数值",
+          "blockText": "IntSupplier ▸ 取整数值",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.IntUnaryOperator",
+      "chinese": "IntUnaryOperator",
+      "displayName": "IntUnaryOperator",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "identity",
+          "chinese": "IntUnaryOperator ▸ identity",
+          "blockText": "IntUnaryOperator ▸ identity",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntUnaryOperator",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "applyAsInt",
+          "chinese": "IntUnaryOperator ▸ applyAsInt",
+          "blockText": "IntUnaryOperator ▸ applyAsInt",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "compose",
+          "chinese": "IntUnaryOperator ▸ 先执行",
+          "blockText": "IntUnaryOperator ▸ 先执行",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntUnaryOperator",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntUnaryOperator"
+          ]
+        },
+        {
+          "name": "andThen",
+          "chinese": "IntUnaryOperator ▸ 接着执行",
+          "blockText": "IntUnaryOperator ▸ 接着执行",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntUnaryOperator",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntUnaryOperator"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.IntBinaryOperator",
+      "chinese": "IntBinaryOperator",
+      "displayName": "IntBinaryOperator",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "applyAsInt",
+          "chinese": "IntBinaryOperator ▸ applyAsInt",
+          "blockText": "IntBinaryOperator ▸ applyAsInt",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.ToIntFunction",
+      "chinese": "ToIntFunction",
+      "displayName": "ToIntFunction",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "applyAsInt",
+          "chinese": "ToIntFunction ▸ applyAsInt",
+          "blockText": "ToIntFunction ▸ applyAsInt",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.ToDoubleFunction",
+      "chinese": "ToDoubleFunction",
+      "displayName": "ToDoubleFunction",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "applyAsDouble",
+          "chinese": "ToDoubleFunction ▸ applyAsDouble",
+          "blockText": "ToDoubleFunction ▸ applyAsDouble",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.DoubleUnaryOperator",
+      "chinese": "DoubleUnaryOperator",
+      "displayName": "DoubleUnaryOperator",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "identity",
+          "chinese": "DoubleUnaryOperator ▸ identity",
+          "blockText": "DoubleUnaryOperator ▸ identity",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleUnaryOperator",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "applyAsDouble",
+          "chinese": "DoubleUnaryOperator ▸ applyAsDouble",
+          "blockText": "DoubleUnaryOperator ▸ applyAsDouble",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "double"
+          ]
+        },
+        {
+          "name": "compose",
+          "chinese": "DoubleUnaryOperator ▸ 先执行",
+          "blockText": "DoubleUnaryOperator ▸ 先执行",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleUnaryOperator",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoubleUnaryOperator"
+          ]
+        },
+        {
+          "name": "andThen",
+          "chinese": "DoubleUnaryOperator ▸ 接着执行",
+          "blockText": "DoubleUnaryOperator ▸ 接着执行",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleUnaryOperator",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoubleUnaryOperator"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.DoubleBinaryOperator",
+      "chinese": "DoubleBinaryOperator",
+      "displayName": "DoubleBinaryOperator",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "applyAsDouble",
+          "chinese": "DoubleBinaryOperator ▸ applyAsDouble",
+          "blockText": "DoubleBinaryOperator ▸ applyAsDouble",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "double",
+            "double"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.BooleanSupplier",
+      "chinese": "BooleanSupplier",
+      "displayName": "BooleanSupplier",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "getAsBoolean",
+          "chinese": "BooleanSupplier ▸ getAsBoolean",
+          "blockText": "BooleanSupplier ▸ getAsBoolean",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.LongSupplier",
+      "chinese": "LongSupplier",
+      "displayName": "LongSupplier",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "getAsLong",
+          "chinese": "LongSupplier ▸ getAsLong",
+          "blockText": "LongSupplier ▸ getAsLong",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.LongConsumer",
+      "chinese": "LongConsumer",
+      "displayName": "LongConsumer",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "accept",
+          "chinese": "LongConsumer ▸ 接受",
+          "blockText": "LongConsumer ▸ 接受",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "andThen",
+          "chinese": "LongConsumer ▸ 接着执行",
+          "blockText": "LongConsumer ▸ 接着执行",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongConsumer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongConsumer"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.LongFunction",
+      "chinese": "LongFunction",
+      "displayName": "LongFunction",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "apply",
+          "chinese": "LongFunction ▸ 应用",
+          "blockText": "LongFunction ▸ 应用",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.LongUnaryOperator",
+      "chinese": "LongUnaryOperator",
+      "displayName": "LongUnaryOperator",
+      "since": 9,
+      "until": 27,
+      "methods": [
+        {
+          "name": "identity",
+          "chinese": "LongUnaryOperator ▸ identity",
+          "blockText": "LongUnaryOperator ▸ identity",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongUnaryOperator",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "applyAsLong",
+          "chinese": "LongUnaryOperator ▸ applyAsLong",
+          "blockText": "LongUnaryOperator ▸ applyAsLong",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "compose",
+          "chinese": "LongUnaryOperator ▸ 先执行",
+          "blockText": "LongUnaryOperator ▸ 先执行",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongUnaryOperator",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongUnaryOperator"
+          ]
+        },
+        {
+          "name": "andThen",
+          "chinese": "LongUnaryOperator ▸ 接着执行",
+          "blockText": "LongUnaryOperator ▸ 接着执行",
+          "since": 9,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongUnaryOperator",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongUnaryOperator"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.DoubleConsumer",
+      "chinese": "DoubleConsumer",
+      "displayName": "DoubleConsumer",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "accept",
+          "chinese": "DoubleConsumer ▸ accept",
+          "blockText": "DoubleConsumer ▸ accept",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "double"
+          ]
+        },
+        {
+          "name": "andThen",
+          "chinese": "DoubleConsumer ▸ andThen",
+          "blockText": "DoubleConsumer ▸ andThen",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoubleConsumer",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoubleConsumer"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.DoubleFunction",
+      "chinese": "DoubleFunction",
+      "displayName": "DoubleFunction",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "apply",
+          "chinese": "DoubleFunction ▸ apply",
+          "blockText": "DoubleFunction ▸ apply",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "double"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.DoublePredicate",
+      "chinese": "DoublePredicate",
+      "displayName": "DoublePredicate",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "test",
+          "chinese": "DoublePredicate ▸ test",
+          "blockText": "DoublePredicate ▸ test",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "double"
+          ]
+        },
+        {
+          "name": "or",
+          "chinese": "DoublePredicate ▸ or",
+          "blockText": "DoublePredicate ▸ or",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoublePredicate",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoublePredicate"
+          ]
+        },
+        {
+          "name": "negate",
+          "chinese": "DoublePredicate ▸ negate",
+          "blockText": "DoublePredicate ▸ negate",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoublePredicate",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "and",
+          "chinese": "DoublePredicate ▸ and",
+          "blockText": "DoublePredicate ▸ and",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "DoublePredicate",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "DoublePredicate"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.DoubleSupplier",
+      "chinese": "DoubleSupplier",
+      "displayName": "DoubleSupplier",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "getAsDouble",
+          "chinese": "DoubleSupplier ▸ getAsDouble",
+          "blockText": "DoubleSupplier ▸ getAsDouble",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.DoubleToIntFunction",
+      "chinese": "DoubleToIntFunction",
+      "displayName": "DoubleToIntFunction",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "applyAsInt",
+          "chinese": "DoubleToIntFunction ▸ applyAsInt",
+          "blockText": "DoubleToIntFunction ▸ applyAsInt",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "double"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.DoubleToLongFunction",
+      "chinese": "DoubleToLongFunction",
+      "displayName": "DoubleToLongFunction",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "applyAsLong",
+          "chinese": "DoubleToLongFunction ▸ applyAsLong",
+          "blockText": "DoubleToLongFunction ▸ applyAsLong",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "double"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.IntPredicate",
+      "chinese": "IntPredicate",
+      "displayName": "IntPredicate",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "test",
+          "chinese": "IntPredicate ▸ test",
+          "blockText": "IntPredicate ▸ test",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "or",
+          "chinese": "IntPredicate ▸ or",
+          "blockText": "IntPredicate ▸ or",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntPredicate",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntPredicate"
+          ]
+        },
+        {
+          "name": "negate",
+          "chinese": "IntPredicate ▸ negate",
+          "blockText": "IntPredicate ▸ negate",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntPredicate",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "and",
+          "chinese": "IntPredicate ▸ and",
+          "blockText": "IntPredicate ▸ and",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "IntPredicate",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "IntPredicate"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.IntToDoubleFunction",
+      "chinese": "IntToDoubleFunction",
+      "displayName": "IntToDoubleFunction",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "applyAsDouble",
+          "chinese": "IntToDoubleFunction ▸ applyAsDouble",
+          "blockText": "IntToDoubleFunction ▸ applyAsDouble",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.IntToLongFunction",
+      "chinese": "IntToLongFunction",
+      "displayName": "IntToLongFunction",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "applyAsLong",
+          "chinese": "IntToLongFunction ▸ applyAsLong",
+          "blockText": "IntToLongFunction ▸ applyAsLong",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.LongBinaryOperator",
+      "chinese": "LongBinaryOperator",
+      "displayName": "LongBinaryOperator",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "applyAsLong",
+          "chinese": "LongBinaryOperator ▸ applyAsLong",
+          "blockText": "LongBinaryOperator ▸ applyAsLong",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.LongPredicate",
+      "chinese": "LongPredicate",
+      "displayName": "LongPredicate",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "test",
+          "chinese": "LongPredicate ▸ test",
+          "blockText": "LongPredicate ▸ test",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "or",
+          "chinese": "LongPredicate ▸ or",
+          "blockText": "LongPredicate ▸ or",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongPredicate",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongPredicate"
+          ]
+        },
+        {
+          "name": "negate",
+          "chinese": "LongPredicate ▸ negate",
+          "blockText": "LongPredicate ▸ negate",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongPredicate",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "and",
+          "chinese": "LongPredicate ▸ and",
+          "blockText": "LongPredicate ▸ and",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LongPredicate",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LongPredicate"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.LongToDoubleFunction",
+      "chinese": "LongToDoubleFunction",
+      "displayName": "LongToDoubleFunction",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "applyAsDouble",
+          "chinese": "LongToDoubleFunction ▸ applyAsDouble",
+          "blockText": "LongToDoubleFunction ▸ applyAsDouble",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.LongToIntFunction",
+      "chinese": "LongToIntFunction",
+      "displayName": "LongToIntFunction",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "applyAsInt",
+          "chinese": "LongToIntFunction ▸ applyAsInt",
+          "blockText": "LongToIntFunction ▸ applyAsInt",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.ObjDoubleConsumer",
+      "chinese": "ObjDoubleConsumer",
+      "displayName": "ObjDoubleConsumer",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "accept",
+          "chinese": "ObjDoubleConsumer ▸ accept",
+          "blockText": "ObjDoubleConsumer ▸ accept",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "double"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.ObjIntConsumer",
+      "chinese": "ObjIntConsumer",
+      "displayName": "ObjIntConsumer",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "accept",
+          "chinese": "ObjIntConsumer ▸ accept",
+          "blockText": "ObjIntConsumer ▸ accept",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.ObjLongConsumer",
+      "chinese": "ObjLongConsumer",
+      "displayName": "ObjLongConsumer",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "accept",
+          "chinese": "ObjLongConsumer ▸ accept",
+          "blockText": "ObjLongConsumer ▸ accept",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.ToDoubleBiFunction",
+      "chinese": "ToDoubleBiFunction",
+      "displayName": "ToDoubleBiFunction",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "applyAsDouble",
+          "chinese": "ToDoubleBiFunction ▸ applyAsDouble",
+          "blockText": "ToDoubleBiFunction ▸ applyAsDouble",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "double",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.ToIntBiFunction",
+      "chinese": "ToIntBiFunction",
+      "displayName": "ToIntBiFunction",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "applyAsInt",
+          "chinese": "ToIntBiFunction ▸ applyAsInt",
+          "blockText": "ToIntBiFunction ▸ applyAsInt",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.ToLongBiFunction",
+      "chinese": "ToLongBiFunction",
+      "displayName": "ToLongBiFunction",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "applyAsLong",
+          "chinese": "ToLongBiFunction ▸ applyAsLong",
+          "blockText": "ToLongBiFunction ▸ applyAsLong",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Object"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.function.ToLongFunction",
+      "chinese": "ToLongFunction",
+      "displayName": "ToLongFunction",
+      "since": 8,
+      "until": 27,
+      "methods": [
+        {
+          "name": "applyAsLong",
+          "chinese": "ToLongFunction ▸ applyAsLong",
+          "blockText": "ToLongFunction ▸ applyAsLong",
+          "since": 8,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        }
+      ]
+    }
+  ]
+}

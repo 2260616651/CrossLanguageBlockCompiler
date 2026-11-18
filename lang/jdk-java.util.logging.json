@@ -1,0 +1,5368 @@
+{
+  "_comment": "CLBC 自动生成的 JDK 库语言文件。一个库一个文件；java1~java27 共 27 个版本共用本文件。chinese/blockText 用代码名（积木语言与代码相同），不逐条中文化。",
+  "library": "java.util.logging",
+  "libraryChinese": "logging",
+  "minVersion": 1,
+  "maxVersion": 27,
+  "versionRange": "java1~java27",
+  "javaVersions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "classes": [
+    {
+      "fqn": "java.util.logging.Logger",
+      "chinese": "Logger",
+      "displayName": "Logger",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "getName",
+          "chinese": "Logger ▸ getName",
+          "blockText": "Logger ▸ getName",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "log",
+          "chinese": "Logger ▸ log",
+          "blockText": "Logger ▸ log",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "Supplier"
+          ]
+        },
+        {
+          "name": "log",
+          "chinese": "Logger ▸ log",
+          "blockText": "Logger ▸ log",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LogRecord"
+          ]
+        },
+        {
+          "name": "log",
+          "chinese": "Logger ▸ log",
+          "blockText": "Logger ▸ log",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "String"
+          ]
+        },
+        {
+          "name": "log",
+          "chinese": "Logger ▸ log",
+          "blockText": "Logger ▸ log",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "String",
+            "Object"
+          ]
+        },
+        {
+          "name": "log",
+          "chinese": "Logger ▸ log",
+          "blockText": "Logger ▸ log",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "Throwable",
+            "Supplier"
+          ]
+        },
+        {
+          "name": "log",
+          "chinese": "Logger ▸ log",
+          "blockText": "Logger ▸ log",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "String",
+            "Throwable"
+          ]
+        },
+        {
+          "name": "log",
+          "chinese": "Logger ▸ log",
+          "blockText": "Logger ▸ log",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "String",
+            "Object[]"
+          ]
+        },
+        {
+          "name": "info",
+          "chinese": "Logger ▸ info",
+          "blockText": "Logger ▸ info",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "info",
+          "chinese": "Logger ▸ info",
+          "blockText": "Logger ▸ info",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Supplier"
+          ]
+        },
+        {
+          "name": "getParent",
+          "chinese": "Logger ▸ getParent",
+          "blockText": "Logger ▸ getParent",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Logger",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLogger",
+          "chinese": "Logger ▸ getLogger",
+          "blockText": "Logger ▸ getLogger",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Logger",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "getLogger",
+          "chinese": "Logger ▸ getLogger",
+          "blockText": "Logger ▸ getLogger",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Logger",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String",
+            "String"
+          ]
+        },
+        {
+          "name": "config",
+          "chinese": "Logger ▸ config",
+          "blockText": "Logger ▸ config",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "config",
+          "chinese": "Logger ▸ config",
+          "blockText": "Logger ▸ config",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Supplier"
+          ]
+        },
+        {
+          "name": "getFilter",
+          "chinese": "Logger ▸ getFilter",
+          "blockText": "Logger ▸ getFilter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Filter",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "addHandler",
+          "chinese": "Logger ▸ addHandler",
+          "blockText": "Logger ▸ addHandler",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Handler"
+          ]
+        },
+        {
+          "name": "isLoggable",
+          "chinese": "Logger ▸ isLoggable",
+          "blockText": "Logger ▸ isLoggable",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level"
+          ]
+        },
+        {
+          "name": "warning",
+          "chinese": "Logger ▸ warning",
+          "blockText": "Logger ▸ warning",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Supplier"
+          ]
+        },
+        {
+          "name": "warning",
+          "chinese": "Logger ▸ warning",
+          "blockText": "Logger ▸ warning",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "setParent",
+          "chinese": "Logger ▸ setParent",
+          "blockText": "Logger ▸ setParent",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Logger"
+          ]
+        },
+        {
+          "name": "setLevel",
+          "chinese": "Logger ▸ setLevel",
+          "blockText": "Logger ▸ setLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level"
+          ]
+        },
+        {
+          "name": "setFilter",
+          "chinese": "Logger ▸ setFilter",
+          "blockText": "Logger ▸ setFilter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Filter"
+          ]
+        },
+        {
+          "name": "getLevel",
+          "chinese": "Logger ▸ getLevel",
+          "blockText": "Logger ▸ getLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Level",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getResourceBundleName",
+          "chinese": "Logger ▸ getResourceBundleName",
+          "blockText": "Logger ▸ getResourceBundleName",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getHandlers",
+          "chinese": "Logger ▸ getHandlers",
+          "blockText": "Logger ▸ getHandlers",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Handler[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "removeHandler",
+          "chinese": "Logger ▸ removeHandler",
+          "blockText": "Logger ▸ removeHandler",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Handler"
+          ]
+        },
+        {
+          "name": "setUseParentHandlers",
+          "chinese": "Logger ▸ setUseParentHandlers",
+          "blockText": "Logger ▸ setUseParentHandlers",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "getAnonymousLogger",
+          "chinese": "Logger ▸ getAnonymousLogger",
+          "blockText": "Logger ▸ getAnonymousLogger",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Logger",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getAnonymousLogger",
+          "chinese": "Logger ▸ getAnonymousLogger",
+          "blockText": "Logger ▸ getAnonymousLogger",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Logger",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "getUseParentHandlers",
+          "chinese": "Logger ▸ getUseParentHandlers",
+          "blockText": "Logger ▸ getUseParentHandlers",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setResourceBundle",
+          "chinese": "Logger ▸ setResourceBundle",
+          "blockText": "Logger ▸ setResourceBundle",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ResourceBundle"
+          ]
+        },
+        {
+          "name": "logp",
+          "chinese": "Logger ▸ logp",
+          "blockText": "Logger ▸ logp",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "String",
+            "String",
+            "String",
+            "Object[]"
+          ]
+        },
+        {
+          "name": "logp",
+          "chinese": "Logger ▸ logp",
+          "blockText": "Logger ▸ logp",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "String",
+            "String",
+            "String",
+            "Throwable"
+          ]
+        },
+        {
+          "name": "logp",
+          "chinese": "Logger ▸ logp",
+          "blockText": "Logger ▸ logp",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "String",
+            "String",
+            "String"
+          ]
+        },
+        {
+          "name": "logp",
+          "chinese": "Logger ▸ logp",
+          "blockText": "Logger ▸ logp",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "String",
+            "String",
+            "Throwable",
+            "Supplier"
+          ]
+        },
+        {
+          "name": "logp",
+          "chinese": "Logger ▸ logp",
+          "blockText": "Logger ▸ logp",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "String",
+            "String",
+            "Supplier"
+          ]
+        },
+        {
+          "name": "logp",
+          "chinese": "Logger ▸ logp",
+          "blockText": "Logger ▸ logp",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "String",
+            "String",
+            "String",
+            "Object"
+          ]
+        },
+        {
+          "name": "getResourceBundle",
+          "chinese": "Logger ▸ getResourceBundle",
+          "blockText": "Logger ▸ getResourceBundle",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ResourceBundle",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getGlobal",
+          "chinese": "Logger ▸ getGlobal",
+          "blockText": "Logger ▸ getGlobal",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Logger",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "logrb",
+          "chinese": "Logger ▸ logrb",
+          "blockText": "Logger ▸ logrb",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "ResourceBundle",
+            "String",
+            "Object[]"
+          ]
+        },
+        {
+          "name": "logrb",
+          "chinese": "Logger ▸ logrb",
+          "blockText": "Logger ▸ logrb",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "String",
+            "String",
+            "ResourceBundle",
+            "String",
+            "Object[]"
+          ]
+        },
+        {
+          "name": "logrb",
+          "chinese": "Logger ▸ logrb",
+          "blockText": "Logger ▸ logrb",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "String",
+            "String",
+            "String",
+            "String",
+            "Throwable"
+          ]
+        },
+        {
+          "name": "logrb",
+          "chinese": "Logger ▸ logrb",
+          "blockText": "Logger ▸ logrb",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "String",
+            "String",
+            "ResourceBundle",
+            "String",
+            "Throwable"
+          ]
+        },
+        {
+          "name": "logrb",
+          "chinese": "Logger ▸ logrb",
+          "blockText": "Logger ▸ logrb",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "ResourceBundle",
+            "String",
+            "Throwable"
+          ]
+        },
+        {
+          "name": "logrb",
+          "chinese": "Logger ▸ logrb",
+          "blockText": "Logger ▸ logrb",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "String",
+            "String",
+            "String",
+            "String"
+          ]
+        },
+        {
+          "name": "logrb",
+          "chinese": "Logger ▸ logrb",
+          "blockText": "Logger ▸ logrb",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "String",
+            "String",
+            "String",
+            "String",
+            "Object"
+          ]
+        },
+        {
+          "name": "logrb",
+          "chinese": "Logger ▸ logrb",
+          "blockText": "Logger ▸ logrb",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "String",
+            "String",
+            "String",
+            "String",
+            "Object[]"
+          ]
+        },
+        {
+          "name": "entering",
+          "chinese": "Logger ▸ entering",
+          "blockText": "Logger ▸ entering",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "String",
+            "Object"
+          ]
+        },
+        {
+          "name": "entering",
+          "chinese": "Logger ▸ entering",
+          "blockText": "Logger ▸ entering",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "String"
+          ]
+        },
+        {
+          "name": "entering",
+          "chinese": "Logger ▸ entering",
+          "blockText": "Logger ▸ entering",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "String",
+            "Object[]"
+          ]
+        },
+        {
+          "name": "exiting",
+          "chinese": "Logger ▸ exiting",
+          "blockText": "Logger ▸ exiting",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "String",
+            "Object"
+          ]
+        },
+        {
+          "name": "exiting",
+          "chinese": "Logger ▸ exiting",
+          "blockText": "Logger ▸ exiting",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "String"
+          ]
+        },
+        {
+          "name": "throwing",
+          "chinese": "Logger ▸ throwing",
+          "blockText": "Logger ▸ throwing",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "String",
+            "Throwable"
+          ]
+        },
+        {
+          "name": "severe",
+          "chinese": "Logger ▸ severe",
+          "blockText": "Logger ▸ severe",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Supplier"
+          ]
+        },
+        {
+          "name": "severe",
+          "chinese": "Logger ▸ severe",
+          "blockText": "Logger ▸ severe",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "fine",
+          "chinese": "Logger ▸ fine",
+          "blockText": "Logger ▸ fine",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "fine",
+          "chinese": "Logger ▸ fine",
+          "blockText": "Logger ▸ fine",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Supplier"
+          ]
+        },
+        {
+          "name": "finer",
+          "chinese": "Logger ▸ finer",
+          "blockText": "Logger ▸ finer",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Supplier"
+          ]
+        },
+        {
+          "name": "finer",
+          "chinese": "Logger ▸ finer",
+          "blockText": "Logger ▸ finer",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "finest",
+          "chinese": "Logger ▸ finest",
+          "blockText": "Logger ▸ finest",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "finest",
+          "chinese": "Logger ▸ finest",
+          "blockText": "Logger ▸ finest",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Supplier"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "Logger ▸ equals",
+          "blockText": "Logger ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "Logger ▸ toString",
+          "blockText": "Logger ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "Logger ▸ hashCode",
+          "blockText": "Logger ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "Logger ▸ getClass",
+          "blockText": "Logger ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "Logger ▸ notify",
+          "blockText": "Logger ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "Logger ▸ notifyAll",
+          "blockText": "Logger ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "Logger ▸ wait",
+          "blockText": "Logger ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "Logger ▸ wait",
+          "blockText": "Logger ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "Logger ▸ wait",
+          "blockText": "Logger ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "GLOBAL_LOGGER_NAME",
+          "chinese": "Logger ▸ GLOBAL_LOGGER_NAME",
+          "blockText": "Logger ▸ GLOBAL_LOGGER_NAME",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "global",
+          "chinese": "Logger ▸ global",
+          "blockText": "Logger ▸ global",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Logger",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.logging.ConsoleHandler",
+      "chinese": "ConsoleHandler",
+      "displayName": "ConsoleHandler",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "ConsoleHandler ▸ <init>",
+          "blockText": "ConsoleHandler ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "close",
+          "chinese": "ConsoleHandler ▸ close",
+          "blockText": "ConsoleHandler ▸ close",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "publish",
+          "chinese": "ConsoleHandler ▸ publish",
+          "blockText": "ConsoleHandler ▸ publish",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LogRecord"
+          ]
+        },
+        {
+          "name": "flush",
+          "chinese": "ConsoleHandler ▸ flush",
+          "blockText": "ConsoleHandler ▸ flush",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isLoggable",
+          "chinese": "ConsoleHandler ▸ isLoggable",
+          "blockText": "ConsoleHandler ▸ isLoggable",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LogRecord"
+          ]
+        },
+        {
+          "name": "setEncoding",
+          "chinese": "ConsoleHandler ▸ setEncoding",
+          "blockText": "ConsoleHandler ▸ setEncoding",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "getEncoding",
+          "chinese": "ConsoleHandler ▸ getEncoding",
+          "blockText": "ConsoleHandler ▸ getEncoding",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getFilter",
+          "chinese": "ConsoleHandler ▸ getFilter",
+          "blockText": "ConsoleHandler ▸ getFilter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Filter",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setLevel",
+          "chinese": "ConsoleHandler ▸ setLevel",
+          "blockText": "ConsoleHandler ▸ setLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level"
+          ]
+        },
+        {
+          "name": "setFilter",
+          "chinese": "ConsoleHandler ▸ setFilter",
+          "blockText": "ConsoleHandler ▸ setFilter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Filter"
+          ]
+        },
+        {
+          "name": "setFormatter",
+          "chinese": "ConsoleHandler ▸ setFormatter",
+          "blockText": "ConsoleHandler ▸ setFormatter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Formatter"
+          ]
+        },
+        {
+          "name": "getLevel",
+          "chinese": "ConsoleHandler ▸ getLevel",
+          "blockText": "ConsoleHandler ▸ getLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Level",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getFormatter",
+          "chinese": "ConsoleHandler ▸ getFormatter",
+          "blockText": "ConsoleHandler ▸ getFormatter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Formatter",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setErrorManager",
+          "chinese": "ConsoleHandler ▸ setErrorManager",
+          "blockText": "ConsoleHandler ▸ setErrorManager",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ErrorManager"
+          ]
+        },
+        {
+          "name": "getErrorManager",
+          "chinese": "ConsoleHandler ▸ getErrorManager",
+          "blockText": "ConsoleHandler ▸ getErrorManager",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ErrorManager",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "ConsoleHandler ▸ equals",
+          "blockText": "ConsoleHandler ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "ConsoleHandler ▸ toString",
+          "blockText": "ConsoleHandler ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "ConsoleHandler ▸ hashCode",
+          "blockText": "ConsoleHandler ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "ConsoleHandler ▸ getClass",
+          "blockText": "ConsoleHandler ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "ConsoleHandler ▸ notify",
+          "blockText": "ConsoleHandler ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "ConsoleHandler ▸ notifyAll",
+          "blockText": "ConsoleHandler ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "ConsoleHandler ▸ wait",
+          "blockText": "ConsoleHandler ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ConsoleHandler ▸ wait",
+          "blockText": "ConsoleHandler ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ConsoleHandler ▸ wait",
+          "blockText": "ConsoleHandler ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.logging.ErrorManager",
+      "chinese": "ErrorManager",
+      "displayName": "ErrorManager",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "ErrorManager ▸ <init>",
+          "blockText": "ErrorManager ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "error",
+          "chinese": "ErrorManager ▸ error",
+          "blockText": "ErrorManager ▸ error",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "Exception",
+            "int"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "ErrorManager ▸ equals",
+          "blockText": "ErrorManager ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "ErrorManager ▸ toString",
+          "blockText": "ErrorManager ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "ErrorManager ▸ hashCode",
+          "blockText": "ErrorManager ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "ErrorManager ▸ getClass",
+          "blockText": "ErrorManager ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "ErrorManager ▸ notify",
+          "blockText": "ErrorManager ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "ErrorManager ▸ notifyAll",
+          "blockText": "ErrorManager ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "ErrorManager ▸ wait",
+          "blockText": "ErrorManager ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ErrorManager ▸ wait",
+          "blockText": "ErrorManager ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ErrorManager ▸ wait",
+          "blockText": "ErrorManager ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "GENERIC_FAILURE",
+          "chinese": "ErrorManager ▸ GENERIC_FAILURE",
+          "blockText": "ErrorManager ▸ GENERIC_FAILURE",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "WRITE_FAILURE",
+          "chinese": "ErrorManager ▸ WRITE_FAILURE",
+          "blockText": "ErrorManager ▸ WRITE_FAILURE",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "FLUSH_FAILURE",
+          "chinese": "ErrorManager ▸ FLUSH_FAILURE",
+          "blockText": "ErrorManager ▸ FLUSH_FAILURE",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CLOSE_FAILURE",
+          "chinese": "ErrorManager ▸ CLOSE_FAILURE",
+          "blockText": "ErrorManager ▸ CLOSE_FAILURE",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "OPEN_FAILURE",
+          "chinese": "ErrorManager ▸ OPEN_FAILURE",
+          "blockText": "ErrorManager ▸ OPEN_FAILURE",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "FORMAT_FAILURE",
+          "chinese": "ErrorManager ▸ FORMAT_FAILURE",
+          "blockText": "ErrorManager ▸ FORMAT_FAILURE",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.logging.FileHandler",
+      "chinese": "FileHandler",
+      "displayName": "FileHandler",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "FileHandler ▸ <init>",
+          "blockText": "FileHandler ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "FileHandler ▸ <init>",
+          "blockText": "FileHandler ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "int",
+            "int",
+            "boolean"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "FileHandler ▸ <init>",
+          "blockText": "FileHandler ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "FileHandler ▸ <init>",
+          "blockText": "FileHandler ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "<init>",
+          "chinese": "FileHandler ▸ <init>",
+          "blockText": "FileHandler ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "long",
+            "int",
+            "boolean"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "FileHandler ▸ <init>",
+          "blockText": "FileHandler ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "boolean"
+          ]
+        },
+        {
+          "name": "close",
+          "chinese": "FileHandler ▸ close",
+          "blockText": "FileHandler ▸ close",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "publish",
+          "chinese": "FileHandler ▸ publish",
+          "blockText": "FileHandler ▸ publish",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LogRecord"
+          ]
+        },
+        {
+          "name": "flush",
+          "chinese": "FileHandler ▸ flush",
+          "blockText": "FileHandler ▸ flush",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isLoggable",
+          "chinese": "FileHandler ▸ isLoggable",
+          "blockText": "FileHandler ▸ isLoggable",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LogRecord"
+          ]
+        },
+        {
+          "name": "setEncoding",
+          "chinese": "FileHandler ▸ setEncoding",
+          "blockText": "FileHandler ▸ setEncoding",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "getEncoding",
+          "chinese": "FileHandler ▸ getEncoding",
+          "blockText": "FileHandler ▸ getEncoding",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getFilter",
+          "chinese": "FileHandler ▸ getFilter",
+          "blockText": "FileHandler ▸ getFilter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Filter",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setLevel",
+          "chinese": "FileHandler ▸ setLevel",
+          "blockText": "FileHandler ▸ setLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level"
+          ]
+        },
+        {
+          "name": "setFilter",
+          "chinese": "FileHandler ▸ setFilter",
+          "blockText": "FileHandler ▸ setFilter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Filter"
+          ]
+        },
+        {
+          "name": "setFormatter",
+          "chinese": "FileHandler ▸ setFormatter",
+          "blockText": "FileHandler ▸ setFormatter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Formatter"
+          ]
+        },
+        {
+          "name": "getLevel",
+          "chinese": "FileHandler ▸ getLevel",
+          "blockText": "FileHandler ▸ getLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Level",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getFormatter",
+          "chinese": "FileHandler ▸ getFormatter",
+          "blockText": "FileHandler ▸ getFormatter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Formatter",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setErrorManager",
+          "chinese": "FileHandler ▸ setErrorManager",
+          "blockText": "FileHandler ▸ setErrorManager",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ErrorManager"
+          ]
+        },
+        {
+          "name": "getErrorManager",
+          "chinese": "FileHandler ▸ getErrorManager",
+          "blockText": "FileHandler ▸ getErrorManager",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ErrorManager",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "FileHandler ▸ equals",
+          "blockText": "FileHandler ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "FileHandler ▸ toString",
+          "blockText": "FileHandler ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "FileHandler ▸ hashCode",
+          "blockText": "FileHandler ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "FileHandler ▸ getClass",
+          "blockText": "FileHandler ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "FileHandler ▸ notify",
+          "blockText": "FileHandler ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "FileHandler ▸ notifyAll",
+          "blockText": "FileHandler ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "FileHandler ▸ wait",
+          "blockText": "FileHandler ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "FileHandler ▸ wait",
+          "blockText": "FileHandler ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "FileHandler ▸ wait",
+          "blockText": "FileHandler ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.logging.Filter",
+      "chinese": "Filter",
+      "displayName": "Filter",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "isLoggable",
+          "chinese": "Filter ▸ isLoggable",
+          "blockText": "Filter ▸ isLoggable",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LogRecord"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.logging.Formatter",
+      "chinese": "Formatter",
+      "displayName": "Formatter",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "format",
+          "chinese": "Formatter ▸ format",
+          "blockText": "Formatter ▸ format",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LogRecord"
+          ]
+        },
+        {
+          "name": "getHead",
+          "chinese": "Formatter ▸ getHead",
+          "blockText": "Formatter ▸ getHead",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Handler"
+          ]
+        },
+        {
+          "name": "getTail",
+          "chinese": "Formatter ▸ getTail",
+          "blockText": "Formatter ▸ getTail",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Handler"
+          ]
+        },
+        {
+          "name": "formatMessage",
+          "chinese": "Formatter ▸ formatMessage",
+          "blockText": "Formatter ▸ formatMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LogRecord"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "Formatter ▸ equals",
+          "blockText": "Formatter ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "Formatter ▸ toString",
+          "blockText": "Formatter ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "Formatter ▸ hashCode",
+          "blockText": "Formatter ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "Formatter ▸ getClass",
+          "blockText": "Formatter ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "Formatter ▸ notify",
+          "blockText": "Formatter ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "Formatter ▸ notifyAll",
+          "blockText": "Formatter ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "Formatter ▸ wait",
+          "blockText": "Formatter ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "Formatter ▸ wait",
+          "blockText": "Formatter ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "Formatter ▸ wait",
+          "blockText": "Formatter ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.logging.Handler",
+      "chinese": "Handler",
+      "displayName": "Handler",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "flush",
+          "chinese": "Handler ▸ flush",
+          "blockText": "Handler ▸ flush",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "close",
+          "chinese": "Handler ▸ close",
+          "blockText": "Handler ▸ close",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getEncoding",
+          "chinese": "Handler ▸ getEncoding",
+          "blockText": "Handler ▸ getEncoding",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "publish",
+          "chinese": "Handler ▸ publish",
+          "blockText": "Handler ▸ publish",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LogRecord"
+          ]
+        },
+        {
+          "name": "getFilter",
+          "chinese": "Handler ▸ getFilter",
+          "blockText": "Handler ▸ getFilter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Filter",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isLoggable",
+          "chinese": "Handler ▸ isLoggable",
+          "blockText": "Handler ▸ isLoggable",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LogRecord"
+          ]
+        },
+        {
+          "name": "setLevel",
+          "chinese": "Handler ▸ setLevel",
+          "blockText": "Handler ▸ setLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level"
+          ]
+        },
+        {
+          "name": "setFilter",
+          "chinese": "Handler ▸ setFilter",
+          "blockText": "Handler ▸ setFilter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Filter"
+          ]
+        },
+        {
+          "name": "setFormatter",
+          "chinese": "Handler ▸ setFormatter",
+          "blockText": "Handler ▸ setFormatter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Formatter"
+          ]
+        },
+        {
+          "name": "setEncoding",
+          "chinese": "Handler ▸ setEncoding",
+          "blockText": "Handler ▸ setEncoding",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "getLevel",
+          "chinese": "Handler ▸ getLevel",
+          "blockText": "Handler ▸ getLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Level",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getFormatter",
+          "chinese": "Handler ▸ getFormatter",
+          "blockText": "Handler ▸ getFormatter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Formatter",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setErrorManager",
+          "chinese": "Handler ▸ setErrorManager",
+          "blockText": "Handler ▸ setErrorManager",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ErrorManager"
+          ]
+        },
+        {
+          "name": "getErrorManager",
+          "chinese": "Handler ▸ getErrorManager",
+          "blockText": "Handler ▸ getErrorManager",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ErrorManager",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "Handler ▸ equals",
+          "blockText": "Handler ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "Handler ▸ toString",
+          "blockText": "Handler ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "Handler ▸ hashCode",
+          "blockText": "Handler ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "Handler ▸ getClass",
+          "blockText": "Handler ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "Handler ▸ notify",
+          "blockText": "Handler ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "Handler ▸ notifyAll",
+          "blockText": "Handler ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "Handler ▸ wait",
+          "blockText": "Handler ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "Handler ▸ wait",
+          "blockText": "Handler ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "Handler ▸ wait",
+          "blockText": "Handler ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.logging.Level",
+      "chinese": "Level",
+      "displayName": "Level",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "getName",
+          "chinese": "Level ▸ getName",
+          "blockText": "Level ▸ getName",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "Level ▸ equals",
+          "blockText": "Level ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "Level ▸ toString",
+          "blockText": "Level ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "Level ▸ hashCode",
+          "blockText": "Level ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "intValue",
+          "chinese": "Level ▸ intValue",
+          "blockText": "Level ▸ intValue",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "parse",
+          "chinese": "Level ▸ parse",
+          "blockText": "Level ▸ parse",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Level",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "getResourceBundleName",
+          "chinese": "Level ▸ getResourceBundleName",
+          "blockText": "Level ▸ getResourceBundleName",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLocalizedName",
+          "chinese": "Level ▸ getLocalizedName",
+          "blockText": "Level ▸ getLocalizedName",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "Level ▸ getClass",
+          "blockText": "Level ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "Level ▸ notify",
+          "blockText": "Level ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "Level ▸ notifyAll",
+          "blockText": "Level ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "Level ▸ wait",
+          "blockText": "Level ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "Level ▸ wait",
+          "blockText": "Level ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "Level ▸ wait",
+          "blockText": "Level ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "OFF",
+          "chinese": "Level ▸ OFF",
+          "blockText": "Level ▸ OFF",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Level",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "SEVERE",
+          "chinese": "Level ▸ SEVERE",
+          "blockText": "Level ▸ SEVERE",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Level",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "WARNING",
+          "chinese": "Level ▸ WARNING",
+          "blockText": "Level ▸ WARNING",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Level",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "INFO",
+          "chinese": "Level ▸ INFO",
+          "blockText": "Level ▸ INFO",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Level",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "CONFIG",
+          "chinese": "Level ▸ CONFIG",
+          "blockText": "Level ▸ CONFIG",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Level",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "FINE",
+          "chinese": "Level ▸ FINE",
+          "blockText": "Level ▸ FINE",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Level",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "FINER",
+          "chinese": "Level ▸ FINER",
+          "blockText": "Level ▸ FINER",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Level",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "FINEST",
+          "chinese": "Level ▸ FINEST",
+          "blockText": "Level ▸ FINEST",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Level",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        },
+        {
+          "name": "ALL",
+          "chinese": "Level ▸ ALL",
+          "blockText": "Level ▸ ALL",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Level",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.logging.LogManager",
+      "chinese": "LogManager",
+      "displayName": "LogManager",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "reset",
+          "chinese": "LogManager ▸ reset",
+          "blockText": "LogManager ▸ reset",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getProperty",
+          "chinese": "LogManager ▸ getProperty",
+          "blockText": "LogManager ▸ getProperty",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "getLogger",
+          "chinese": "LogManager ▸ getLogger",
+          "blockText": "LogManager ▸ getLogger",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Logger",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "checkAccess",
+          "chinese": "LogManager ▸ checkAccess",
+          "blockText": "LogManager ▸ checkAccess",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLogManager",
+          "chinese": "LogManager ▸ getLogManager",
+          "blockText": "LogManager ▸ getLogManager",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LogManager",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "addLogger",
+          "chinese": "LogManager ▸ addLogger",
+          "blockText": "LogManager ▸ addLogger",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Logger"
+          ]
+        },
+        {
+          "name": "readConfiguration",
+          "chinese": "LogManager ▸ readConfiguration",
+          "blockText": "LogManager ▸ readConfiguration",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "readConfiguration",
+          "chinese": "LogManager ▸ readConfiguration",
+          "blockText": "LogManager ▸ readConfiguration",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "InputStream"
+          ]
+        },
+        {
+          "name": "getLoggerNames",
+          "chinese": "LogManager ▸ getLoggerNames",
+          "blockText": "LogManager ▸ getLoggerNames",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Enumeration",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "updateConfiguration",
+          "chinese": "LogManager ▸ updateConfiguration",
+          "blockText": "LogManager ▸ updateConfiguration",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "InputStream",
+            "Function"
+          ]
+        },
+        {
+          "name": "updateConfiguration",
+          "chinese": "LogManager ▸ updateConfiguration",
+          "blockText": "LogManager ▸ updateConfiguration",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Function"
+          ]
+        },
+        {
+          "name": "getLoggingMXBean",
+          "chinese": "LogManager ▸ getLoggingMXBean",
+          "blockText": "LogManager ▸ getLoggingMXBean",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LoggingMXBean",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "addConfigurationListener",
+          "chinese": "LogManager ▸ addConfigurationListener",
+          "blockText": "LogManager ▸ addConfigurationListener",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LogManager",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Runnable"
+          ]
+        },
+        {
+          "name": "removeConfigurationListener",
+          "chinese": "LogManager ▸ removeConfigurationListener",
+          "blockText": "LogManager ▸ removeConfigurationListener",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Runnable"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "LogManager ▸ equals",
+          "blockText": "LogManager ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "LogManager ▸ toString",
+          "blockText": "LogManager ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "LogManager ▸ hashCode",
+          "blockText": "LogManager ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "LogManager ▸ getClass",
+          "blockText": "LogManager ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "LogManager ▸ notify",
+          "blockText": "LogManager ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "LogManager ▸ notifyAll",
+          "blockText": "LogManager ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "LogManager ▸ wait",
+          "blockText": "LogManager ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "LogManager ▸ wait",
+          "blockText": "LogManager ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "LogManager ▸ wait",
+          "blockText": "LogManager ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "LOGGING_MXBEAN_NAME",
+          "chinese": "LogManager ▸ LOGGING_MXBEAN_NAME",
+          "blockText": "LogManager ▸ LOGGING_MXBEAN_NAME",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": true,
+          "isField": true,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.logging.LogRecord",
+      "chinese": "LogRecord",
+      "displayName": "LogRecord",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "LogRecord ▸ <init>",
+          "blockText": "LogRecord ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level",
+            "String"
+          ]
+        },
+        {
+          "name": "getMessage",
+          "chinese": "LogRecord ▸ getMessage",
+          "blockText": "LogRecord ▸ getMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getParameters",
+          "chinese": "LogRecord ▸ getParameters",
+          "blockText": "LogRecord ▸ getParameters",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object[]",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setInstant",
+          "chinese": "LogRecord ▸ setInstant",
+          "blockText": "LogRecord ▸ setInstant",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Instant"
+          ]
+        },
+        {
+          "name": "getMillis",
+          "chinese": "LogRecord ▸ getMillis",
+          "blockText": "LogRecord ▸ getMillis",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setLevel",
+          "chinese": "LogRecord ▸ setLevel",
+          "blockText": "LogRecord ▸ setLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level"
+          ]
+        },
+        {
+          "name": "getLevel",
+          "chinese": "LogRecord ▸ getLevel",
+          "blockText": "LogRecord ▸ getLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Level",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getResourceBundleName",
+          "chinese": "LogRecord ▸ getResourceBundleName",
+          "blockText": "LogRecord ▸ getResourceBundleName",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLoggerName",
+          "chinese": "LogRecord ▸ getLoggerName",
+          "blockText": "LogRecord ▸ getLoggerName",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setLoggerName",
+          "chinese": "LogRecord ▸ setLoggerName",
+          "blockText": "LogRecord ▸ setLoggerName",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "setResourceBundleName",
+          "chinese": "LogRecord ▸ setResourceBundleName",
+          "blockText": "LogRecord ▸ setResourceBundleName",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "setResourceBundle",
+          "chinese": "LogRecord ▸ setResourceBundle",
+          "blockText": "LogRecord ▸ setResourceBundle",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ResourceBundle"
+          ]
+        },
+        {
+          "name": "setParameters",
+          "chinese": "LogRecord ▸ setParameters",
+          "blockText": "LogRecord ▸ setParameters",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object[]"
+          ]
+        },
+        {
+          "name": "setThrown",
+          "chinese": "LogRecord ▸ setThrown",
+          "blockText": "LogRecord ▸ setThrown",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Throwable"
+          ]
+        },
+        {
+          "name": "setSourceClassName",
+          "chinese": "LogRecord ▸ setSourceClassName",
+          "blockText": "LogRecord ▸ setSourceClassName",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "setSourceMethodName",
+          "chinese": "LogRecord ▸ setSourceMethodName",
+          "blockText": "LogRecord ▸ setSourceMethodName",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "getResourceBundle",
+          "chinese": "LogRecord ▸ getResourceBundle",
+          "blockText": "LogRecord ▸ getResourceBundle",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ResourceBundle",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setMillis",
+          "chinese": "LogRecord ▸ setMillis",
+          "blockText": "LogRecord ▸ setMillis",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "getSequenceNumber",
+          "chinese": "LogRecord ▸ getSequenceNumber",
+          "blockText": "LogRecord ▸ getSequenceNumber",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setSequenceNumber",
+          "chinese": "LogRecord ▸ setSequenceNumber",
+          "blockText": "LogRecord ▸ setSequenceNumber",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "getSourceClassName",
+          "chinese": "LogRecord ▸ getSourceClassName",
+          "blockText": "LogRecord ▸ getSourceClassName",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getSourceMethodName",
+          "chinese": "LogRecord ▸ getSourceMethodName",
+          "blockText": "LogRecord ▸ getSourceMethodName",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setMessage",
+          "chinese": "LogRecord ▸ setMessage",
+          "blockText": "LogRecord ▸ setMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "getThreadID",
+          "chinese": "LogRecord ▸ getThreadID",
+          "blockText": "LogRecord ▸ getThreadID",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setThreadID",
+          "chinese": "LogRecord ▸ setThreadID",
+          "blockText": "LogRecord ▸ setThreadID",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "int"
+          ]
+        },
+        {
+          "name": "getLongThreadID",
+          "chinese": "LogRecord ▸ getLongThreadID",
+          "blockText": "LogRecord ▸ getLongThreadID",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "long",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setLongThreadID",
+          "chinese": "LogRecord ▸ setLongThreadID",
+          "blockText": "LogRecord ▸ setLongThreadID",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "LogRecord",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "getInstant",
+          "chinese": "LogRecord ▸ getInstant",
+          "blockText": "LogRecord ▸ getInstant",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Instant",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getThrown",
+          "chinese": "LogRecord ▸ getThrown",
+          "blockText": "LogRecord ▸ getThrown",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Throwable",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "LogRecord ▸ equals",
+          "blockText": "LogRecord ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "LogRecord ▸ toString",
+          "blockText": "LogRecord ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "LogRecord ▸ hashCode",
+          "blockText": "LogRecord ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "LogRecord ▸ getClass",
+          "blockText": "LogRecord ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "LogRecord ▸ notify",
+          "blockText": "LogRecord ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "LogRecord ▸ notifyAll",
+          "blockText": "LogRecord ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "LogRecord ▸ wait",
+          "blockText": "LogRecord ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "LogRecord ▸ wait",
+          "blockText": "LogRecord ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "LogRecord ▸ wait",
+          "blockText": "LogRecord ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.logging.LoggingMXBean",
+      "chinese": "LoggingMXBean",
+      "displayName": "LoggingMXBean",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "getLoggerNames",
+          "chinese": "LoggingMXBean ▸ getLoggerNames",
+          "blockText": "LoggingMXBean ▸ getLoggerNames",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "List",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getLoggerLevel",
+          "chinese": "LoggingMXBean ▸ getLoggerLevel",
+          "blockText": "LoggingMXBean ▸ getLoggerLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "setLoggerLevel",
+          "chinese": "LoggingMXBean ▸ setLoggerLevel",
+          "blockText": "LoggingMXBean ▸ setLoggerLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "String"
+          ]
+        },
+        {
+          "name": "getParentLoggerName",
+          "chinese": "LoggingMXBean ▸ getParentLoggerName",
+          "blockText": "LoggingMXBean ▸ getParentLoggerName",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.logging.LoggingPermission",
+      "chinese": "LoggingPermission",
+      "displayName": "LoggingPermission",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "LoggingPermission ▸ <init>",
+          "blockText": "LoggingPermission ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "String"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "LoggingPermission ▸ equals",
+          "blockText": "LoggingPermission ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "chinese": "LoggingPermission ▸ hashCode",
+          "blockText": "LoggingPermission ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "implies",
+          "chinese": "LoggingPermission ▸ implies",
+          "blockText": "LoggingPermission ▸ implies",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Permission"
+          ]
+        },
+        {
+          "name": "newPermissionCollection",
+          "chinese": "LoggingPermission ▸ newPermissionCollection",
+          "blockText": "LoggingPermission ▸ newPermissionCollection",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "PermissionCollection",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getActions",
+          "chinese": "LoggingPermission ▸ getActions",
+          "blockText": "LoggingPermission ▸ getActions",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getName",
+          "chinese": "LoggingPermission ▸ getName",
+          "blockText": "LoggingPermission ▸ getName",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "chinese": "LoggingPermission ▸ toString",
+          "blockText": "LoggingPermission ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "checkGuard",
+          "chinese": "LoggingPermission ▸ checkGuard",
+          "blockText": "LoggingPermission ▸ checkGuard",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "getClass",
+          "chinese": "LoggingPermission ▸ getClass",
+          "blockText": "LoggingPermission ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "LoggingPermission ▸ notify",
+          "blockText": "LoggingPermission ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "LoggingPermission ▸ notifyAll",
+          "blockText": "LoggingPermission ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "LoggingPermission ▸ wait",
+          "blockText": "LoggingPermission ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "LoggingPermission ▸ wait",
+          "blockText": "LoggingPermission ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "LoggingPermission ▸ wait",
+          "blockText": "LoggingPermission ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.logging.MemoryHandler",
+      "chinese": "MemoryHandler",
+      "displayName": "MemoryHandler",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "MemoryHandler ▸ <init>",
+          "blockText": "MemoryHandler ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "<init>",
+          "chinese": "MemoryHandler ▸ <init>",
+          "blockText": "MemoryHandler ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Handler",
+            "int",
+            "Level"
+          ]
+        },
+        {
+          "name": "flush",
+          "chinese": "MemoryHandler ▸ flush",
+          "blockText": "MemoryHandler ▸ flush",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "close",
+          "chinese": "MemoryHandler ▸ close",
+          "blockText": "MemoryHandler ▸ close",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "publish",
+          "chinese": "MemoryHandler ▸ publish",
+          "blockText": "MemoryHandler ▸ publish",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LogRecord"
+          ]
+        },
+        {
+          "name": "push",
+          "chinese": "MemoryHandler ▸ push",
+          "blockText": "MemoryHandler ▸ push",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isLoggable",
+          "chinese": "MemoryHandler ▸ isLoggable",
+          "blockText": "MemoryHandler ▸ isLoggable",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LogRecord"
+          ]
+        },
+        {
+          "name": "setPushLevel",
+          "chinese": "MemoryHandler ▸ setPushLevel",
+          "blockText": "MemoryHandler ▸ setPushLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level"
+          ]
+        },
+        {
+          "name": "getPushLevel",
+          "chinese": "MemoryHandler ▸ getPushLevel",
+          "blockText": "MemoryHandler ▸ getPushLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Level",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getEncoding",
+          "chinese": "MemoryHandler ▸ getEncoding",
+          "blockText": "MemoryHandler ▸ getEncoding",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getFilter",
+          "chinese": "MemoryHandler ▸ getFilter",
+          "blockText": "MemoryHandler ▸ getFilter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Filter",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setLevel",
+          "chinese": "MemoryHandler ▸ setLevel",
+          "blockText": "MemoryHandler ▸ setLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level"
+          ]
+        },
+        {
+          "name": "setFilter",
+          "chinese": "MemoryHandler ▸ setFilter",
+          "blockText": "MemoryHandler ▸ setFilter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Filter"
+          ]
+        },
+        {
+          "name": "setFormatter",
+          "chinese": "MemoryHandler ▸ setFormatter",
+          "blockText": "MemoryHandler ▸ setFormatter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Formatter"
+          ]
+        },
+        {
+          "name": "setEncoding",
+          "chinese": "MemoryHandler ▸ setEncoding",
+          "blockText": "MemoryHandler ▸ setEncoding",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "getLevel",
+          "chinese": "MemoryHandler ▸ getLevel",
+          "blockText": "MemoryHandler ▸ getLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Level",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getFormatter",
+          "chinese": "MemoryHandler ▸ getFormatter",
+          "blockText": "MemoryHandler ▸ getFormatter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Formatter",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setErrorManager",
+          "chinese": "MemoryHandler ▸ setErrorManager",
+          "blockText": "MemoryHandler ▸ setErrorManager",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ErrorManager"
+          ]
+        },
+        {
+          "name": "getErrorManager",
+          "chinese": "MemoryHandler ▸ getErrorManager",
+          "blockText": "MemoryHandler ▸ getErrorManager",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ErrorManager",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "MemoryHandler ▸ equals",
+          "blockText": "MemoryHandler ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "MemoryHandler ▸ toString",
+          "blockText": "MemoryHandler ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "MemoryHandler ▸ hashCode",
+          "blockText": "MemoryHandler ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "MemoryHandler ▸ getClass",
+          "blockText": "MemoryHandler ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "MemoryHandler ▸ notify",
+          "blockText": "MemoryHandler ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "MemoryHandler ▸ notifyAll",
+          "blockText": "MemoryHandler ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "MemoryHandler ▸ wait",
+          "blockText": "MemoryHandler ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "MemoryHandler ▸ wait",
+          "blockText": "MemoryHandler ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "MemoryHandler ▸ wait",
+          "blockText": "MemoryHandler ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.logging.SimpleFormatter",
+      "chinese": "SimpleFormatter",
+      "displayName": "SimpleFormatter",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "SimpleFormatter ▸ <init>",
+          "blockText": "SimpleFormatter ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "format",
+          "chinese": "SimpleFormatter ▸ format",
+          "blockText": "SimpleFormatter ▸ format",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LogRecord"
+          ]
+        },
+        {
+          "name": "getHead",
+          "chinese": "SimpleFormatter ▸ getHead",
+          "blockText": "SimpleFormatter ▸ getHead",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Handler"
+          ]
+        },
+        {
+          "name": "getTail",
+          "chinese": "SimpleFormatter ▸ getTail",
+          "blockText": "SimpleFormatter ▸ getTail",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Handler"
+          ]
+        },
+        {
+          "name": "formatMessage",
+          "chinese": "SimpleFormatter ▸ formatMessage",
+          "blockText": "SimpleFormatter ▸ formatMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LogRecord"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "SimpleFormatter ▸ equals",
+          "blockText": "SimpleFormatter ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "SimpleFormatter ▸ toString",
+          "blockText": "SimpleFormatter ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "SimpleFormatter ▸ hashCode",
+          "blockText": "SimpleFormatter ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "SimpleFormatter ▸ getClass",
+          "blockText": "SimpleFormatter ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "SimpleFormatter ▸ notify",
+          "blockText": "SimpleFormatter ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "SimpleFormatter ▸ notifyAll",
+          "blockText": "SimpleFormatter ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "SimpleFormatter ▸ wait",
+          "blockText": "SimpleFormatter ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "SimpleFormatter ▸ wait",
+          "blockText": "SimpleFormatter ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "SimpleFormatter ▸ wait",
+          "blockText": "SimpleFormatter ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.logging.SocketHandler",
+      "chinese": "SocketHandler",
+      "displayName": "SocketHandler",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "SocketHandler ▸ <init>",
+          "blockText": "SocketHandler ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "<init>",
+          "chinese": "SocketHandler ▸ <init>",
+          "blockText": "SocketHandler ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String",
+            "int"
+          ]
+        },
+        {
+          "name": "close",
+          "chinese": "SocketHandler ▸ close",
+          "blockText": "SocketHandler ▸ close",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "publish",
+          "chinese": "SocketHandler ▸ publish",
+          "blockText": "SocketHandler ▸ publish",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LogRecord"
+          ]
+        },
+        {
+          "name": "flush",
+          "chinese": "SocketHandler ▸ flush",
+          "blockText": "SocketHandler ▸ flush",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "isLoggable",
+          "chinese": "SocketHandler ▸ isLoggable",
+          "blockText": "SocketHandler ▸ isLoggable",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LogRecord"
+          ]
+        },
+        {
+          "name": "setEncoding",
+          "chinese": "SocketHandler ▸ setEncoding",
+          "blockText": "SocketHandler ▸ setEncoding",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "getEncoding",
+          "chinese": "SocketHandler ▸ getEncoding",
+          "blockText": "SocketHandler ▸ getEncoding",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getFilter",
+          "chinese": "SocketHandler ▸ getFilter",
+          "blockText": "SocketHandler ▸ getFilter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Filter",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setLevel",
+          "chinese": "SocketHandler ▸ setLevel",
+          "blockText": "SocketHandler ▸ setLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level"
+          ]
+        },
+        {
+          "name": "setFilter",
+          "chinese": "SocketHandler ▸ setFilter",
+          "blockText": "SocketHandler ▸ setFilter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Filter"
+          ]
+        },
+        {
+          "name": "setFormatter",
+          "chinese": "SocketHandler ▸ setFormatter",
+          "blockText": "SocketHandler ▸ setFormatter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Formatter"
+          ]
+        },
+        {
+          "name": "getLevel",
+          "chinese": "SocketHandler ▸ getLevel",
+          "blockText": "SocketHandler ▸ getLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Level",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getFormatter",
+          "chinese": "SocketHandler ▸ getFormatter",
+          "blockText": "SocketHandler ▸ getFormatter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Formatter",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setErrorManager",
+          "chinese": "SocketHandler ▸ setErrorManager",
+          "blockText": "SocketHandler ▸ setErrorManager",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ErrorManager"
+          ]
+        },
+        {
+          "name": "getErrorManager",
+          "chinese": "SocketHandler ▸ getErrorManager",
+          "blockText": "SocketHandler ▸ getErrorManager",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ErrorManager",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "SocketHandler ▸ equals",
+          "blockText": "SocketHandler ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "SocketHandler ▸ toString",
+          "blockText": "SocketHandler ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "SocketHandler ▸ hashCode",
+          "blockText": "SocketHandler ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "SocketHandler ▸ getClass",
+          "blockText": "SocketHandler ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "SocketHandler ▸ notify",
+          "blockText": "SocketHandler ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "SocketHandler ▸ notifyAll",
+          "blockText": "SocketHandler ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "SocketHandler ▸ wait",
+          "blockText": "SocketHandler ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "SocketHandler ▸ wait",
+          "blockText": "SocketHandler ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "SocketHandler ▸ wait",
+          "blockText": "SocketHandler ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.logging.StreamHandler",
+      "chinese": "StreamHandler",
+      "displayName": "StreamHandler",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "StreamHandler ▸ <init>",
+          "blockText": "StreamHandler ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "OutputStream",
+            "Formatter"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "StreamHandler ▸ <init>",
+          "blockText": "StreamHandler ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "flush",
+          "chinese": "StreamHandler ▸ flush",
+          "blockText": "StreamHandler ▸ flush",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "close",
+          "chinese": "StreamHandler ▸ close",
+          "blockText": "StreamHandler ▸ close",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "publish",
+          "chinese": "StreamHandler ▸ publish",
+          "blockText": "StreamHandler ▸ publish",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LogRecord"
+          ]
+        },
+        {
+          "name": "isLoggable",
+          "chinese": "StreamHandler ▸ isLoggable",
+          "blockText": "StreamHandler ▸ isLoggable",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LogRecord"
+          ]
+        },
+        {
+          "name": "setEncoding",
+          "chinese": "StreamHandler ▸ setEncoding",
+          "blockText": "StreamHandler ▸ setEncoding",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "String"
+          ]
+        },
+        {
+          "name": "getEncoding",
+          "chinese": "StreamHandler ▸ getEncoding",
+          "blockText": "StreamHandler ▸ getEncoding",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getFilter",
+          "chinese": "StreamHandler ▸ getFilter",
+          "blockText": "StreamHandler ▸ getFilter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Filter",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setLevel",
+          "chinese": "StreamHandler ▸ setLevel",
+          "blockText": "StreamHandler ▸ setLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Level"
+          ]
+        },
+        {
+          "name": "setFilter",
+          "chinese": "StreamHandler ▸ setFilter",
+          "blockText": "StreamHandler ▸ setFilter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Filter"
+          ]
+        },
+        {
+          "name": "setFormatter",
+          "chinese": "StreamHandler ▸ setFormatter",
+          "blockText": "StreamHandler ▸ setFormatter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Formatter"
+          ]
+        },
+        {
+          "name": "getLevel",
+          "chinese": "StreamHandler ▸ getLevel",
+          "blockText": "StreamHandler ▸ getLevel",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Level",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getFormatter",
+          "chinese": "StreamHandler ▸ getFormatter",
+          "blockText": "StreamHandler ▸ getFormatter",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Formatter",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "setErrorManager",
+          "chinese": "StreamHandler ▸ setErrorManager",
+          "blockText": "StreamHandler ▸ setErrorManager",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "ErrorManager"
+          ]
+        },
+        {
+          "name": "getErrorManager",
+          "chinese": "StreamHandler ▸ getErrorManager",
+          "blockText": "StreamHandler ▸ getErrorManager",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "ErrorManager",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "StreamHandler ▸ equals",
+          "blockText": "StreamHandler ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "StreamHandler ▸ toString",
+          "blockText": "StreamHandler ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "StreamHandler ▸ hashCode",
+          "blockText": "StreamHandler ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "StreamHandler ▸ getClass",
+          "blockText": "StreamHandler ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "StreamHandler ▸ notify",
+          "blockText": "StreamHandler ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "StreamHandler ▸ notifyAll",
+          "blockText": "StreamHandler ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "StreamHandler ▸ wait",
+          "blockText": "StreamHandler ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "StreamHandler ▸ wait",
+          "blockText": "StreamHandler ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "StreamHandler ▸ wait",
+          "blockText": "StreamHandler ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.util.logging.XMLFormatter",
+      "chinese": "XMLFormatter",
+      "displayName": "XMLFormatter",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "XMLFormatter ▸ <init>",
+          "blockText": "XMLFormatter ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "format",
+          "chinese": "XMLFormatter ▸ format",
+          "blockText": "XMLFormatter ▸ format",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LogRecord"
+          ]
+        },
+        {
+          "name": "getHead",
+          "chinese": "XMLFormatter ▸ getHead",
+          "blockText": "XMLFormatter ▸ getHead",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Handler"
+          ]
+        },
+        {
+          "name": "getTail",
+          "chinese": "XMLFormatter ▸ getTail",
+          "blockText": "XMLFormatter ▸ getTail",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Handler"
+          ]
+        },
+        {
+          "name": "formatMessage",
+          "chinese": "XMLFormatter ▸ formatMessage",
+          "blockText": "XMLFormatter ▸ formatMessage",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "LogRecord"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "XMLFormatter ▸ equals",
+          "blockText": "XMLFormatter ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "XMLFormatter ▸ toString",
+          "blockText": "XMLFormatter ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "XMLFormatter ▸ hashCode",
+          "blockText": "XMLFormatter ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "XMLFormatter ▸ getClass",
+          "blockText": "XMLFormatter ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "XMLFormatter ▸ notify",
+          "blockText": "XMLFormatter ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "XMLFormatter ▸ notifyAll",
+          "blockText": "XMLFormatter ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "XMLFormatter ▸ wait",
+          "blockText": "XMLFormatter ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "XMLFormatter ▸ wait",
+          "blockText": "XMLFormatter ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "XMLFormatter ▸ wait",
+          "blockText": "XMLFormatter ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    }
+  ]
+}

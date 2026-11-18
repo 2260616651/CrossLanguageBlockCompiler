@@ -1,0 +1,47 @@
+{
+  "_comment": "CLBC 自动生成的 JDK 库语言文件。一个库一个文件；java1~java27 共 27 个版本共用本文件。chinese/blockText 用代码名（积木语言与代码相同），不逐条中文化。",
+  "library": "java.lang.invoke",
+  "libraryChinese": "invoke",
+  "minVersion": 1,
+  "maxVersion": 27,
+  "versionRange": "java1~java27",
+  "javaVersions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "classes": [
+    {
+      "fqn": "java.lang.invoke.VarHandle",
+      "chinese": "VarHandle",
+      "displayName": "VarHandle",
+      "since": 1,
+      "until": 27,
+      "methods": []
+    }
+  ]
+}

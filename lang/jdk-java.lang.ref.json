@@ -1,0 +1,1251 @@
+{
+  "_comment": "CLBC 自动生成的 JDK 库语言文件。一个库一个文件；java1~java27 共 27 个版本共用本文件。chinese/blockText 用代码名（积木语言与代码相同），不逐条中文化。",
+  "library": "java.lang.ref",
+  "libraryChinese": "ref",
+  "minVersion": 1,
+  "maxVersion": 27,
+  "versionRange": "java1~java27",
+  "javaVersions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "classes": [
+    {
+      "fqn": "java.lang.ref.Cleaner",
+      "chinese": "Cleaner",
+      "displayName": "Cleaner",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "register",
+          "chinese": "Cleaner ▸ register",
+          "blockText": "Cleaner ▸ register",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Cleanable",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "Runnable"
+          ]
+        },
+        {
+          "name": "create",
+          "chinese": "Cleaner ▸ create",
+          "blockText": "Cleaner ▸ create",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Cleaner",
+          "isStatic": true,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "create",
+          "chinese": "Cleaner ▸ create",
+          "blockText": "Cleaner ▸ create",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Cleaner",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "ThreadFactory"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "Cleaner ▸ equals",
+          "blockText": "Cleaner ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "Cleaner ▸ toString",
+          "blockText": "Cleaner ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "Cleaner ▸ hashCode",
+          "blockText": "Cleaner ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "Cleaner ▸ getClass",
+          "blockText": "Cleaner ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "Cleaner ▸ notify",
+          "blockText": "Cleaner ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "Cleaner ▸ notifyAll",
+          "blockText": "Cleaner ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "Cleaner ▸ wait",
+          "blockText": "Cleaner ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "Cleaner ▸ wait",
+          "blockText": "Cleaner ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "Cleaner ▸ wait",
+          "blockText": "Cleaner ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.lang.ref.PhantomReference",
+      "chinese": "PhantomReference",
+      "displayName": "PhantomReference",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "PhantomReference ▸ <init>",
+          "blockText": "PhantomReference ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "ReferenceQueue"
+          ]
+        },
+        {
+          "name": "get",
+          "chinese": "PhantomReference ▸ get",
+          "blockText": "PhantomReference ▸ get",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "clear",
+          "chinese": "PhantomReference ▸ clear",
+          "blockText": "PhantomReference ▸ clear",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "enqueue",
+          "chinese": "PhantomReference ▸ enqueue",
+          "blockText": "PhantomReference ▸ enqueue",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "refersTo",
+          "chinese": "PhantomReference ▸ refersTo",
+          "blockText": "PhantomReference ▸ refersTo",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "isEnqueued",
+          "chinese": "PhantomReference ▸ isEnqueued",
+          "blockText": "PhantomReference ▸ isEnqueued",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "reachabilityFence",
+          "chinese": "PhantomReference ▸ reachabilityFence",
+          "blockText": "PhantomReference ▸ reachabilityFence",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "PhantomReference ▸ equals",
+          "blockText": "PhantomReference ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "PhantomReference ▸ toString",
+          "blockText": "PhantomReference ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "PhantomReference ▸ hashCode",
+          "blockText": "PhantomReference ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "PhantomReference ▸ getClass",
+          "blockText": "PhantomReference ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "PhantomReference ▸ notify",
+          "blockText": "PhantomReference ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "PhantomReference ▸ notifyAll",
+          "blockText": "PhantomReference ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "PhantomReference ▸ wait",
+          "blockText": "PhantomReference ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "PhantomReference ▸ wait",
+          "blockText": "PhantomReference ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "PhantomReference ▸ wait",
+          "blockText": "PhantomReference ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.lang.ref.Reference",
+      "chinese": "Reference",
+      "displayName": "Reference",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "get",
+          "chinese": "Reference ▸ get",
+          "blockText": "Reference ▸ get",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "clear",
+          "chinese": "Reference ▸ clear",
+          "blockText": "Reference ▸ clear",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "enqueue",
+          "chinese": "Reference ▸ enqueue",
+          "blockText": "Reference ▸ enqueue",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "refersTo",
+          "chinese": "Reference ▸ refersTo",
+          "blockText": "Reference ▸ refersTo",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "isEnqueued",
+          "chinese": "Reference ▸ isEnqueued",
+          "blockText": "Reference ▸ isEnqueued",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "reachabilityFence",
+          "chinese": "Reference ▸ reachabilityFence",
+          "blockText": "Reference ▸ reachabilityFence",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "Reference ▸ equals",
+          "blockText": "Reference ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "Reference ▸ toString",
+          "blockText": "Reference ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "Reference ▸ hashCode",
+          "blockText": "Reference ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "Reference ▸ getClass",
+          "blockText": "Reference ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "Reference ▸ notify",
+          "blockText": "Reference ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "Reference ▸ notifyAll",
+          "blockText": "Reference ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "Reference ▸ wait",
+          "blockText": "Reference ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "Reference ▸ wait",
+          "blockText": "Reference ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "Reference ▸ wait",
+          "blockText": "Reference ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.lang.ref.ReferenceQueue",
+      "chinese": "ReferenceQueue",
+      "displayName": "ReferenceQueue",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "ReferenceQueue ▸ <init>",
+          "blockText": "ReferenceQueue ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "remove",
+          "chinese": "ReferenceQueue ▸ remove",
+          "blockText": "ReferenceQueue ▸ remove",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Reference",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "remove",
+          "chinese": "ReferenceQueue ▸ remove",
+          "blockText": "ReferenceQueue ▸ remove",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Reference",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "poll",
+          "chinese": "ReferenceQueue ▸ poll",
+          "blockText": "ReferenceQueue ▸ poll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Reference",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "equals",
+          "chinese": "ReferenceQueue ▸ equals",
+          "blockText": "ReferenceQueue ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "ReferenceQueue ▸ toString",
+          "blockText": "ReferenceQueue ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "ReferenceQueue ▸ hashCode",
+          "blockText": "ReferenceQueue ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "ReferenceQueue ▸ getClass",
+          "blockText": "ReferenceQueue ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "ReferenceQueue ▸ notify",
+          "blockText": "ReferenceQueue ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "ReferenceQueue ▸ notifyAll",
+          "blockText": "ReferenceQueue ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "ReferenceQueue ▸ wait",
+          "blockText": "ReferenceQueue ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ReferenceQueue ▸ wait",
+          "blockText": "ReferenceQueue ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "ReferenceQueue ▸ wait",
+          "blockText": "ReferenceQueue ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.lang.ref.SoftReference",
+      "chinese": "SoftReference",
+      "displayName": "SoftReference",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "SoftReference ▸ <init>",
+          "blockText": "SoftReference ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "SoftReference ▸ <init>",
+          "blockText": "SoftReference ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "ReferenceQueue"
+          ]
+        },
+        {
+          "name": "get",
+          "chinese": "SoftReference ▸ get",
+          "blockText": "SoftReference ▸ get",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "clear",
+          "chinese": "SoftReference ▸ clear",
+          "blockText": "SoftReference ▸ clear",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "enqueue",
+          "chinese": "SoftReference ▸ enqueue",
+          "blockText": "SoftReference ▸ enqueue",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "refersTo",
+          "chinese": "SoftReference ▸ refersTo",
+          "blockText": "SoftReference ▸ refersTo",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "isEnqueued",
+          "chinese": "SoftReference ▸ isEnqueued",
+          "blockText": "SoftReference ▸ isEnqueued",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "reachabilityFence",
+          "chinese": "SoftReference ▸ reachabilityFence",
+          "blockText": "SoftReference ▸ reachabilityFence",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "SoftReference ▸ equals",
+          "blockText": "SoftReference ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "SoftReference ▸ toString",
+          "blockText": "SoftReference ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "SoftReference ▸ hashCode",
+          "blockText": "SoftReference ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "SoftReference ▸ getClass",
+          "blockText": "SoftReference ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "SoftReference ▸ notify",
+          "blockText": "SoftReference ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "SoftReference ▸ notifyAll",
+          "blockText": "SoftReference ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "SoftReference ▸ wait",
+          "blockText": "SoftReference ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "SoftReference ▸ wait",
+          "blockText": "SoftReference ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "SoftReference ▸ wait",
+          "blockText": "SoftReference ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    },
+    {
+      "fqn": "java.lang.ref.WeakReference",
+      "chinese": "WeakReference",
+      "displayName": "WeakReference",
+      "since": 1,
+      "until": 27,
+      "methods": [
+        {
+          "name": "<init>",
+          "chinese": "WeakReference ▸ <init>",
+          "blockText": "WeakReference ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "<init>",
+          "chinese": "WeakReference ▸ <init>",
+          "blockText": "WeakReference ▸ <init>",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object",
+            "ReferenceQueue"
+          ]
+        },
+        {
+          "name": "get",
+          "chinese": "WeakReference ▸ get",
+          "blockText": "WeakReference ▸ get",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Object",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "clear",
+          "chinese": "WeakReference ▸ clear",
+          "blockText": "WeakReference ▸ clear",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "enqueue",
+          "chinese": "WeakReference ▸ enqueue",
+          "blockText": "WeakReference ▸ enqueue",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "refersTo",
+          "chinese": "WeakReference ▸ refersTo",
+          "blockText": "WeakReference ▸ refersTo",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "isEnqueued",
+          "chinese": "WeakReference ▸ isEnqueued",
+          "blockText": "WeakReference ▸ isEnqueued",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "reachabilityFence",
+          "chinese": "WeakReference ▸ reachabilityFence",
+          "blockText": "WeakReference ▸ reachabilityFence",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": true,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "equals",
+          "chinese": "WeakReference ▸ equals",
+          "blockText": "WeakReference ▸ equals",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "boolean",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "Object"
+          ]
+        },
+        {
+          "name": "toString",
+          "chinese": "WeakReference ▸ toString",
+          "blockText": "WeakReference ▸ toString",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "String",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "hashCode",
+          "chinese": "WeakReference ▸ hashCode",
+          "blockText": "WeakReference ▸ hashCode",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "int",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "getClass",
+          "chinese": "WeakReference ▸ getClass",
+          "blockText": "WeakReference ▸ getClass",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "Class",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notify",
+          "chinese": "WeakReference ▸ notify",
+          "blockText": "WeakReference ▸ notify",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "notifyAll",
+          "chinese": "WeakReference ▸ notifyAll",
+          "blockText": "WeakReference ▸ notifyAll",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        },
+        {
+          "name": "wait",
+          "chinese": "WeakReference ▸ wait",
+          "blockText": "WeakReference ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "WeakReference ▸ wait",
+          "blockText": "WeakReference ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": [
+            "long",
+            "int"
+          ]
+        },
+        {
+          "name": "wait",
+          "chinese": "WeakReference ▸ wait",
+          "blockText": "WeakReference ▸ wait",
+          "since": 1,
+          "until": 27,
+          "aliases": [],
+          "returnType": "void",
+          "isStatic": false,
+          "isField": false,
+          "params": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "defaultLocale": "zh_CN",
+  "locales": {
+    "zh_CN": {
+      "blocks": {
+        "unit.class":      { "text": "类 %0", "category": "结构" },
+        "unit.method":     { "text": "%0 %1 %2( %3 )", "category": "结构" },
+        "control.if":      { "text": "如果 %0 那么", "category": "结构" },
+        "control.else":    { "text": "否则", "category": "结构" },
+        "control.while":   { "text": "当 %0", "category": "结构" },
+        "control.for":     { "text": "重复 直到 %0", "category": "结构" },
+        "control.forEach": { "text": "对于 %0 在 %1 中", "category": "结构" },
+        "control.repeat":  { "text": "重复 %0 次", "category": "结构" },
+        "data.var":        { "text": "%0 %1 %2", "category": "数据" },
+        "data.assign":     { "text": "将 %0 设为 %1", "category": "数据" },
+        "data.return":     { "text": "返回 %0", "category": "数据" },
+        "ops.call":        { "text": "调用 %0", "category": "系统" },
+        "expr.number":     { "text": "%0", "category": "数学" },
+        "expr.string":     { "text": "%0", "category": "字符串" },
+        "expr.bool":       { "text": "%0", "category": "运算" },
+        "raw.code":        { "text": "%0", "category": "结构" }
+      }
+    }
+  },
+  "libraryAliases": { "java.lang.Math": "数学", "java.lang.System": "系统", "java.lang.String": "字符串" },
+  "categories": {
+    "结构": "#FFAB19", "数据": "#FF661A", "系统": "#FF8C1A",
+    "数学": "#59C059", "字符串": "#9966FF", "运算": "#5CB1D6"
+  }
+}
